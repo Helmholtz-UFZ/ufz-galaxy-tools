@@ -32,27 +32,11 @@ install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 	@-shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
 
 pr_check:
-	for changed_yaml in `git diff remotes/origin/master --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
+	for changed_yaml in `git diff remotes/origin/main --name-only | grep .yaml$$`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
 
 update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
 	@# Missing --without, so this updates all tools in the file.
-	python3 scripts/update-tool.py cheminformatics.yaml
-	python3 scripts/update-tool.py imaging.yaml
-	python3 scripts/update-tool.py tools_iuc.yaml
-	python3 scripts/update-tool.py earlhaminst.yaml
-	python3 scripts/update-tool.py rnateam.yaml
-	python3 scripts/update-tool.py bgruening.yaml
-	python3 scripts/update-tool.py ecology.yaml
-	python3 scripts/update-tool.py tools_galaxyp.yaml
-	python3 scripts/update-tool.py single-cell-ebi-gxa.yaml
-	python3 scripts/update-tool.py genome-annotation.yaml
-	python3 scripts/update-tool.py galaxy-australia.yaml
-	python3 scripts/update-tool.py climate.yaml
-	python3 scripts/update-tool.py nml.yaml
-	python3 scripts/update-tool.py peterjc.yaml
-	python3 scripts/update-tool.py goeckslab.yaml
-	python3 scripts/update-tool.py eirene.yaml
-	python3 scripts/update-tool.py lldelisle.yaml
+	python3 scripts/update-tool.py tool_list.yaml
 
 update_all: $(UPDATED_YAMLS)
 
