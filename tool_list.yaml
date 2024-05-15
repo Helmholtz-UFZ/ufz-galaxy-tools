@@ -1,0 +1,3118 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: autodock_vina
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry
+- name: autodock_vina_prepare_box
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry
+- name: autodock_vina_prepare_ligand
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry
+- name: autodock_vina_prepare_receptor
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry
+- name: cutadapt
+  owner: lparsons
+  tool_panel_section_label: Fastq Manipulation
+- name: multiqc
+  owner: iuc
+  tool_panel_section_label: Fastq Manipulation
+- name: fastqc
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: trimmomatic
+  owner: pjbriggs
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_to_tabular
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: blast_rbh
+  owner: peterjc
+  tool_panel_section_label: Sequence Analysis
+- name: chromeister
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: mafft
+  owner: rnateam
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_jackhmmer
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmsearch
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_phmmer
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmbuild
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_nhmmer
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmscan
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_nhmmscan
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: t_coffee
+  owner: earlhaminst
+  tool_panel_section_label: Sequence Analysis
+- name: gffread
+  owner: devteam
+  tool_panel_section_label: Sequence Analysis
+- name: cd_hit
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: diamond
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: fastp
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_alimask
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmemit
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmconvert
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmfetch
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmalign
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: trim_galore
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: ucsc_blat
+  owner: yating-l
+  tool_panel_section_label: Sequence Analysis
+- name: clustalw
+  owner: devteam
+  tool_panel_section_label: Sequence Analysis
+- name: repeat_masker
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: prokka
+  owner: crs4
+  tool_panel_section_label: Sequence Analysis
+- name: aligned_to_consensus
+  owner: ecology
+  tool_panel_section_label: Sequence Analysis
+- name: kofamscan
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: blat
+  owner: crs4
+  tool_panel_section_label: Deprecated
+- name: locarna_pairwise_p
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: locarna_exparnap
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: locarna_multiple
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: locarna_reliability_profile
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: locarna_pairwise
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: sortmerna
+  owner: rnateam
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: muscle
+  owner: crs4
+  tool_panel_section_label: Sequence Analysis
+- name: rdock
+  owner: earlhaminst
+  tool_panel_section_label: Computational chemistry
+- name: samtools_flagstat
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: picard
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_mpileup
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_slice_bam
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_view
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_coverage
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_depth
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_fastx
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_fixmate
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_markdup
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_merge
+  owner: iuc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_split
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_stats
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_sort
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_bedcov
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: sam_to_bam
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bam_to_sam
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_calmd
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_idxstats
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: samtools_reheader
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: abyss
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: rnaquast
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: velvetoptimiser
+  owner: simon-gladman
+  tool_panel_section_label: Assembly
+- name: velvet
+  owner: devteam
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades
+  owner: nml
+  tool_panel_section_label: Assembly
+- name: spades_rnaviralspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades_plasmidspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades_metaviralspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades_metaplasmidspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades_coronaspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: spades_biosyntheticspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: rnaspades
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: metaspades
+  owner: nml
+  tool_panel_section_label: Assembly
+- name: ball
+  owner: luis
+  tool_panel_section_label: Computational chemistry - Ball
+- name: join
+  owner: devteam
+  tool_panel_section_label: Join, Subtract and Group
+- name: regex_find_replace
+  owner: galaxyp
+  tool_panel_section_label: Text Manipulation
+- name: datamash_transpose
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: datamash_ops
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: datamash_reverse
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: column_maker
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+- name: singularity_scriptrunner
+  owner: mbernt
+  tool_panel_section_label: Text Manipulation
+- name: query_tabular
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: Text Manipulation
+- name: get_flanks
+  owner: devteam
+  tool_panel_section_label: Genomic Interval Operations
+- name: intersect
+  owner: devteam
+  tool_panel_section_label: Genomic Interval Operations
+- name: xcms_xcmsset
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_group
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_merge
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_plot_chromatogram
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_retcor
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_fillpeaks
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: xcms_summary
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: camera_annotate
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: camera_combinexsannos
+  owner: workflow4metabolomics
+  tool_panel_section_label: Metabolomics - W4M
+- name: msnbase_readmsdata
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: batchcorrection
+  owner: melpetera
+  tool_panel_section_label: Metabolomics - W4M
+- name: w4mclassfilter
+  owner: eschen42
+  tool_panel_section_label: Metabolomics - W4M
+- name: qualitymetrics
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: probmetab
+  owner: mmonsoor
+  tool_panel_section_label: Metabolomics - W4M
+- name: lcmsmatching
+  owner: prog
+  tool_panel_section_label: Metabolomics - W4M
+- name: hmdb_ms_search
+  owner: fgiacomoni
+  tool_panel_section_label: Metabolomics - W4M
+- name: metams_rungc
+  owner: yguitton
+  tool_panel_section_label: Metabolomics - W4M
+- name: nmr_bucketing
+  owner: marie-tremblay-metatoul
+  tool_panel_section_label: Metabolomics - W4M
+- name: transformation
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: anova
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics - W4M
+- name: heatmap
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: multivariate
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: biosigner
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: checkformat
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: combine_metaphlan2_humann2
+  owner: bebatut
+  tool_panel_section_label: Metagenomics
+- name: taxonomy_krona_chart
+  owner: crs4
+  tool_panel_section_label: Metagenomics
+- name: humann_regroup_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_barplot
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_reduce_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_rna_dna_norm
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_join_tables
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_rename_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_strain_profiler
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_split_stratified_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_split_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_renorm_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_associate
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: humann_unpack_pathways
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: extract_metaphlan_database
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: customize_metaphlan_database
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: merge_metaphlan_tables
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: metaphlan
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_add_metadata
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_from_uc
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_normalize_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_convert
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_summarize_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: biom_subset_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: cat_bins
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: das_tool
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kraken2
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: megahit
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_tree
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_lineage_wf
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_tree_qa
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_analyze
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_taxonomy_wf
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_tetra
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_qa
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_taxon_set
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_plot
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm_lineage_set
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: gtdbtk_classify_wf
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_extract_kraken_reads
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_beta_diversity
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_combine_kreports
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_alpha_diversity
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_kreport2krona
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krakentools_kreport2mpa
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: metabat2_jgi_summarize_bam_contig_depths
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: metabat2
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: krona_text
+  owner: saskia-hiltemann
+  tool_panel_section_label: Metagenomics
+- name: mothur_bin_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_slayer
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_anosim
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_lefse
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_hcluster
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_list_otulabels
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_otulabels
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_dists
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_sffinfo
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_classify_otu
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_perseus
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_count_groups
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_venn
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_align_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_fastq_info
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_rarefaction_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_label
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_deunique_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_list_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_pre_cluster
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_contigs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_otus
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_phylo_diversity
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_pcoa
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_pintail
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_pairwise_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_clearcut
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_corr_axes
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_classify_tree
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_design
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_libshuff
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_lefse
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_trim_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_summary_single
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_cluster_fragments
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_summary_qual
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chop_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_count_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_rabund
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_otulist
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_cluster
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_cluster_classic
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_split_groups
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_cooccurrence
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_filter_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_summary_tax
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_nmds
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_biom
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_communitytype
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_unifrac_weighted
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_dist_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_shhh_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_merge_sfffiles
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_relabund
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_oturep
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_heatmap_bin
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_merge_files
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_otu_association
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_otus
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_sharedseqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_collect_single
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_sub_sample
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_mantel
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_sra
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_seq_error
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_amova
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_groups
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_reverse_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_check
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_uchime
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_unique_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_coremicrobiome
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_group
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_rarefaction_single
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_screen_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_trim_flows
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_fastq
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_groups
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_dist_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_filter_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_phylotype
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_summary_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_mimarks_attributes
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_degap_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_align_check
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_pcr_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_lineage
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_parsimony
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_sens_spec
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_classify_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_unifrac_unweighted
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_heatmap_sim
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_pca
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_metastats
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_normalize_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_make_lookup
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_cluster_split
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_consensus_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_ccode
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_dists
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_summary_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_sabund
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_shhh_flows
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_mimarkspackage
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_rare
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_lineage
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_merge_taxsummary
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_indicator
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_bellerophon
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_tree_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_sort_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_classify_rf
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_merge_groups
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_remove_otulabels
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_create_database
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_otu_hierarchy
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_split_abund
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_parse_list
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_primer_design
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_homova
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_get_group
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_deunique_tree
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_collect_shared
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: fasta_stats
+  owner: simon-gladman
+  tool_panel_section_label: Fasta Manipulation
+- name: make_nr
+  owner: peterjc
+  tool_panel_section_label: Fasta Manipulation
+- name: ucsc_fasplit
+  owner: iuc
+  tool_panel_section_label: Fasta Manipulation
+- name: length_and_gc_content
+  owner: iuc
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_artifacts_filter
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_barcode_splitter
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_clipper
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_collapser
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_nucleotides_distribution
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_quality_statistics
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_renamer
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_reverse_complement
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastx_trimmer
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_paired_end_interlacer
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: filter_tabular
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: sqlite_to_tabular
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: univariate
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: unipept
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: thermo_raw_file_converter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: meta_proteome_analyzer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: uniprot_rest_interface
+  owner: bgruening
+  tool_panel_section_label: Proteomics
+- name: peptideshaker
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: uniprotxml_downloader
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: eggnog_mapper
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: metanovo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: maxquant
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: dbbuilder
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: alphafold2
+  owner: galaxy-australia
+  tool_panel_section_label: Proteomics
+- name: calisp
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: bedtools
+  owner: iuc
+  tool_panel_section_label: BED tools
+- name: deseq2
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: trinity_align_and_estimate_abundance
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: trinity
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: egsea
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: featurecounts
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: goseq
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: limma_voom
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: stringtie
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: gffcompare
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: multigsea
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: emboss_5
+  owner: devteam
+  tool_panel_section_label: Sequence Analysis (EMBOSS)
+- name: hisat2
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: rmarkdown_wgcna
+  owner: mingchen0919
+  tool_panel_section_label: RNA - Utilities for RNA
+- name: openbabel_change_title
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_multi_obgrep
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_spectrophore_search
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_genprop
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_svg_depiction
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remsmall
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_obgrep
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_addh
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_subsearch
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remions
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_filter
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remove_protonation_state
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_compound_convert
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remduplicates
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: fastqtofasta
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_groomer
+  owner: devteam
+  tool_panel_section_label: Fastq Manipulation
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_label: Next Gen Mappers
+- name: rgrnastar
+  owner: iuc
+  tool_panel_section_label: Next Gen Mappers
+- name: dexseq
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: collapse_collections
+  owner: nml
+  tool_panel_section_label: Collection Operations
+- name: split_tabular_columns
+  owner: jjohnson
+  tool_panel_section_label: Text Manipulation
+- name: generic_filter
+  owner: melpetera
+  tool_panel_section_label: Metabolomics - W4M
+- name: fasta_to_tabular
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: humann2_join_tables
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: tabular_to_fasta
+  owner: devteam
+  tool_panel_section_label: Fasta Manipulation
+- name: mothur_biom_info
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_chimera_vsearch
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_taxonomy_to_krona
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_rename_seqs
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: mothur_merge_count
+  owner: iuc
+  tool_panel_section_label: Metagenomics - mothur
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: Sequence Analysis (BLAST)
+- name: ete
+  owner: earlhaminst
+  tool_panel_section_label: Phylogenetics
+- name: nanoplot
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: ggplot2_heatmap2
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: pygenometracks
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: longorf
+  owner: mbernt
+  tool_panel_section_label: Sequence Analysis
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  tool_panel_section_label: Fasta Manipulation
+- name: concatenate_multiple_datasets
+  owner: mvdbeek
+  tool_panel_section_label: Text Manipulation
+- name: percolator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: collection_column_join
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: column_join
+  owner: jjohnson
+  tool_panel_section_label: Text Manipulation
+- name: openms_ticcalculator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openpepxl
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_cvinspector
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_percolatoradapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_proteinresolver
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindercentroided
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_gnpsexport
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_assaygeneratormetabo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilterscaler
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_semanticvalidator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindermrm
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_precursormasscorrector
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_metaprosip
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurelinkerunlabeledkd
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilterthresholdmower
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idmassaccuracy
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idposteriorerrorprobability
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafiltersqrtmower
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_peakpickeriterative
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_xfdr
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindermultiplex
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_myrimatchadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_masstraceextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mrmpairfinder
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_proteininference
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilterwindowmower
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_psmfeatureextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idfileconverter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathconfidencescoring
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_highresprecursormasscorrector
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcmerger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_demeanderize
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathfilesplitter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_databasesuitability
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_metabolitespectralmatcher
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_falsediscoveryrate
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idsplitter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectramerger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrastsearchadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_luciphoradapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_consensusid
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_externalcalibration
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_tofcalibration
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_fuzzydiff
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathmzmlfilecacher
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_seedlistgenerator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_transformationevaluation
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefinderisotopewavelet
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcembedder
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_accuratemasssearch
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_ptmodel
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_msfraggeradapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idmapper
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathanalyzer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_noisefiltersgolay
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_erpairfinder
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mrmmapper
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurelinkerunlabeledqt
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_decoydatabase
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilterparentpeakmower
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurelinkerunlabeled
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_msgfplusadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_consensusmapnormalizer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_speclibcreator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathassaygenerator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mssimulator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_phosphoscoring
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_textexporter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_masscalculator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_cruxadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_compnovocid
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idconflictresolver
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_fileconverter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_digestor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurelinkerlabeled
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qccalculator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindermetaboident
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_omssaadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_baselinefilter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_filemerger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilternormalizer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_peptideindexer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_cometadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_metaboliteadductdecharger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mrmtransitiongrouppicker
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_xmlvalidator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_clustermasstraces
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_speclibsearcher
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mascotadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_decharger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_isobaricanalyzer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilterbernnorm
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openpepxllf
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_nucleicacidsearchengine
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_msstatsconverter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathchromatogramextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rtmodel
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_epifany
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafilternlargest
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_maraclusteradapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_internalcalibration
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_maprttransformer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mzmlsplitter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_multiplexresolver
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_staticmodification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_fidoadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idripper
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_xtandemadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcexporter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mascotadapteronline
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapstatistics
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_peakpickerwavelet
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_fileinfo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapalignerposeclustering
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_siriusadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_databasefilter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_simplesearchengine
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_compnovo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_dtaextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_spectrafiltermarkermower
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_ffeval
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qualitycontrol
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathdecoygenerator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_pepnovoadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idmerger
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_proteinquantifier
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_noisefiltergaussian
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rnadigestor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_filefilter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathrtnormalizer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rnpxlsearch
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathdiaprescoring
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rnamasscalculator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idscoreswitcher
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_novoradapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathworkflow
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_peakpickerhires
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rtevaluation
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_precursorionselector
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_targetedfileconverter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathfeaturexmltotsv
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_svmtheoreticalspectrumgeneratortrainer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idfilter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapaligneridentification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_clustermasstracesbyprecursor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_triqlerconverter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_sequencecoveragecalculator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_digestormotif
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcimporter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mztabexporter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_eicextractor
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openmsdatabasesinfo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_openswathrewritetofeaturexml
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapnormalizer
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rnpxlxicfilter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindermetabo
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefinderidentification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapalignerspectrum
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_mapalignertreeguided
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_labeledeval
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_qcshrinker
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_idrtcalibration
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rnpxl
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_inspectadapter
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_featurefindersuperhirn
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_rtpredict
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_additiveseries
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_ptpredict
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_iddecoyprobability
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_lowmempeakpickerhires
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_inclusionexclusionlistcreator
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: openms_lowmempeakpickerhires_randomaccess
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: filter_by_fasta_ids
+  owner: galaxyp
+  tool_panel_section_label: Fasta Manipulation
+- name: bwa
+  owner: devteam
+  tool_panel_section_label: Next Gen Mappers
+- name: idba_ud
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: maxbin2
+  owner: mbernt
+  tool_panel_section_label: Metagenomics
+- name: samtools_phase
+  owner: devteam
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: add_column_headers
+  owner: estrain
+  tool_panel_section_label: Text Manipulation
+- name: asca
+  owner: marie-tremblay-metatoul
+  tool_panel_section_label: Metabolomics - W4M
+- name: profia
+  owner: ethevenot
+  tool_panel_section_label: Metabolomics - W4M
+- name: corr_table
+  owner: melpetera
+  tool_panel_section_label: Metabolomics - W4M
+- name: w4mclstrpeakpics
+  owner: eschen42
+  tool_panel_section_label: Metabolomics - W4M
+- name: w4mcorcov
+  owner: eschen42
+  tool_panel_section_label: Metabolomics - W4M
+- name: w4mjoinpn
+  owner: eschen42
+  tool_panel_section_label: Metabolomics - W4M
+- name: w4mkmeans
+  owner: eschen42
+  tool_panel_section_label: Metabolomics - W4M
+- name: golm_ws_lib_search
+  owner: fgiacomoni
+  tool_panel_section_label: Metabolomics - W4M
+- name: bank_inhouse
+  owner: fgiacomoni
+  tool_panel_section_label: Metabolomics - W4M
+- name: lipidmaps_textsearch
+  owner: fgiacomoni
+  tool_panel_section_label: Metabolomics - W4M
+- name: massbank_ws_searchspectrum
+  owner: fgiacomoni
+  tool_panel_section_label: Metabolomics - W4M
+- name: fasta_regex_finder
+  owner: mbernt
+  tool_panel_section_label: Sequence Analysis
+- name: seqtk
+  owner: iuc
+  tool_panel_section_label: Fastq Manipulation
+- name: stacks2_denovomap
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_clonefilter
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_tsv2bam
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_shortreads
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_ustacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_gstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_kmerfilter
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_procrad
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_refmap
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_sstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_cstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_populations
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: newick_utils
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
+- name: idba_tran
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: idba_hybrid
+  owner: iuc
+  tool_panel_section_label: Assembly
+- name: maxquant_mqpar
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: collection_element_identifiers
+  owner: iuc
+  tool_panel_section_label: Collection Operations
+- name: split_file_to_collection
+  owner: bgruening
+  tool_panel_section_label: Collection Operations
+- name: trinity_abundance_estimates_to_matrix
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_gene_to_trans_map
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_samples_qccheck
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_filter_low_expr_transcripts
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_define_clusters_by_cutting_tree
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_analyze_diff_expr
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_run_de_analysis
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_contig_exn50_statistic
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: describe_samples
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_super_transcripts
+  owner: iuc
+  tool_panel_section_label: Assembly - Trinity
+- name: fgsea
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: rseqc
+  owner: nilesh
+  tool_panel_section_label: Sequence Analysis - RSeQC
+- name: merge_cols
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+- name: annotatemyids
+  owner: iuc
+  tool_panel_section_label: Genome Annotation
+- name: interproscan
+  owner: bgruening
+  tool_panel_section_label: Genome Annotation
+- name: daa2rma
+  owner: matthias
+  tool_panel_section_label: Metagenomics
+- name: daa_meganizer
+  owner: matthias
+  tool_panel_section_label: Metagenomics
+- name: genform
+  owner: workflow4metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_flagremove
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_averagefragspectra
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_createdatabase
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_createmsp
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_purityx
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_combineannotations
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_dimspredictpuritysingle
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_puritya
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_filterfragspectra
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_spectralmatching
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mspurity_frag4feature
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: xcms_export_samplemetadata
+  owner: lecorguille
+  tool_panel_section_label: Metabolomics
+- name: xcms_refine
+  owner: workflow4metabolomics
+  tool_panel_section_label: Metabolomics
+- name: mzmine_batch
+  owner: iuc
+  tool_panel_section_label: Metabolomics
+- name: intensity_checks
+  owner: melpetera
+  tool_panel_section_label: Metabolomics
+- name: cfmid
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: ncbi_eutils_epost
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_egquery
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_esummary
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_elink
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_einfo
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_ecitmatch
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_esearch
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_efetch
+  owner: iuc
+  tool_panel_section_label: Get Data
+- name: extract_genomic_dna
+  owner: iuc
+  tool_panel_section_label: Genomic Interval Operations
+- name: xy_plot
+  owner: devteam
+  tool_panel_section_label: Graph/Display Data
+- name: prepare_ligands_for_docking
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: dada2_filterandtrim
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_dada
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_removebimeradenovo
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_learnerrors
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_makesequencetable
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_seqcounts
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_mergepairs
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_plotcomplexity
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_plotqualityprofile
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: graphembed
+  owner: iuc
+  tool_panel_section_label: Statistics
+- name: pathview
+  owner: iuc
+  tool_panel_section_label: Statistics
+- name: volcanoplot
+  owner: iuc
+  tool_panel_section_label: Statistics
+- name: add_input_name_as_column
+  owner: mvdbeek
+  tool_panel_section_label: Collection Operations
+- name: metfrag
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: openbabel_structure_distance_finder
+  owner: bgruening
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openms_lowmempeakpickerhiresrandomaccess
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - OpenMS
+- name: fraggenescan
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: metfrag_vis
+  owner: computational-metabolomics
+  tool_panel_section_label: Metabolomics
+- name: export_to_cluster
+  owner: earlhaminst
+  tool_panel_section_label: Data Export
+- name: ena_upload
+  owner: iuc
+  tool_panel_section_label: Data Export
+- name: msconvert
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
+- name: proteore_build_protein_interaction_maps
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_clusterprofiler
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_filter_keywords_values
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_get_unique_peptide_srm_method
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_goprofiles
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_kegg_pathways_coverage
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_reactome
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_topgo
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_venn_diagram
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_expression_levels_by_tissue
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_expression_rnaseq_abbased
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_go_terms_enrich_comparison
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_heatmap_visualization
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_id_converter
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_maps_visualization
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_ms_observation_pepatlas
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_prot_features
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_prot_features_3orga
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_prot_features_mouse
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: proteore_tissue_specific_expression_data
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: filter_keywords_values
+  owner: proteore
+  tool_panel_section_label: Proteomics - ProteoRE
+- name: export2graphlan
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: format_metaphlan2_output
+  owner: bebatut
+  tool_panel_section_label: Metagenomics
+- name: group_humann2_uniref_abundances_to_go
+  owner: bebatut
+  tool_panel_section_label: Metagenomics
+- name: graphlan_annotate
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: graphlan
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: gtftobed12
+  owner: iuc
+  tool_panel_section_label: Convert Formats
+- name: unzip
+  owner: imgteam
+  tool_panel_section_label: Convert Formats
+- name: ab1_fastq_converter
+  owner: ecology
+  tool_panel_section_label: Convert Formats
+- name: deg_annotate
+  owner: iuc
+  tool_panel_section_label: Transcriptomics
+- name: ggplot2_violin
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: table_compute
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: ggplot2_heatmap
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: ggplot2_histogram
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: ggplot2_point
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: ggplot2_pca
+  owner: iuc
+  tool_panel_section_label: Visualization
+- name: picrust_categorize
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_normalize_by_copy_number
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_metagenome_contributions
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_format_tree_and_trait_table
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_compare_biom
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_predict_metagenomes
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_pipeline
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_place_seqs
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_pathway_pipeline
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_metagenome_pipeline
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_add_descriptions
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_shuffle_predictions
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_hsp
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
+- name: enasearch_retrieve_analysis_report
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: enasearch_search_data
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: enasearch_retrieve_data
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: enasearch_retrieve_taxons
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: enasearch_retrieve_run_report
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: ncbi_datasets
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: idr_download_by_ids
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: sra_tools
+  owner: iuc
+  tool_panel_section_label: Data Source
+- name: stacks_sstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_refmap
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_rxstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_ustacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_denovomap
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_populations
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_cstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_pstacks
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_clonefilter
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_genotypes
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_assembleperead
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_procrad
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: stacks_stats
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - Stacks
+- name: proteomiqon_joinquantpepionswithproteins
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_labeledproteinquantification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_labelfreeproteinquantification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_mzmltomzlite
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_peptidedb
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_peptidespectrummatching
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_proteininference
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_psmbasedquantification
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: proteomiqon_psmstatistics
+  owner: galaxyp
+  tool_panel_section_label: Proteomics - ProteomIQon
+- name: ampvis2_ordinate
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_venn
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_frequency
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_subset_taxa
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_timeseries
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_rankabundance
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_heatmap
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_export_fasta
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_rarecurve
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_otu_network
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_load
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_merge_ampvis2
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_subset_samples
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_alpha_diversity
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_octave
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_core
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_mergereplicates
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_boxplot
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_setmetadata
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: humann2_associate
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_strain_profiler
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_regroup_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_reduce_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_renorm_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_unpack_pathways
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_split_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_rna_dna_norm
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_split_stratified_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_barplot
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_rename_table
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: humann2_genefamilies_genus_level
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: metaphlan2
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: metaphlan2krona
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: metaphlan_hclust_heatmap
+  owner: iuc
+  tool_panel_section_label: Deprecated
+- name: qiime2__alignment__mafft_add
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__alignment__mafft
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__alignment__mask
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__composition__add_pseudocount
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__composition__ancombc
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__composition__tabulate
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__composition__ancom
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2_core__tools__export
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2_core__tools__import
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__cutadapt__trim_single
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__cutadapt__trim_paired
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__cutadapt__demux_single
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__cutadapt__demux_paired
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__dada2__denoise_pyro
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__dada2__denoise_ccs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__dada2__denoise_single
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__dada2__denoise_paired
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__deblur__denoise_16s
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__deblur__denoise_other
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__deblur__visualize_stats
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__emp_paired
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__subsample_paired
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__subsample_single
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__summarize
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__filter_samples
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__demux__emp_single
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__beta_correlation
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__adonis
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__umap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__pcoa
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__bioenv
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__pcoa_biplot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__tsne
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__beta_group_significance
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__procrustes_analysis
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__mantel
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__beta
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__alpha_group_significance
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__core_metrics_phylogenetic
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__core_metrics
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__alpha_correlation
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__filter_distance_matrix
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__alpha
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__beta_phylogenetic
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__alpha_phylogenetic
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__alpha_rarefaction
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity__beta_rarefaction
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__observed_features
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__bray_curtis
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__beta_passthrough
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__alpha_passthrough
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__shannon_entropy
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__jaccard
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__pielou_evenness
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__beta_phylogenetic_meta_passthrough
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__weighted_unifrac
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__unweighted_unifrac
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__beta_phylogenetic_passthrough
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__diversity_lib__faith_pd
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__emperor__procrustes_plot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__emperor__plot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__emperor__biplot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__classify_sklearn
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__fit_classifier_sklearn
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__fit_classifier_naive_bayes
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__classify_consensus_blast
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__extract_reads
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__classify_hybrid_vsearch_sklearn
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__classify_consensus_vsearch
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__blast
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__find_consensus_annotation
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_classifier__vsearch_global
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__tabulate_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__presence_absence
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__filter_samples
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__summarize
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__filter_features_conditionally
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__rename_ids
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__merge_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__relative_frequency
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__merge
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__filter_features
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__rarefy
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__transpose
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__subsample
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__heatmap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__merge_taxa
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__core_features
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__group
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__feature_table__filter_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__fragment_insertion__sepp
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__fragment_insertion__classify_otus_experimental
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__fragment_insertion__filter_features
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__ilr_phylogenetic
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__correlation_clustering
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__dendrogram_heatmap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__gradient_clustering
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__ilr_phylogenetic_ordination
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__assign_ids
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__ilr_phylogenetic_differential
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__gneiss__ilr_hierarchical
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__pairwise_distances
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__feature_volatility
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__nmit
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__first_differences
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__plot_feature_volatility
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__first_distances
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__linear_mixed_effects
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__volatility
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__pairwise_differences
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__anova
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__longitudinal__maturity_index
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__metadata__shuffle_groups
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__metadata__distance_matrix
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__metadata__tabulate
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__raxml_rapid_bootstrap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__fasttree
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__align_to_tree_mafft_iqtree
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__iqtree
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__robinson_foulds
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__align_to_tree_mafft_raxml
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__filter_table
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__midpoint_root
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__align_to_tree_mafft_fasttree
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__raxml
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__filter_tree
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__phylogeny__iqtree_ultrafast_bootstrap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__evaluate_composition
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__evaluate_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__filter_reads
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__bowtie2_build
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__evaluate_taxonomy
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__exclude_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_filter__q_score
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__metatable
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__fit_classifier
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__regress_samples
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__classify_samples
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__scatterplot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__classify_samples_from_dist
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__confusion_matrix
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__split_table
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__summarize
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__heatmap
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__classify_samples_ncv
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__fit_regressor
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__predict_classification
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__regress_samples_ncv
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__sample_classifier__predict_regression
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__taxa__collapse
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__taxa__filter_table
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__taxa__barplot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__taxa__filter_seqs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__cluster_features_closed_reference
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__cluster_features_open_reference
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__merge_pairs
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__uchime_denovo
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__dereplicate_sequences
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__fastq_stats
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__uchime_ref
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__vsearch__cluster_features_de_novo
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__composition__da_barplot
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__decontam_identify
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2__quality_control__decontam_remove
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: ramclustr
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_msfinder
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: riassigner
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: rmassbank
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: spec2vec_training
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_generate_feature_table
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_compute_clusters
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_align_features
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_remove_noise
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_correct_time
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_compute_template
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_merge_known_table
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_recover_weaker_signals
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: waveica
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: biotransformer
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: filter_compounds
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: msmetaenhancer
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: msp_merge
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: mzml_validator
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: ramclustr_define_experiment
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_export
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_filtering
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_split
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_formatter
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_similarity
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_fingerprint_similarity
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_convert
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_spectral_similarity
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_match
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: spec2vec_similarity
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_add_key
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_networking
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_xmsannotator_advanced
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: xtb_molecular_optimization
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_subsetting
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_merge
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_remove_key
+  owner: recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: bfconvert
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: count_objects
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: image_info
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: scale_image
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: superdsm
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: binary2labelimage
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: 2d_auto_threshold
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: 2d_histogram_equalization
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: 2d_simple_filter
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: overlay_images
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: bbtools_bbnorm
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_callvariants
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbduk
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbmerge
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbmap
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_tadpole
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: calculate_numeric_param
+  owner: iuc
+  tool_panel_section_label: Expression Tools
+- name: compose_text_param
+  owner: iuc
+  tool_panel_section_label: Expression Tools
+- name: map_param_value
+  owner: iuc
+  tool_panel_section_label: Expression Tools
+- name: pick_value
+  owner: iuc
+  tool_panel_section_label: Expression Tools
+- name: proteomicsr_intensity_workflow
+  owner: mbernt
+  tool_panel_section_label: Testing
+- name: proteomicsr_fc_workflow
+  owner: mbernt
+  tool_panel_section_label: Testing
+- name: proteomicsr_msigdb_workflow
+  owner: mbernt
+  tool_panel_section_label: Testing
+- name: phyloseq_from_dada2
+  owner: iuc
+  tool_panel_section_label: Phyloseq
+- name: phyloseq_plot_ordination
+  owner: iuc
+  tool_panel_section_label: Phyloseq
+- name: phyloseq_plot_richness
+  owner: iuc
+  tool_panel_section_label: Phyloseq
+- name: imagej2_adjust_threshold_binary
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_analyze_particles_binary
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_analyze_skeleton
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_binary_to_edm
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_adapt_transform
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_align
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compare_elastic
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compare_elastic_raw
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compare_raw
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compose_elastic
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compose_raw
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_compose_raw_elastic
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_convert_to_raw
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_elastic_transform
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_bunwarpj_raw_transform
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_create_image
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_enhance_contrast
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_find_edges
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_find_maxima
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_make_binary
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_math
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_noise
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_shadows
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_sharpen
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_skeletonize3d
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_smooth
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: imagej2_watershed_binary
+  owner: imgteam
+  tool_panel_section_label: Imaging - ImageJ2
+- name: cp_cellprofiler4
+  owner: bgruening
+  tool_panel_section_label: Run CellProfiler pipeline
+- name: data_manager_sam_fasta_index_builder
+  owner: devteam
+  tool_panel_section_label: Data Managers
+- name: data_manager_metaphlan2_database_downloader
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_humann2_database_downloader
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_hisat2_index_builder
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_bowtie2_index_builder
+  owner: devteam
+  tool_panel_section_label: Data Managers
+- name: data_manager_mothur_toolsuite
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_dada2
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_diamond_database_builder
+  owner: bgruening
+  tool_panel_section_label: Data Managers
+- name: proteore_data_manager
+  owner: proteore
+  tool_panel_section_label: Data Managers
+- name: data_manager_sortmerna_database_downloader
+  owner: rnateam
+  tool_panel_section_label: Data Managers
+- name: data_manager_bwa_mem_index_builder
+  owner: devteam
+  tool_panel_section_label: Data Managers
+- name: data_manager_eggnog_mapper
+  owner: galaxyp
+  tool_panel_section_label: Data Managers
+- name: data_manager_humann_database_downloader
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_metaphlan_database_downloader
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_gtdbtk_database_installer
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_build_kraken2_database
+  owner: iuc
+  tool_panel_section_label: Data Managers

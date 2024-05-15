@@ -1,0 +1,138 @@
+---
+type: map
+mapping:
+    "install_repository_dependencies":
+        type: bool
+        default: false
+    "install_resolver_dependencies":
+        type: bool
+        default: false
+    "install_tool_dependencies":
+        type: bool
+        default: false
+    "tools":
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                "name":
+                    type: str
+                    required: true
+                "owner":
+                    type: str
+                    required: true
+                "tool_panel_section_label":
+                    type: str
+                    enum: [
+                        'Get Data', 'Send Data', 'Collection Operations', 'Expression Tools', 'Data and Metadata Management',
+                        'Text Manipulation', 'Filter and Sort', 'Join, Subtract and Group',
+                        'Convert Formats', 'FASTA/FASTQ', 'FASTQ Quality Control', 'SAM/BAM', 'BED',
+                        'VCF/BCF', 'Nanopore', 'Operate on Genomic Intervals', 'Fetch Sequences / Alignments',
+                        'Annotation', 'Ontology', 'Assembly', 'Mapping', 'Variant Calling', 'Genome editing',
+                        'RNA-Seq', 'Peak Calling', 'Epigenetics', 'Phylogenetics', 'Phenotype Association',
+                        'Single-cell', 'Get scRNAseq data', 'Seurat', 'SC3', 'Scanpy', 'Monocl3', 'SCMap',
+                        'SCCAF', 'Single Cell Utils and Viz', 'Picard', 'deepTools', 'Gemini', 'EMBOSS',
+                        'GATK Tools', 'NCBI Blast', 'HiCExplorer', 'RAD-seq', 'GraphClust' , 'MiModD',
+                        'Metagenomic Analysis', 'Qiime' , 'Mothur' , 'DNA Metabarcoding' , 'Proteomics', 'Metabolomics',
+                        'ChemicalToolBox', 'Statistics', 'Graph/Display Data' , 'Evolution', 'Motif Tools', "Machine Learning",
+                        'Test Tools', 'GIS Data Handling', 'Animal Detection on Acoustic Recordings', 'Compute indicators for satellite remote sensing', 'Imaging', 'Virology',
+                        'Regional Variation' , 'Genome Diversity' , 'Deprecated', 'Interactive tools', 'Apollo', 'Quality Control',
+                        'Multiple Alignments', 'Climate Analysis', 'RNA Analysis', 'Data Managers', 'Extract Features', 'Other Tools',
+                        'Species abundance', 'Biodiversity data exploration', 'Sanger Sequencing', 'Spatial Omics', 'Muon Spectroscopy',
+                        'Compute indicators for turnover boulders fields', 'QIIME 2', 'Astronomy', 'Ecoregionalization', 'Indicators from geometric mean',
+                        'Imaging - ImageJ2',
+                        'Sequence Analysis - bbtools',
+                        'Exposomics - recetox',
+                        'Phyloseq',
+                        'Testing',
+                        'Qiime2',
+                        'Proteomics - ProteomIQon',
+                        'Sequence Analysis - Stacks',
+                        'Data Source',
+                        'Amplicon Analysis',
+                        'Metagenomics',
+                        'Proteomics - ProteoRE',
+                        'Data Export',
+                        'Sequence Analysis',
+                        'Proteomics - OpenMS',
+                        'Computational chemistry - Open Babel',
+                        'Genomic Interval Operations',
+                        'Genome Annotation',
+                        'Sequence Analysis - RSeQC',
+                        'Transcriptomics',
+                        'Assembly - Trinity',
+                        'Sequence Analysis - Stacks2',
+                        'Fastq Manipulation',
+                        'Metabolomics - W4M',
+                        'SAM - Tools for manipulating alignments in the SAM format',
+                        'Next Gen Mappers',
+                        'Fasta Manipulation',
+                        'Metagenomics - mothur',
+                        'RNA - Utilities for RNA',
+                        'Amplicon Analysis - ampvis2',
+                        'Run CellProfiler pipeline',
+                        'Visualization',
+                        'Amplicon Analysis - dada2',
+                        'Sequence Analysis (BLAST)',
+                        'Sequence Analysis (EMBOSS)',
+                        'BED tools',
+                        'Computational chemistry',
+                        'Computational chemistry - Ball'
+                    ]
+                "tool_panel_section_id":
+                    type: str
+                    enum: [
+                        "get_data", "send_data", "collection_operations", "expression_tools", "text_manipulation", "data_and_metadata_management",
+                        "filter_and_sort", "join__subtract_and_group", "convert_formats", "fasta_fastq", "fastq_quality_control",
+                        "sam_bam", "bed", "vcf_bcf", "nanopore", "operate_on_genomic_intervals", "fetch_sequences___alignments",
+                        "annotation", "ontology", "assembly", "mapping", "variant_calling", "genome_editing", "rna_seq",
+                        "peak_calling", "epigenetics", "phylogenetics", "phenotype_association", "single-cell",
+                        "hca_sc_get-scrna", "hca_sc_seurat_tools", "hca_sc_sc3_tools", "hca_sc_scanpy_tools", "qiime_2",
+                        "hca_sc_label_analysis_tools", "hca_sc_garnett_tools", "hca_sc_scpred_tools", "hca_sc_scater_tools", "machine_learning",
+                        "hca_sc_monocle3_tools", "hca_sc_scmap_tools", "hca_sc_sccaf_tools", "hca_sc_utils_viz", "picard", "compute_indicators_for_satellite_remote_sensing",
+                        "deeptools", "gemini", "emboss", "gatk_tools", "ncbi_blast", "hicexplorer", "rad_seq", "graphclust",
+                        "mimodd", "metagenomic_analysis", "qiime", "mothur", "dna_metabarcoding" , "proteomics", "metabolomics", "chemicaltoolbox",
+                        "statistics", "graph_display_data", "evolution", "motif_tools", "test_tools", "gis_data_handling", "quality_control",
+                        "animal_detection_on_acoustic_recordings", "regional_variation", "genome_diversity", 'apollo', 'imaging', 'virology',
+                        "deprecated", "interactivetools", "multiple_alignments", "climate_analysis", "rna_analysis", "species_abundance", 
+                        "biodiversity_data_exploration", "sanger_sequencing", "spatial_omics", "muon_spectroscopy", "compute_indicators_for_turnover_boulders_fields",
+                        "astronomy", "ecoregionalization", "geom_mean",
+                        "imaging_-_imagej2",
+                        "sequence_analysis_-_bbtools",
+                        "exposomics_-_recetox",
+                        "phyloseq",
+                        "testing",
+                        "qiime2",
+                        "proteomics_-_proteomiqon",
+                        "sequence_analysis_-_stacks",
+                        "data_source",
+                        "amplicon_analysis",
+                        "metagenomics",
+                        "proteomics_-_proteore",
+                        "data_export",
+                        "sequence_analysis",
+                        "proteomics_-_openms",
+                        "computational_chemistry_-_open_babel",
+                        "genomic_interval_operations",
+                        "genome_annotation",
+                        "sequence_analysis_-_rseqc",
+                        "transcriptomics",
+                        "assembly_-_trinity",
+                        "sequence_analysis_-_stacks2",
+                        "fastq_manipulation",
+                        "metabolomics_-_w4m",
+                        "sam_-_tools_for_manipulating_alignments_in_the_sam_format",
+                        "next_gen_mappers",
+                        "fasta_manipulation",
+                        "metagenomics_-_mothur",
+                        "rna_-_utilities_for_rna",
+                        "amplicon_analysis_-_ampvis2",
+                        "run_cellprofiler_pipeline",
+                        "visualization",
+                        "amplicon_analysis_-_dada2",
+                        "sequence_analysis_(blast)",
+                        "sequence_analysis_(emboss)",
+                        "bed_tools",
+                        "computational_chemistry",
+                        "computational_chemistry_ball"
+                    ]
