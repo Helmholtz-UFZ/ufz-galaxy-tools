@@ -4229,16 +4229,6 @@ tools:
   revisions:
   - 74810db257cc
   tool_panel_section_label: Genome Annotation
-- name: daa2rma
-  owner: matthias
-  revisions:
-  - 102d29c7c5a7
-  tool_panel_section_label: Metagenomics
-- name: daa_meganizer
-  owner: matthias
-  revisions:
-  - bddb48f621d5
-  tool_panel_section_label: Metagenomics
 - name: genform
   owner: workflow4metabolomics
   revisions:
