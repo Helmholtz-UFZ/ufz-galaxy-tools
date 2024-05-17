@@ -5,17 +5,17 @@ tools:
 - name: autodock_vina
   owner: bgruening
   revisions:
-  - 7b2f205b3f68
-  - 90ea16534012
   - 3c8e86318a81
   - 7a871df65202
+  - 7b2f205b3f68
+  - 90ea16534012
   tool_panel_section_label: Computational chemistry
 - name: autodock_vina_prepare_box
   owner: bgruening
   revisions:
-  - ad35eaa204ea
-  - 908880455b2d
   - 8f766d9652a2
+  - 908880455b2d
+  - ad35eaa204ea
   tool_panel_section_label: Computational chemistry
 - name: autodock_vina_prepare_ligand
   owner: bgruening
@@ -32,46 +32,48 @@ tools:
 - name: cutadapt
   owner: lparsons
   revisions:
-  - 8c0175e03cee
-  - 48f587c13075
-  - e4691e1589d3
   - 093678460093
-  - c4b82dce8335
+  - 104d86c98776
   - 135b80fb1ac2
+  - 48f587c13075
   - 49370cb85f0f
   - 660cffd8d92a
-  - 104d86c98776
+  - 8c0175e03cee
+  - b1c926deaa2d
+  - c4b82dce8335
+  - e4691e1589d3
   tool_panel_section_label: Fastq Manipulation
 - name: multiqc
   owner: iuc
   revisions:
-  - f7985e0479b9
   - 161f4383df15
-  - abfd8a6544d7
-  - bf675f34b056
-  - 467486f1c568
-  - e4574a4d09d8
   - 1c2db0054039
   - 3d93dd18d9f8
+  - 467486f1c568
+  - abfd8a6544d7
+  - bf675f34b056
+  - e4574a4d09d8
+  - f7985e0479b9
   tool_panel_section_label: Fastq Manipulation
 - name: fastqc
   owner: devteam
   revisions:
-  - ff9530579d1f
-  - 5ec9f6bceaee
-  - f2e8552cf1d0
-  - 3d0c7bdf12f5
   - 2d094334f61e
-  - e7b2202befea
+  - 3d0c7bdf12f5
+  - 5ec9f6bceaee
   - 9da02be9c6cc
   - d2cf2c0c8a11
+  - e7b2202befea
+  - f2e8552cf1d0
+  - ff9530579d1f
   tool_panel_section_label: Fastq Manipulation
 - name: trimmomatic
   owner: pjbriggs
   revisions:
   - 32f1f56bd970
-  - d94aff5ee623
   - 898b67846b47
+  - b9aaed85cbd1
+  - d94aff5ee623
   tool_panel_section_label: Fastq Manipulation
 - name: fastq_to_tabular
   owner: devteam
@@ -81,8 +83,8 @@ tools:
 - name: blast_rbh
   owner: peterjc
   revisions:
-  - d8d9a9069586
   - b2f91cbed8d9
+  - d8d9a9069586
   tool_panel_section_label: Sequence Analysis
 - name: chromeister
   owner: iuc
@@ -95,18 +97,20 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
-  - a65296ffb4a0
-  - f1a5908ea2cb
   - 4de39704d423
+  - a65296ffb4a0
   - aaefa93c2dd2
+  - bf28a8cff401
+  - f1a5908ea2cb
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_jackhmmer
   owner: iuc
   revisions:
   - 036df14999e8
   - 5113c71c7031
-  - 793967b6ae8a
   - 6e27bb3f0fa6
+  - 793967b6ae8a
+  - 9fdeca68a6b5
   - d9ce554da9b4
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmsearch
@@ -114,110 +118,122 @@ tools:
   revisions:
   - 192a5046d9a2
   - 284d40d6f5a1
-  - b774ae8e1609
   - 6867ed975e25
+  - b774ae8e1609
   - d753d9169482
+  - df7a52791be9
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_phmmer
   owner: iuc
   revisions:
-  - c1de05e20868
+  - 37bcc9fb0bb1
   - 74fc6d7d40f1
-  - ff6e24314c63
-  - 8a791afd99fb
   - 8267b6ad0b45
+  - 8a791afd99fb
+  - c1de05e20868
+  - ff6e24314c63
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmbuild
   owner: iuc
   revisions:
-  - 7ea31fc35394
+  - 4b996c837ec8
   - 6846f8789e33
-  - dc8860ba75d1
-  - d0875d3f6544
   - 750269125dc9
+  - 7ea31fc35394
+  - d0875d3f6544
+  - dc8860ba75d1
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_nhmmer
   owner: iuc
   revisions:
   - 314b778b8ffa
-  - be0cc39776f9
-  - b4fe2f703b4b
+  - 54b92ae4f75b
   - b28e8ed99424
+  - b4fe2f703b4b
+  - be0cc39776f9
   - c8e81e43bff1
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmscan
   owner: iuc
   revisions:
-  - d92dd2f040cd
   - 01219a31c48e
+  - 1a83249ddfff
+  - 4a54e4c9188b
   - be072920a53e
   - be7097d6e3ff
-  - 1a83249ddfff
+  - d92dd2f040cd
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_nhmmscan
   owner: iuc
   revisions:
-  - e07176c0925d
-  - c3075b7fdbdd
   - 24a67ef302dd
   - 2d406da5d34e
+  - c3075b7fdbdd
+  - e07176c0925d
   - f68b43be32d7
+  - fb1305d0d1c6
   tool_panel_section_label: Sequence Analysis
 - name: t_coffee
   owner: earlhaminst
   revisions:
-  - ae69d14b6fbf
   - 0a189243186d
+  - ae69d14b6fbf
   tool_panel_section_label: Sequence Analysis
 - name: gffread
   owner: devteam
   revisions:
-  - 4dea02886337
   - 154d00cbbf2d
+  - 3e436657dcd0
+  - 4dea02886337
   tool_panel_section_label: Sequence Analysis
 - name: cd_hit
   owner: iuc
   revisions:
-  - e0da3400ac2f
   - 7807800a3d03
+  - e0da3400ac2f
   tool_panel_section_label: Sequence Analysis
 - name: diamond
   owner: bgruening
   revisions:
   - 1e3323a44643
-  - 64be1ac21109
   - 62c9df8382c2
+  - 64be1ac21109
+  - e8ac2b53f262
   - f921014aba5a
   tool_panel_section_label: Sequence Analysis
 - name: fastp
   owner: iuc
   revisions:
-  - 65b93b623c77
   - 1d8fe9bc4cb0
+  - 65b93b623c77
   - 6c2351178f8d
-  - dbf9c561ef29
   - a935cbdf1c0e
+  - c59d48774d03
+  - dbf9c561ef29
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_alimask
   owner: iuc
   revisions:
-  - 80c713789d13
   - 274d66a6368b
-  - 92227c141aa5
+  - 80c713789d13
   - 819d044451ed
+  - 92227c141aa5
+  - e3e5f208e93c
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmemit
   owner: iuc
   revisions:
-  - 96b127c59e6a
-  - a6f41287ef2b
   - 1cd4d0cf8fd9
   - 7b7ff4d209f7
+  - 96b127c59e6a
+  - a6f41287ef2b
+  - be03abdc6451
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmconvert
   owner: iuc
   revisions:
   - 649b289b4ccc
+  - a9dace1a1e36
   - b03487ad64c8
   - db8a5a3195e7
   - f92edeb5e4c4
@@ -225,25 +241,27 @@ tools:
 - name: hmmer_hmmfetch
   owner: iuc
   revisions:
+  - 01c842e297f5
+  - 34b09461bf87
+  - 74089c182a50
   - a28fd001de59
   - cd078bda9921
-  - 01c842e297f5
-  - 74089c182a50
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_hmmalign
   owner: iuc
   revisions:
-  - ca0b674e895b
-  - a9c62fc8187b
-  - d430c68061f7
   - 24fa8e890f08
+  - 71863d3bf721
+  - a9c62fc8187b
+  - ca0b674e895b
+  - d430c68061f7
   tool_panel_section_label: Sequence Analysis
 - name: trim_galore
   owner: bgruening
   revisions:
-  - cd7e644cae1d
   - 084bbd8ba7b8
   - 949f01671246
+  - cd7e644cae1d
   tool_panel_section_label: Sequence Analysis
 - name: ucsc_blat
   owner: yating-l
@@ -255,13 +273,14 @@ tools:
   owner: devteam
   revisions:
   - 4daabc25df00
+  - 5b097fde95dd
   - d6694932c5e0
   tool_panel_section_label: Sequence Analysis
 - name: repeat_masker
   owner: bgruening
   revisions:
-  - bfc70c8cc5ca
   - ba6d2c32f797
+  - bfc70c8cc5ca
   tool_panel_section_label: Sequence Analysis
 - name: prokka
   owner: crs4
@@ -276,6 +295,7 @@ tools:
 - name: kofamscan
   owner: iuc
   revisions:
+  - 8ec7636fa875
   - c3c46f14c7a4
   tool_panel_section_label: Sequence Analysis
 - name: blat
@@ -286,20 +306,20 @@ tools:
 - name: locarna_pairwise_p
   owner: rnateam
   revisions:
-  - 535f2e41d4f7
   - 53583f715a8c
+  - 535f2e41d4f7
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_exparnap
   owner: rnateam
   revisions:
-  - e66514da3a99
   - 8723e3f8e422
+  - e66514da3a99
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_multiple
   owner: rnateam
   revisions:
-  - 94b0468f0db8
   - 7554c0df9139
+  - 94b0468f0db8
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_reliability_profile
   owner: rnateam
@@ -310,14 +330,14 @@ tools:
 - name: locarna_pairwise
   owner: rnateam
   revisions:
-  - f3f08a777c10
   - 433601e9f132
+  - f3f08a777c10
   tool_panel_section_label: RNA - Utilities for RNA
 - name: sortmerna
   owner: rnateam
   revisions:
-  - eb35257d2e29
   - 10b84b577117
+  - eb35257d2e29
   tool_panel_section_label: RNA - Utilities for RNA
 - name: muscle
   owner: crs4
@@ -332,41 +352,46 @@ tools:
 - name: samtools_flagstat
   owner: devteam
   revisions:
-  - db17d5321bad
-  - 22970df7a40e
-  - fe34990e5ce7
   - 0072bf593791
+  - 22970df7a40e
+  - db17d5321bad
+  - fe34990e5ce7
+  - fefd89ab563c
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: picard
   owner: devteam
   revisions:
-  - 881d7645d1bf
-  - 7d34178f2812
+  - 3f254c5ced1d
   - 7615ac66c6e5
+  - 7d34178f2812
+  - 881d7645d1bf
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_mpileup
   owner: devteam
   revisions:
   - 329deb17a9f7
-  - aa0ef6f0ee89
   - 9da0311ab1dd
+  - aa0ef6f0ee89
+  - b61f5d6a7f25
   - fa7ad9b89f4a
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_slice_bam
   owner: devteam
   revisions:
-  - 344fc91e1bfd
   - 2b474ebbfc7d
+  - 344fc91e1bfd
   - a4a10c7924d1
+  - b5c88b7b153e
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_view
   owner: iuc
   revisions:
-  - c370440f901e
   - 0dbf49c414ae
-  - ff313de5f7f4
   - 5826298f6a73
+  - 6be888be75f9
   - bf328cec6a42
+  - c370440f901e
+  - ff313de5f7f4
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_coverage
   owner: iuc
@@ -374,20 +399,23 @@ tools:
   - 8a477224dfee
   - 90f2dd176d80
   - ae36fab06bc2
+  - c4ff13d2aab3
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_depth
   owner: iuc
   revisions:
-  - 56faa6a57e50
   - 2ee8dc1aeda9
   - 44de678a44c4
+  - 56faa6a57e50
+  - 971dc85e9441
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_fastx
   owner: iuc
   revisions:
-  - b3d99709fe1a
-  - a8d69aee190e
+  - 66e23b11feae
   - 720217c23995
+  - a8d69aee190e
+  - b3d99709fe1a
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_fixmate
   owner: iuc
@@ -395,145 +423,161 @@ tools:
   - 41e36c99a008
   - 595ae1ba934a
   - bc0cc7bfbfe9
+  - e5ece8fa99de
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_markdup
   owner: iuc
   revisions:
-  - ce32171c6d44
-  - b5527cc104ab
+  - 046cbf29795a
   - 83b8e36e9cbe
   - 8c440c3002bc
-  - 046cbf29795a
+  - a389f74c3630
+  - b5527cc104ab
+  - ce32171c6d44
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_merge
   owner: iuc
   revisions:
   - 36677f429310
-  - b40e2d865d52
+  - 65a38e8c8e2a
   - 740ce0a18f0d
+  - b40e2d865d52
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_split
   owner: devteam
   revisions:
+  - 135c85f4cfaf
   - 57f3e32f809d
   - b7f7826ef1cd
-  - 135c85f4cfaf
   - bcedabb53ddf
+  - bd850490c7f1
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_stats
   owner: devteam
   revisions:
-  - 8cfc17e27132
-  - 5a08c09b9311
-  - 3a0efe14891f
-  - 1cc79f49b8d5
-  - 95a7ddf617e7
   - 145f6d74ff5e
+  - 1cc79f49b8d5
+  - 3a0efe14891f
+  - 5a08c09b9311
+  - 8cfc17e27132
+  - 95a7ddf617e7
+  - fed4aa48ba09
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_sort
   owner: devteam
   revisions:
   - 6c2c1836728b
-  - f56bdb93ae58
-  - e613c1ad4c4c
   - a430da4f04cd
+  - a577ea614bed
+  - e613c1ad4c4c
+  - f56bdb93ae58
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_bedcov
   owner: devteam
   revisions:
-  - 9149ad20699a
-  - 46c6639921f1
-  - 8c3472790020
   - 12749212f61b
+  - 46c6639921f1
+  - 6856f8a01905
+  - 8c3472790020
+  - 9149ad20699a
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: sam_to_bam
   owner: devteam
   revisions:
+  - 9bd1568619cd
   - d04d9f1c6791
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bam_to_sam
   owner: devteam
   revisions:
-  - af7c50162f0b
   - 88eedb4abea0
+  - a53efedba9e7
+  - af7c50162f0b
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_calmd
   owner: devteam
   revisions:
-  - 1ebb4ecdc1ef
   - 06dc50b7b711
+  - 1ebb4ecdc1ef
   - 92ec40abcdcf
+  - c89806670ab9
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_idxstats
   owner: devteam
   revisions:
+  - 7a6034296ae9
   - 7def34e6cf4d
   - 811fc2d75ad4
-  - 7a6034296ae9
   - 87398ae795c7
+  - fa5d3e61e429
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_reheader
   owner: devteam
   revisions:
-  - 30388d878f81
   - 020e144b5f78
+  - 30388d878f81
   - bb8cfc6f6e0c
+  - d7b4851d1971
   - db000c6007a0
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: abyss
   owner: iuc
   revisions:
-  - 8f1b150a2487
+  - 0124fce4654a
   - 0a5c7992b1ac
-  - 7547fcab5d19
-  - fa5259cc561b
   - 3ce74eab308b
+  - 7547fcab5d19
+  - 8f1b150a2487
+  - fa5259cc561b
   tool_panel_section_label: Assembly
 - name: rnaquast
   owner: iuc
   revisions:
-  - f89e3c318453
   - 33c060ec0ac9
+  - 8e66f695d859
   - e989670c7fc7
+  - f89e3c318453
   tool_panel_section_label: Assembly
 - name: velvetoptimiser
   owner: simon-gladman
   revisions:
+  - 37d88f41c810
   - 82398ba86ba7
   - d81360ea69d8
-  - 37d88f41c810
   tool_panel_section_label: Assembly
 - name: velvet
   owner: devteam
   revisions:
-  - 5da9a0e2fb2d
-  - 920677cd220f
   - 08256557922f
+  - 5da9a0e2fb2d
   - 8d09f8be269e
+  - 920677cd220f
   tool_panel_section_label: Assembly
 - name: quast
   owner: iuc
   revisions:
   - 0834c823d4b9
-  - ebb0dcdb621a
-  - 875d0f36d66f
-  - 72472698a2df
   - 3061c8b029e5
   - 59db8ea8c845
   - 6fcbee531de6
+  - 72472698a2df
+  - 875d0f36d66f
+  - ebb0dcdb621a
   tool_panel_section_label: Assembly
 - name: spades
   owner: nml
   revisions:
-  - b8c00ce5dfa0
   - 884dc0264950
-  - a789e163a670
   - 9006e5836729
+  - a789e163a670
+  - b8c00ce5dfa0
+  - d5887ace0dd4
   tool_panel_section_label: Assembly
 - name: spades_rnaviralspades
   owner: iuc
   revisions:
   - 48cf45a53456
+  - 6357b127161e
   - b3490b036c5a
   tool_panel_section_label: Assembly
 - name: spades_plasmidspades
@@ -541,43 +585,50 @@ tools:
   revisions:
   - 6aad515a5270
   - 75405f5e2cc5
+  - 8cc856b935ee
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
   owner: iuc
   revisions:
-  - e060c3987513
+  - 7922870efcca
   - 86f66ab58e14
+  - e060c3987513
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
   owner: iuc
   revisions:
   - 21da31ed41a1
   - 4a01e0d2892c
+  - 7e27faaad80e
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
-  - ff41a00a6745
+  - 655fa188c3cc
   - fee85957cebe
+  - ff41a00a6745
   tool_panel_section_label: Assembly
 - name: spades_biosyntheticspades
   owner: iuc
   revisions:
   - 1fc82fe7ebef
+  - c33a476f4001
   - d89ced9439f3
   tool_panel_section_label: Assembly
 - name: rnaspades
   owner: iuc
   revisions:
-  - 675ee1aa5952
   - 378e55aeeb25
+  - 5fc94b3a4704
+  - 675ee1aa5952
   tool_panel_section_label: Assembly
 - name: metaspades
   owner: nml
   revisions:
   - 05c394313b1c
-  - 6563e22a9fd0
   - 606b09cc9860
+  - 6563e22a9fd0
+  - 99ecfdafc64f
   tool_panel_section_label: Assembly
 - name: ball
   owner: luis
@@ -587,47 +638,49 @@ tools:
 - name: join
   owner: devteam
   revisions:
+  - 718d04143c31
   - a10f49d9218a
   tool_panel_section_label: Join, Subtract and Group
 - name: regex_find_replace
   owner: galaxyp
   revisions:
+  - 209b7c5ee9d7
+  - 399da6b5ec21
   - 503bcd6ebe4b
   - ae8c4b2488e7
-  - 399da6b5ec21
-  - 209b7c5ee9d7
   tool_panel_section_label: Text Manipulation
 - name: datamash_transpose
   owner: iuc
   revisions:
-  - 374cb875d38a
-  - ac092723240d
   - 22c2a1ac7ae3
+  - 374cb875d38a
+  - a513e3fbb4c5
+  - ac092723240d
   tool_panel_section_label: Text Manipulation
 - name: datamash_ops
   owner: iuc
   revisions:
-  - 562f3c677828
-  - 4c07ddedc198
   - 2f3c6f2dcf39
+  - 4c07ddedc198
+  - 562f3c677828
   - 746e8e4bf929
   tool_panel_section_label: Text Manipulation
 - name: datamash_reverse
   owner: iuc
   revisions:
   - 0f1724dd59d2
-  - f198773344e4
   - b8a457820315
+  - f198773344e4
   tool_panel_section_label: Text Manipulation
 - name: column_maker
   owner: devteam
   revisions:
   - 02026300aa45
-  - be25c075ed54
-  - 6e8d94597139
   - 464b9305180e
-  - 6595517c2dd8
   - 626658afe4cb
+  - 6595517c2dd8
+  - 6e8d94597139
+  - be25c075ed54
   tool_panel_section_label: Text Manipulation
 - name: singularity_scriptrunner
   owner: mbernt
@@ -637,20 +690,21 @@ tools:
 - name: query_tabular
   owner: iuc
   revisions:
-  - cf34c344508d
-  - 33d61c89fb8d
   - 0c95a3f1654f
   - 1ea4e668bf73
   - 2e8f945f7285
+  - 33d61c89fb8d
   - 3a6b78c39dca
+  - cf34c344508d
   tool_panel_section_label: Text Manipulation
 - name: text_processing
   owner: bgruening
   revisions:
-  - d698c222f354
-  - 74a8bef53a00
   - 0a8c6b61f0f4
+  - 74a8bef53a00
+  - d698c222f354
   - fb4ff3c42cd3
+  - fbf99087e067
   tool_panel_section_label: Text Manipulation
 - name: get_flanks
   owner: devteam
@@ -661,118 +715,121 @@ tools:
   owner: devteam
   revisions:
   - 33b3f3688db4
+  - 69c10b56f46d
   tool_panel_section_label: Genomic Interval Operations
 - name: xcms_xcmsset
   owner: lecorguille
   revisions:
-  - 378ddb410225
-  - 9eebe9690ced
   - 14b1c52fae62
   - 15646e937936
-  - eb15a3841da4
-  - 793f87231d49
-  - f5d51091cf84
-  - b02d1992a43a
   - 363cce459fff
+  - 378ddb410225
+  - 793f87231d49
+  - 9eebe9690ced
+  - b02d1992a43a
+  - eb15a3841da4
+  - f5d51091cf84
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_group
   owner: lecorguille
   revisions:
+  - 0d05d0458376
   - 13558e8a4778
   - 2b676d5eb848
-  - fe4002ac5193
-  - d45a786cbc40
-  - 761913919c21
   - 4c8507667cd6
-  - 0d05d0458376
+  - 761913919c21
+  - d45a786cbc40
+  - fe4002ac5193
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_merge
   owner: lecorguille
   revisions:
-  - 5bd125a3f3b0
-  - a301f001835c
   - 090cf284d9ff
   - 39797c768bba
   - 3a5204f14fff
   - 58b5a4b6e1da
+  - 5bd125a3f3b0
+  - a301f001835c
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_plot_chromatogram
   owner: lecorguille
   revisions:
   - 024974037c4e
-  - 8846a03995d3
   - 0cab69429e1e
   - 271c9d5f0d10
+  - 8846a03995d3
   - dbd877060ac3
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_retcor
   owner: lecorguille
   revisions:
-  - aa252eec9229
-  - e4e0254a3c0a
   - 36480435e92b
-  - faf4a6b67304
-  - c914743e3f2f
-  - 7faadba7c625
   - 4bfef820569b
+  - 7faadba7c625
+  - 8242376d9f35
+  - aa252eec9229
+  - c914743e3f2f
+  - e4e0254a3c0a
+  - faf4a6b67304
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_fillpeaks
   owner: lecorguille
   revisions:
-  - 999f9db0ca2c
   - 26d77e9ceb49
-  - de0d85537ee3
-  - dcb9041cb9ea
   - 3bc94c3abb28
+  - 999f9db0ca2c
   - bb9ee352fce0
+  - dcb9041cb9ea
+  - de0d85537ee3
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_summary
   owner: lecorguille
   revisions:
-  - a5347d57899f
-  - acc66e5c23d7
+  - 018a9771de28
   - 2a2850fdf29e
   - 4c757d1ba7b4
+  - a5347d57899f
   - acc0a4a366c1
+  - acc66e5c23d7
   - bed23aa27b4b
-  - 018a9771de28
   tool_panel_section_label: Metabolomics - W4M
 - name: camera_annotate
   owner: lecorguille
   revisions:
-  - 4b9ab71be05e
-  - 6139bfcc95cb
-  - cb923396e70f
-  - 1c30ff90f3ae
-  - 3886548ea1d1
-  - 73d82de36369
   - 01bbba6d57ff
+  - 1c30ff90f3ae
   - 225cb8347572
+  - 3886548ea1d1
+  - 4b9ab71be05e
   - 512c2b701d96
+  - 6139bfcc95cb
+  - 73d82de36369
+  - cb923396e70f
   tool_panel_section_label: Metabolomics - W4M
 - name: camera_combinexsannos
   owner: workflow4metabolomics
   revisions:
-  - c4c13745e797
-  - 617cf0705775
-  - 3bf04fc404d9
   - 2443150161b4
+  - 3bf04fc404d9
+  - 617cf0705775
+  - c4c13745e797
   tool_panel_section_label: Metabolomics - W4M
 - name: msnbase_readmsdata
   owner: lecorguille
   revisions:
-  - 7faf9b2d83f6
-  - 11ab2081bd4a
-  - 86a20118e743
   - 0a0164b8c24d
-  - d7a7ef786fbe
+  - 11ab2081bd4a
+  - 12def6edac2f
   - 226fb89cacc4
+  - 7faf9b2d83f6
+  - 86a20118e743
+  - d7a7ef786fbe
   tool_panel_section_label: Metabolomics - W4M
 - name: batchcorrection
   owner: melpetera
   revisions:
-  - 73892ef177e3
   - 23314e1192d4
+  - 73892ef177e3
   tool_panel_section_label: Metabolomics - W4M
 - name: w4mclassfilter
   owner: eschen42
@@ -801,8 +858,9 @@ tools:
 - name: hmdb_ms_search
   owner: fgiacomoni
   revisions:
-  - 63ba1cb240b7
+  - 144e4a8ad000
   - 4eb2de7c24d1
+  - 63ba1cb240b7
   tool_panel_section_label: Metabolomics - W4M
 - name: metams_rungc
   owner: yguitton
@@ -825,8 +883,8 @@ tools:
 - name: anova
   owner: lecorguille
   revisions:
-  - c2be3b890724
   - 102049093b7d
+  - c2be3b890724
   tool_panel_section_label: Metabolomics - W4M
 - name: heatmap
   owner: ethevenot
@@ -836,8 +894,8 @@ tools:
 - name: multivariate
   owner: ethevenot
   revisions:
-  - e91de3b04320
   - 5526f8258e8a
+  - e91de3b04320
   tool_panel_section_label: Metabolomics - W4M
 - name: biosigner
   owner: ethevenot
@@ -847,227 +905,254 @@ tools:
 - name: checkformat
   owner: ethevenot
   revisions:
-  - e7c5811ec12f
   - b6a6b4cc932a
+  - e7c5811ec12f
   tool_panel_section_label: Metabolomics - W4M
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
   - 31394a0c0242
+  - 662a334004b4
   - e25efca0a49c
   tool_panel_section_label: Metagenomics
 - name: taxonomy_krona_chart
   owner: crs4
   revisions:
-  - e9005d1f3cfd
+  - 1334cb4c6b68
   - 73486cc6170e
   - c9f8fef1df74
-  - 1334cb4c6b68
+  - e9005d1f3cfd
   tool_panel_section_label: Metagenomics
 - name: humann_regroup_table
   owner: iuc
   revisions:
-  - c409a495841f
   - 26ce946f4da9
   - 31c6d107e7a5
   - 79706f10d680
+  - c409a495841f
+  - e88b731dad59
   tool_panel_section_label: Metagenomics
 - name: humann_barplot
   owner: iuc
   revisions:
-  - 90a69c4a4aca
-  - 79698158a59c
-  - 5240d62d864d
   - 0cd140dfdecf
+  - 523ae8314ef5
+  - 5240d62d864d
+  - 79698158a59c
+  - 90a69c4a4aca
   tool_panel_section_label: Metagenomics
 - name: humann_reduce_table
   owner: iuc
   revisions:
-  - d122106c317f
-  - b12ca05dce87
   - 324c12894d59
+  - 6552df6efe6b
+  - b12ca05dce87
   - c2488dbc8e39
+  - d122106c317f
   tool_panel_section_label: Metagenomics
 - name: humann_rna_dna_norm
   owner: iuc
   revisions:
-  - ec422794133f
-  - 44a27841ca50
-  - 36b8a9ed5ecb
   - 1e55949cf16e
+  - 36b8a9ed5ecb
+  - 44a27841ca50
+  - dcc4123cd3e1
+  - ec422794133f
   tool_panel_section_label: Metagenomics
 - name: humann_join_tables
   owner: iuc
   revisions:
+  - 6bf703133209
   - a060a76c3a13
-  - fd7ebf31b030
-  - cf7f80d59099
   - cb7de6e163ca
+  - cf7f80d59099
+  - fd7ebf31b030
   tool_panel_section_label: Metagenomics
 - name: humann_rename_table
   owner: iuc
   revisions:
-  - 71ea608ddfa3
+  - 094ad9c068af
   - 172920f67a84
   - 714d5a28cc5c
+  - 71ea608ddfa3
   - d24841f5c3d2
   tool_panel_section_label: Metagenomics
 - name: humann_strain_profiler
   owner: iuc
   revisions:
+  - 0ff86e44895c
   - 18481a7c3676
+  - 3f6b689894ac
   - 4704c16a2931
   - 9540860a506f
-  - 0ff86e44895c
   tool_panel_section_label: Metagenomics
 - name: humann_split_stratified_table
   owner: iuc
   revisions:
-  - 6fcb8ac37a3e
-  - e2c71b852aba
   - 64bc7acc22a9
+  - 6fcb8ac37a3e
   - 75bedfb2078b
+  - 97f7bb0851e7
+  - e2c71b852aba
   tool_panel_section_label: Metagenomics
 - name: humann_split_table
   owner: iuc
   revisions:
-  - f00f2c835ac2
   - 44cacbe09bfc
   - 506d4a349aa1
   - b31ed52f36f4
+  - e9d12c223a80
+  - f00f2c835ac2
   tool_panel_section_label: Metagenomics
 - name: humann_renorm_table
   owner: iuc
   revisions:
-  - e3391ccf21a0
   - 12fb63b5f63f
-  - d7e9a3c41657
   - 4137b492233e
+  - a293a742194f
+  - d7e9a3c41657
+  - e3391ccf21a0
   tool_panel_section_label: Metagenomics
 - name: humann_associate
   owner: iuc
   revisions:
-  - 67b835aace09
   - 10fdefbf5920
+  - 1dbfcd56a5d3
   - 593e19128c58
   - 5ae955d5bd2b
+  - 67b835aace09
   tool_panel_section_label: Metagenomics
 - name: humann
   owner: iuc
   revisions:
   - 2cd76b089570
-  - 95bf7479d53c
   - 65c80ca30373
   - 6b7622dda516
+  - 95bf7479d53c
+  - fc6c328c292f
   tool_panel_section_label: Metagenomics
 - name: humann_unpack_pathways
   owner: iuc
   revisions:
-  - 4033827c76b8
-  - c3d043160f09
   - 080ea153677c
+  - 2d35528d2141
+  - 4033827c76b8
   - 5e5a999ffaa9
+  - c3d043160f09
   tool_panel_section_label: Metagenomics
 - name: extract_metaphlan_database
   owner: iuc
   revisions:
-  - 97ad0d817a45
   - 1aaa9b943a83
   - 6efa06ffbac8
+  - 8ea21f0669f1
+  - 97ad0d817a45
   tool_panel_section_label: Metagenomics
 - name: customize_metaphlan_database
   owner: iuc
   revisions:
   - 025b0113ee97
-  - f93a61ef06cf
   - 150ebe4d0fd9
+  - 254cb00a578f
+  - f93a61ef06cf
   tool_panel_section_label: Metagenomics
 - name: merge_metaphlan_tables
   owner: iuc
   revisions:
-  - 3b469e230e82
   - 0270541aaf46
   - 2e5ae05160e0
+  - 327d9f4cc95f
+  - 3b469e230e82
   - ab1a9a932182
   tool_panel_section_label: Metagenomics
 - name: metaphlan
   owner: iuc
   revisions:
-  - b89b0765695d
-  - a16313517e55
   - 1a6cdf55390f
+  - 289b3807e80c
+  - a16313517e55
+  - b89b0765695d
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
   owner: iuc
   revisions:
   - 0b3c3ad92827
+  - 367b1ed91207
   - 6ef0b5664c69
   - a3b86937ead6
+  - ab9350a8ab4d
   - dad9da48a09a
-  - 367b1ed91207
   - e3cbd2287f63
   tool_panel_section_label: Metagenomics
 - name: biom_from_uc
   owner: iuc
   revisions:
-  - bd2d2d53d5dd
-  - 7d28b9d64546
   - 2cdeed709bf4
   - 2ea73b1e301b
+  - 66d85966f234
+  - 7d28b9d64546
   - 8c026d40406b
+  - bd2d2d53d5dd
   tool_panel_section_label: Metagenomics
 - name: biom_normalize_table
   owner: iuc
   revisions:
-  - e34a4fe24d77
   - 516e071e9c66
+  - 60a9ca72b006
   - 77174295b6f4
-  - bf72690f0fb0
   - be44ed503d2b
+  - bf72690f0fb0
+  - e34a4fe24d77
   tool_panel_section_label: Metagenomics
 - name: biom_convert
   owner: iuc
   revisions:
-  - e177a8ea0bf1
-  - a4db66553a61
   - 0de92f0b96ef
-  - 584008e574b2
   - 501c21cce614
   - 54ccb7e1f49a
+  - 584008e574b2
   - 72ed72122deb
+  - a4db66553a61
+  - d4d4e9febf5c
+  - e177a8ea0bf1
   tool_panel_section_label: Metagenomics
 - name: biom_summarize_table
   owner: iuc
   revisions:
-  - c395d0c2125e
-  - b20d7592c0c8
-  - e9810000d929
   - 2cc55cbcb4a3
+  - 3dff162d44e9
   - 4720da8c2ebf
+  - b20d7592c0c8
+  - c395d0c2125e
+  - e9810000d929
   tool_panel_section_label: Metagenomics
 - name: biom_subset_table
   owner: iuc
   revisions:
-  - 9d84e99a4253
-  - b45ef5bb4241
-  - f594c9971185
   - 6eaecade500b
   - 83a5b43e3dbe
+  - 9d84e99a4253
+  - b45ef5bb4241
+  - e42574a580c0
+  - f594c9971185
   tool_panel_section_label: Metagenomics
 - name: cat_bins
   owner: iuc
   revisions:
-  - 31853794ace2
+  - 0e63d03c8790
   - 18676df0cb3a
+  - 31853794ace2
   tool_panel_section_label: Metagenomics
 - name: das_tool
   owner: iuc
   revisions:
+  - b048a987dd7d
   - e23e7bf8491b
   tool_panel_section_label: Metagenomics
 - name: kraken2
   owner: iuc
   revisions:
+  - 20e2f64aa1fe
   - e674066930b2
   tool_panel_section_label: Metagenomics
 - name: megahit
@@ -1129,8 +1214,9 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
-  - 65d52c693b8e
   - 6501b5b33988
+  - 65d52c693b8e
+  - a68b985913ab
   tool_panel_section_label: Metagenomics
 - name: krakentools_extract_kraken_reads
   owner: iuc
@@ -1166,11 +1252,13 @@ tools:
   owner: iuc
   revisions:
   - a4441f35f17b
+  - ec045ca00b50
   tool_panel_section_label: Metagenomics
 - name: metabat2
   owner: iuc
   revisions:
   - 708abf08a626
+  - eb50e7eca3dc
   tool_panel_section_label: Metagenomics
 - name: krona_text
   owner: saskia-hiltemann
@@ -1181,31 +1269,36 @@ tools:
   owner: iuc
   revisions:
   - 4bf939e17fa4
+  - 65000a433c3b
   - 905ff5f3e91d
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_shared
   owner: iuc
   revisions:
-  - 83dabeeadb55
+  - 0851ae17c58e
   - 60f0853e33f3
+  - 83dabeeadb55
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_slayer
   owner: iuc
   revisions:
   - 1cce71e7e7ef
   - 753321ddded9
+  - ab328c924a02
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_anosim
   owner: iuc
   revisions:
-  - f228c52a3978
+  - 4a283edb151c
   - 98687b00be79
+  - f228c52a3978
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_lefse
   owner: iuc
   revisions:
-  - d47a909185ef
   - 506625098e20
+  - ccd1ce71c11f
+  - d47a909185ef
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_hcluster
   owner: iuc
@@ -1215,6 +1308,7 @@ tools:
 - name: mothur_list_otulabels
   owner: iuc
   revisions:
+  - 1c8906cc1ddd
   - bb8a0eec1872
   - e643cc6c39cb
   tool_panel_section_label: Metagenomics - mothur
@@ -1222,59 +1316,69 @@ tools:
   owner: iuc
   revisions:
   - 56b4c4b3ce7c
+  - fbd1d5bf02bf
   - fd62ac4a6b84
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_dists
   owner: iuc
   revisions:
-  - c8fbbada97dc
+  - 10005fd5ad53
   - 749e94120241
+  - c8fbbada97dc
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sffinfo
   owner: iuc
   revisions:
-  - f3a65ee4bfda
+  - 09e3b0966a11
   - 5d52096c0a9c
+  - f3a65ee4bfda
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_otu
   owner: iuc
   revisions:
-  - ec7c3ecca41a
+  - 02446d12c359
   - e664787de3ab
+  - ec7c3ecca41a
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_perseus
   owner: iuc
   revisions:
-  - a23027673aba
   - 0f3baac24045
+  - 6db50600493e
+  - a23027673aba
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_count_groups
   owner: iuc
   revisions:
-  - cd082173c04b
+  - 03c86648a52e
   - 28867c3771e1
+  - cd082173c04b
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_venn
   owner: iuc
   revisions:
   - 200defe4c42b
+  - 4db54b1c1d83
   - cc4a296dd5d0
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_align_seqs
   owner: iuc
   revisions:
-  - 2692b3107533
   - 152ae632ab19
+  - 2692b3107533
+  - abf7c15ecfef
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_fastq_info
   owner: iuc
   revisions:
   - 1edab4936153
   - 7332408e1f37
+  - a630c5167f5d
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_rarefaction_shared
   owner: iuc
   revisions:
+  - 2175b62675ed
   - 50312cd2fc7a
   - ac51f9ce6160
   tool_panel_section_label: Metagenomics - mothur
@@ -1283,58 +1387,68 @@ tools:
   revisions:
   - 80b791e2a7bd
   - d8409b4a2aec
+  - ee13e5a4f9f3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_deunique_seqs
   owner: iuc
   revisions:
-  - 73aeeac872d7
   - 127484a400e7
+  - 73aeeac872d7
+  - f6c604b2793e
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_list_seqs
   owner: iuc
   revisions:
-  - 9b600578c108
   - 37a896516dc3
+  - 9b600578c108
+  - dd84878a5f99
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_seqs
   owner: iuc
   revisions:
   - 008f62670efc
+  - 5097ac2cbfc3
   - eec15ff2d3c9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_pre_cluster
   owner: iuc
   revisions:
-  - d848e23e9343
+  - 05183ee20cf8
   - 58d0fe3cc0f2
+  - d848e23e9343
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_contigs
   owner: iuc
   revisions:
-  - f65c34178487
   - 3dab7d200c10
+  - 4e9136c2c4c3
+  - f65c34178487
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_otus
   owner: iuc
   revisions:
   - 404ccaa1a0e8
   - 8a67e60260ca
+  - dbb1bc225df1
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_phylo_diversity
   owner: iuc
   revisions:
   - a5c241267a5f
+  - c76d9ea84d39
   - c7d41770f4ce
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_pcoa
   owner: iuc
   revisions:
   - 485e149a8aba
+  - 5bc3e30e1d9e
   - 8a69122b082f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_pintail
   owner: iuc
   revisions:
+  - 5f66e6f7f6c0
   - 90fc3380e690
   - 93b61db8bdb6
   tool_panel_section_label: Metagenomics - mothur
@@ -1343,106 +1457,124 @@ tools:
   revisions:
   - 4a73df58d56b
   - 7addb1047636
+  - cfe04aa12a39
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_clearcut
   owner: iuc
   revisions:
-  - 7ad44d831a1f
   - 5c368b76eff7
+  - 7ad44d831a1f
+  - ad924a6328cc
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_corr_axes
   owner: iuc
   revisions:
+  - 03b02c255008
   - 1ba1fe2a0438
   - 456cf87a12a6
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_tree
   owner: iuc
   revisions:
-  - fec1c905cb22
+  - 5d8809423177
   - '813305556713'
+  - fec1c905cb22
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_design
   owner: iuc
   revisions:
   - 22e5a53596b6
   - 4405d0fbfada
+  - 6ec3ec95ae68
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_libshuff
   owner: iuc
   revisions:
-  - 6050c5fade6a
+  - 1cd0f3241d5b
   - 45a78bb8819d
+  - 6050c5fade6a
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_lefse
   owner: iuc
   revisions:
   - 1db7c73264b3
+  - 470c067fc0a0
   - 88be2167f369
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_trim_seqs
   owner: iuc
   revisions:
+  - bf67e22a405f
   - dc318dec8b86
   - de357ac9db36
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_single
   owner: iuc
   revisions:
-  - 72be09dfd803
+  - 2344ed181ae6
   - 3600fa8985ed
+  - 72be09dfd803
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_fragments
   owner: iuc
   revisions:
+  - 08b0e9f01d65
   - 5fa9b6d481f6
   - 978cdd9b48d3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_qual
   owner: iuc
   revisions:
-  - 7c41969ad778
   - 11be0e5f3ebb
+  - 7c41969ad778
+  - 86a40294e149
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chop_seqs
   owner: iuc
   revisions:
   - 29f963e785a0
   - 35a4e758bbed
+  - e1dd67d13282
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_count_seqs
   owner: iuc
   revisions:
   - 59a962f57cb5
+  - 7a6f9c899221
   - ecbd9ed733e6
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_rabund
   owner: iuc
   revisions:
+  - 4a52424269e1
   - abe4ffadab83
   - bd695645069f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_otulist
   owner: iuc
   revisions:
+  - 85f75125d861
   - afc85bfc0542
   - f0cf508cdc98
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster
   owner: iuc
   revisions:
-  - 5ea1f1f9d801
   - 2834e2dd0d61
+  - 528f950d1044
+  - 5ea1f1f9d801
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_classic
   owner: iuc
   revisions:
-  - a649d3ca67b7
   - 983ff3800d7f
+  - 9bae6b20ed44
+  - a649d3ca67b7
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_split_groups
   owner: iuc
   revisions:
+  - 618bf5d295e7
   - 99c44fc3cd32
   - addf3c859349
   tool_panel_section_label: Metagenomics - mothur
@@ -1451,70 +1583,82 @@ tools:
   revisions:
   - 0e05f58541d0
   - f83d1ed69978
+  - ffdcb7942343
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_filter_seqs
   owner: iuc
   revisions:
-  - bf20a30c263a
+  - 3524ca06478e
   - b587a3a485b8
+  - bf20a30c263a
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_tax
   owner: iuc
   revisions:
-  - c07510858fb0
   - 807ebe300c84
+  - a7e1d78c70f5
+  - c07510858fb0
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_nmds
   owner: iuc
   revisions:
-  - 5b3e10ccf581
   - 3cc04a065490
+  - 5b3e10ccf581
+  - a81680d1db78
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_biom
   owner: iuc
   revisions:
-  - e29c05b88096
+  - 55e975c9a012
   - 5dc4d49a238a
+  - e29c05b88096
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_communitytype
   owner: iuc
   revisions:
-  - d7f03792fa5f
+  - 10c5aa12a1d5
   - 4e708ec53432
+  - d7f03792fa5f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_unifrac_weighted
   owner: iuc
   revisions:
-  - d546e649359c
   - 7cb9b120fd44
+  - 88c441e56578
+  - d546e649359c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_dist_shared
   owner: iuc
   revisions:
   - 1a899fec55e1
   - bba3c4af4982
+  - f25598da7174
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_shhh_seqs
   owner: iuc
   revisions:
   - aa189387c19c
   - c7e60f5aadcb
+  - d7e469b059da
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_merge_sfffiles
   owner: iuc
   revisions:
   - 26ddda2d2462
+  - b562d71b9508
   - e7d03df2fc00
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_relabund
   owner: iuc
   revisions:
-  - e034a3d4b6c7
+  - 1593a3542944
   - b07e7be6326a
+  - e034a3d4b6c7
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_oturep
   owner: iuc
   revisions:
+  - 305ce07a4b16
   - 92e175ba0032
   - f821624d355c
   tool_panel_section_label: Metagenomics - mothur
@@ -1522,53 +1666,62 @@ tools:
   owner: iuc
   revisions:
   - 83d3c6dba0b1
+  - aeacbc9d5333
   - b08d51984da6
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_merge_files
   owner: iuc
   revisions:
   - 21a9274337f5
+  - 7bd37d6decd9
   - a70b25374a23
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_otu_association
   owner: iuc
   revisions:
-  - a2511c40e7b8
   - 435b52e38889
+  - a02117aa58a5
+  - a2511c40e7b8
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_otus
   owner: iuc
   revisions:
-  - 8a1fbb8e703c
+  - 0e73681a7cdc
   - 38c03ac3d622
+  - 8a1fbb8e703c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_sharedseqs
   owner: iuc
   revisions:
-  - a441bf009014
   - 67faa6dacbae
+  - a441bf009014
+  - f8bf3dd4db47
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_collect_single
   owner: iuc
   revisions:
-  - f9b8cabd4365
+  - c9d3eed082fc
   - d3b196069f6f
+  - f9b8cabd4365
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sub_sample
   owner: iuc
   revisions:
-  - e866e31f6da3
   - 0f4dfa0332e8
+  - 67cb43432196
+  - e866e31f6da3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_mantel
   owner: iuc
   revisions:
+  - b0f1e033e18d
   - bcc475f1af4a
   - f6befaf69818
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_sra
   owner: iuc
   revisions:
+  - 88fa82b36a72
   - bf608ff56ecf
   - d21f004a8e1d
   tool_panel_section_label: Metagenomics - mothur
@@ -1577,22 +1730,26 @@ tools:
   revisions:
   - 2851c368b879
   - 29fa3670faa5
+  - 5a7674ac2c59
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_amova
   owner: iuc
   revisions:
+  - 58b8ae43d27f
   - 65b7b1a17c1c
   - d0074e20ae76
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_groups
   owner: iuc
   revisions:
-  - e4d70a26c19f
+  - 03af14e245fb
   - 1ce4fb8667ea
+  - e4d70a26c19f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_reverse_seqs
   owner: iuc
   revisions:
+  - 7378ce8fb5c1
   - c7cde36b331a
   - f7f5cd1ae299
   tool_panel_section_label: Metagenomics - mothur
@@ -1600,11 +1757,13 @@ tools:
   owner: iuc
   revisions:
   - 4b57c3241cbc
+  - 74dfe7be1563
   - a1a24fae6f39
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_uchime
   owner: iuc
   revisions:
+  - 0706d327ecae
   - 94ec0c5a826f
   - f1742cf23d95
   tool_panel_section_label: Metagenomics - mothur
@@ -1613,83 +1772,97 @@ tools:
   revisions:
   - 1f72d9a3d09f
   - 84722a5b79af
+  - d466580cd706
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_coremicrobiome
   owner: iuc
   revisions:
   - 42244e3619cf
   - c0b8bcf733cf
+  - da05ce41f8f0
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_group
   owner: iuc
   revisions:
-  - 8c964d119da8
   - 182b471ed56b
+  - 37af7f0540e5
+  - 8c964d119da8
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_rarefaction_single
   owner: iuc
   revisions:
   - 62bf570a8a7d
+  - af521db77c56
   - b5bcc4bf53d1
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_screen_seqs
   owner: iuc
   revisions:
+  - 63b74bfc8052
   - 8743aecd26a9
   - a136fc12b26a
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_trim_flows
   owner: iuc
   revisions:
+  - 1fead600dbd4
   - 45f3904bfdd2
   - d40f783c5d65
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_fastq
   owner: iuc
   revisions:
-  - ecbc8745f135
   - 1684157db3c1
+  - ecbc8745f135
+  - f09c0a3bf8b9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_groups
   owner: iuc
   revisions:
-  - bbef0f523231
   - 3fac82ad3f01
+  - 498dc0671d9e
+  - bbef0f523231
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_dist_seqs
   owner: iuc
   revisions:
-  - efc735bcc806
+  - 0554c9338ca0
   - 502323efbd82
+  - efc735bcc806
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_filter_shared
   owner: iuc
   revisions:
-  - 6cca4d09073c
   - 007311ce6297
+  - 2d1dbf69f589
+  - 6cca4d09073c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_phylotype
   owner: iuc
   revisions:
+  - 4d219b4dfd6a
   - 551a2d9c0aa7
   - e18d25fb125e
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_seqs
   owner: iuc
   revisions:
-  - e4a4cb8b6bbf
   - 4041dc69af62
+  - 609770e516fa
+  - e4a4cb8b6bbf
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_mimarks_attributes
   owner: iuc
   revisions:
-  - 9e6590ddc54e
   - 8354a02a83e1
+  - 9e6590ddc54e
+  - b9fe5cf8f2bc
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_degap_seqs
   owner: iuc
   revisions:
   - 2393ecc7387c
+  - 6f08af23888a
   - bd09ab148632
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_align_check
@@ -1697,40 +1870,47 @@ tools:
   revisions:
   - 0399e5aeaac6
   - 1d7284662c8b
+  - 2f668a63a256
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_pcr_seqs
   owner: iuc
   revisions:
   - 0a23bfe005be
+  - 7dba7376870c
   - d2e1ae25974c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_lineage
   owner: iuc
   revisions:
-  - 563718e09fa8
   - 0aea19572961
+  - 0bbfc05d924e
+  - 563718e09fa8
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_parsimony
   owner: iuc
   revisions:
+  - aff64115d95f
   - c7a4a69fcc4a
   - fd6cebeaa143
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sens_spec
   owner: iuc
   revisions:
-  - c3f0b847dc40
   - 1979ff89fbde
+  - 5ff10ccd7100
+  - c3f0b847dc40
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_seqs
   owner: iuc
   revisions:
-  - cc9c7b550c29
+  - 09bf9e496c64
   - 2f5d4d86eb9a
+  - cc9c7b550c29
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_unifrac_unweighted
   owner: iuc
   revisions:
+  - 2933ee6251d8
   - 6a622b34394a
   - 6c69462bfd5a
   tool_panel_section_label: Metagenomics - mothur
@@ -1738,84 +1918,98 @@ tools:
   owner: iuc
   revisions:
   - 18fc8b11102c
+  - 7f5707dd6073
   - c2dead9d38c4
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_pca
   owner: iuc
   revisions:
-  - 74d1b765843b
   - 278da14bd79a
+  - 46689a444f2b
+  - 74d1b765843b
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_metastats
   owner: iuc
   revisions:
+  - 19836a38dc20
   - '526310931966'
   - fe9f4a0d61d3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_normalize_shared
   owner: iuc
   revisions:
+  - 5e94c135ef00
   - 7f003a097b79
   - a8bc62f05cfa
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_lookup
   owner: iuc
   revisions:
+  - 23c1af22331b
   - a33258dc5bf8
   - f338c64b09c1
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_split
   owner: iuc
   revisions:
-  - a9924d4f538f
+  - 1b7fd1678230
   - a29ac7993cb0
+  - a9924d4f538f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_consensus_seqs
   owner: iuc
   revisions:
-  - bc2b62823fcc
   - 094f184f5b84
+  - 6f281dc9d01c
+  - bc2b62823fcc
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_ccode
   owner: iuc
   revisions:
   - 502024707de4
+  - 751904c1033d
   - b6e0f8a9bc6b
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_dists
   owner: iuc
   revisions:
-  - 11795a719c90
   - 0ec8be51451b
+  - 11795a719c90
+  - 56ad298415d8
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_shared
   owner: iuc
   revisions:
+  - 545234c1d925
   - 81df36f90a1b
   - 8e74259d96c3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_sabund
   owner: iuc
   revisions:
-  - a41ba5f5f6b8
   - 73eb41b03dfd
+  - a41ba5f5f6b8
+  - c550ce2ebe1f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_shhh_flows
   owner: iuc
   revisions:
   - 4e6cdbeaf3b5
   - aebe4d85e503
+  - dfaf60f40e94
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_mimarkspackage
   owner: iuc
   revisions:
-  - dfbe7c1d0c5e
+  - 2d19319f528a
   - 6dbc31423c24
+  - dfbe7c1d0c5e
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_rare
   owner: iuc
   revisions:
   - 2531a323f0c2
+  - 9ac808d4e0b5
   - c90c4b4a0fae
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_lineage
@@ -1823,11 +2017,13 @@ tools:
   revisions:
   - 2a4d6c3d9b6d
   - 35665dcf7f18
+  - 947faa8b3205
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_merge_taxsummary
   owner: iuc
   revisions:
   - 3a2ee62cb710
+  - 733bfc5872b1
   - 850d7a1bccc3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_seqs
@@ -1835,30 +2031,35 @@ tools:
   revisions:
   - 8b8c7cf6738c
   - 9cefa4fac685
+  - f5cb275acba9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_indicator
   owner: iuc
   revisions:
+  - 1c6dadf7bc72
   - 39750697d7a6
   - 5d1f9418ff72
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_bellerophon
   owner: iuc
   revisions:
-  - cf1db89b0fda
+  - 14a7c1eca23d
   - c2c9c2078a0f
+  - cf1db89b0fda
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_tree_shared
   owner: iuc
   revisions:
-  - af2b5be87d4f
   - 06c8f1be0f31
+  - 43e2715e98c9
+  - af2b5be87d4f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sort_seqs
   owner: iuc
   revisions:
   - 1f30e0b31b99
   - 334476d3e35d
+  - fc60d2e290a4
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_rf
   owner: iuc
@@ -1868,18 +2069,21 @@ tools:
 - name: mothur_merge_groups
   owner: iuc
   revisions:
+  - ddd068a49efe
   - e7aa450e9d86
   - f170676a1d12
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_otulabels
   owner: iuc
   revisions:
-  - 5133ef623148
   - 08579dd3bf72
+  - 5133ef623148
+  - b9e2724e9fc7
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_create_database
   owner: iuc
   revisions:
+  - 16f6d606521a
   - 319884cd49a3
   - 57fba40a8d96
   tool_panel_section_label: Metagenomics - mothur
@@ -1888,46 +2092,54 @@ tools:
   revisions:
   - 693fbc55f70e
   - 844b22e17a4a
+  - f9326e93f5c3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_split_abund
   owner: iuc
   revisions:
-  - fa40dca23957
+  - cd7b11709aa9
   - ede016062913
+  - fa40dca23957
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_parse_list
   owner: iuc
   revisions:
-  - b1e417780bee
+  - 408650f291f7
   - 99579d05a632
+  - b1e417780bee
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_primer_design
   owner: iuc
   revisions:
+  - 0b63f5faf6e5
   - 487977c2c586
   - 7c3df0f11815
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_homova
   owner: iuc
   revisions:
-  - d4c1caf95426
+  - 89054fe2207f
   - 948d5731dbe0
+  - d4c1caf95426
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_group
   owner: iuc
   revisions:
   - 081d0fbf9751
   - 57b51d6db607
+  - 65d9f4688890
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_deunique_tree
   owner: iuc
   revisions:
-  - ec5e03c0f18e
   - 44d01ad18366
+  - d247213cebfc
+  - ec5e03c0f18e
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_collect_shared
   owner: iuc
   revisions:
+  - 21a043c3ae00
   - 44d5c9ba72e6
   - fd3fedbebdab
   tool_panel_section_label: Metagenomics - mothur
@@ -1939,8 +2151,8 @@ tools:
 - name: make_nr
   owner: peterjc
   revisions:
-  - c84f12187af9
   - 84e483325b04
+  - c84f12187af9
   tool_panel_section_label: Fasta Manipulation
 - name: ucsc_fasplit
   owner: iuc
@@ -2007,229 +2219,238 @@ tools:
 - name: fastq_paired_end_interlacer
   owner: devteam
   revisions:
-  - 3e396e702cea
   - 2ccb8dcabddc
+  - 3e396e702cea
   tool_panel_section_label: Fastq Manipulation
 - name: filter_tabular
   owner: iuc
   revisions:
   - 34d29339abab
-  - 59278960a2e7
   - 557ec8d7087d
+  - 59278960a2e7
   - 9cc411a62277
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
   owner: iuc
   revisions:
-  - f768f6183386
   - b722161a845a
   - dfe38b7c34ed
+  - f768f6183386
   tool_panel_section_label: Text Manipulation
 - name: univariate
   owner: ethevenot
   revisions:
-  - 5687435b182c
   - 140290de7986
+  - 5687435b182c
   tool_panel_section_label: Metabolomics - W4M
 - name: unipept
   owner: galaxyp
   revisions:
+  - 21a560af5913
   - 34758ab8aaa4
+  - 4953dcd7dd39
   - 75b3b3d0adbf
   - 7863f1abcdda
-  - 4953dcd7dd39
   - 9aaa46d45472
   tool_panel_section_label: Proteomics
 - name: thermo_raw_file_converter
   owner: galaxyp
   revisions:
   - 19e45916daf9
-  - 77a18a61aeed
-  - 344e10282449
   - 26c6706bfb07
-  - edbeb2956484
-  - a3edda696e4d
-  - 92ac8e086317
+  - 344e10282449
   - 63769c4217a7
+  - 77a18a61aeed
+  - 92ac8e086317
+  - a3edda696e4d
+  - edbeb2956484
   tool_panel_section_label: Proteomics
 - name: meta_proteome_analyzer
   owner: galaxyp
   revisions:
+  - 7fdfbf042ec6
   - ad3e9fdeabb7
   - d8d23dfcf68b
-  - 7fdfbf042ec6
   tool_panel_section_label: Proteomics
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
   - 054483e27a35
-  - f7ebd1b4783b
   - af5eccf83605
   - bfdc6a7ffd3a
+  - f7ebd1b4783b
   tool_panel_section_label: Proteomics
 - name: peptideshaker
   owner: galaxyp
   revisions:
-  - 66690eb50a32
-  - 44ca2967218c
-  - da885ca16cb2
-  - 58a3e6cb2598
-  - 864bd76db767
-  - 3ec27b4cee7c
-  - d67a3c1bfd09
   - 07ff622ec007
-  - 3634c90301af
-  - 5fa8b409599e
   - 1beff3ddce58
+  - 3634c90301af
+  - 3ec27b4cee7c
+  - 44ca2967218c
+  - 58a3e6cb2598
+  - 5fa8b409599e
+  - 66690eb50a32
+  - 864bd76db767
   - 943a34df6047
+  - d67a3c1bfd09
+  - da885ca16cb2
   tool_panel_section_label: Proteomics
 - name: uniprotxml_downloader
   owner: galaxyp
   revisions:
+  - 12692567c7f9
   - 1a5690a5eedc
   - 265c35540faa
-  - e1abc9a35c64
   - a371252a2cf6
-  - 12692567c7f9
+  - e1abc9a35c64
   tool_panel_section_label: Proteomics
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
-  - d9c3016f7283
+  - 3cb37af59360
   - 4e4c6329f6cd
-  - 9d1fbff733cf
   - 5a30ae278db0
   - 63662ae295d6
-  - 3cb37af59360
   - 844fa988236b
+  - 9d1fbff733cf
+  - d9c3016f7283
   tool_panel_section_label: Proteomics
 - name: metanovo
   owner: galaxyp
   revisions:
   - 4a851c02f558
   - 7a5ff5359b13
+  - d6dcd3173bdf
   tool_panel_section_label: Proteomics
 - name: maxquant
   owner: galaxyp
   revisions:
-  - 8934bc76bb52
-  - 837224ad1694
-  - ea0a1d50c83f
-  - 666f3453a99d
   - 175e062b6a17
   - 1f39c833f65f
+  - 666f3453a99d
+  - 837224ad1694
+  - 8934bc76bb52
+  - 9c52362ae7bb
+  - ea0a1d50c83f
   tool_panel_section_label: Proteomics
 - name: dbbuilder
   owner: galaxyp
   revisions:
-  - e9df53a75f3c
-  - a85fbebe8b2f
   - 983bf725dfc2
+  - a85fbebe8b2f
+  - e9df53a75f3c
   tool_panel_section_label: Proteomics
 - name: alphafold2
   owner: galaxy-australia
   revisions:
+  - 2f7702fd0a4c
   - f9eb041c518c
   tool_panel_section_label: Proteomics
 - name: calisp
   owner: galaxyp
   revisions:
-  - 867f17ede7f3
   - 6d93529d19d4
+  - 867f17ede7f3
   tool_panel_section_label: Proteomics
 - name: bedtools
   owner: iuc
   revisions:
-  - e19bebe96cd2
-  - b28e0cfa7ba1
   - 0a5c785ac6db
-  - db1841942d2b
-  - bd7721ad15aa
-  - dde39ba9c031
-  - fe5b4cb8356c
   - 18aeac3cd1db
   - 87ee588b3d45
+  - a1a923cd89e8
   - a33db97b220c
+  - b28e0cfa7ba1
+  - bd7721ad15aa
+  - db1841942d2b
+  - dde39ba9c031
+  - e19bebe96cd2
+  - fe5b4cb8356c
   tool_panel_section_label: BED tools
 - name: deseq2
   owner: iuc
   revisions:
-  - 6a3a025714d3
-  - cd9874cb9019
   - 0696db066a5b
-  - 9a882d108833
   - 24a09ca67621
+  - 6a3a025714d3
   - 8fe98f7094de
+  - 9a882d108833
+  - cd9874cb9019
   - d9e5cadc7f0b
   tool_panel_section_label: Transcriptomics
 - name: trinity_align_and_estimate_abundance
   owner: iuc
   revisions:
-  - 893655fa55f9
-  - 56162e446004
+  - 2fb4ee002432
   - 478f36effca1
+  - 56162e446004
+  - 893655fa55f9
   - 983552d5822d
   tool_panel_section_label: Transcriptomics
 - name: trinity
   owner: iuc
   revisions:
   - 5b60313a6ce7
+  - 8f1c3df4dd49
   - c9cfec002f71
-  - db1f362cca3e
   - d84caa5a98ad
+  - db1f362cca3e
   tool_panel_section_label: Transcriptomics
 - name: egsea
   owner: iuc
   revisions:
-  - fba1660fb717
   - 31ea4992b948
+  - fba1660fb717
   tool_panel_section_label: Transcriptomics
 - name: featurecounts
   owner: iuc
   revisions:
-  - f9d49f5cb597
-  - 9301937c9037
-  - a37612abf7f9
-  - 46cccc52be5f
-  - af814359d244
-  - ea04b737afa0
-  - 6f66ae7c5f7a
   - 1759d845181e
   - 38b6d12edc68
+  - 46cccc52be5f
+  - 6f66ae7c5f7a
+  - 9301937c9037
+  - a37612abf7f9
+  - af814359d244
   - de2c5e5a206c
+  - ea04b737afa0
+  - f9d49f5cb597
   tool_panel_section_label: Transcriptomics
 - name: goseq
   owner: iuc
   revisions:
-  - ef2ad746b589
+  - 602de62d995b
+  - 67c29afac85f
   - 8b3e3657034e
   - 9d1256d9ef0b
-  - 67c29afac85f
   - ab492df30cdf
-  - 602de62d995b
+  - ef2ad746b589
   tool_panel_section_label: Transcriptomics
 - name: limma_voom
   owner: iuc
   revisions:
-  - d6f5fa4ee473
-  - 32511f586472
   - 0921444c832d
+  - 119b069fc845
+  - 32511f586472
+  - d6f5fa4ee473
   tool_panel_section_label: Transcriptomics
 - name: stringtie
   owner: iuc
   revisions:
-  - 333a6e13b622
-  - 76d290331481
-  - dd4df992d93d
-  - 6e45b443ef1f
   - 1ebd14235b92
+  - 333a6e13b622
+  - 6e45b443ef1f
+  - 76d290331481
+  - cbf488da3b2c
+  - dd4df992d93d
   - eba36e001f45
   tool_panel_section_label: Transcriptomics
 - name: gffcompare
   owner: iuc
   revisions:
-  - 3c97c841a443
   - 0f710191a66d
+  - 3c97c841a443
   - f99d7825a501
   - f99dd58de04f
   tool_panel_section_label: Transcriptomics
@@ -2237,6 +2458,7 @@ tools:
   owner: iuc
   revisions:
   - 28e29a3d0eda
+  - e48b10ce08b8
   tool_panel_section_label: Transcriptomics
 - name: emboss_5
   owner: devteam
@@ -2247,10 +2469,11 @@ tools:
 - name: hisat2
   owner: iuc
   revisions:
-  - 61ee47027bd3
   - 0c16cad5e03b
   - 3fb01a8c902d
+  - 61ee47027bd3
   - 6ab42baa56e9
+  - f4af63aaf57a
   tool_panel_section_label: Assembly
 - name: rmarkdown_wgcna
   owner: mingchen0919
@@ -2261,123 +2484,124 @@ tools:
 - name: openbabel_change_title
   owner: bgruening
   revisions:
-  - a84187d7bda6
-  - 13bd3774c5b1
-  - f924a1728291
   - 01ab890bf0ad
+  - 13bd3774c5b1
+  - a84187d7bda6
+  - f924a1728291
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_multi_obgrep
   owner: bgruening
   revisions:
+  - 09640954740c
   - e1e344bd8a84
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_spectrophore_search
   owner: bgruening
   revisions:
-  - 99ecf8dd7ba1
-  - 63a121e6f224
-  - d92ada24e4ad
   - 330514267c57
+  - 63a121e6f224
+  - 99ecf8dd7ba1
   - aedce3959676
+  - d92ada24e4ad
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_genprop
   owner: bgruening
   revisions:
-  - b249bf9be0d1
-  - e4ece69f1b32
-  - c73b55d66607
   - 53cf744d1c6f
   - a26f96c1f061
+  - b249bf9be0d1
+  - c73b55d66607
+  - e4ece69f1b32
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_svg_depiction
   owner: bgruening
   revisions:
+  - 136ceea822f5
+  - 3ec5e9a716ac
   - 4ad272a2e3ea
   - 7672039a0bb0
   - ba2d56f16904
-  - 3ec5e9a716ac
-  - 136ceea822f5
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remsmall
   owner: bgruening
   revisions:
-  - e70dc90a1e58
-  - ac9567d307a2
-  - e38d865baa37
-  - d7f0ca1f2669
   - 5c3c1c132f9f
+  - ac9567d307a2
+  - d7f0ca1f2669
+  - e38d865baa37
+  - e70dc90a1e58
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_obgrep
   owner: bgruening
   revisions:
-  - f27e2eaffb5f
-  - 274193d6c443
-  - 1c418abdafd9
-  - 36ed1fab1de6
   - 14712e15f196
+  - 1c418abdafd9
+  - 274193d6c443
+  - 36ed1fab1de6
+  - f27e2eaffb5f
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_addh
   owner: bgruening
   revisions:
-  - 716dcb5bbb71
-  - b18b147b90fd
-  - 883fe4f7f1b2
   - 0691e5e97cd5
   - 6e4b7e0c61a6
+  - 716dcb5bbb71
+  - 883fe4f7f1b2
+  - b18b147b90fd
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_subsearch
   owner: bgruening
   revisions:
-  - abac1b21fbb8
   - 202e3a64859b
-  - c19608db6b15
   - 80d78559a5a3
+  - abac1b21fbb8
+  - c19608db6b15
   - c4abd2c7d5f6
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remions
   owner: bgruening
   revisions:
-  - cc8ca507174f
-  - 76bbd52058ab
   - 4e3b2049a4d3
+  - 76bbd52058ab
   - 87eb779942bd
   - 9249b0e0e6bd
+  - cc8ca507174f
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_filter
   owner: bgruening
   revisions:
-  - 72d13f75b67c
-  - df4dc55197dd
-  - 5004fcfb80bf
-  - a9ea2eac7300
   - 340f8d63c1f4
+  - 5004fcfb80bf
+  - 72d13f75b67c
+  - a9ea2eac7300
+  - df4dc55197dd
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remove_protonation_state
   owner: bgruening
   revisions:
   - 0bf5331f62ef
+  - 5dc2a6cd6da1
   - 62e6d52c83bf
   - adc3b24c083f
-  - 5dc2a6cd6da1
   - e376ba0fcde0
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
-  - d00ae56d3ba5
-  - e2c36f62e22f
   - 56080bd1eb86
   - a072cb207571
   - b59c91adeac1
+  - d00ae56d3ba5
+  - e2c36f62e22f
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remduplicates
   owner: bgruening
   revisions:
+  - 39895aff0dd7
+  - 6eedb6c3cfdf
+  - 854a7a169623
   - b2569e22b40c
   - e289f65f6b91
-  - 854a7a169623
-  - 6eedb6c3cfdf
-  - 39895aff0dd7
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: fastqtofasta
   owner: devteam
@@ -2394,34 +2618,37 @@ tools:
 - name: bowtie2
   owner: devteam
   revisions:
-  - 749c918495f7
-  - 17062a0decb7
-  - 03e9b2fbc005
   - 017aba02828d
-  - cd659e8cc5fa
+  - 03e9b2fbc005
   - 121110a12cc9
+  - 17062a0decb7
+  - 749c918495f7
+  - cd659e8cc5fa
+  - d5ceb9f3c25b
   tool_panel_section_label: Next Gen Mappers
 - name: rgrnastar
   owner: iuc
   revisions:
   - 3ea5a2a63fa2
-  - 980d2a2e1180
-  - c772497b2c32
   - 4074fc1940e2
   - 4df95e2d7f61
+  - 980d2a2e1180
+  - b0f2be869d6d
+  - c772497b2c32
   tool_panel_section_label: Next Gen Mappers
 - name: dexseq
   owner: iuc
   revisions:
-  - f1c406f9554c
+  - 9a7c5b6d8f1e
   - 9fd8b69e6e68
+  - f1c406f9554c
   tool_panel_section_label: Transcriptomics
 - name: collapse_collections
   owner: nml
   revisions:
   - 25136a2b0cfe
-  - 90981f86000f
   - 830961c48e42
+  - 90981f86000f
   tool_panel_section_label: Collection Operations
 - name: split_tabular_columns
   owner: jjohnson
@@ -2431,8 +2658,8 @@ tools:
 - name: generic_filter
   owner: melpetera
   revisions:
-  - cfd7c4aa5c26
   - 12cf1eed21f4
+  - cfd7c4aa5c26
   tool_panel_section_label: Metabolomics - W4M
 - name: fasta_to_tabular
   owner: devteam
@@ -2449,12 +2676,13 @@ tools:
 - name: tabular_to_fasta
   owner: devteam
   revisions:
-  - 0b4e36026794
   - 0a7799698fe5
+  - 0b4e36026794
   tool_panel_section_label: Fasta Manipulation
 - name: mothur_biom_info
   owner: iuc
   revisions:
+  - 31fa2d557ff2
   - 76d968f820ac
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_vsearch
@@ -2462,69 +2690,80 @@ tools:
   revisions:
   - 1801019b4690
   - dd4546e98188
+  - de3cfb122105
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_taxonomy_to_krona
   owner: iuc
   revisions:
+  - a97107cc4c93
   - ec53d27ee602
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_rename_seqs
   owner: iuc
   revisions:
+  - 583af69719db
   - ba2b321b6b64
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_merge_count
   owner: iuc
   revisions:
+  - 6e3d1e4c9786
   - d5610390efaa
   tool_panel_section_label: Metagenomics - mothur
 - name: ncbi_blast_plus
   owner: devteam
   revisions:
-  - 5edc472ec434
   - 0e3cf9594bb7
   - 2889433c7ae1
-  - e25d3acf6e68
+  - 5edc472ec434
   - 6f386c5dc4fb
   - 7538e2bfcd41
+  - cbf3f518b668
+  - e25d3acf6e68
   tool_panel_section_label: Sequence Analysis (BLAST)
 - name: ete
   owner: earlhaminst
   revisions:
+  - 16e925bf567e
   - 541a2ffc01ff
   - 6a5282f71f82
-  - 16e925bf567e
-  - b29ee6a16524
   - 87b6de3ef63e
+  - b29ee6a16524
+  - d40b9a7debe5
   - ed74587a13c8
   tool_panel_section_label: Phylogenetics
 - name: nanoplot
   owner: iuc
   revisions:
-  - edbb6c5028f5
   - 0f1c34698076
+  - a02b8b3f5a0c
+  - edbb6c5028f5
   tool_panel_section_label: Visualization
 - name: ggplot2_heatmap2
   owner: iuc
   revisions:
-  - ca7cb0eaad62
+  - 374e9062d874
   - '566197475670'
+  - ca7cb0eaad62
   tool_panel_section_label: Visualization
 - name: pygenometracks
   owner: iuc
   revisions:
+  - 36b848d5f3ec
   - 59fd173ac850
   tool_panel_section_label: Visualization
 - name: longorf
   owner: mbernt
   revisions:
-  - 4952f1ece60b
   - 1c4b24e9bb16
+  - 4952f1ece60b
+  - 7701185ca677
   tool_panel_section_label: Sequence Analysis
 - name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
   revisions:
   - 650d553c1fda
+  - f546e7278f04
   tool_panel_section_label: Fasta Manipulation
 - name: concatenate_multiple_datasets
   owner: mvdbeek
@@ -2541,6 +2780,7 @@ tools:
   owner: iuc
   revisions:
   - 071084070619
+  - 3ddd99c7efee
   tool_panel_section_label: Text Manipulation
 - name: column_join
   owner: jjohnson
@@ -2550,124 +2790,124 @@ tools:
 - name: openms_ticcalculator
   owner: galaxyp
   revisions:
-  - 71220e640d0c
   - 1aca7da945ba
   - 4c263ca917ef
+  - 71220e640d0c
   - d623ad21ca59
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
   - 4d2b77fd7a28
-  - fc36cfd19834
   - e8ddd32f450b
+  - fc36cfd19834
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_cvinspector
   owner: galaxyp
   revisions:
-  - ae70a8086504
-  - f95704542c63
   - 18f08cdc0eb7
   - 7363ca9e41bd
+  - ae70a8086504
+  - f95704542c63
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_percolatoradapter
   owner: galaxyp
   revisions:
-  - dbfb6bb95754
-  - 0fc9ae55bcfc
   - 016964c597f5
+  - 0fc9ae55bcfc
+  - dbfb6bb95754
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_proteinresolver
   owner: galaxyp
   revisions:
-  - 851f7c252d66
   - 4242496df19e
   - 6c4318671e0d
+  - 851f7c252d66
   - f7ef238cc21e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindercentroided
   owner: galaxyp
   revisions:
-  - b5ede3ff996c
   - 1a709ba66f2f
   - a3fc834f23ba
+  - b5ede3ff996c
   - d7f016292d95
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_gnpsexport
   owner: galaxyp
   revisions:
-  - d3cbea30faa4
   - 2da14ae3844a
+  - d3cbea30faa4
   - d5cb5af21850
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_assaygeneratormetabo
   owner: galaxyp
   revisions:
-  - 83f5e5c1209c
-  - 2c3d2c216ff9
   - 200e9206e53a
+  - 2c3d2c216ff9
+  - 83f5e5c1209c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterscaler
   owner: galaxyp
   revisions:
-  - 5ac863a6ff54
   - 5aa1f6da4650
-  - 8de40ceef18b
+  - 5ac863a6ff54
   - 8a699cac8a54
+  - 8de40ceef18b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_semanticvalidator
   owner: galaxyp
   revisions:
-  - 4af4658187e3
   - 241674ffc642
+  - 4af4658187e3
   - f8c659715995
   - ff9d0d1c2c1c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermrm
   owner: galaxyp
   revisions:
-  - 8a0eec1c8c06
-  - 7407c66b08b4
   - 646ebe78d904
+  - 7407c66b08b4
+  - 8a0eec1c8c06
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_precursormasscorrector
   owner: galaxyp
   revisions:
-  - 7605adf55b7c
   - 35123b3fe2f2
+  - 7605adf55b7c
   - 8736a28dd1d3
   - e93ae0125dde
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_metaprosip
   owner: galaxyp
   revisions:
-  - 819ed5aae76f
-  - 96cc79adfadb
-  - 8b42d5ca8f49
-  - d03467ead0fe
   - 41a21bbf40d8
+  - 819ed5aae76f
+  - 8b42d5ca8f49
+  - 96cc79adfadb
+  - d03467ead0fe
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurelinkerunlabeledkd
   owner: galaxyp
   revisions:
-  - 4c485bb20e27
-  - 718c0e2904cb
-  - 5690b9865216
   - 0fb771921feb
+  - 4c485bb20e27
+  - 5690b9865216
+  - 718c0e2904cb
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterthresholdmower
   owner: galaxyp
   revisions:
-  - 62bd736296ec
   - 1db101600feb
-  - da2ece63688b
   - 347d9d613d1b
+  - 62bd736296ec
+  - da2ece63688b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idmassaccuracy
   owner: galaxyp
   revisions:
-  - 585f8235da7e
   - 3750c20d0d50
+  - 585f8235da7e
   - b889cb83a9e1
   - f918cb7aefd5
   tool_panel_section_label: Proteomics - OpenMS
@@ -2675,17 +2915,17 @@ tools:
   owner: galaxyp
   revisions:
   - 111c3a00136d
-  - 986e03d3201e
   - 73d288112aef
+  - 986e03d3201e
   - c127b9a4d64b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafiltersqrtmower
   owner: galaxyp
   revisions:
   - 50aca42393c4
-  - fa02542badb6
-  - 9978bb149a5b
   - 5a9aa84a76ac
+  - 9978bb149a5b
+  - fa02542badb6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_peakpickeriterative
   owner: galaxyp
@@ -2697,241 +2937,241 @@ tools:
 - name: openms_xfdr
   owner: galaxyp
   revisions:
-  - e38e1a7af019
-  - 87dda030bc92
   - 4fdeb75928ea
+  - 87dda030bc92
+  - e38e1a7af019
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermultiplex
   owner: galaxyp
   revisions:
+  - 18f63fd679e3
   - 5e948629bc73
   - 954c0413acfb
   - 9876bda3ec53
-  - 18f63fd679e3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_myrimatchadapter
   owner: galaxyp
   revisions:
   - 2253c491c157
-  - cbff5970a791
   - b89d4041c578
+  - cbff5970a791
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_masstraceextractor
   owner: galaxyp
   revisions:
-  - eafeba6b54fe
   - 29d893e855c6
   - 4e32bb5991e3
+  - eafeba6b54fe
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mrmpairfinder
   owner: galaxyp
   revisions:
+  - 1cce7a3b5d6d
+  - 73be9c498aa8
   - bd57c94d50fb
   - f8ed4723376c
-  - 73be9c498aa8
-  - 1cce7a3b5d6d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcextractor
   owner: galaxyp
   revisions:
-  - 7c948bbf859b
-  - c8d22d876c75
-  - a1d6562ac8cf
   - 3a54cf566e55
+  - 7c948bbf859b
+  - a1d6562ac8cf
+  - c8d22d876c75
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_proteininference
   owner: galaxyp
   revisions:
   - 5db940d296d7
-  - bfba20e0425e
   - 98adda3af74a
+  - bfba20e0425e
   - e80e453c3b04
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterwindowmower
   owner: galaxyp
   revisions:
   - 2876320b80a4
+  - 91f4f9f6a140
   - b28211400cc4
   - eaf3482c9c63
-  - 91f4f9f6a140
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_psmfeatureextractor
   owner: galaxyp
   revisions:
-  - 63fea23042c4
-  - 3787addbb8e1
-  - db2f53435366
   - 064ff75dd79c
+  - 3787addbb8e1
+  - 63fea23042c4
+  - db2f53435366
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idfileconverter
   owner: galaxyp
   revisions:
+  - 6772d71b9150
+  - 7d0eb300f360
   - 92d0f39d9b8f
   - 941b8bb0754e
-  - 7d0eb300f360
-  - 6772d71b9150
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathconfidencescoring
   owner: galaxyp
   revisions:
+  - 1bf940c18d93
   - c1809c05ae8c
   - e8f64a7dc470
-  - 1bf940c18d93
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_highresprecursormasscorrector
   owner: galaxyp
   revisions:
   - 0efbc235f314
   - 829a9a4318c8
-  - d3546bb9fd8e
   - 95b53cafbd29
+  - d3546bb9fd8e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcmerger
   owner: galaxyp
   revisions:
+  - f4512d24a40b
   - f9d1fac71776
   - fbf1dfad22ce
-  - f4512d24a40b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_demeanderize
   owner: galaxyp
   revisions:
   - 2425a98560f5
   - 57cb1a280091
-  - d45d3394c1c9
   - d2852a9e5550
+  - d45d3394c1c9
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathfilesplitter
   owner: galaxyp
   revisions:
-  - 89254095cbf6
   - 2d856cba192b
   - 4bb198c0bd3e
+  - 89254095cbf6
   - feb421396b40
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_databasesuitability
   owner: galaxyp
   revisions:
-  - 594a165c069c
   - 4890f50ae1a2
+  - 594a165c069c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_metabolitespectralmatcher
   owner: galaxyp
   revisions:
+  - 399fae38a523
   - 6950572aae5a
   - 6f98f87751ff
-  - 399fae38a523
   - 75ccdbc2475d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
-  - bbfd2b112a30
   - 6ccbf9a2072c
-  - d07cd351f8ae
+  - bbfd2b112a30
   - c9eff69a7c62
+  - d07cd351f8ae
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idsplitter
   owner: galaxyp
   revisions:
-  - 64e35457d86e
-  - 60b79c332c1c
-  - cc0c1172058d
   - 50b4109ecac7
+  - 60b79c332c1c
+  - 64e35457d86e
+  - cc0c1172058d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectramerger
   owner: galaxyp
   revisions:
-  - f8717535fbe3
-  - 7b8a7d2dab8f
   - 4333c513b7a1
+  - 7b8a7d2dab8f
   - 85738bba683a
+  - f8717535fbe3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrastsearchadapter
   owner: galaxyp
   revisions:
   - 4d189842ebfc
-  - 7e2e9379aec7
-  - 76adea1e0fde
   - 6af2aab4321f
+  - 76adea1e0fde
+  - 7e2e9379aec7
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_luciphoradapter
   owner: galaxyp
   revisions:
-  - bd5d779a7a38
-  - bf2bf60c8af2
   - 391133d30284
+  - bd5d779a7a38
   - be19daaf2c43
+  - bf2bf60c8af2
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_consensusid
   owner: galaxyp
   revisions:
-  - abffdfee3021
-  - 205508001e9a
-  - f4be248c3d47
   - 01dbaf6a57e0
+  - 205508001e9a
+  - abffdfee3021
+  - f4be248c3d47
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_externalcalibration
   owner: galaxyp
   revisions:
   - 1168fee85066
-  - e395b283d960
-  - 83901afd58c8
   - 2a7feb3bf985
+  - 83901afd58c8
+  - e395b283d960
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_tofcalibration
   owner: galaxyp
   revisions:
-  - cfd9c633de6b
-  - 9f0e189d093c
   - 58bdbab5cc5e
+  - 9f0e189d093c
+  - cfd9c633de6b
   - f991f3776b65
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fuzzydiff
   owner: galaxyp
   revisions:
+  - 55f3c74f6ce6
   - c940abd8d622
   - d98117e7b3b2
-  - 55f3c74f6ce6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathmzmlfilecacher
   owner: galaxyp
   revisions:
   - 28a6bc00f369
   - 691ae855ba41
-  - f9ed7e074900
   - f82b320ceb90
+  - f9ed7e074900
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_seedlistgenerator
   owner: galaxyp
   revisions:
-  - 47ce7a087ec1
-  - f3c72f54b9eb
-  - 5227ade94537
   - 3b0ed400b387
+  - 47ce7a087ec1
+  - 5227ade94537
+  - f3c72f54b9eb
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_transformationevaluation
   owner: galaxyp
   revisions:
-  - 76ae6a5181b5
-  - 995b0943817a
   - 1deda0618234
   - 51f839154598
+  - 76ae6a5181b5
+  - 995b0943817a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefinderisotopewavelet
   owner: galaxyp
   revisions:
+  - 76ff9bc059b3
+  - 832c471f0d31
   - b3881e7a2990
   - ef542d31cf5c
-  - 832c471f0d31
-  - 76ff9bc059b3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcembedder
   owner: galaxyp
   revisions:
+  - 729a9f0db48c
   - a717bea32e41
   - df711389fe7f
-  - 729a9f0db48c
   - f9e709333234
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_accuratemasssearch
@@ -2945,10 +3185,10 @@ tools:
 - name: openms_ptmodel
   owner: galaxyp
   revisions:
-  - 6c281fbfefff
-  - 1063396cbea9
   - 03178f52c6cc
+  - 1063396cbea9
   - 3e9d04994968
+  - 6c281fbfefff
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_msfraggeradapter
   owner: galaxyp
@@ -2960,149 +3200,149 @@ tools:
 - name: openms_idmapper
   owner: galaxyp
   revisions:
-  - 39caaa778d2e
-  - adca857b4884
   - 0bdaa74d9a3a
+  - 39caaa778d2e
   - a3960e7c2d1d
+  - adca857b4884
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathanalyzer
   owner: galaxyp
   revisions:
-  - 0ced5bc9f4dd
   - 08488066d588
+  - 0ced5bc9f4dd
   - 4da16805dea6
   - 605bfaea237a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_noisefiltersgolay
   owner: galaxyp
   revisions:
-  - cf86c9091cb3
   - 677d716a1bff
-  - 6b555020d5f3
   - 6b3db3bf20ef
+  - 6b555020d5f3
+  - cf86c9091cb3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_erpairfinder
   owner: galaxyp
   revisions:
-  - c7a072fe0088
   - 5056b45d484b
+  - c7a072fe0088
   - d6ef464ff66b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mrmmapper
   owner: galaxyp
   revisions:
+  - 9a6f6a0ed604
   - a6774479101a
   - c0388664d0fe
-  - 9a6f6a0ed604
   - ecd19f3312fe
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurelinkerunlabeledqt
   owner: galaxyp
   revisions:
+  - aa43ad3b2da6
   - aa8658367608
   - f1604a5673a3
   - f3652886728b
-  - aa43ad3b2da6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_decoydatabase
   owner: galaxyp
   revisions:
-  - 29f7843b3371
-  - 25529df60a81
-  - 370141bc0da3
   - 24fd374cbffc
+  - 25529df60a81
+  - 29f7843b3371
+  - 370141bc0da3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterparentpeakmower
   owner: galaxyp
   revisions:
-  - a3404cddc8ee
-  - 5694ec584f4c
   - 411bad9b573a
+  - 5694ec584f4c
+  - a3404cddc8ee
   - d2de797154f7
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurelinkerunlabeled
   owner: galaxyp
   revisions:
-  - b46263c3ee99
   - 93b88f7cb8cb
-  - bf720ddf8333
   - b0db3468e380
+  - b46263c3ee99
+  - bf720ddf8333
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_msgfplusadapter
   owner: galaxyp
   revisions:
+  - 2e87a752617e
   - bf88d58b098c
   - f5ec766d80cf
-  - 2e87a752617e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_consensusmapnormalizer
   owner: galaxyp
   revisions:
   - 3c7ace918122
   - 6ccbb3ca7f43
-  - d9802c463a2f
   - 8a205687e384
+  - d9802c463a2f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_speclibcreator
   owner: galaxyp
   revisions:
-  - 6182eba29c38
   - 15f9084434c0
+  - 6182eba29c38
   - 7895c4fbe46d
   - da1fa8ce2d96
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idextractor
   owner: galaxyp
   revisions:
-  - cf896227a570
-  - ef4ecc9d45fb
   - 589bf635f424
   - 8118e5780beb
+  - cf896227a570
+  - ef4ecc9d45fb
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathassaygenerator
   owner: galaxyp
   revisions:
-  - df72ca515420
   - 026becd84c5b
-  - de7a553552a6
   - 2a9ff56cb279
+  - de7a553552a6
+  - df72ca515420
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mssimulator
   owner: galaxyp
   revisions:
-  - 9e6a371d539b
-  - e8f47f874cae
   - 6edc2f116865
   - 93c10266c71a
+  - 9e6a371d539b
+  - e8f47f874cae
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_phosphoscoring
   owner: galaxyp
   revisions:
   - 236b61e62648
-  - 996ca7c1d45e
   - 2d50765b7567
   - 535b554505c6
+  - 996ca7c1d45e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_textexporter
   owner: galaxyp
   revisions:
-  - 9020199dba0a
   - 1b03536aa3c9
+  - 9020199dba0a
   - d063e2fe4ba4
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_masscalculator
   owner: galaxyp
   revisions:
-  - 268254ac7f5f
   - 17ce97f931d3
+  - 268254ac7f5f
   - bcd50cd4fe42
   - edb4ca47bad8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_cruxadapter
   owner: galaxyp
   revisions:
-  - a915cadc2f07
   - 60b24c30af7d
+  - a915cadc2f07
   - ff40d13a0eb3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_compnovocid
@@ -3116,9 +3356,9 @@ tools:
 - name: openms_idconflictresolver
   owner: galaxyp
   revisions:
-  - c28f13cab67a
-  - 709b729227e9
   - 42dffcf33fe4
+  - 709b729227e9
+  - c28f13cab67a
   - ca1740533b59
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fileconverter
@@ -3126,384 +3366,384 @@ tools:
   revisions:
   - 2a93a25f0599
   - 9939af9b0ea3
-  - efd9d9e7fd2c
   - 9b7977080f6d
+  - efd9d9e7fd2c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_digestor
   owner: galaxyp
   revisions:
-  - 13399dc8f687
-  - ede260ee1404
   - 0337d5af48f9
+  - 13399dc8f687
   - 28bc63599d10
+  - ede260ee1404
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurelinkerlabeled
   owner: galaxyp
   revisions:
-  - c781ee2e5e98
-  - d9ebdc2e55fe
   - be80f15b4192
+  - c781ee2e5e98
   - d50b7bb0f027
+  - d9ebdc2e55fe
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qccalculator
   owner: galaxyp
   revisions:
-  - fc351fd4a009
   - 44856bd6bf27
   - 5c103025f6e4
   - d0607dfea8fa
+  - fc351fd4a009
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermetaboident
   owner: galaxyp
   revisions:
-  - dfc01523da09
-  - ae20e8a6d309
   - 59c8b1a9cf86
+  - ae20e8a6d309
+  - dfc01523da09
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_omssaadapter
   owner: galaxyp
   revisions:
-  - 62795cdea5ea
   - 1672e6be33d3
+  - 62795cdea5ea
   - b2b286ee9131
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_baselinefilter
   owner: galaxyp
   revisions:
-  - ddbae9eb797e
-  - d9a4d7684e66
   - d46f60c75db4
+  - d9a4d7684e66
+  - ddbae9eb797e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_filemerger
   owner: galaxyp
   revisions:
-  - b2fc8da99bcc
   - 04e7a86378d5
   - 92352a475eed
+  - b2fc8da99bcc
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilternormalizer
   owner: galaxyp
   revisions:
-  - ab1a5e597021
-  - 5a2591e63b0e
   - 4dbf90919a9f
+  - 5a2591e63b0e
+  - ab1a5e597021
   - e4f9ce9d90ad
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_peptideindexer
   owner: galaxyp
   revisions:
   - cb18120926b0
-  - d6aca689dd48
   - cb86883cc573
+  - d6aca689dd48
   - dd173849c3d8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_cometadapter
   owner: galaxyp
   revisions:
-  - e75929491905
   - 475c4702fe58
-  - 67b02e52296a
   - 59da0b9a95c8
+  - 67b02e52296a
+  - e75929491905
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_metaboliteadductdecharger
   owner: galaxyp
   revisions:
-  - aa59a8d5dbb5
-  - 7e7e6a5b9c01
-  - 51203b9c8ef5
   - 3867204d3ce4
+  - 51203b9c8ef5
+  - 7e7e6a5b9c01
+  - aa59a8d5dbb5
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mrmtransitiongrouppicker
   owner: galaxyp
   revisions:
-  - 78796b50831b
-  - e0e2265fd2d6
-  - a93565208dba
   - 526a2e0e49e6
+  - 78796b50831b
+  - a93565208dba
+  - e0e2265fd2d6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_xmlvalidator
   owner: galaxyp
   revisions:
   - 78c080d36945
-  - f036e8cf1a55
   - 8d2e828561d6
+  - f036e8cf1a55
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_clustermasstraces
   owner: galaxyp
   revisions:
   - 10c41ad01df5
-  - c29d85d3e732
   - 377c3c7c058c
+  - c29d85d3e732
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_speclibsearcher
   owner: galaxyp
   revisions:
-  - d5bc0ce9f15e
-  - '531935403142'
   - 3aa3b656e624
+  - '531935403142'
   - b7fa0190a8c6
+  - d5bc0ce9f15e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mascotadapter
   owner: galaxyp
   revisions:
-  - 3dfa8cf579c5
   - 27e308170367
-  - 83b02507dcd2
+  - 3dfa8cf579c5
   - 6ff54b799207
+  - 83b02507dcd2
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_decharger
   owner: galaxyp
   revisions:
   - 566029692c59
   - 78d26ee0fdf7
-  - b7f550d1fa7e
   - 9fb4bc0c5288
+  - b7f550d1fa7e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_isobaricanalyzer
   owner: galaxyp
   revisions:
-  - e306864ec5b1
+  - 130ffca1ec5b
   - 4555b2965a82
   - 6eb4a1a41639
-  - 130ffca1ec5b
+  - e306864ec5b1
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterbernnorm
   owner: galaxyp
   revisions:
-  - 287ae08c5065
   - 1a03426f3c8d
+  - 287ae08c5065
   - 7250e2511a8e
   - 91911a3227ca
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openpepxllf
   owner: galaxyp
   revisions:
-  - ce58e77b5e05
-  - 8bfa9d787dc7
   - 811efed0a9c3
+  - 8bfa9d787dc7
   - a8c028751a74
+  - ce58e77b5e05
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_nucleicacidsearchengine
   owner: galaxyp
   revisions:
+  - 0b91652c7743
   - 55290cddb679
   - 92864c71ac6a
-  - 0b91652c7743
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_msstatsconverter
   owner: galaxyp
   revisions:
-  - ef71714a330e
-  - e3fb590554fd
   - 80eb149b1579
+  - e3fb590554fd
+  - ef71714a330e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathchromatogramextractor
   owner: galaxyp
   revisions:
-  - 5e5957107061
-  - f78d734b7c01
-  - e322e005450c
   - 50cbdbc12198
+  - 5e5957107061
+  - e322e005450c
+  - f78d734b7c01
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rtmodel
   owner: galaxyp
   revisions:
-  - de3eec8c9a17
   - 0fc4aa40badb
-  - 3f48011c2dab
   - 2d9d6a94e286
+  - 3f48011c2dab
+  - de3eec8c9a17
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_epifany
   owner: galaxyp
   revisions:
-  - f3096a586de8
-  - c10dfb44cdf2
   - 015b55cd3570
+  - c10dfb44cdf2
+  - f3096a586de8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilternlargest
   owner: galaxyp
   revisions:
-  - e3263b6b7c7c
+  - 2f1ead9c86e0
   - 948d3b4988e4
   - a49171b574ea
-  - 2f1ead9c86e0
+  - e3263b6b7c7c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_maraclusteradapter
   owner: galaxyp
   revisions:
-  - f7195ee7e18d
-  - 9edc02572ab9
   - 56d5a3b741f6
+  - 9edc02572ab9
+  - f7195ee7e18d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_internalcalibration
   owner: galaxyp
   revisions:
-  - f75fb96bb742
-  - cca2b6c3ae61
   - 80621478131c
+  - cca2b6c3ae61
   - f49a58e03ada
+  - f75fb96bb742
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_maprttransformer
   owner: galaxyp
   revisions:
   - 04883c24494e
-  - aa2bf9c53765
   - 93ec2c6bd126
+  - aa2bf9c53765
   - aec26bf377fb
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mzmlsplitter
   owner: galaxyp
   revisions:
+  - 095b7d42bfc2
   - 24a506151bdf
   - ed505e649244
-  - 095b7d42bfc2
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_multiplexresolver
   owner: galaxyp
   revisions:
-  - d0304fb829c0
   - 021fdb80f204
-  - fb647b7cf2c1
   - 7b9dd0796558
+  - d0304fb829c0
+  - fb647b7cf2c1
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_staticmodification
   owner: galaxyp
   revisions:
-  - 9989f6be8bea
   - 8030f8ff8afa
+  - 9989f6be8bea
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fidoadapter
   owner: galaxyp
   revisions:
-  - 46ac10575c5f
-  - 39a1dd32a40d
-  - 658494a2cb00
   - 1595601708ec
+  - 39a1dd32a40d
+  - 46ac10575c5f
+  - 658494a2cb00
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idripper
   owner: galaxyp
   revisions:
-  - 3721c6380979
-  - b577fd381b36
-  - 7960e660446e
   - 30dd22f321cc
+  - 3721c6380979
+  - 7960e660446e
+  - b577fd381b36
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_xtandemadapter
   owner: galaxyp
   revisions:
-  - 269f95c18fa1
   - 213368382d6c
-  - 7f6a1f27553e
+  - 269f95c18fa1
   - 5c2a97a234d6
+  - 7f6a1f27553e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcexporter
   owner: galaxyp
   revisions:
-  - 838b8e375587
   - 47e8f2bfa37f
+  - 838b8e375587
   - a56aaea020b6
   - bd8735ccc6f6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mascotadapteronline
   owner: galaxyp
   revisions:
-  - d9157dd6a489
   - 3f3d33920f90
-  - d4dbddff2dd6
   - aad6eee5ba4e
+  - d4dbddff2dd6
+  - d9157dd6a489
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapstatistics
   owner: galaxyp
   revisions:
-  - 9cdd5faa34d0
-  - 6530e5b0b966
-  - ce167f132711
   - 045995dc36bc
+  - 6530e5b0b966
+  - 9cdd5faa34d0
+  - ce167f132711
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_peakpickerwavelet
   owner: galaxyp
   revisions:
-  - 9e47c4855b18
+  - 2077efa205de
   - 3e817bdb6d2e
   - 9aec88d81f18
-  - 2077efa205de
+  - 9e47c4855b18
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fileinfo
   owner: galaxyp
   revisions:
-  - 4af67edd5aef
-  - 52ba9695e752
   - 2dc090ddb8af
   - 32264aaa27b8
+  - 4af67edd5aef
+  - 52ba9695e752
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignerposeclustering
   owner: galaxyp
   revisions:
   - 06f0d6f36e23
   - 246847b3a188
-  - d02fe0dfd2dc
   - 7f1786e1c462
+  - d02fe0dfd2dc
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_siriusadapter
   owner: galaxyp
   revisions:
   - 0c27444604dd
   - 1a6f39227aca
-  - d784e23cc91c
   - 5f87757577cc
+  - d784e23cc91c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_databasefilter
   owner: galaxyp
   revisions:
   - 0878a55de9e7
-  - fd64bf34cb08
-  - b30134671ac5
   - 56c9ad9cdb65
+  - b30134671ac5
+  - fd64bf34cb08
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_simplesearchengine
   owner: galaxyp
   revisions:
-  - da78f97a6dda
-  - a3b09a079597
   - 047d6bdf5c9f
   - 4ef2f946290d
+  - a3b09a079597
+  - da78f97a6dda
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_compnovo
   owner: galaxyp
   revisions:
-  - ef622c891b92
   - 0aeb99c66732
-  - cd9449dbe4e4
   - 2d24eaa25373
+  - cd9449dbe4e4
+  - ef622c891b92
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_dtaextractor
   owner: galaxyp
   revisions:
-  - c170c9662d11
-  - 856b0f25f4cc
-  - 79706b7647c3
   - 02cabca46ad9
+  - 79706b7647c3
+  - 856b0f25f4cc
+  - c170c9662d11
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafiltermarkermower
   owner: galaxyp
   revisions:
+  - 5b672697da3f
   - b210cea1b4f6
   - fdb48515d895
-  - 5b672697da3f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_ffeval
   owner: galaxyp
   revisions:
-  - cd0102328af8
   - 1f91c09ba091
   - 6fb2f604537c
   - 71b4a047afe5
+  - cd0102328af8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qualitycontrol
   owner: galaxyp
   revisions:
-  - 6d9cd32c941b
   - 4d950ff26e35
+  - 6d9cd32c941b
   - bd210b86fb5d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathdecoygenerator
@@ -3517,70 +3757,70 @@ tools:
 - name: openms_pepnovoadapter
   owner: galaxyp
   revisions:
-  - e570599ec9f2
-  - 5b1ccc4c4ab4
   - 533859c7e75f
+  - 5b1ccc4c4ab4
+  - e570599ec9f2
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idmerger
   owner: galaxyp
   revisions:
-  - acefdc019876
-  - f817513840a9
-  - ded32493f0f9
   - 34e7afee141d
+  - acefdc019876
+  - ded32493f0f9
+  - f817513840a9
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_proteinquantifier
   owner: galaxyp
   revisions:
-  - d426affe977c
   - 16026cdb1330
   - 8a45fd5a608a
+  - d426affe977c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_noisefiltergaussian
   owner: galaxyp
   revisions:
-  - 43c3edaadb5d
-  - da0add7a8abd
   - 181f7bb2d04d
+  - 43c3edaadb5d
   - 47982606f542
+  - da0add7a8abd
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnadigestor
   owner: galaxyp
   revisions:
+  - 6d492588ae83
   - c951784e4967
   - f7bc536b3bf3
-  - 6d492588ae83
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_filefilter
   owner: galaxyp
   revisions:
-  - daec99595337
-  - fe4e4587d265
   - 0bb5056cb775
   - 4b5c7feac8db
+  - daec99595337
+  - fe4e4587d265
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathrtnormalizer
   owner: galaxyp
   revisions:
-  - d31426ef20f6
   - 6e8cc5ed2a9b
-  - f01f84cbd265
   - 79dbeb3cbfb4
+  - d31426ef20f6
+  - f01f84cbd265
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnpxlsearch
   owner: galaxyp
   revisions:
-  - 85d212da1e00
   - 0f97ea098da0
   - 25cc460f9092
   - 7df285ee982e
+  - 85d212da1e00
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathdiaprescoring
   owner: galaxyp
   revisions:
-  - d4396637b9f5
-  - c99d5004b74f
   - 76e8df062c6d
+  - c99d5004b74f
+  - d4396637b9f5
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnamasscalculator
   owner: galaxyp
@@ -3592,17 +3832,17 @@ tools:
 - name: openms_idscoreswitcher
   owner: galaxyp
   revisions:
+  - 04221d3a662c
+  - 4204882495f2
   - b239adedaa73
   - be74a8cd7d66
-  - 4204882495f2
-  - 04221d3a662c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_novoradapter
   owner: galaxyp
   revisions:
-  - ea8f9d83f34f
   - 34dda034b019
   - 846eea397eba
+  - ea8f9d83f34f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathworkflow
   owner: galaxyp
@@ -3615,16 +3855,16 @@ tools:
 - name: openms_peakpickerhires
   owner: galaxyp
   revisions:
-  - decc397c3b7e
-  - 6b01678ec2fc
   - 3d8d4ada5405
+  - 6b01678ec2fc
+  - decc397c3b7e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rtevaluation
   owner: galaxyp
   revisions:
+  - 062fcf33f18d
   - 9afeeb2c5b59
   - d72a7b30e17d
-  - 062fcf33f18d
   - ece8b8f33a60
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_precursorionselector
@@ -3632,55 +3872,55 @@ tools:
   revisions:
   - 1cae2aac2260
   - 598f53ccd9b8
-  - fe761c27a561
   - 913822effdb3
+  - fe761c27a561
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_targetedfileconverter
   owner: galaxyp
   revisions:
-  - e5244fb0770a
   - 9c70a651a53e
-  - dd71e020e2aa
   - aa62f8f48dd4
+  - dd71e020e2aa
+  - e5244fb0770a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathfeaturexmltotsv
   owner: galaxyp
   revisions:
-  - 72e4bf868316
-  - 5368af178b30
   - 0a1d6105889b
+  - 5368af178b30
+  - 72e4bf868316
   - 844c32358954
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_svmtheoreticalspectrumgeneratortrainer
   owner: galaxyp
   revisions:
+  - 3c5de1c6c08a
+  - 416fc18f347a
   - d351b67b5317
   - d4a5a5f3497f
-  - 416fc18f347a
-  - 3c5de1c6c08a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idfilter
   owner: galaxyp
   revisions:
-  - f08c0b980c03
   - 8d04dd993653
   - a5d785af0ad8
   - ca799a7246e7
+  - f08c0b980c03
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapaligneridentification
   owner: galaxyp
   revisions:
   - 12ae09b3a0b4
   - 247aabec1b99
-  - dbd714e74e21
   - 8434f070e939
+  - dbd714e74e21
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_clustermasstracesbyprecursor
   owner: galaxyp
   revisions:
+  - 75480fff2586
   - dedbf43ccfb5
   - e58e7a1ce396
-  - 75480fff2586
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_triqlerconverter
   owner: galaxyp
@@ -3690,25 +3930,25 @@ tools:
 - name: openms_sequencecoveragecalculator
   owner: galaxyp
   revisions:
-  - 47ad03766bd8
-  - 452a5e307d05
   - 0c6ac793423c
-  - 3fe59b1a1370
   - 1abbacf96b65
+  - 3fe59b1a1370
+  - 452a5e307d05
+  - 47ad03766bd8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_digestormotif
   owner: galaxyp
   revisions:
+  - 01f5e95b5961
   - 38676a2713f5
   - 87b797e33998
-  - 01f5e95b5961
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcimporter
   owner: galaxyp
   revisions:
+  - 83f22c5c5f92
   - c49a738628e8
   - d29c4c46e057
-  - 83f22c5c5f92
   - dd0a6ad39f0e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mztabexporter
@@ -3716,16 +3956,16 @@ tools:
   revisions:
   - 2735db4dd8d9
   - 821974b68e01
-  - ee860980edc6
   - c679f920716e
+  - ee860980edc6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_eicextractor
   owner: galaxyp
   revisions:
-  - a27853dd6204
-  - f253d41d9170
-  - aeaadbf1d7ec
   - 3cedbe742c68
+  - a27853dd6204
+  - aeaadbf1d7ec
+  - f253d41d9170
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openmsdatabasesinfo
   owner: galaxyp
@@ -3736,48 +3976,48 @@ tools:
   owner: galaxyp
   revisions:
   - 1f7cf69e180c
+  - 99d514749a9c
   - 9da6772a761c
   - b956337a7473
-  - 99d514749a9c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapnormalizer
   owner: galaxyp
   revisions:
   - 35acd0d34d48
-  - d913c83081e1
   - 892c0dfeb401
+  - d913c83081e1
   - fcbe0103feed
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnpxlxicfilter
   owner: galaxyp
   revisions:
+  - 81d5ef72ef9d
   - beadd01e222c
   - e7a97a131b5f
-  - 81d5ef72ef9d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermetabo
   owner: galaxyp
   revisions:
+  - 2451315543f9
   - 55ebdf4618df
   - a1c76c5160ee
-  - 2451315543f9
   - ede71c074e9a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefinderidentification
   owner: galaxyp
   revisions:
-  - 3baff5ec6dab
   - 17ecb923aa31
-  - 8bdf87119680
+  - 3baff5ec6dab
   - 5dc928c83939
+  - 8bdf87119680
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignerspectrum
   owner: galaxyp
   revisions:
   - 085863ba8f0e
-  - eb4c663659f7
-  - 8751db99e4bb
   - 401a83dcff39
+  - 8751db99e4bb
+  - eb4c663659f7
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignertreeguided
   owner: galaxyp
@@ -3797,55 +4037,61 @@ tools:
 - name: openms_qcshrinker
   owner: galaxyp
   revisions:
-  - a4b5b3c5df07
   - 21d045f5985f
   - 381abb197081
+  - a4b5b3c5df07
   - ea3197d16843
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idrtcalibration
   owner: galaxyp
   revisions:
+  - 4215810bb49d
+  - 6b1947c628af
   - 7ff821b34ebc
   - c4e15b449974
-  - 6b1947c628af
-  - 4215810bb49d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnpxl
   owner: galaxyp
   revisions:
   - 1988e1452730
+  - 4dbfc881d14f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_inspectadapter
   owner: galaxyp
   revisions:
+  - 1197d1a4c3f6
   - f2511ee20383
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindersuperhirn
   owner: galaxyp
   revisions:
   - 2eac00647b18
-  - f35d5aa5d58a
   - ac6991743c11
+  - f35d5aa5d58a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rtpredict
   owner: galaxyp
   revisions:
   - 3d5c8464e9a1
+  - 619334b03c9a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_additiveseries
   owner: galaxyp
   revisions:
   - 189cf4083a11
+  - 4c28ddee0f6b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_ptpredict
   owner: galaxyp
   revisions:
+  - 177b8ee29512
   - b30a8a1431fa
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_iddecoyprobability
   owner: galaxyp
   revisions:
   - 482d057a9a22
+  - 63af18c8c8f2
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_lowmempeakpickerhires
   owner: galaxyp
@@ -3857,10 +4103,12 @@ tools:
   owner: galaxyp
   revisions:
   - 3945ae071262
+  - dafcc84d1190
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_lowmempeakpickerhires_randomaccess
   owner: galaxyp
   revisions:
+  - 02b21ae6ccf7
   - 5ef9c166272d
   tool_panel_section_label: Proteomics - OpenMS
 - name: filter_by_fasta_ids
@@ -3875,10 +4123,12 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - e188dc7a68e6
   tool_panel_section_label: Next Gen Mappers
 - name: idba_ud
   owner: iuc
   revisions:
+  - 1542a2fffe0c
   - 694b0f55b744
   - fdaf2375d405
   tool_panel_section_label: Assembly
@@ -3886,6 +4136,7 @@ tools:
   owner: mbernt
   revisions:
   - 864279a0d64b
+  - 9da9706f7ca9
   - cfd50144a871
   tool_panel_section_label: Metagenomics
 - name: samtools_phase
@@ -3923,8 +4174,8 @@ tools:
 - name: w4mcorcov
   owner: eschen42
   revisions:
-  - 90708fdbc22d
   - 2ae2d26e3270
+  - 90708fdbc22d
   tool_panel_section_label: Metabolomics - W4M
 - name: w4mjoinpn
   owner: eschen42
@@ -3960,90 +4211,92 @@ tools:
   owner: mbernt
   revisions:
   - 269c627ae9f4
+  - 9a811adb714f
   tool_panel_section_label: Sequence Analysis
 - name: seqtk
   owner: iuc
   revisions:
+  - 4b494533146a
   - 58c8ece95b53
   - a09586d5149a
   tool_panel_section_label: Fastq Manipulation
 - name: stacks2_denovomap
   owner: iuc
   revisions:
-  - b9822370f843
-  - afdbc7fcce70
   - 33486216eec0
+  - 405a212b32ab
   - 421c33b8bf17
   - ad5ab22ffe24
-  - 405a212b32ab
+  - afdbc7fcce70
+  - b9822370f843
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_clonefilter
   owner: iuc
   revisions:
-  - b75174403a65
+  - 110a346daf36
   - 1b6d07160736
   - 289b7d6b69a4
-  - e345aadf914f
-  - 110a346daf36
   - 2f1d464ebfd2
+  - b75174403a65
+  - e345aadf914f
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_tsv2bam
   owner: iuc
   revisions:
-  - bf0e43ab0416
   - 1b270fc77c81
+  - 2645575d1bf2
+  - 69842dd5aa48
   - 8c2617661c49
   - a9c34a289493
-  - 69842dd5aa48
-  - 2645575d1bf2
+  - bf0e43ab0416
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_shortreads
   owner: iuc
   revisions:
-  - c287418eb288
+  - 17d39bf0a63a
   - 1974fee35ca7
   - 43e3eeb2e0ec
   - ad7a60726fc3
-  - 17d39bf0a63a
+  - c287418eb288
   - c5d7050e4ad7
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_ustacks
   owner: iuc
   revisions:
-  - 912f904a6e1e
-  - cfb504394ae1
   - 21d2aa544835
   - 7e5a174bc201
   - 8a35a3bc6752
+  - 912f904a6e1e
+  - cfb504394ae1
   - d033e1ccb386
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_gstacks
   owner: iuc
   revisions:
   - 1d839ead7ad3
+  - 27359c6bf3e3
   - 7370bb65bad4
   - d35cb34f2b85
-  - fa51dc5e8386
   - eb784fa07f80
-  - 27359c6bf3e3
+  - fa51dc5e8386
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_kmerfilter
   owner: iuc
   revisions:
   - 1544278c272e
-  - c9b77ced9a78
-  - 8a55d29c8fcf
   - 38c9f9a680f0
+  - 8a55d29c8fcf
   - a3e86cd9cac7
   - b2e3553e1be2
+  - c9b77ced9a78
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_procrad
   owner: iuc
   revisions:
-  - 9a171f9a450b
   - 8cff84759bf6
-  - bd5ff77e2036
   - 9993234400f1
+  - 9a171f9a450b
+  - bd5ff77e2036
   - ca7aa77c7f57
   - e897c74a48bb
   tool_panel_section_label: Sequence Analysis - Stacks2
@@ -4051,41 +4304,41 @@ tools:
   owner: iuc
   revisions:
   - 319b10947ec1
-  - 5e10f396979e
-  - adc7a7610d4f
   - 45385ba40a75
   - 4f65e343ecdf
+  - 5e10f396979e
   - 6dafad990086
+  - adc7a7610d4f
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_sstacks
   owner: iuc
   revisions:
   - 0b8c84a7fdb5
-  - e58e2ecb6285
-  - d9bf483266a1
-  - b7babdb3c219
   - a819ec3b362d
+  - b7babdb3c219
   - cd034465d4a4
+  - d9bf483266a1
+  - e58e2ecb6285
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_cstacks
   owner: iuc
   revisions:
-  - f4aab9196d1e
-  - 42d9087b4789
-  - da351b9031de
   - 0345dbaaa79b
+  - 42d9087b4789
   - c207119ba5f6
+  - da351b9031de
+  - f4aab9196d1e
   - fcce77c09289
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_populations
   owner: iuc
   revisions:
-  - 887cf585cafc
-  - 6fba323a242d
   - 564c33e5c3e3
-  - b242deb58952
+  - 6fba323a242d
   - 7b881f5f5ad5
+  - 887cf585cafc
   - 9a44832748c5
+  - b242deb58952
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: newick_utils
   owner: iuc
@@ -4096,19 +4349,22 @@ tools:
 - name: idba_tran
   owner: iuc
   revisions:
+  - 03de4e0f84c2
   - 33f00ff1cb22
   - a30d991a3fdd
   tool_panel_section_label: Assembly
 - name: idba_hybrid
   owner: iuc
   revisions:
+  - 5c5806e23338
   - 5ece301faf6b
   tool_panel_section_label: Assembly
 - name: maxquant_mqpar
   owner: galaxyp
   revisions:
-  - 3fc2116ac6d9
   - 2d67fb758956
+  - 3fc2116ac6d9
+  - 9cb7dcc07dae
   tool_panel_section_label: Proteomics
 - name: collection_element_identifiers
   owner: iuc
@@ -4118,81 +4374,92 @@ tools:
 - name: split_file_to_collection
   owner: bgruening
   revisions:
-  - e77b954f0da5
-  - 750c1684d47c
-  - 6cbe2f30c2d7
   - 0850f2dfba13
+  - 6cbe2f30c2d7
+  - 750c1684d47c
+  - baabc30154cd
+  - e77b954f0da5
   tool_panel_section_label: Collection Operations
 - name: trinity_abundance_estimates_to_matrix
   owner: iuc
   revisions:
-  - 81a4697677e7
-  - d6a479fd4281
   - 08326e2e82f1
+  - 81a4697677e7
+  - ba3720d7e68b
+  - d6a479fd4281
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_gene_to_trans_map
   owner: iuc
   revisions:
-  - 460090d15f6f
   - 37a1129c89d2
+  - 460090d15f6f
+  - 7c7fbf13aadd
   - d80f0f1d6c9d
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_samples_qccheck
   owner: iuc
   revisions:
+  - 04bb8bb7c198
   - 4f52fcfd1a47
-  - d83aa367a381
   - 9871104ea630
+  - d83aa367a381
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_filter_low_expr_transcripts
   owner: iuc
   revisions:
   - 1007cdb58d91
-  - e406ac71165d
   - 42f93482524f
+  - a35cba31d904
+  - e406ac71165d
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_define_clusters_by_cutting_tree
   owner: iuc
   revisions:
-  - d40101d3a2af
   - 05ab8d5e04a2
   - 2b6c0d041b6f
+  - 65e7dea767ea
   - 6fa08f46db8c
+  - d40101d3a2af
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_analyze_diff_expr
   owner: iuc
   revisions:
-  - dc0f01791c9b
-  - 8ddf1fab583c
   - 4a816294c512
+  - 8ddf1fab583c
+  - 9ff3765e7172
+  - dc0f01791c9b
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_run_de_analysis
   owner: iuc
   revisions:
-  - bbbb39ad9a7e
   - 1d689e4e1caf
+  - 24e94d84adc9
   - 55cf05b65ad5
+  - bbbb39ad9a7e
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_contig_exn50_statistic
   owner: iuc
   revisions:
   - 34a018cbee9c
   - 3cdcd5753218
+  - 870ac06dff8e
   - b1e9a0355166
   tool_panel_section_label: Assembly - Trinity
 - name: describe_samples
   owner: iuc
   revisions:
-  - dea7a78ecd72
   - 0693ccd171c4
+  - 3b36efd62b3e
   - 6d6982a1d1d0
+  - dea7a78ecd72
   tool_panel_section_label: Assembly - Trinity
 - name: trinity_super_transcripts
   owner: iuc
   revisions:
-  - 3abd51c4b151
-  - 6723249ce1bd
   - 29472bde8854
+  - 3abd51c4b151
+  - 5c1fc038df6b
+  - 6723249ce1bd
   tool_panel_section_label: Assembly - Trinity
 - name: fgsea
   owner: iuc
@@ -4203,26 +4470,28 @@ tools:
   owner: nilesh
   revisions:
   - 1a052c827e88
-  - 5968573462fa
+  - 27e16a30667a
   - 473382134e56
+  - 5968573462fa
   - dbedfc5f5a3c
   tool_panel_section_label: Sequence Analysis - RSeQC
 - name: merge_cols
   owner: devteam
   revisions:
-  - dd40b1e9eebe
   - ae7843d06f8f
+  - dd40b1e9eebe
   - f2aac0c5c60d
   tool_panel_section_label: Text Manipulation
 - name: annotatemyids
   owner: iuc
   revisions:
-  - f29602ae449e
-  - 1aae04680c4b
-  - cd2480f35935
-  - b5d8e5475247
-  - 44018dd6b447
   - 133f36c29579
+  - 1aae04680c4b
+  - 44018dd6b447
+  - a79ee60b6926
+  - b5d8e5475247
+  - cd2480f35935
+  - f29602ae449e
   tool_panel_section_label: Genome Annotation
 - name: interproscan
   owner: bgruening
@@ -4255,8 +4524,8 @@ tools:
 - name: mspurity_createmsp
   owner: computational-metabolomics
   revisions:
-  - 8512923bdd37
   - 50409aeeeac5
+  - 8512923bdd37
   tool_panel_section_label: Metabolomics
 - name: mspurity_purityx
   owner: computational-metabolomics
@@ -4273,8 +4542,8 @@ tools:
 - name: mspurity_dimspredictpuritysingle
   owner: computational-metabolomics
   revisions:
-  - 2ce66d2f6a24
   - 067566eef56f
+  - 2ce66d2f6a24
   tool_panel_section_label: Metabolomics
 - name: mspurity_puritya
   owner: computational-metabolomics
@@ -4291,8 +4560,8 @@ tools:
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
-  - 829af6fecd96
   - 20f4fdaf36bb
+  - 829af6fecd96
   tool_panel_section_label: Metabolomics
 - name: mspurity_frag4feature
   owner: computational-metabolomics
@@ -4313,13 +4582,14 @@ tools:
 - name: mzmine_batch
   owner: iuc
   revisions:
-  - 90d60c9da21e
   - 02e802817d48
+  - 90d60c9da21e
   tool_panel_section_label: Metabolomics
 - name: intensity_checks
   owner: melpetera
   revisions:
   - a31f3f802b2b
+  - ec75de7f1e08
   tool_panel_section_label: Metabolomics
 - name: cfmid
   owner: computational-metabolomics
@@ -4329,74 +4599,74 @@ tools:
 - name: ncbi_eutils_epost
   owner: iuc
   revisions:
-  - ae3a5d753d42
-  - 7d354fd4614c
-  - 7d868844e952
   - 196b8dd07896
   - 53cf74abf836
+  - 7d354fd4614c
+  - 7d868844e952
+  - ae3a5d753d42
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_egquery
   owner: iuc
   revisions:
   - 08412cd072d0
-  - f4318232849e
-  - d1789b4821fc
-  - 5277d159053d
   - 28f69754ddc5
+  - 5277d159053d
+  - d1789b4821fc
+  - f4318232849e
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_esummary
   owner: iuc
   revisions:
   - 254f40d3ae2b
+  - 7fe990069458
+  - 82e10809842f
   - c8d4ea6376a7
   - cb5a0fe9e036
-  - 82e10809842f
-  - 7fe990069458
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_elink
   owner: iuc
   revisions:
-  - 55b3067762f9
-  - 2791c731fc65
   - 1ed9a99b9b1f
+  - 2791c731fc65
+  - 55b3067762f9
   - 98365d44f1fa
   - c75419361087
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_einfo
   owner: iuc
   revisions:
-  - cd5a82a16bbf
+  - 5b1dc5936af2
   - ccc58c7435fd
+  - cd5a82a16bbf
   - f6007bce569d
   - fe54c8d5d5fd
-  - 5b1dc5936af2
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_ecitmatch
   owner: iuc
   revisions:
+  - 1dff3adb0a97
+  - 732a52c18758
   - 9a9c5027ea7c
   - ad1e5225bca4
-  - 732a52c18758
-  - 1dff3adb0a97
   - b00212deaea7
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_esearch
   owner: iuc
   revisions:
-  - 67602de82f6e
-  - e267701c187b
   - 30150bd36c9a
-  - ef77a3b01899
+  - 67602de82f6e
   - c6096cd97120
+  - e267701c187b
+  - ef77a3b01899
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
   revisions:
+  - 0977ec0f3ba8
+  - 0fc65a60436f
   - 6c4b39080ed7
   - c09fcbe4b16a
   - c5ff15011115
-  - 0977ec0f3ba8
-  - 0fc65a60436f
   tool_panel_section_label: Get Data
 - name: extract_genomic_dna
   owner: iuc
@@ -4418,101 +4688,101 @@ tools:
 - name: dada2_filterandtrim
   owner: iuc
   revisions:
-  - f732237754fc
   - 23fc35093b11
-  - a9f4a217dcd6
   - 777f9846c56d
+  - a9f4a217dcd6
   - addaf9d22850
   - ca73bbac615a
+  - f732237754fc
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_dada
   owner: iuc
   revisions:
-  - f79565b12646
-  - 6b4ddc3b64bd
-  - 1c35dadbe76f
   - 18a502a9d287
-  - 96336c6a2bb7
+  - 1c35dadbe76f
   - 2222f08c8316
+  - 6b4ddc3b64bd
+  - 96336c6a2bb7
+  - f79565b12646
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_removebimeradenovo
   owner: iuc
   revisions:
-  - 7f3b59dee073
-  - 5b752525bd6f
-  - b6dddf8c2e6f
-  - 7136e9ab70db
   - 04144473e59e
+  - 5b752525bd6f
+  - 7136e9ab70db
+  - 7f3b59dee073
   - 7f8f0e9fcb37
+  - b6dddf8c2e6f
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_learnerrors
   owner: iuc
   revisions:
-  - afdfa35a89d9
-  - 8c202e741d68
   - 04c15826a0b8
-  - c48d42d65d2b
-  - 75403243703a
   - 39638e0aff59
+  - 75403243703a
+  - 8c202e741d68
+  - afdfa35a89d9
+  - c48d42d65d2b
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_makesequencetable
   owner: iuc
   revisions:
-  - 99c6929236fa
-  - 43c99742158b
   - 1c9b3bcd4261
+  - 43c99742158b
+  - 99c6929236fa
+  - 9ccec6ed8e82
   - bfd62e881837
   - e96bbb9e24ea
-  - 9ccec6ed8e82
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_assigntaxonomyaddspecies
   owner: iuc
   revisions:
-  - 5b5a7af9fbb4
   - 1c9715cef808
+  - 4d89978c6188
+  - 5b5a7af9fbb4
+  - 63f86089423e
   - 79212a309499
   - 7c2100246a2f
-  - 63f86089423e
-  - 4d89978c6188
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_seqcounts
   owner: iuc
   revisions:
-  - 7d28da5e9e27
   - 0a1224c4b781
-  - f74c56549143
-  - d943081510da
   - 19299bb1c6af
   - 4cc834cce4fb
+  - 7d28da5e9e27
+  - d943081510da
+  - f74c56549143
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_mergepairs
   owner: iuc
   revisions:
-  - 69900ffd3b8e
+  - 0b884b080bb6
   - 1d75bd0595e2
-  - b1e55c248f17
   - 306a40d4bb8f
   - 5c865a382933
-  - 0b884b080bb6
+  - 69900ffd3b8e
+  - b1e55c248f17
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_plotcomplexity
   owner: iuc
   revisions:
-  - ac72310b038a
-  - 78faebd0879c
-  - 8daf4564ccda
-  - 806fe614ca46
   - 498d57610fcd
+  - 78faebd0879c
+  - 806fe614ca46
+  - 8daf4564ccda
+  - ac72310b038a
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_plotqualityprofile
   owner: iuc
   revisions:
-  - fa11922f3d91
-  - 52a911972c02
-  - f947b4bb5107
-  - 7b8cb2b02978
   - 2a90d2fd3336
+  - 52a911972c02
+  - 7b8cb2b02978
   - d60df8727f59
+  - f947b4bb5107
+  - fa11922f3d91
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
   owner: iuc
@@ -4522,13 +4792,14 @@ tools:
 - name: pathview
   owner: iuc
   revisions:
-  - f1691de443a7
   - 03c13085aecc
+  - f1691de443a7
   tool_panel_section_label: Statistics
 - name: volcanoplot
   owner: iuc
   revisions:
   - 83c573f2e73c
+  - a363ba287b88
   tool_panel_section_label: Statistics
 - name: add_input_name_as_column
   owner: mvdbeek
@@ -4544,8 +4815,8 @@ tools:
 - name: openbabel_structure_distance_finder
   owner: bgruening
   revisions:
-  - f0502d809c4b
   - 2c5c7da26e08
+  - f0502d809c4b
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openms_lowmempeakpickerhiresrandomaccess
   owner: galaxyp
@@ -4556,6 +4827,7 @@ tools:
   owner: iuc
   revisions:
   - 1f0a3e4497d4
+  - 2dfb2fba4081
   tool_panel_section_label: Sequence Analysis
 - name: metfrag_vis
   owner: computational-metabolomics
@@ -4570,14 +4842,16 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
-  - a62c4a11a67d
-  - 57251c760cab
   - 4aab5ae907b6
+  - 57251c760cab
+  - a62c4a11a67d
+  - ea5e944f447d
   tool_panel_section_label: Data Export
 - name: msconvert
   owner: galaxyp
   revisions:
   - 3cf310697624
+  - 545054b15d7c
   - 6153e8ada1ee
   tool_panel_section_label: Proteomics
 - name: proteore_build_protein_interaction_maps
@@ -4594,8 +4868,8 @@ tools:
 - name: proteore_filter_keywords_values
   owner: proteore
   revisions:
-  - 98cb671a92eb
   - 5621406a4d2f
+  - 98cb671a92eb
   tool_panel_section_label: Proteomics - ProteoRE
 - name: proteore_get_unique_peptide_srm_method
   owner: proteore
@@ -4612,8 +4886,8 @@ tools:
 - name: proteore_kegg_pathways_coverage
   owner: proteore
   revisions:
-  - f4e32dee3b28
   - 86d2f0377e69
+  - f4e32dee3b28
   tool_panel_section_label: Proteomics - ProteoRE
 - name: proteore_reactome
   owner: proteore
@@ -4696,12 +4970,14 @@ tools:
 - name: export2graphlan
   owner: iuc
   revisions:
+  - 635c90a27692
   - b16989c1e3a7
   tool_panel_section_label: Metagenomics
 - name: format_metaphlan2_output
   owner: bebatut
   revisions:
   - 1e74cb2c8e67
+  - 2c87f56bd53a
   tool_panel_section_label: Metagenomics
 - name: group_humann2_uniref_abundances_to_go
   owner: bebatut
@@ -4711,11 +4987,13 @@ tools:
 - name: graphlan_annotate
   owner: iuc
   revisions:
+  - 97e3b735ed22
   - cf1df6b2220a
   tool_panel_section_label: Metagenomics
 - name: graphlan
   owner: iuc
   revisions:
+  - 6e8eb0c0d91f
   - a490b70e46fc
   tool_panel_section_label: Metagenomics
 - name: gtftobed12
@@ -4741,64 +5019,76 @@ tools:
 - name: ggplot2_violin
   owner: iuc
   revisions:
+  - 0e7290688b50
   - d8305f18060e
   tool_panel_section_label: Visualization
 - name: table_compute
   owner: iuc
   revisions:
+  - 3bf5661c0280
   - 93a3ce78ce55
   tool_panel_section_label: Text Manipulation
 - name: ggplot2_heatmap
   owner: iuc
   revisions:
+  - 10515715c940
   - a4d83ba2a1bc
   tool_panel_section_label: Visualization
 - name: ggplot2_histogram
   owner: iuc
   revisions:
   - 497d700a5229
+  - b0d96516e6a5
   tool_panel_section_label: Visualization
 - name: ggplot2_point
   owner: iuc
   revisions:
+  - 3b12bf9b4b87
   - a36551483a8f
   tool_panel_section_label: Visualization
 - name: ggplot2_pca
   owner: iuc
   revisions:
   - 90928b255abb
+  - b1268b7544d3
   tool_panel_section_label: Visualization
 - name: picrust_categorize
   owner: iuc
   revisions:
   - 36e87158ef04
+  - 8c7bafdb713f
   tool_panel_section_label: Amplicon Analysis
 - name: picrust_normalize_by_copy_number
   owner: iuc
   revisions:
   - 2e62e32d4f33
   - 3bd5f5afb9b1
+  - 65e5f9caefcc
   tool_panel_section_label: Amplicon Analysis
 - name: picrust_metagenome_contributions
   owner: iuc
   revisions:
+  - 857e8724b43f
   - f0f5028a3393
   tool_panel_section_label: Amplicon Analysis
 - name: picrust_format_tree_and_trait_table
   owner: iuc
   revisions:
   - 21999f3aeb04
+  - 9a0f8171a2e2
   tool_panel_section_label: Amplicon Analysis
 - name: picrust_compare_biom
   owner: iuc
   revisions:
   - 0ba7dfaa941d
+  - 8e2ac1b8f70a
   - 9168545e09df
   tool_panel_section_label: Amplicon Analysis
 - name: picrust_predict_metagenomes
   owner: iuc
   revisions:
   - a38a0a966a4d
+  - f17b7d5a87f7
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_pipeline
   owner: iuc
@@ -4863,90 +5153,106 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
+  - 18eed8fa7f23
+  - 198c75abbf55
+  - 1e188c9610c3
+  - 75acf92c8fd5
   - a3395b1d871b
   - ac24fff14f23
-  - 1e188c9610c3
-  - 18eed8fa7f23
-  - 75acf92c8fd5
   tool_panel_section_label: Data Source
 - name: idr_download_by_ids
   owner: iuc
   revisions:
+  - 4b794652dcdc
   - cbd605a24336
   tool_panel_section_label: Data Source
 - name: sra_tools
   owner: iuc
   revisions:
-  - ba931a59dd59
-  - 734abc7ac21d
-  - 6ea73833cf67
   - 4317d3cb6cba
+  - 6ea73833cf67
+  - 734abc7ac21d
+  - ba931a59dd59
+  - f8054ea1c365
   tool_panel_section_label: Data Source
 - name: stacks_sstacks
   owner: iuc
   revisions:
   - 563af4497055
+  - 96de7538bf0c
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_refmap
   owner: iuc
   revisions:
   - 1ba1185929c1
+  - d7a482f44e08
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_rxstacks
   owner: iuc
   revisions:
   - 3e43e51b3c3b
+  - 8479d9a67998
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_ustacks
   owner: iuc
   revisions:
+  - 4cce81af50a8
   - a4ec4f620a77
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_denovomap
   owner: iuc
   revisions:
   - 9f9d39f582f3
+  - fdbcc560c691
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_populations
   owner: iuc
   revisions:
   - 95286af4139b
+  - d1fad35bdb4a
   - d504d945a655
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_cstacks
   owner: iuc
   revisions:
+  - 40cde06ae34a
   - be3df81c0353
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_pstacks
   owner: iuc
   revisions:
   - 67cbd80b83f5
+  - a9ff3d0184b8
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_clonefilter
   owner: iuc
   revisions:
   - 3009a21724e7
+  - 60d86dc1b19d
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_genotypes
   owner: iuc
   revisions:
   - 46f061f3cfeb
+  - 62a4b8e5e139
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_assembleperead
   owner: iuc
   revisions:
+  - 38ecfb8d52c6
   - 6eaf0f9836c8
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_procrad
   owner: iuc
   revisions:
   - be78e39d56b3
+  - eded025438db
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_stats
   owner: iuc
   revisions:
   - 93b16407d6e9
+  - a0c52b82b9d3
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: proteomiqon_joinquantpepionswithproteins
   owner: galaxyp
@@ -4991,101 +5297,121 @@ tools:
 - name: proteomiqon_psmstatistics
   owner: galaxyp
   revisions:
+  - 9ac2e8232c5c
   - f831f7d721f8
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: ampvis2_ordinate
   owner: iuc
   revisions:
+  - 811df76f4f26
   - be1918c80d9f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_venn
   owner: iuc
   revisions:
+  - 338f47a9e25c
   - 62c6d4c55190
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
   - 0feab98f9577
+  - ac9564dcdb99
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_subset_taxa
   owner: iuc
   revisions:
   - 70a98af91147
+  - e2df49914652
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_timeseries
   owner: iuc
   revisions:
   - 77d2f88d8716
+  - 9de032723f5b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
   owner: iuc
   revisions:
   - 2c21c267391c
+  - d02f4a87eb55
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_heatmap
   owner: iuc
   revisions:
+  - 14695ae019be
   - 1979fdd0914f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_export_fasta
   owner: iuc
   revisions:
+  - c1fcdec30d69
   - e10b5eebd415
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rarecurve
   owner: iuc
   revisions:
+  - 2e69edaaa834
   - aeca454c398e
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_otu_network
   owner: iuc
   revisions:
   - 354d645455cd
+  - 7e6f33f40312
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 3481feabc54e
   - dc0840e31406
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_merge_ampvis2
   owner: iuc
   revisions:
   - 028ba7c0b400
+  - d8334b328618
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_subset_samples
   owner: iuc
   revisions:
   - 14b38ec15fe9
+  - c8bfb923d7d4
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_alpha_diversity
   owner: iuc
   revisions:
+  - 52fbe4eb7ce7
   - 6b8580e02e99
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
   owner: iuc
   revisions:
+  - 4289db874e3c
   - 7b81221e7925
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_core
   owner: iuc
   revisions:
+  - 943c2ae9594a
   - de6156c8ef16
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_mergereplicates
   owner: iuc
   revisions:
   - 0e10df6f37c6
+  - 63ed7a3cd45f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
   owner: iuc
   revisions:
   - 0c069fc2471c
+  - b4c6f8741989
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_setmetadata
   owner: iuc
   revisions:
+  - b8fd62239d7e
   - e7afc79b841e
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: humann2_associate
@@ -5126,10 +5452,10 @@ tools:
 - name: humann2
   owner: iuc
   revisions:
-  - b168c0ef3c14
-  - cda49fede0c2
   - 019864881779
+  - b168c0ef3c14
   - bb13650e8115
+  - cda49fede0c2
   tool_panel_section_label: Deprecated
 - name: humann2_rna_dna_norm
   owner: iuc
@@ -5159,8 +5485,8 @@ tools:
 - name: metaphlan2
   owner: iuc
   revisions:
-  - f60773e921fa
   - 8c82c4d90cc6
+  - f60773e921fa
   tool_panel_section_label: Deprecated
 - name: metaphlan2krona
   owner: iuc
@@ -5175,12 +5501,14 @@ tools:
 - name: qiime2__alignment__mafft_add
   owner: q2d2
   revisions:
+  - 26215ab0ef72
   - 442d1a046fa6
   - 4fde174f0118
   tool_panel_section_label: Qiime2
 - name: qiime2__alignment__mafft
   owner: q2d2
   revisions:
+  - 839862089ccb
   - a0a48c15c573
   - a8962b34c94e
   tool_panel_section_label: Qiime2
@@ -5188,60 +5516,70 @@ tools:
   owner: q2d2
   revisions:
   - 58797be8efd4
+  - dd189714b70d
   - e8bee857dc0d
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__add_pseudocount
   owner: q2d2
   revisions:
-  - f92a9f40c7e1
   - c6780899249e
+  - d6677599b512
+  - f92a9f40c7e1
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__ancombc
   owner: q2d2
   revisions:
+  - 3bdf127442ed
   - 9b2a68d3017f
   - fe99db171ce5
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__tabulate
   owner: q2d2
   revisions:
-  - 54caf7f5c410
   - 359aa4321add
+  - 49889ce4eafe
+  - 54caf7f5c410
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__ancom
   owner: q2d2
   revisions:
   - 4696fc685d83
   - e3a9e7cb7b77
+  - e3fdc3dc9fcc
   tool_panel_section_label: Qiime2
 - name: qiime2_core__tools__export
   owner: q2d2
   revisions:
   - d3b1853c4efd
   - ddff0f6d5740
+  - e96704fc516d
   tool_panel_section_label: Qiime2
 - name: qiime2_core__tools__import
   owner: q2d2
   revisions:
-  - 5d9a36073ed6
   - 10447a4b0cc3
   - 18c6b2b6740f
+  - 5d9a36073ed6
+  - 9dbdf05beaa9
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__trim_single
   owner: q2d2
   revisions:
-  - 42cd76be2cbf
   - 1026d5863b7c
+  - 42cd76be2cbf
+  - 6e1771d7a3a9
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__trim_paired
   owner: q2d2
   revisions:
-  - b7fc07bacdb2
   - 4f340404bbf8
+  - b7fc07bacdb2
+  - d3cdc3eafc41
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__demux_single
   owner: q2d2
   revisions:
+  - 5551ccc407c9
   - d244802d52d0
   - d8851a5b9360
   tool_panel_section_label: Qiime2
@@ -5250,124 +5588,145 @@ tools:
   revisions:
   - c6a8822e19f2
   - d58b93d0a723
+  - f21509fa9ed0
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_pyro
   owner: q2d2
   revisions:
   - 1fa5664f9157
   - 377a0bd6edd4
+  - bf424ada5b92
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_ccs
   owner: q2d2
   revisions:
-  - d777f76179b6
+  - 312e59448469
   - 9977f9d23166
+  - d777f76179b6
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_single
   owner: q2d2
   revisions:
-  - e7812ca89033
+  - 20a297ae4505
   - 3c8340e400df
+  - e7812ca89033
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_paired
   owner: q2d2
   revisions:
   - 06bacd08bb47
+  - b1ec737d40f0
   - bbaba1707475
   tool_panel_section_label: Qiime2
 - name: qiime2__deblur__denoise_16s
   owner: q2d2
   revisions:
-  - b883cbea5623
   - 2572fc0f88f2
+  - b883cbea5623
+  - d2ba73cf503d
   tool_panel_section_label: Qiime2
 - name: qiime2__deblur__denoise_other
   owner: q2d2
   revisions:
   - 61ee71aacf1c
   - 86e36a2b44b0
+  - 8b5a4afd4616
   tool_panel_section_label: Qiime2
 - name: qiime2__deblur__visualize_stats
   owner: q2d2
   revisions:
   - 0be892a57bfe
+  - d1b15724ff2b
   - e62bac3eb4af
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__emp_paired
   owner: q2d2
   revisions:
-  - e6540fbc9b50
   - 551e9187951c
+  - 934e204a857e
+  - e6540fbc9b50
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__subsample_paired
   owner: q2d2
   revisions:
   - 522cc8ebcf4f
+  - e7d5cbac1576
   - f79287ee143e
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__subsample_single
   owner: q2d2
   revisions:
-  - 6c2c8696456f
   - 12747289fc83
+  - 4c598bbefcbb
+  - 6c2c8696456f
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__summarize
   owner: q2d2
   revisions:
-  - d8a9f74f1a6d
   - 222b50c1cb52
+  - 84877e27c82c
+  - d8a9f74f1a6d
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__filter_samples
   owner: q2d2
   revisions:
   - 0e5d4dc5c23e
   - 7573001162c8
+  - a23769ef6bd8
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__emp_single
   owner: q2d2
   revisions:
   - 335abb486193
   - 75b07a996ac0
+  - e7ae23a1d303
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__beta_correlation
   owner: q2d2
   revisions:
   - 913fde2097a3
+  - f7e81c151e17
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__adonis
   owner: q2d2
   revisions:
-  - 82f9bc0feff3
   - 28d5145fbbe3
+  - 82f9bc0feff3
+  - 94a8478403ad
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__umap
   owner: q2d2
   revisions:
   - 21c17986c882
   - 32c5fea4831a
+  - f2be72c1f1a0
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__pcoa
   owner: q2d2
   revisions:
-  - 9f6dfa1155c4
   - 0b004354dcd2
+  - 9f6dfa1155c4
+  - d5ab076b70f7
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__bioenv
   owner: q2d2
   revisions:
-  - 0fb37e0413d6
   - 0f90022f70de
+  - 0fb37e0413d6
+  - df846bfc8b5e
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__pcoa_biplot
   owner: q2d2
   revisions:
-  - 5279c32b6eab
   - 0b649d0fe617
+  - 2e71c30ba512
+  - 5279c32b6eab
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__tsne
   owner: q2d2
   revisions:
   - 1e30542264c3
+  - 1edfb19a6c43
   - 70d6cf1e8db0
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__beta_group_significance
@@ -5375,267 +5734,312 @@ tools:
   revisions:
   - 2df83b20af3f
   - ae04ef51094f
+  - e8b79e1c58ad
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__procrustes_analysis
   owner: q2d2
   revisions:
-  - fe144b0df710
   - 111d05bd9e0d
+  - 87d03d780da3
+  - fe144b0df710
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__mantel
   owner: q2d2
   revisions:
   - '196948449667'
+  - 57fa02b53979
   - f5f2c923cda4
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__beta
   owner: q2d2
   revisions:
-  - f5026cf3e156
+  - 525d07dd31b2
   - eb36fbb83a9d
+  - f5026cf3e156
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha_group_significance
   owner: q2d2
   revisions:
-  - b7b5dc5a067b
   - 25b94f589fc8
+  - 8307f76b9b31
+  - b7b5dc5a067b
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__core_metrics_phylogenetic
   owner: q2d2
   revisions:
-  - f4305c66e23d
+  - 76e136962089
   - 9d29f6a334e5
+  - f4305c66e23d
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__core_metrics
   owner: q2d2
   revisions:
-  - 9602903a0fbd
   - 4b8cdacb02f5
+  - 9602903a0fbd
+  - c18b62c7d0f8
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha_correlation
   owner: q2d2
   revisions:
-  - 9235f6a16926
+  - 41a4f9caafaa
   - 5850f79a2b9f
+  - 9235f6a16926
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__filter_distance_matrix
   owner: q2d2
   revisions:
   - 40dc453ee8fd
+  - 6741643b2f7f
   - a53b321e6821
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha
   owner: q2d2
   revisions:
-  - 97e9b0b0aeae
   - 87b68b482c8e
+  - 97e9b0b0aeae
+  - a731d77cdb3b
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__beta_phylogenetic
   owner: q2d2
   revisions:
-  - 9de0fa39f017
+  - 0f15d1570213
   - 26534bb91445
+  - 9de0fa39f017
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha_phylogenetic
   owner: q2d2
   revisions:
+  - 7627c4bdf87f
   - b6e20cd4fd2c
   - fbf59d034371
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha_rarefaction
   owner: q2d2
   revisions:
-  - ed21beb2e60f
   - 97cb20f77d50
+  - ed21beb2e60f
+  - fff91b5ed450
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__beta_rarefaction
   owner: q2d2
   revisions:
-  - a5b96ea48d79
   - 1ab2573cba43
+  - a5b96ea48d79
+  - f6c00f9e0eb7
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__observed_features
   owner: q2d2
   revisions:
-  - f740751c2439
+  - 4785e02346c5
   - c75e3e049c2f
+  - f740751c2439
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__bray_curtis
   owner: q2d2
   revisions:
+  - 6e6d848f2b5b
   - a1422e558f73
   - b007e2c3c08b
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__beta_passthrough
   owner: q2d2
   revisions:
+  - 0969c54eddc6
   - 38a55b074008
   - 66045b02d6c1
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__alpha_passthrough
   owner: q2d2
   revisions:
-  - 98ae2621b590
+  - 0292b5d33b9c
   - 86034ce5e0b5
+  - 98ae2621b590
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__shannon_entropy
   owner: q2d2
   revisions:
-  - 86209e66e3b3
   - 63d2b15ad101
+  - 86209e66e3b3
+  - 9074b477465f
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__jaccard
   owner: q2d2
   revisions:
-  - cf5fc36069f5
+  - 760b9ecc9575
   - a7a8b9b1fa1e
+  - cf5fc36069f5
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__pielou_evenness
   owner: q2d2
   revisions:
   - 02d2141ff634
   - 70becbb8baf2
+  - 987b58fe1f9f
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__beta_phylogenetic_meta_passthrough
   owner: q2d2
   revisions:
-  - 1fe13f74d48a
   - 1f01b410d3f2
+  - 1fe13f74d48a
+  - c7ae6170043a
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__weighted_unifrac
   owner: q2d2
   revisions:
+  - 5f6f3053916b
   - 85f762ce919f
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__unweighted_unifrac
   owner: q2d2
   revisions:
   - 5c190c90bab0
+  - 60cbf3e37ee1
   - 89423965acba
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__beta_phylogenetic_passthrough
   owner: q2d2
   revisions:
   - 423e0a6e9a1f
+  - a1166fa9986e
   - fcbeb4dc4b81
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__faith_pd
   owner: q2d2
   revisions:
   - 1142e83c6ae3
+  - c2eccef98006
   - f08636f56fd7
   tool_panel_section_label: Qiime2
 - name: qiime2__emperor__procrustes_plot
   owner: q2d2
   revisions:
-  - ec2a0e6d9baf
+  - 5a6cf1e4fd5a
   - bd0dbc487394
+  - ec2a0e6d9baf
   tool_panel_section_label: Qiime2
 - name: qiime2__emperor__plot
   owner: q2d2
   revisions:
+  - 00b78cb5acb5
   - 7c9ec8b8b7f8
   tool_panel_section_label: Qiime2
 - name: qiime2__emperor__biplot
   owner: q2d2
   revisions:
-  - c7d25d15856f
   - 5aced4a38720
+  - c7d25d15856f
+  - e485f0703f77
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__classify_sklearn
   owner: q2d2
   revisions:
-  - eee36ff6529a
+  - 863bb205e6d1
   - 8aa82af30760
+  - eee36ff6529a
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__fit_classifier_sklearn
   owner: q2d2
   revisions:
+  - 3c9fe85c41ed
   - 651c5518951f
   - e736fe382938
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__fit_classifier_naive_bayes
   owner: q2d2
   revisions:
+  - 14666a4cb442
   - 42f3a9cab210
   - e0aebbd112a4
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__classify_consensus_blast
   owner: q2d2
   revisions:
-  - fbead83526a1
   - 8f8f6d3d2304
+  - f30561d08160
+  - fbead83526a1
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__extract_reads
   owner: q2d2
   revisions:
   - 920dbc6886d7
+  - cd795889e84d
   - f3b56adfed5f
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__classify_hybrid_vsearch_sklearn
   owner: q2d2
   revisions:
-  - abdf08c37b16
   - 4d9059e67f87
+  - 9d30ef1580f6
+  - abdf08c37b16
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__classify_consensus_vsearch
   owner: q2d2
   revisions:
+  - 06f77767806a
   - f40e6da10c03
   - f82f2dbf0c04
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__blast
   owner: q2d2
   revisions:
+  - 18cf1aa7f508
   - 778c23c7bcf3
   - c6323c5935e2
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__find_consensus_annotation
   owner: q2d2
   revisions:
-  - 4fafff628c81
   - 44246091f51f
+  - 4fafff628c81
+  - e2f6444dd8b4
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_classifier__vsearch_global
   owner: q2d2
   revisions:
   - 2058da5b95d7
+  - b4ccd6f48728
   - c7bde9e4638d
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__tabulate_seqs
   owner: q2d2
   revisions:
-  - 6d5cd7bcc0d0
+  - 2feea4c63f4c
   - 38b618d1eb4d
+  - 6d5cd7bcc0d0
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__presence_absence
   owner: q2d2
   revisions:
   - 88b3f5ff20b3
   - aa33dec8fd70
+  - f2daa4bceccc
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_samples
   owner: q2d2
   revisions:
+  - 4a129fe72b67
   - 540707a41f82
   - 552388e54b68
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__summarize
   owner: q2d2
   revisions:
-  - c7553080ec2e
   - 365ce7a8e641
+  - c7553080ec2e
+  - ef53e9dd3752
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_features_conditionally
   owner: q2d2
   revisions:
-  - dbeb5a365844
+  - 09226feca49a
   - 78538c1b0993
+  - dbeb5a365844
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__rename_ids
   owner: q2d2
   revisions:
   - a213286d3a38
+  - b8225d65b620
   - d473dc9e00e2
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__merge_seqs
@@ -5643,45 +6047,52 @@ tools:
   revisions:
   - 9b95556df0f4
   - b46e5d243a98
+  - e6d95dc1d9e2
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__relative_frequency
   owner: q2d2
   revisions:
-  - e0ecbe54ffa8
   - 580e1edc91d7
+  - 8e63cd00a1a1
+  - e0ecbe54ffa8
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__merge
   owner: q2d2
   revisions:
+  - 6bad55f4a310
   - bbef44c4221b
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_features
   owner: q2d2
   revisions:
-  - b2df7f8e4a07
+  - 1a5eea94cd0f
   - a63fa31b8367
+  - b2df7f8e4a07
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__rarefy
   owner: q2d2
   revisions:
   - 77dce1a45822
   - 985c7f96ce2a
+  - b8a1673803a8
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__transpose
   owner: q2d2
   revisions:
   - 14196448788e
   - 70629120ae6c
+  - d3accc3dc65f
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__subsample
   owner: q2d2
   revisions:
-  - d32dc747e2dd
   - 649a75b79784
+  - d32dc747e2dd
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__heatmap
   owner: q2d2
   revisions:
+  - 0a0e626e6f31
   - a8de96a8b8eb
   - c087d23bc043
   tool_panel_section_label: Qiime2
@@ -5690,42 +6101,49 @@ tools:
   revisions:
   - 0ffd4aef0c59
   - a0c16a5250e4
+  - cd9af8cf876c
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__core_features
   owner: q2d2
   revisions:
-  - 3ab02629e494
   - 13e8049936ee
+  - 3ab02629e494
+  - 723a95a6db07
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__group
   owner: q2d2
   revisions:
-  - a27ceaf4cfc2
+  - 8bf7f0d38fe7
   - 94617586f2cb
+  - a27ceaf4cfc2
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_seqs
   owner: q2d2
   revisions:
-  - fd3798589de0
+  - 4e61dddfe0b5
   - e7b65e8f7e68
+  - fd3798589de0
   tool_panel_section_label: Qiime2
 - name: qiime2__fragment_insertion__sepp
   owner: q2d2
   revisions:
-  - 3d97bd4f5a7b
   - 2fa85eae206e
+  - 3d97bd4f5a7b
+  - f900d65ea217
   tool_panel_section_label: Qiime2
 - name: qiime2__fragment_insertion__classify_otus_experimental
   owner: q2d2
   revisions:
   - 042aaca35af1
   - 52cffcc84c14
+  - d15eba82b356
   tool_panel_section_label: Qiime2
 - name: qiime2__fragment_insertion__filter_features
   owner: q2d2
   revisions:
   - 0cd2b96adce2
   - 2fe92e997c9a
+  - 5b0a3c45d0ed
   tool_panel_section_label: Qiime2
 - name: qiime2__gneiss__ilr_phylogenetic
   owner: q2d2
@@ -5748,8 +6166,8 @@ tools:
 - name: qiime2__gneiss__gradient_clustering
   owner: q2d2
   revisions:
-  - 76fb7a319e4f
   - 1aeb0c093631
+  - 76fb7a319e4f
   tool_panel_section_label: Qiime2
 - name: qiime2__gneiss__ilr_phylogenetic_ordination
   owner: q2d2
@@ -5778,103 +6196,120 @@ tools:
 - name: qiime2__longitudinal__pairwise_distances
   owner: q2d2
   revisions:
+  - 24347c0aa796
   - 7799afde3e88
   - ab8727358817
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__feature_volatility
   owner: q2d2
   revisions:
+  - 956dbe6f39bd
   - ba818c170b06
   - e2fd93e4e3f7
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__nmit
   owner: q2d2
   revisions:
+  - 42e68d9f0684
   - 738ef153dcb1
   - 87412f607999
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__first_differences
   owner: q2d2
   revisions:
-  - 372affefd8a3
   - 0019d6fb2df8
+  - 372affefd8a3
+  - 6159fc49222c
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__plot_feature_volatility
   owner: q2d2
   revisions:
-  - 1a9474d0391a
   - 11730a5ad81b
+  - 1a9474d0391a
+  - 48f8582fa64b
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__first_distances
   owner: q2d2
   revisions:
-  - 607a63ad9e92
   - 405565578b7c
+  - 54f724ba9dc6
+  - 607a63ad9e92
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__linear_mixed_effects
   owner: q2d2
   revisions:
   - 2f4d65c8cfc0
+  - 54f24a4e861d
   - 6253ca844c62
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__volatility
   owner: q2d2
   revisions:
-  - bea0cdf2d9c8
+  - 085340f69dfe
   - 0e3d1b6523e2
+  - bea0cdf2d9c8
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__pairwise_differences
   owner: q2d2
   revisions:
-  - f4eea9fd94e2
   - b56e60e6c6e0
+  - d58901d901a6
+  - f4eea9fd94e2
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__anova
   owner: q2d2
   revisions:
-  - c32b6054c7d4
+  - 5141cd08458f
   - b8863095f1a9
+  - c32b6054c7d4
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__maturity_index
   owner: q2d2
   revisions:
   - 440d5bfda88c
   - 65eb20bd61f1
+  - 915a49001f9b
   tool_panel_section_label: Qiime2
 - name: qiime2__metadata__shuffle_groups
   owner: q2d2
   revisions:
-  - 99fb88cf7a12
   - 69c87f602b5a
+  - 7428c64149fb
+  - 99fb88cf7a12
   tool_panel_section_label: Qiime2
 - name: qiime2__metadata__distance_matrix
   owner: q2d2
   revisions:
+  - 873c9175076f
   - 8a43985a8f35
   - a75c3ed80cff
   tool_panel_section_label: Qiime2
 - name: qiime2__metadata__tabulate
   owner: q2d2
   revisions:
+  - b833fbd936a7
   - d6e1b976c373
   - f6763a86190b
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__raxml_rapid_bootstrap
   owner: q2d2
   revisions:
-  - 444a88ecf0d8
   - 1de3a5758b8c
+  - 444a88ecf0d8
+  - e46713e5531a
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__fasttree
   owner: q2d2
   revisions:
-  - 977e2ec8beb0
   - 54e234742860
+  - 67a54c48a537
+  - 977e2ec8beb0
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__align_to_tree_mafft_iqtree
   owner: q2d2
   revisions:
   - 25daaf299138
+  - 7cd05b132c74
   - 9f7b98404a1f
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__iqtree
@@ -5882,187 +6317,219 @@ tools:
   revisions:
   - 2f898b3531ee
   - 931254bf17a4
+  - f104eefb878b
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__robinson_foulds
   owner: q2d2
   revisions:
   - abe6db32295f
+  - cc749369d963
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__align_to_tree_mafft_raxml
   owner: q2d2
   revisions:
-  - c1018e6b9e55
   - 9af151e32f0e
+  - c1018e6b9e55
+  - d8bb362c42a5
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__filter_table
   owner: q2d2
   revisions:
   - 05d29a3294de
+  - 2f4e088869d4
   - 63f054c1fce2
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__midpoint_root
   owner: q2d2
   revisions:
-  - f4f3c556d4bd
   - 2de661df7aa8
+  - c52143a5d73d
+  - f4f3c556d4bd
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__align_to_tree_mafft_fasttree
   owner: q2d2
   revisions:
   - 2a9461620d5e
   - 43e5dd36de74
+  - e226dcac1ec8
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__raxml
   owner: q2d2
   revisions:
   - 1f553c9cc99e
+  - a516b3efde8d
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__filter_tree
   owner: q2d2
   revisions:
-  - 97716f0bd25b
   - 2f35a9736467
+  - 97716f0bd25b
+  - fbdbfcbe5121
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__iqtree_ultrafast_bootstrap
   owner: q2d2
   revisions:
-  - caa6e396efc4
+  - 7f29e76a07c2
   - adccaaf33660
+  - caa6e396efc4
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__evaluate_composition
   owner: q2d2
   revisions:
-  - 8f17025fb019
   - 69c5dfffb92f
+  - 8f17025fb019
+  - fccae8d40084
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__evaluate_seqs
   owner: q2d2
   revisions:
   - 4bb288dbd04c
   - 7f6c6e75ad0d
+  - b21256ee1cde
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__filter_reads
   owner: q2d2
   revisions:
-  - bb1d6b8b06a8
   - 08d08d22d92b
+  - 8620c7cb2e31
+  - bb1d6b8b06a8
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__bowtie2_build
   owner: q2d2
   revisions:
+  - c2a5d40cd4ae
   - dc6b98098f4f
   - ea81dc3914f8
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__evaluate_taxonomy
   owner: q2d2
   revisions:
-  - 2719c0bf3bd7
   - 13f0559220c2
+  - 2719c0bf3bd7
+  - 769112ac7a6e
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__exclude_seqs
   owner: q2d2
   revisions:
-  - f697a0b6a702
+  - 9d29d1b06e2c
   - cf4229cd0a05
+  - f697a0b6a702
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_filter__q_score
   owner: q2d2
   revisions:
   - 090ca1116927
+  - 1996c955a0e6
   - 2c4de53c8903
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__metatable
   owner: q2d2
   revisions:
+  - 115e5387e46a
   - f58e813e201d
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__fit_classifier
   owner: q2d2
   revisions:
+  - 431ccbdd8582
   - 71cd01b7a74f
   - f31f3c575d7e
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__regress_samples
   owner: q2d2
   revisions:
-  - 7d56c6806c36
   - 09981e91ac53
+  - 7d56c6806c36
+  - fa6055719fa7
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__classify_samples
   owner: q2d2
   revisions:
-  - e72fb1ecbadc
+  - 096916b40a5a
   - e5daff8f4e9e
+  - e72fb1ecbadc
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__scatterplot
   owner: q2d2
   revisions:
   - 195348fe70ef
+  - 25135b363e40
   - b2a04cea7140
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__classify_samples_from_dist
   owner: q2d2
   revisions:
+  - 3287c7a4f1a6
   - da06a9b29ebc
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__confusion_matrix
   owner: q2d2
   revisions:
-  - e0a29b2a35a8
+  - 2fe2bd8895ab
   - 37d091c9f5ce
+  - e0a29b2a35a8
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__split_table
   owner: q2d2
   revisions:
   - a80604576ca2
   - b3fdc6dd0eab
+  - decd505fbc3d
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__summarize
   owner: q2d2
   revisions:
-  - d2cd82660ab6
+  - 87f5057466b2
   - 8fa73ff177a2
+  - d2cd82660ab6
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__heatmap
   owner: q2d2
   revisions:
   - 5ceed9008edb
   - c8a9c7b66934
+  - d15d1e895aed
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__classify_samples_ncv
   owner: q2d2
   revisions:
-  - 9c6128727a71
   - 23c5522fa836
+  - 6abdf19e5d53
+  - 9c6128727a71
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__fit_regressor
   owner: q2d2
   revisions:
   - c0aa54edd09e
   - d0708941b20b
+  - dd08a45d9067
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__predict_classification
   owner: q2d2
   revisions:
+  - 4da3dcc06eec
   - 8efd4ae79026
   - d4dd156970fc
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__regress_samples_ncv
   owner: q2d2
   revisions:
+  - b89a29409daa
   - e6d86f57fe1a
   - fba2a1dc2e30
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__predict_regression
   owner: q2d2
   revisions:
-  - f7c33b0adf29
+  - 8281a7dc5248
   - cb01bdeace09
+  - f7c33b0adf29
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__collapse
   owner: q2d2
   revisions:
   - 16e425d54e64
+  - 615a560393c2
   - 96d3a6a511bc
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__filter_table
@@ -6070,102 +6537,119 @@ tools:
   revisions:
   - 4d6cd6706bfd
   - 8415c3cbedb6
+  - e4872ac2c683
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__barplot
   owner: q2d2
   revisions:
-  - 5750bac5b744
+  - 0c992800a5cc
   - 124673b2e9e7
+  - 5750bac5b744
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__filter_seqs
   owner: q2d2
   revisions:
   - 2e3425c03486
+  - a0eb7c8820b5
   - c4e992863672
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__cluster_features_closed_reference
   owner: q2d2
   revisions:
+  - 6f09e0279672
   - 99f3bb0084fe
   - bdfd1704be32
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__cluster_features_open_reference
   owner: q2d2
   revisions:
+  - b501894f0679
   - d62c0266f393
   - df39d339740c
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__merge_pairs
   owner: q2d2
   revisions:
-  - f455181d916d
+  - 0eb4a44e8395
   - b26cb5419c39
+  - f455181d916d
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__uchime_denovo
   owner: q2d2
   revisions:
   - 2ecd644cdfcf
   - a02a20641fb6
+  - e1edc31d1447
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__dereplicate_sequences
   owner: q2d2
   revisions:
+  - 17d969b36de9
   - 4fb2b5e9beba
   - 89cf98a14b38
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__fastq_stats
   owner: q2d2
   revisions:
-  - 826f1e13fbd1
   - 55e1a7184edd
+  - 826f1e13fbd1
+  - fede79553c49
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__uchime_ref
   owner: q2d2
   revisions:
-  - 7dbbd990440e
   - 7baf77299428
+  - 7dbbd990440e
+  - e9b3abbe198e
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__cluster_features_de_novo
   owner: q2d2
   revisions:
   - 397c1be954c2
   - a753a1136636
+  - a7e23c72f344
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__da_barplot
   owner: q2d2
   revisions:
+  - c2690db851b5
   - de8a1f53761e
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__decontam_identify
   owner: q2d2
   revisions:
+  - 0036b5f124ef
   - ba52336465f9
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__decontam_remove
   owner: q2d2
   revisions:
   - 2e8e3258af39
+  - 9edda646c9dd
   tool_panel_section_label: Qiime2
 - name: ramclustr
   owner: recetox
   revisions:
   - 050cfef6ba65
-  - 9b716db0a786
   - 09cabbc3d12d
   - 2ec9253a647e
+  - 9b716db0a786
+  - d70dd1d6ac4d
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_msfinder
   owner: recetox
   revisions:
-  - d1f44632f206
   - 29fc1af350f5
+  - d1f44632f206
+  - e7eff0c9baa3
   tool_panel_section_label: Exposomics - recetox
 - name: riassigner
   owner: recetox
   revisions:
   - 4e47a0fa9287
-  - c702620c22b1
   - 8c5e65adf694
+  - af25aa61c611
+  - c702620c22b1
   tool_panel_section_label: Exposomics - recetox
 - name: rmassbank
   owner: recetox
@@ -6176,15 +6660,15 @@ tools:
 - name: spec2vec_training
   owner: recetox
   revisions:
-  - e1e22ada831e
   - 9d917de87cca
+  - e1e22ada831e
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_generate_feature_table
   owner: recetox
   revisions:
-  - ebca18e223bf
-  - e7305ba0dd38
   - 32b66fb6a6a0
+  - e7305ba0dd38
+  - ebca18e223bf
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_compute_clusters
   owner: recetox
@@ -6197,29 +6681,29 @@ tools:
   owner: recetox
   revisions:
   - 1a01ffa85adc
-  - 7b42ee54d757
   - 2b6bfa234d8b
+  - 7b42ee54d757
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_remove_noise
   owner: recetox
   revisions:
-  - d90187b0f247
   - 12bf74dd09f1
   - 8fb5e458831f
+  - d90187b0f247
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_correct_time
   owner: recetox
   revisions:
-  - d69ec1171d71
-  - bd1956f4c2aa
   - 02c772a49998
+  - bd1956f4c2aa
+  - d69ec1171d71
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_compute_template
   owner: recetox
   revisions:
-  - f8c4db95eec3
   - 481d769e2f7a
   - e2dc815e1b2c
+  - f8c4db95eec3
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_merge_known_table
   owner: recetox
@@ -6230,58 +6714,64 @@ tools:
 - name: recetox_aplcms_recover_weaker_signals
   owner: recetox
   revisions:
+  - 99d118321d5f
   - a9bb2ccc53de
   - e2cb970d99dd
-  - 99d118321d5f
   tool_panel_section_label: Exposomics - recetox
 - name: waveica
   owner: recetox
   revisions:
-  - dbbedb14b44c
-  - b77023c41c76
+  - 425c0494ec2d
   - 6480c6d5fa36
+  - b77023c41c76
+  - dbbedb14b44c
   tool_panel_section_label: Exposomics - recetox
 - name: biotransformer
   owner: recetox
   revisions:
-  - e5fcba090b10
-  - 90dc951da294
   - 0b86600b715e
+  - 90dc951da294
+  - e5fcba090b10
   tool_panel_section_label: Exposomics - recetox
 - name: filter_compounds
   owner: recetox
   revisions:
+  - 6c5df3eeb768
   - 72b687d21f65
   tool_panel_section_label: Exposomics - recetox
 - name: msmetaenhancer
   owner: recetox
   revisions:
-  - 3e2cb0bc6959
   - 2ada1099f42e
+  - 3e2cb0bc6959
   - 90745ecc5e9f
+  - a6af1e124e06
   tool_panel_section_label: Exposomics - recetox
 - name: msp_merge
   owner: recetox
   revisions:
   - c2862090e321
+  - d38d73004bba
   tool_panel_section_label: Exposomics - recetox
 - name: mzml_validator
   owner: recetox
   revisions:
-  - ada284e51141
   - 9beb3a276ce3
+  - ada284e51141
   tool_panel_section_label: Exposomics - recetox
 - name: ramclustr_define_experiment
   owner: recetox
   revisions:
+  - 25625114618e
   - 5f2b58dadb39
   - 7bbdcce50541
-  - 25625114618e
+  - 7c50666b88e8
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_export
   owner: recetox
   revisions:
   - 73c902331bbc
+  - 7e2066111683
   - 9b36710378ce
   - f04610d25411
   tool_panel_section_label: Exposomics - recetox
@@ -6289,13 +6779,15 @@ tools:
   owner: recetox
   revisions:
   - 039e7ab31836
-  - ca5a8db023e1
   - 36a53917818d
   - a177ac3c752c
+  - c5076cc15e8c
+  - ca5a8db023e1
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_split
   owner: recetox
   revisions:
+  - 05b91d5045ce
   - 0cf68b536cd1
   - eba733715eaf
   - ffe46a9b1124
@@ -6304,35 +6796,40 @@ tools:
   owner: recetox
   revisions:
   - 1b09315a3f87
-  - 23d4bc72c505
-  - afc881c21a62
   - 1e58bf51a0e5
+  - 23d4bc72c505
+  - 402620029a7a
+  - afc881c21a62
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
   owner: recetox
   revisions:
+  - 872d8040f713
   - e5010b19d64d
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_fingerprint_similarity
   owner: recetox
   revisions:
   - 79accd21387c
-  - f87b1c271012
   - 84af792d3a78
+  - cdb41d95648c
+  - f87b1c271012
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_convert
   owner: recetox
   revisions:
-  - b9cc12600553
   - 5d8553853fab
+  - b9cc12600553
   - c5ed6bfcd806
+  - fb09ed49c70e
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_spectral_similarity
   owner: recetox
   revisions:
-  - f30b53a817af
-  - 9ff95a1a2705
   - 54b6775010e0
+  - 5fae85d4a69a
+  - 9ff95a1a2705
+  - f30b53a817af
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_match
   owner: recetox
@@ -6340,6 +6837,7 @@ tools:
   - 03bc9b7f40f6
   - 44441b0ee4dd
   - be20e19c57e8
+  - ec81ec7cea2e
   tool_panel_section_label: Exposomics - recetox
 - name: spec2vec_similarity
   owner: recetox
@@ -6349,12 +6847,14 @@ tools:
 - name: matchms_add_key
   owner: recetox
   revisions:
-  - fb80536001bc
+  - 4e8a6d6f0e6a
   - 8fb8ac6c37b0
+  - fb80536001bc
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_networking
   owner: recetox
   revisions:
+  - 7a8743876c60
   - 9f2e7e1600c0
   - d8e937f335b8
   tool_panel_section_label: Exposomics - recetox
@@ -6371,19 +6871,22 @@ tools:
 - name: matchms_subsetting
   owner: recetox
   revisions:
+  - 2b61ec493df6
+  - d11b27e59dfa
   - d2996f624507
   - f40e2572fbdc
-  - 2b61ec493df6
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_merge
   owner: recetox
   revisions:
+  - 81e6df6ccd9a
   - 8e18dcf410ec
   - c1c1cb295b74
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_remove_key
   owner: recetox
   revisions:
+  - 0676c9aeaeac
   - 6b5867cab698
   tool_panel_section_label: Exposomics - recetox
 - name: bfconvert
@@ -6391,82 +6894,98 @@ tools:
   revisions:
   - 10eed33aa9b2
   - bbb307f731c3
+  - fcadded98e61
   tool_panel_section_label: Imaging
 - name: count_objects
   owner: imgteam
   revisions:
   - 664232d2a3f7
+  - b58447a2eed2
   tool_panel_section_label: Imaging
 - name: image_info
   owner: imgteam
   revisions:
-  - 8c25d4ff0b51
+  - 236ec78b2e53
   - 7b6d9412c7f8
+  - 8c25d4ff0b51
   tool_panel_section_label: Imaging
 - name: scale_image
   owner: imgteam
   revisions:
+  - 85666e555698
   - c4c76f1ebad2
   tool_panel_section_label: Imaging
 - name: superdsm
   owner: imgteam
   revisions:
   - 700ae37e5c69
+  - 79ec3263686a
   tool_panel_section_label: Imaging
 - name: binary2labelimage
   owner: imgteam
   revisions:
   - 6e65fd971e13
+  - 984358e43242
   tool_panel_section_label: Imaging
 - name: 2d_auto_threshold
   owner: imgteam
   revisions:
   - 0c777d708acc
+  - 699a5e9146b3
   tool_panel_section_label: Imaging
 - name: 2d_histogram_equalization
   owner: imgteam
   revisions:
   - 70316d792fc9
+  - b1c2c210813c
   tool_panel_section_label: Imaging
 - name: 2d_simple_filter
   owner: imgteam
   revisions:
+  - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
 - name: overlay_images
   owner: imgteam
   revisions:
+  - 8dc02c854048
   - b74693340624
   tool_panel_section_label: Imaging
 - name: bbtools_bbnorm
   owner: iuc
   revisions:
+  - 057c13b2dc42
   - 1ef267476a17
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
   owner: iuc
   revisions:
+  - df9743790176
   - ee407fae3ccd
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbduk
   owner: iuc
   revisions:
   - 159b04e36791
+  - bf0cb5dd02f2
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
+  - 5d8b93c0731f
   - c05232655d00
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmap
   owner: iuc
   revisions:
   - 517464809c33
+  - 7f19559b8b55
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_tadpole
   owner: iuc
   revisions:
   - 20aef74d20a1
+  - 654c9da47f74
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: calculate_numeric_param
   owner: iuc
@@ -6509,16 +7028,19 @@ tools:
   owner: iuc
   revisions:
   - 46a99bd1f10e
+  - 87064cb77a52
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_ordination
   owner: iuc
   revisions:
   - 11d43fa12aab
+  - dfe800a3faaf
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
   - 92b82deaaed1
+  - fb7c4bbe8994
   tool_panel_section_label: Phyloseq
 - name: imagej2_adjust_threshold_binary
   owner: imgteam
@@ -6664,6 +7186,7 @@ tools:
   owner: devteam
   revisions:
   - 1865e693d8b2
+  - a256278e5bff
   - f8418a1bf7d0
   tool_panel_section_label: Data Managers
 - name: data_manager_metaphlan2_database_downloader
@@ -6679,35 +7202,39 @@ tools:
 - name: data_manager_hisat2_index_builder
   owner: iuc
   revisions:
-  - d210e1f185bd
   - a04cebcd77f4
+  - d210e1f185bd
+  - d74c740bdb25
   tool_panel_section_label: Data Managers
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
-  - d1d5feb31804
-  - 847c9ef56a52
   - 83da94c0e4a6
+  - 847c9ef56a52
+  - 9dd107db92c2
+  - d1d5feb31804
   tool_panel_section_label: Data Managers
 - name: data_manager_mothur_toolsuite
   owner: iuc
   revisions:
-  - f21e77139fb5
-  - ab7a7e798c34
   - 9d09724f2bf1
+  - ab7a7e798c34
   - aec831b54a5b
+  - f21e77139fb5
   tool_panel_section_label: Data Managers
 - name: data_manager_dada2
   owner: iuc
   revisions:
-  - a6a81f921701
-  - 48a42ca61006
   - 38ccd4589990
+  - 48a42ca61006
+  - 5711fc06a63e
+  - a6a81f921701
   tool_panel_section_label: Data Managers
 - name: data_manager_diamond_database_builder
   owner: bgruening
   revisions:
   - 5558f74bd296
+  - c1aaeaced1b6
   tool_panel_section_label: Data Managers
 - name: proteore_data_manager
   owner: proteore
@@ -6723,13 +7250,15 @@ tools:
   owner: devteam
   revisions:
   - 63d5652be07a
+  - 9e993022c762
   tool_panel_section_label: Data Managers
 - name: data_manager_eggnog_mapper
   owner: galaxyp
   revisions:
-  - 5a2ffc486246
   - 077cf0a99144
   - 3d82020b1e3b
+  - 516eb4e1cf8e
+  - 5a2ffc486246
   tool_panel_section_label: Data Managers
 - name: data_manager_humann_database_downloader
   owner: iuc
@@ -6741,6 +7270,7 @@ tools:
 - name: data_manager_metaphlan_database_downloader
   owner: iuc
   revisions:
+  - 0cb27ea69dc1
   - 4ba60cb14cb0
   - 9c43baa60906
   tool_panel_section_label: Data Managers
@@ -6752,5 +7282,6 @@ tools:
 - name: data_manager_build_kraken2_database
   owner: iuc
   revisions:
+  - e4b4837f06f5
   - ed1518ce2237
   tool_panel_section_label: Data Managers
