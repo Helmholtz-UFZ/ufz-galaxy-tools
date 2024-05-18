@@ -42,6 +42,7 @@ tools:
   - b1c926deaa2d
   - c4b82dce8335
   - e4691e1589d3
+  - fe74900d6dc7
   tool_panel_section_label: Fastq Manipulation
 - name: multiqc
   owner: iuc
@@ -4123,6 +4124,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 2477830927ec
   - e188dc7a68e6
   tool_panel_section_label: Next Gen Mappers
 - name: idba_ud
@@ -6955,11 +6957,13 @@ tools:
   owner: iuc
   revisions:
   - 057c13b2dc42
+  - 1baa4ad1ac2f
   - 1ef267476a17
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
   owner: iuc
   revisions:
+  - 66b138a2e74c
   - df9743790176
   - ee407fae3ccd
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -6968,16 +6972,19 @@ tools:
   revisions:
   - 159b04e36791
   - bf0cb5dd02f2
+  - d1f62024a08b
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
+  - 1af48f9cc27b
   - 5d8b93c0731f
   - c05232655d00
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmap
   owner: iuc
   revisions:
+  - 3f94a2e3d513
   - 517464809c33
   - 7f19559b8b55
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -6986,6 +6993,7 @@ tools:
   revisions:
   - 20aef74d20a1
   - 654c9da47f74
+  - cbc75076778f
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: calculate_numeric_param
   owner: iuc
