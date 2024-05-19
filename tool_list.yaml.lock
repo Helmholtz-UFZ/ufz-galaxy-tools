@@ -2458,7 +2458,6 @@ tools:
 - name: multigsea
   owner: iuc
   revisions:
-  - 28e29a3d0eda
   - e48b10ce08b8
   tool_panel_section_label: Transcriptomics
 - name: emboss_5
