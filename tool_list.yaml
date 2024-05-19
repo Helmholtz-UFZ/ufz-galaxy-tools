@@ -2787,7 +2787,10 @@ tools:
   owner: q2d2
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_control__decontam_remove
-  owner: q2d2
+  owner: q2d
+  tool_panel_section_label: Qiime2
+- name: qiime_extract_viz
+  owner: iuc 
   tool_panel_section_label: Qiime2
 - name: ramclustr
   owner: recetox
