@@ -6655,6 +6655,7 @@ tools:
   - 2ec9253a647e
   - 9b716db0a786
   - d70dd1d6ac4d
+  - da7722f665f4
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_msfinder
   owner: recetox
@@ -6675,6 +6676,7 @@ tools:
   owner: recetox
   revisions:
   - 0b28816c1c2c
+  - 5a6bb93ec656
   - c1a9c990d4b0
   tool_panel_section_label: Exposomics - recetox
 - name: spec2vec_training
@@ -6687,6 +6689,7 @@ tools:
   owner: recetox
   revisions:
   - 32b66fb6a6a0
+  - 6ba3526237e0
   - e7305ba0dd38
   - ebca18e223bf
   tool_panel_section_label: Exposomics - recetox
@@ -6696,6 +6699,7 @@ tools:
   - 149b9cc7499b
   - 15aae2bfa67d
   - 550667ce03f1
+  - b9b19a74ac01
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_align_features
   owner: recetox
@@ -6703,18 +6707,21 @@ tools:
   - 1a01ffa85adc
   - 2b6bfa234d8b
   - 7b42ee54d757
+  - d5c638b72ce4
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_remove_noise
   owner: recetox
   revisions:
   - 12bf74dd09f1
   - 8fb5e458831f
+  - b5a1f35abd8a
   - d90187b0f247
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_correct_time
   owner: recetox
   revisions:
   - 02c772a49998
+  - 1574b8a29e6f
   - bd1956f4c2aa
   - d69ec1171d71
   tool_panel_section_label: Exposomics - recetox
@@ -6722,12 +6729,14 @@ tools:
   owner: recetox
   revisions:
   - 481d769e2f7a
+  - 4963811b6dec
   - e2dc815e1b2c
   - f8c4db95eec3
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_merge_known_table
   owner: recetox
   revisions:
+  - 04892b463957
   - 8ecb609cc265
   - fb95cb4a6b9b
   tool_panel_section_label: Exposomics - recetox
@@ -6736,11 +6745,13 @@ tools:
   revisions:
   - 99d118321d5f
   - a9bb2ccc53de
+  - e0536ff73f36
   - e2cb970d99dd
   tool_panel_section_label: Exposomics - recetox
 - name: waveica
   owner: recetox
   revisions:
+  - 071a424241ec
   - 425c0494ec2d
   - 6480c6d5fa36
   - b77023c41c76
@@ -6767,6 +6778,7 @@ tools:
   - 3e2cb0bc6959
   - 90745ecc5e9f
   - a6af1e124e06
+  - b5467dead5b1
   tool_panel_section_label: Exposomics - recetox
 - name: msp_merge
   owner: recetox
@@ -6788,6 +6800,7 @@ tools:
   - 7bbdcce50541
   - 7c50666b88e8
   - 87ac0b56b9b0
+  - f2c1d0bbb074
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_export
   owner: recetox
@@ -6795,6 +6808,7 @@ tools:
   - 73c902331bbc
   - 7e2066111683
   - 9b36710378ce
+  - e337075d0aaa
   - f04610d25411
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_filtering
@@ -6802,6 +6816,7 @@ tools:
   revisions:
   - 039e7ab31836
   - 36a53917818d
+  - 86d265d2a334
   - a177ac3c752c
   - c5076cc15e8c
   - ca5a8db023e1
@@ -6810,6 +6825,7 @@ tools:
   owner: recetox
   revisions:
   - 05b91d5045ce
+  - 072c7a101da6
   - 0cf68b536cd1
   - eba733715eaf
   - ffe46a9b1124
@@ -6821,6 +6837,7 @@ tools:
   - 1e58bf51a0e5
   - 23d4bc72c505
   - 402620029a7a
+  - 8bd942dcf1ad
   - afc881c21a62
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
@@ -6834,6 +6851,7 @@ tools:
   revisions:
   - 79accd21387c
   - 84af792d3a78
+  - c2d546691b7a
   - cdb41d95648c
   - f87b1c271012
   tool_panel_section_label: Exposomics - recetox
@@ -6841,6 +6859,7 @@ tools:
   owner: recetox
   revisions:
   - 5d8553853fab
+  - a3d2f919cb98
   - b9cc12600553
   - c5ed6bfcd806
   - fb09ed49c70e
@@ -6851,6 +6870,7 @@ tools:
   - 54b6775010e0
   - 5fae85d4a69a
   - 9ff95a1a2705
+  - ee35dcec350a
   - f30b53a817af
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_match
@@ -6858,6 +6878,7 @@ tools:
   revisions:
   - 03bc9b7f40f6
   - 44441b0ee4dd
+  - 86e080d81cfb
   - be20e19c57e8
   - ec81ec7cea2e
   tool_panel_section_label: Exposomics - recetox
@@ -6871,12 +6892,14 @@ tools:
   revisions:
   - 4e8a6d6f0e6a
   - 8fb8ac6c37b0
+  - b23b6a640f6a
   - fb80536001bc
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_networking
   owner: recetox
   revisions:
   - 7a8743876c60
+  - 9c12114c7aee
   - 9f2e7e1600c0
   - d8e937f335b8
   tool_panel_section_label: Exposomics - recetox
@@ -6884,6 +6907,7 @@ tools:
   owner: recetox
   revisions:
   - 50ac7359ffe7
+  - 6b5dec818827
   tool_panel_section_label: Exposomics - recetox
 - name: xtb_molecular_optimization
   owner: recetox
@@ -6894,6 +6918,7 @@ tools:
   owner: recetox
   revisions:
   - 2b61ec493df6
+  - c4835715c7ac
   - d11b27e59dfa
   - d2996f624507
   - f40e2572fbdc
@@ -6901,6 +6926,7 @@ tools:
 - name: matchms_metadata_merge
   owner: recetox
   revisions:
+  - 6e965d099233
   - 81e6df6ccd9a
   - 8e18dcf410ec
   - c1c1cb295b74
@@ -6910,6 +6936,7 @@ tools:
   revisions:
   - 0676c9aeaeac
   - 6b5867cab698
+  - 8c98b3cb320e
   tool_panel_section_label: Exposomics - recetox
 - name: bfconvert
   owner: imgteam
