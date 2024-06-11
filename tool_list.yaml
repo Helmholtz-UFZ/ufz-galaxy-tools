@@ -3116,3 +3116,6 @@ tools:
 - name: dose_response_analysis_tool
   owner: ufz
   tool_panel_section_label: Toxicology
+- name: baseline_toxicity_calculator
+  owner: ufz
+  tool_panel_section_label: Toxicology
