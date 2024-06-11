@@ -77,7 +77,8 @@ mapping:
                         'Sequence Analysis (EMBOSS)',
                         'BED tools',
                         'Computational chemistry',
-                        'Computational chemistry - Ball'
+                        'Computational chemistry - Ball',
+                        'Toxicology'
                     ]
                 "tool_panel_section_id":
                     type: str
@@ -134,5 +135,6 @@ mapping:
                         "sequence_analysis_(emboss)",
                         "bed_tools",
                         "computational_chemistry",
-                        "computational_chemistry_ball"
+                        "computational_chemistry_ball",
+                        "toxicology"
                     ]
