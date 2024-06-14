@@ -7512,7 +7512,7 @@ tools:
 - name: data_manager_build_kraken2_database
   owner: iuc
   revisions:
-  - 539b008cfe1c
+  - 13851aefa67a
   - e4b4837f06f5
   - ed1518ce2237
   tool_panel_section_label: Data Managers
