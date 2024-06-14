@@ -3112,7 +3112,13 @@ tools:
   tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
   owner: iuc
-  tool_panel_section_label: Data Managers
+  tool_panel_section_label: Data Manager
+- name: dose_response_analysis_tool
+  owner: ufz
+  tool_panel_section_label: Toxicology
+- name: baseline_toxicity_calculator
+  owner: ufz
+  tool_panel_section_label: Toxicology
 - name: drep_compare
   owner: iuc
   tool_panel_section_label: Metagenomics
