@@ -3119,3 +3119,9 @@ tools:
 - name: baseline_toxicity_calculator
   owner: ufz
   tool_panel_section_label: Toxicology
+- name: drep_compare
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: drep_dereplicate
+  owner: iuc
+  tool_panel_section_label: Metagenomics
