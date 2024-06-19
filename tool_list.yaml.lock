@@ -1281,10 +1281,12 @@ tools:
   - 0851ae17c58e
   - 60f0853e33f3
   - 83dabeeadb55
+  - d0967ae326be
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_slayer
   owner: iuc
   revisions:
+  - 0cc35c0a3d05
   - 1cce71e7e7ef
   - 753321ddded9
   - ab328c924a02
@@ -1292,6 +1294,7 @@ tools:
 - name: mothur_anosim
   owner: iuc
   revisions:
+  - 3218d342b0de
   - 4a283edb151c
   - 98687b00be79
   - f228c52a3978
@@ -1302,6 +1305,7 @@ tools:
   - 506625098e20
   - ccd1ce71c11f
   - d47a909185ef
+  - d952b95bafe9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_hcluster
   owner: iuc
@@ -1312,6 +1316,7 @@ tools:
   owner: iuc
   revisions:
   - 1c8906cc1ddd
+  - 6e895dd848e8
   - bb8a0eec1872
   - e643cc6c39cb
   tool_panel_section_label: Metagenomics - mothur
@@ -1333,6 +1338,7 @@ tools:
   owner: iuc
   revisions:
   - 09e3b0966a11
+  - 51d7c2486a68
   - 5d52096c0a9c
   - f3a65ee4bfda
   tool_panel_section_label: Metagenomics - mothur
@@ -1342,11 +1348,13 @@ tools:
   - 02446d12c359
   - e664787de3ab
   - ec7c3ecca41a
+  - ff1bc0299372
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_perseus
   owner: iuc
   revisions:
   - 0f3baac24045
+  - 54bc4863eb3d
   - 6db50600493e
   - a23027673aba
   tool_panel_section_label: Metagenomics - mothur
@@ -1356,6 +1364,7 @@ tools:
   - 03c86648a52e
   - 28867c3771e1
   - cd082173c04b
+  - dc3826bfc1ed
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_venn
   owner: iuc
@@ -1375,6 +1384,7 @@ tools:
   owner: iuc
   revisions:
   - 1edab4936153
+  - 22da6f6c5be8
   - 7332408e1f37
   - a630c5167f5d
   tool_panel_section_label: Metagenomics - mothur
@@ -1383,11 +1393,13 @@ tools:
   revisions:
   - 2175b62675ed
   - 50312cd2fc7a
+  - 64c70653e86d
   - ac51f9ce6160
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_label
   owner: iuc
   revisions:
+  - 7f479eedd900
   - 80b791e2a7bd
   - d8409b4a2aec
   - ee13e5a4f9f3
@@ -1396,6 +1408,7 @@ tools:
   owner: iuc
   revisions:
   - 127484a400e7
+  - 3767f899f13c
   - 73aeeac872d7
   - f6c604b2793e
   tool_panel_section_label: Metagenomics - mothur
@@ -1411,6 +1424,7 @@ tools:
   revisions:
   - 008f62670efc
   - 5097ac2cbfc3
+  - d38f2ac5db71
   - eec15ff2d3c9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_pre_cluster
@@ -1418,6 +1432,7 @@ tools:
   revisions:
   - 05183ee20cf8
   - 58d0fe3cc0f2
+  - 6532c3424bfe
   - d848e23e9343
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_contigs
@@ -1425,11 +1440,13 @@ tools:
   revisions:
   - 3dab7d200c10
   - 4e9136c2c4c3
+  - 7238968f58f7
   - f65c34178487
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_otus
   owner: iuc
   revisions:
+  - 3f68e8e700c9
   - 404ccaa1a0e8
   - 8a67e60260ca
   - dbb1bc225df1
@@ -1437,6 +1454,7 @@ tools:
 - name: mothur_phylo_diversity
   owner: iuc
   revisions:
+  - 5a9bf07c250c
   - a5c241267a5f
   - c76d9ea84d39
   - c7d41770f4ce
@@ -1444,6 +1462,7 @@ tools:
 - name: mothur_pcoa
   owner: iuc
   revisions:
+  - 40b0d8eb3725
   - 485e149a8aba
   - 5bc3e30e1d9e
   - 8a69122b082f
@@ -1460,6 +1479,7 @@ tools:
   revisions:
   - 4a73df58d56b
   - 7addb1047636
+  - 8f31cb68e5bf
   - cfe04aa12a39
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_clearcut
@@ -1475,6 +1495,7 @@ tools:
   - 03b02c255008
   - 1ba1fe2a0438
   - 456cf87a12a6
+  - b030bd08117b
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_tree
   owner: iuc
@@ -1489,11 +1510,13 @@ tools:
   - 22e5a53596b6
   - 4405d0fbfada
   - 6ec3ec95ae68
+  - 7a6b209a7bd7
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_libshuff
   owner: iuc
   revisions:
   - 1cd0f3241d5b
+  - 1e4687170395
   - 45a78bb8819d
   - 6050c5fade6a
   tool_panel_section_label: Metagenomics - mothur
@@ -1523,12 +1546,14 @@ tools:
   revisions:
   - 08b0e9f01d65
   - 5fa9b6d481f6
+  - 7b96c990a457
   - 978cdd9b48d3
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_qual
   owner: iuc
   revisions:
   - 11be0e5f3ebb
+  - 7afd2d352e05
   - 7c41969ad778
   - 86a40294e149
   tool_panel_section_label: Metagenomics - mothur
@@ -1538,6 +1563,7 @@ tools:
   - 29f963e785a0
   - 35a4e758bbed
   - e1dd67d13282
+  - e7a88b8551ff
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_count_seqs
   owner: iuc
@@ -1545,6 +1571,7 @@ tools:
   - 59a962f57cb5
   - 7a6f9c899221
   - ecbd9ed733e6
+  - ffee46220ddd
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_rabund
   owner: iuc
@@ -1566,10 +1593,12 @@ tools:
   - 2834e2dd0d61
   - 528f950d1044
   - 5ea1f1f9d801
+  - 6366f4483b35
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_classic
   owner: iuc
   revisions:
+  - 6e6b8dd3b770
   - 983ff3800d7f
   - 9bae6b20ed44
   - a649d3ca67b7
@@ -1580,11 +1609,13 @@ tools:
   - 618bf5d295e7
   - 99c44fc3cd32
   - addf3c859349
+  - ccdcfd746250
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cooccurrence
   owner: iuc
   revisions:
   - 0e05f58541d0
+  - 353091f7b470
   - f83d1ed69978
   - ffdcb7942343
   tool_panel_section_label: Metagenomics - mothur
@@ -1605,6 +1636,7 @@ tools:
 - name: mothur_nmds
   owner: iuc
   revisions:
+  - 35a66c1fae5e
   - 3cc04a065490
   - 5b3e10ccf581
   - a81680d1db78
@@ -1612,6 +1644,7 @@ tools:
 - name: mothur_make_biom
   owner: iuc
   revisions:
+  - 0b5397a74165
   - 55e975c9a012
   - 5dc4d49a238a
   - e29c05b88096
@@ -1634,12 +1667,14 @@ tools:
   owner: iuc
   revisions:
   - 1a899fec55e1
+  - 418100660ba3
   - bba3c4af4982
   - f25598da7174
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_shhh_seqs
   owner: iuc
   revisions:
+  - 60d8636adf3e
   - aa189387c19c
   - c7e60f5aadcb
   - d7e469b059da
@@ -1668,6 +1703,7 @@ tools:
 - name: mothur_heatmap_bin
   owner: iuc
   revisions:
+  - 35a719cd08da
   - 83d3c6dba0b1
   - aeacbc9d5333
   - b08d51984da6
@@ -1678,11 +1714,13 @@ tools:
   - 21a9274337f5
   - 7bd37d6decd9
   - a70b25374a23
+  - bc20680d28d5
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_otu_association
   owner: iuc
   revisions:
   - 435b52e38889
+  - 7cfe3ddd183a
   - a02117aa58a5
   - a2511c40e7b8
   tool_panel_section_label: Metagenomics - mothur
@@ -1690,6 +1728,7 @@ tools:
   owner: iuc
   revisions:
   - 0e73681a7cdc
+  - 2a833eb1005c
   - 38c03ac3d622
   - 8a1fbb8e703c
   tool_panel_section_label: Metagenomics - mothur
@@ -1698,11 +1737,13 @@ tools:
   revisions:
   - 67faa6dacbae
   - a441bf009014
+  - ea2e9c5e62b9
   - f8bf3dd4db47
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_collect_single
   owner: iuc
   revisions:
+  - a52aa1bdc760
   - c9d3eed082fc
   - d3b196069f6f
   - f9b8cabd4365
@@ -1719,6 +1760,7 @@ tools:
   revisions:
   - b0f1e033e18d
   - bcc475f1af4a
+  - d1a9a6260101
   - f6befaf69818
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_sra
@@ -1740,6 +1782,7 @@ tools:
   revisions:
   - 58b8ae43d27f
   - 65b7b1a17c1c
+  - 8642712a607c
   - d0074e20ae76
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_groups
@@ -1768,6 +1811,7 @@ tools:
   revisions:
   - 0706d327ecae
   - 94ec0c5a826f
+  - d9fe0fecb696
   - f1742cf23d95
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_unique_seqs
@@ -1775,6 +1819,7 @@ tools:
   revisions:
   - 1f72d9a3d09f
   - 84722a5b79af
+  - a033f325ad8d
   - d466580cd706
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_coremicrobiome
@@ -1794,6 +1839,7 @@ tools:
 - name: mothur_rarefaction_single
   owner: iuc
   revisions:
+  - 47264675a4ea
   - 62bf570a8a7d
   - af521db77c56
   - b5bcc4bf53d1
@@ -1816,6 +1862,7 @@ tools:
   owner: iuc
   revisions:
   - 1684157db3c1
+  - 4287ded138de
   - ecbc8745f135
   - f09c0a3bf8b9
   tool_panel_section_label: Metagenomics - mothur
@@ -1830,6 +1877,7 @@ tools:
   owner: iuc
   revisions:
   - 0554c9338ca0
+  - 4d76fba83f24
   - 502323efbd82
   - efc735bcc806
   tool_panel_section_label: Metagenomics - mothur
@@ -1839,6 +1887,7 @@ tools:
   - 007311ce6297
   - 2d1dbf69f589
   - 6cca4d09073c
+  - c8c3b2271c87
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_phylotype
   owner: iuc
@@ -1846,17 +1895,20 @@ tools:
   - 4d219b4dfd6a
   - 551a2d9c0aa7
   - e18d25fb125e
+  - e6ecdb693d0c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_seqs
   owner: iuc
   revisions:
   - 4041dc69af62
+  - 600c14c6dcc5
   - 609770e516fa
   - e4a4cb8b6bbf
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_mimarks_attributes
   owner: iuc
   revisions:
+  - 1dbd31c7a031
   - 8354a02a83e1
   - 9e6590ddc54e
   - b9fe5cf8f2bc
@@ -1879,6 +1931,7 @@ tools:
   owner: iuc
   revisions:
   - 0a23bfe005be
+  - 644d8a3af62d
   - 7dba7376870c
   - d2e1ae25974c
   tool_panel_section_label: Metagenomics - mothur
@@ -1888,17 +1941,20 @@ tools:
   - 0aea19572961
   - 0bbfc05d924e
   - 563718e09fa8
+  - 6fbd83d3a29f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_parsimony
   owner: iuc
   revisions:
   - aff64115d95f
   - c7a4a69fcc4a
+  - fbb78e1bc3a3
   - fd6cebeaa143
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sens_spec
   owner: iuc
   revisions:
+  - 03dd3c928d65
   - 1979ff89fbde
   - 5ff10ccd7100
   - c3f0b847dc40
@@ -1930,6 +1986,7 @@ tools:
   - 278da14bd79a
   - 46689a444f2b
   - 74d1b765843b
+  - b931ab1fb5da
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_metastats
   owner: iuc
@@ -1937,6 +1994,7 @@ tools:
   - 19836a38dc20
   - '526310931966'
   - fe9f4a0d61d3
+  - feb408da0143
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_normalize_shared
   owner: iuc
@@ -1949,12 +2007,14 @@ tools:
   owner: iuc
   revisions:
   - 23c1af22331b
+  - 9a074f55579e
   - a33258dc5bf8
   - f338c64b09c1
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_split
   owner: iuc
   revisions:
+  - 19f45bdbffd9
   - 1b7fd1678230
   - a29ac7993cb0
   - a9924d4f538f
@@ -1969,6 +2029,7 @@ tools:
 - name: mothur_chimera_ccode
   owner: iuc
   revisions:
+  - 4e3288a885b1
   - 502024707de4
   - 751904c1033d
   - b6e0f8a9bc6b
@@ -1983,6 +2044,7 @@ tools:
 - name: mothur_summary_shared
   owner: iuc
   revisions:
+  - 50751118a506
   - 545234c1d925
   - 81df36f90a1b
   - 8e74259d96c3
@@ -1999,6 +2061,7 @@ tools:
   revisions:
   - 4e6cdbeaf3b5
   - aebe4d85e503
+  - af840f3c860e
   - dfaf60f40e94
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_mimarkspackage
@@ -2011,6 +2074,7 @@ tools:
 - name: mothur_remove_rare
   owner: iuc
   revisions:
+  - 189db1a23e9a
   - 2531a323f0c2
   - 9ac808d4e0b5
   - c90c4b4a0fae
@@ -2034,6 +2098,7 @@ tools:
   revisions:
   - 8b8c7cf6738c
   - 9cefa4fac685
+  - c8b640a7aea1
   - f5cb275acba9
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_indicator
@@ -2042,6 +2107,7 @@ tools:
   - 1c6dadf7bc72
   - 39750697d7a6
   - 5d1f9418ff72
+  - f3e6f88445fb
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_bellerophon
   owner: iuc
@@ -2055,6 +2121,7 @@ tools:
   revisions:
   - 06c8f1be0f31
   - 43e2715e98c9
+  - 8bca555fbcaf
   - af2b5be87d4f
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_sort_seqs
@@ -2062,6 +2129,7 @@ tools:
   revisions:
   - 1f30e0b31b99
   - 334476d3e35d
+  - 437838af4988
   - fc60d2e290a4
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_classify_rf
@@ -2072,6 +2140,7 @@ tools:
 - name: mothur_merge_groups
   owner: iuc
   revisions:
+  - 2624af4d11ac
   - ddd068a49efe
   - e7aa450e9d86
   - f170676a1d12
@@ -2082,6 +2151,7 @@ tools:
   - 08579dd3bf72
   - 5133ef623148
   - b9e2724e9fc7
+  - c378fb3fda31
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_create_database
   owner: iuc
@@ -2093,6 +2163,7 @@ tools:
 - name: mothur_otu_hierarchy
   owner: iuc
   revisions:
+  - 2e82b56377d8
   - 693fbc55f70e
   - 844b22e17a4a
   - f9326e93f5c3
@@ -2103,6 +2174,7 @@ tools:
   - cd7b11709aa9
   - ede016062913
   - fa40dca23957
+  - ff3e693f8d4d
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_parse_list
   owner: iuc
@@ -2110,6 +2182,7 @@ tools:
   - 408650f291f7
   - 99579d05a632
   - b1e417780bee
+  - b52a0ca5e21c
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_primer_design
   owner: iuc
@@ -2117,11 +2190,13 @@ tools:
   - 0b63f5faf6e5
   - 487977c2c586
   - 7c3df0f11815
+  - e8d5596c1d98
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_homova
   owner: iuc
   revisions:
   - 89054fe2207f
+  - 8ebe74ce080b
   - 948d5731dbe0
   - d4c1caf95426
   tool_panel_section_label: Metagenomics - mothur
@@ -2131,10 +2206,12 @@ tools:
   - 081d0fbf9751
   - 57b51d6db607
   - 65d9f4688890
+  - d26de4fffac5
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_deunique_tree
   owner: iuc
   revisions:
+  - 283af2e6130c
   - 44d01ad18366
   - d247213cebfc
   - ec5e03c0f18e
@@ -2154,6 +2231,7 @@ tools:
 - name: make_nr
   owner: peterjc
   revisions:
+  - 0c71cd1cd99a
   - 84e483325b04
   - c84f12187af9
   tool_panel_section_label: Fasta Manipulation
@@ -2687,12 +2765,14 @@ tools:
   owner: iuc
   revisions:
   - 31fa2d557ff2
+  - 458d9a13d2f5
   - 76d968f820ac
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_vsearch
   owner: iuc
   revisions:
   - 1801019b4690
+  - bdb4a58a2025
   - dd4546e98188
   - de3cfb122105
   tool_panel_section_label: Metagenomics - mothur
@@ -2700,11 +2780,13 @@ tools:
   owner: iuc
   revisions:
   - a97107cc4c93
+  - db30eb96ea23
   - ec53d27ee602
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_rename_seqs
   owner: iuc
   revisions:
+  - 02a42e3fa758
   - 583af69719db
   - ba2b321b6b64
   tool_panel_section_label: Metagenomics - mothur
@@ -2796,12 +2878,14 @@ tools:
   revisions:
   - 1aca7da945ba
   - 4c263ca917ef
+  - 5f36444a0f9d
   - 71220e640d0c
   - d623ad21ca59
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openpepxl
   owner: galaxyp
   revisions:
+  - 10d8b43176a9
   - 4d2b77fd7a28
   - e8ddd32f450b
   - fc36cfd19834
@@ -2812,12 +2896,14 @@ tools:
   - 18f08cdc0eb7
   - 7363ca9e41bd
   - ae70a8086504
+  - c8e5389abfc5
   - f95704542c63
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_percolatoradapter
   owner: galaxyp
   revisions:
   - 016964c597f5
+  - 02796e3ddec1
   - 0fc9ae55bcfc
   - dbfb6bb95754
   tool_panel_section_label: Proteomics - OpenMS
@@ -2827,6 +2913,7 @@ tools:
   - 4242496df19e
   - 6c4318671e0d
   - 851f7c252d66
+  - c2612cb89529
   - f7ef238cc21e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindercentroided
@@ -2835,12 +2922,14 @@ tools:
   - 1a709ba66f2f
   - a3fc834f23ba
   - b5ede3ff996c
+  - d0c5325cb998
   - d7f016292d95
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_gnpsexport
   owner: galaxyp
   revisions:
   - 2da14ae3844a
+  - 87a970d1514b
   - d3cbea30faa4
   - d5cb5af21850
   tool_panel_section_label: Proteomics - OpenMS
@@ -2850,6 +2939,7 @@ tools:
   - 200e9206e53a
   - 2c3d2c216ff9
   - 83f5e5c1209c
+  - f3ec820189ca
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterscaler
   owner: galaxyp
@@ -2858,12 +2948,14 @@ tools:
   - 5ac863a6ff54
   - 8a699cac8a54
   - 8de40ceef18b
+  - f714192eab03
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_semanticvalidator
   owner: galaxyp
   revisions:
   - 241674ffc642
   - 4af4658187e3
+  - a421b4ddf47c
   - f8c659715995
   - ff9d0d1c2c1c
   tool_panel_section_label: Proteomics - OpenMS
@@ -2873,6 +2965,7 @@ tools:
   - 646ebe78d904
   - 7407c66b08b4
   - 8a0eec1c8c06
+  - ccc041d26ee1
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_precursormasscorrector
   owner: galaxyp
@@ -2880,12 +2973,14 @@ tools:
   - 35123b3fe2f2
   - 7605adf55b7c
   - 8736a28dd1d3
+  - b71e9103d269
   - e93ae0125dde
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_metaprosip
   owner: galaxyp
   revisions:
   - 41a21bbf40d8
+  - 5f72a8fa935d
   - 819ed5aae76f
   - 8b42d5ca8f49
   - 96cc79adfadb
@@ -2898,18 +2993,21 @@ tools:
   - 4c485bb20e27
   - 5690b9865216
   - 718c0e2904cb
+  - 902d0f778dcf
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterthresholdmower
   owner: galaxyp
   revisions:
   - 1db101600feb
   - 347d9d613d1b
+  - 53fec73970ad
   - 62bd736296ec
   - da2ece63688b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idmassaccuracy
   owner: galaxyp
   revisions:
+  - 0819fd9da302
   - 3750c20d0d50
   - 585f8235da7e
   - b889cb83a9e1
@@ -2920,12 +3018,14 @@ tools:
   revisions:
   - 111c3a00136d
   - 73d288112aef
+  - 93e6ec445d5d
   - 986e03d3201e
   - c127b9a4d64b
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafiltersqrtmower
   owner: galaxyp
   revisions:
+  - '241875955167'
   - 50aca42393c4
   - 5a9aa84a76ac
   - 9978bb149a5b
@@ -2934,6 +3034,7 @@ tools:
 - name: openms_peakpickeriterative
   owner: galaxyp
   revisions:
+  - 025261d4bd60
   - 4389049498e4
   - 911e9dda3eb2
   - 9547baeca6a1
@@ -2943,6 +3044,7 @@ tools:
   revisions:
   - 4fdeb75928ea
   - 87dda030bc92
+  - cf9b51c0b15e
   - e38e1a7af019
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermultiplex
@@ -2952,6 +3054,7 @@ tools:
   - 5e948629bc73
   - 954c0413acfb
   - 9876bda3ec53
+  - c9b2a5022d9e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_myrimatchadapter
   owner: galaxyp
@@ -2963,6 +3066,7 @@ tools:
 - name: openms_masstraceextractor
   owner: galaxyp
   revisions:
+  - 02e876ada338
   - 29d893e855c6
   - 4e32bb5991e3
   - eafeba6b54fe
@@ -2973,6 +3077,7 @@ tools:
   - 1cce7a3b5d6d
   - 73be9c498aa8
   - bd57c94d50fb
+  - e5ebdbc5e072
   - f8ed4723376c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcextractor
@@ -2980,6 +3085,7 @@ tools:
   revisions:
   - 3a54cf566e55
   - 7c948bbf859b
+  - 9a527fdadffc
   - a1d6562ac8cf
   - c8d22d876c75
   tool_panel_section_label: Proteomics - OpenMS
@@ -2989,6 +3095,7 @@ tools:
   - 5db940d296d7
   - 98adda3af74a
   - bfba20e0425e
+  - e278a1abeebe
   - e80e453c3b04
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilterwindowmower
@@ -2997,6 +3104,7 @@ tools:
   - 2876320b80a4
   - 91f4f9f6a140
   - b28211400cc4
+  - da5c2d11fcb8
   - eaf3482c9c63
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_psmfeatureextractor
@@ -3005,11 +3113,13 @@ tools:
   - 064ff75dd79c
   - 3787addbb8e1
   - 63fea23042c4
+  - c68cd6e1d3dc
   - db2f53435366
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idfileconverter
   owner: galaxyp
   revisions:
+  - 5e9c35b8d194
   - 6772d71b9150
   - 7d0eb300f360
   - 92d0f39d9b8f
@@ -3020,6 +3130,7 @@ tools:
   revisions:
   - 1bf940c18d93
   - c1809c05ae8c
+  - e480a424b40f
   - e8f64a7dc470
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_highresprecursormasscorrector
@@ -3028,11 +3139,13 @@ tools:
   - 0efbc235f314
   - 829a9a4318c8
   - 95b53cafbd29
+  - b606d4a12558
   - d3546bb9fd8e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_qcmerger
   owner: galaxyp
   revisions:
+  - 86a29d233856
   - f4512d24a40b
   - f9d1fac71776
   - fbf1dfad22ce
@@ -3040,6 +3153,7 @@ tools:
 - name: openms_demeanderize
   owner: galaxyp
   revisions:
+  - 17547aceaf40
   - 2425a98560f5
   - 57cb1a280091
   - d2852a9e5550
@@ -3051,11 +3165,13 @@ tools:
   - 2d856cba192b
   - 4bb198c0bd3e
   - 89254095cbf6
+  - f8fcaa2dfd68
   - feb421396b40
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_databasesuitability
   owner: galaxyp
   revisions:
+  - 2470b498fc12
   - 4890f50ae1a2
   - 594a165c069c
   tool_panel_section_label: Proteomics - OpenMS
@@ -3066,10 +3182,12 @@ tools:
   - 6950572aae5a
   - 6f98f87751ff
   - 75ccdbc2475d
+  - e46a9e72c395
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_falsediscoveryrate
   owner: galaxyp
   revisions:
+  - 4138acdeedfb
   - 6ccbf9a2072c
   - bbfd2b112a30
   - c9eff69a7c62
@@ -3081,6 +3199,7 @@ tools:
   - 50b4109ecac7
   - 60b79c332c1c
   - 64e35457d86e
+  - ae90bc9b7936
   - cc0c1172058d
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectramerger
@@ -3089,12 +3208,14 @@ tools:
   - 4333c513b7a1
   - 7b8a7d2dab8f
   - 85738bba683a
+  - b20b1f195cf2
   - f8717535fbe3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrastsearchadapter
   owner: galaxyp
   revisions:
   - 4d189842ebfc
+  - 52dd59548339
   - 6af2aab4321f
   - 76adea1e0fde
   - 7e2e9379aec7
@@ -3103,6 +3224,7 @@ tools:
   owner: galaxyp
   revisions:
   - 391133d30284
+  - 949086930a49
   - bd5d779a7a38
   - be19daaf2c43
   - bf2bf60c8af2
@@ -3112,6 +3234,7 @@ tools:
   revisions:
   - 01dbaf6a57e0
   - 205508001e9a
+  - 91da6dd00bbc
   - abffdfee3021
   - f4be248c3d47
   tool_panel_section_label: Proteomics - OpenMS
@@ -3121,6 +3244,7 @@ tools:
   - 1168fee85066
   - 2a7feb3bf985
   - 83901afd58c8
+  - 8bdbd9b42f3e
   - e395b283d960
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_tofcalibration
@@ -3128,12 +3252,14 @@ tools:
   revisions:
   - 58bdbab5cc5e
   - 9f0e189d093c
+  - b6f7cec6cc9e
   - cfd9c633de6b
   - f991f3776b65
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fuzzydiff
   owner: galaxyp
   revisions:
+  - 5369624840b9
   - 55f3c74f6ce6
   - c940abd8d622
   - d98117e7b3b2
@@ -3145,6 +3271,7 @@ tools:
   - 691ae855ba41
   - f82b320ceb90
   - f9ed7e074900
+  - fe39f583c19a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_seedlistgenerator
   owner: galaxyp
@@ -3153,6 +3280,7 @@ tools:
   - 47ce7a087ec1
   - 5227ade94537
   - f3c72f54b9eb
+  - f6076d07a33a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_transformationevaluation
   owner: galaxyp
@@ -3165,6 +3293,7 @@ tools:
 - name: openms_featurefinderisotopewavelet
   owner: galaxyp
   revisions:
+  - 1a82cbde281d
   - 76ff9bc059b3
   - 832c471f0d31
   - b3881e7a2990
@@ -3174,6 +3303,7 @@ tools:
   owner: galaxyp
   revisions:
   - 729a9f0db48c
+  - 815e502a2288
   - a717bea32e41
   - df711389fe7f
   - f9e709333234
@@ -3182,6 +3312,7 @@ tools:
   owner: galaxyp
   revisions:
   - 0056247c6934
+  - 31e674c86840
   - 532cf3ddcc91
   - a12a392cc85f
   - d14681186aba
@@ -3199,6 +3330,7 @@ tools:
   revisions:
   - 3fe401ded316
   - 5a9c3e827da5
+  - 907fda39b333
   - 9866e1170611
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_idmapper
@@ -3208,6 +3340,7 @@ tools:
   - 39caaa778d2e
   - a3960e7c2d1d
   - adca857b4884
+  - ea02403ff738
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathanalyzer
   owner: galaxyp
@@ -3216,10 +3349,12 @@ tools:
   - 0ced5bc9f4dd
   - 4da16805dea6
   - 605bfaea237a
+  - 9cdf469a3241
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_noisefiltersgolay
   owner: galaxyp
   revisions:
+  - 35468667de97
   - 677d716a1bff
   - 6b3db3bf20ef
   - 6b555020d5f3
@@ -3228,6 +3363,7 @@ tools:
 - name: openms_erpairfinder
   owner: galaxyp
   revisions:
+  - 3d043a92c582
   - 5056b45d484b
   - c7a072fe0088
   - d6ef464ff66b
@@ -3235,6 +3371,7 @@ tools:
 - name: openms_mrmmapper
   owner: galaxyp
   revisions:
+  - 47f82df5bdea
   - 9a6f6a0ed604
   - a6774479101a
   - c0388664d0fe
@@ -3243,6 +3380,7 @@ tools:
 - name: openms_featurelinkerunlabeledqt
   owner: galaxyp
   revisions:
+  - 8394bcb2b0ca
   - aa43ad3b2da6
   - aa8658367608
   - f1604a5673a3
@@ -3251,6 +3389,7 @@ tools:
 - name: openms_decoydatabase
   owner: galaxyp
   revisions:
+  - 06cca574e337
   - 24fd374cbffc
   - 25529df60a81
   - 29f7843b3371
@@ -3259,6 +3398,7 @@ tools:
 - name: openms_spectrafilterparentpeakmower
   owner: galaxyp
   revisions:
+  - 2199afa87e7d
   - 411bad9b573a
   - 5694ec584f4c
   - a3404cddc8ee
@@ -3271,11 +3411,13 @@ tools:
   - b0db3468e380
   - b46263c3ee99
   - bf720ddf8333
+  - fbe41f0cc71e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_msgfplusadapter
   owner: galaxyp
   revisions:
   - 2e87a752617e
+  - 810779f0cf49
   - bf88d58b098c
   - f5ec766d80cf
   tool_panel_section_label: Proteomics - OpenMS
@@ -3285,12 +3427,14 @@ tools:
   - 3c7ace918122
   - 6ccbb3ca7f43
   - 8a205687e384
+  - cb772fb66a49
   - d9802c463a2f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_speclibcreator
   owner: galaxyp
   revisions:
   - 15f9084434c0
+  - 5b237d23cb7d
   - 6182eba29c38
   - 7895c4fbe46d
   - da1fa8ce2d96
@@ -3300,6 +3444,7 @@ tools:
   revisions:
   - 589bf635f424
   - 8118e5780beb
+  - a6124b08daff
   - cf896227a570
   - ef4ecc9d45fb
   tool_panel_section_label: Proteomics - OpenMS
@@ -3308,6 +3453,7 @@ tools:
   revisions:
   - 026becd84c5b
   - 2a9ff56cb279
+  - 74d39f98b0c4
   - de7a553552a6
   - df72ca515420
   tool_panel_section_label: Proteomics - OpenMS
@@ -3326,12 +3472,14 @@ tools:
   - 2d50765b7567
   - 535b554505c6
   - 996ca7c1d45e
+  - af4a55cbf5b6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_textexporter
   owner: galaxyp
   revisions:
   - 1b03536aa3c9
   - 9020199dba0a
+  - b5de4c3efbdd
   - d063e2fe4ba4
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_masscalculator
@@ -3340,6 +3488,7 @@ tools:
   - 17ce97f931d3
   - 268254ac7f5f
   - bcd50cd4fe42
+  - d905af02ce63
   - edb4ca47bad8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_cruxadapter
@@ -3361,6 +3510,7 @@ tools:
   owner: galaxyp
   revisions:
   - 42dffcf33fe4
+  - 5c9e1b5d3b95
   - 709b729227e9
   - c28f13cab67a
   - ca1740533b59
@@ -3369,6 +3519,7 @@ tools:
   owner: galaxyp
   revisions:
   - 2a93a25f0599
+  - 8b6336c903ef
   - 9939af9b0ea3
   - 9b7977080f6d
   - efd9d9e7fd2c
@@ -3379,11 +3530,13 @@ tools:
   - 0337d5af48f9
   - 13399dc8f687
   - 28bc63599d10
+  - 74db964d4818
   - ede260ee1404
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurelinkerlabeled
   owner: galaxyp
   revisions:
+  - 90a5563d9a69
   - be80f15b4192
   - c781ee2e5e98
   - d50b7bb0f027
@@ -3395,12 +3548,14 @@ tools:
   - 44856bd6bf27
   - 5c103025f6e4
   - d0607dfea8fa
+  - f6f07c3e99a2
   - fc351fd4a009
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefindermetaboident
   owner: galaxyp
   revisions:
   - 59c8b1a9cf86
+  - a93b05cf3a38
   - ae20e8a6d309
   - dfc01523da09
   tool_panel_section_label: Proteomics - OpenMS
@@ -3414,6 +3569,7 @@ tools:
 - name: openms_baselinefilter
   owner: galaxyp
   revisions:
+  - 84bd73e60367
   - d46f60c75db4
   - d9a4d7684e66
   - ddbae9eb797e
@@ -3422,12 +3578,14 @@ tools:
   owner: galaxyp
   revisions:
   - 04e7a86378d5
+  - 0643576e7f51
   - 92352a475eed
   - b2fc8da99bcc
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilternormalizer
   owner: galaxyp
   revisions:
+  - 4ba7fb47318c
   - 4dbf90919a9f
   - 5a2591e63b0e
   - ab1a5e597021
@@ -3436,6 +3594,7 @@ tools:
 - name: openms_peptideindexer
   owner: galaxyp
   revisions:
+  - 0693b186f39e
   - cb18120926b0
   - cb86883cc573
   - d6aca689dd48
@@ -3447,6 +3606,7 @@ tools:
   - 475c4702fe58
   - 59da0b9a95c8
   - 67b02e52296a
+  - df0c77da6c87
   - e75929491905
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_metaboliteadductdecharger
@@ -3460,6 +3620,7 @@ tools:
 - name: openms_mrmtransitiongrouppicker
   owner: galaxyp
   revisions:
+  - 1c96645cbfbd
   - 526a2e0e49e6
   - 78796b50831b
   - a93565208dba
@@ -3470,18 +3631,21 @@ tools:
   revisions:
   - 78c080d36945
   - 8d2e828561d6
+  - ad2ba3a95a02
   - f036e8cf1a55
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_clustermasstraces
   owner: galaxyp
   revisions:
   - 10c41ad01df5
+  - 3350a9c0631a
   - 377c3c7c058c
   - c29d85d3e732
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_speclibsearcher
   owner: galaxyp
   revisions:
+  - 2d6e49acbb56
   - 3aa3b656e624
   - '531935403142'
   - b7fa0190a8c6
@@ -3490,6 +3654,7 @@ tools:
 - name: openms_mascotadapter
   owner: galaxyp
   revisions:
+  - 087b9d721a08
   - 27e308170367
   - 3dfa8cf579c5
   - 6ff54b799207
@@ -3507,6 +3672,7 @@ tools:
   owner: galaxyp
   revisions:
   - 130ffca1ec5b
+  - 30f67afbf5be
   - 4555b2965a82
   - 6eb4a1a41639
   - e306864ec5b1
@@ -3518,11 +3684,13 @@ tools:
   - 287ae08c5065
   - 7250e2511a8e
   - 91911a3227ca
+  - cdc1cdb2ad70
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openpepxllf
   owner: galaxyp
   revisions:
   - 811efed0a9c3
+  - 848df89b641a
   - 8bfa9d787dc7
   - a8c028751a74
   - ce58e77b5e05
@@ -3533,11 +3701,13 @@ tools:
   - 0b91652c7743
   - 55290cddb679
   - 92864c71ac6a
+  - a19e844b82ad
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_msstatsconverter
   owner: galaxyp
   revisions:
   - 80eb149b1579
+  - d0a7080ddf67
   - e3fb590554fd
   - ef71714a330e
   tool_panel_section_label: Proteomics - OpenMS
@@ -3546,6 +3716,7 @@ tools:
   revisions:
   - 50cbdbc12198
   - 5e5957107061
+  - 92ecd10e5c03
   - e322e005450c
   - f78d734b7c01
   tool_panel_section_label: Proteomics - OpenMS
@@ -3562,12 +3733,14 @@ tools:
   revisions:
   - 015b55cd3570
   - c10dfb44cdf2
+  - e8c52c1d6f98
   - f3096a586de8
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_spectrafilternlargest
   owner: galaxyp
   revisions:
   - 2f1ead9c86e0
+  - 503e18eb2596
   - 948d3b4988e4
   - a49171b574ea
   - e3263b6b7c7c
@@ -3583,6 +3756,7 @@ tools:
   owner: galaxyp
   revisions:
   - 80621478131c
+  - a1dffbb8fbc3
   - cca2b6c3ae61
   - f49a58e03ada
   - f75fb96bb742
@@ -3591,6 +3765,7 @@ tools:
   owner: galaxyp
   revisions:
   - 04883c24494e
+  - 317a5cb79894
   - 93ec2c6bd126
   - aa2bf9c53765
   - aec26bf377fb
@@ -3600,12 +3775,14 @@ tools:
   revisions:
   - 095b7d42bfc2
   - 24a506151bdf
+  - 609bc5efdcc9
   - ed505e649244
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_multiplexresolver
   owner: galaxyp
   revisions:
   - 021fdb80f204
+  - 53b202a738c3
   - 7b9dd0796558
   - d0304fb829c0
   - fb647b7cf2c1
@@ -3615,6 +3792,7 @@ tools:
   revisions:
   - 8030f8ff8afa
   - 9989f6be8bea
+  - ace4851c8c37
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fidoadapter
   owner: galaxyp
@@ -3631,12 +3809,14 @@ tools:
   - 3721c6380979
   - 7960e660446e
   - b577fd381b36
+  - e64214bd2f6e
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_xtandemadapter
   owner: galaxyp
   revisions:
   - 213368382d6c
   - 269f95c18fa1
+  - 567de7cb1766
   - 5c2a97a234d6
   - 7f6a1f27553e
   tool_panel_section_label: Proteomics - OpenMS
@@ -3646,12 +3826,14 @@ tools:
   - 47e8f2bfa37f
   - 838b8e375587
   - a56aaea020b6
+  - bb22e965eb5a
   - bd8735ccc6f6
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mascotadapteronline
   owner: galaxyp
   revisions:
   - 3f3d33920f90
+  - 5f9e1383f6e4
   - aad6eee5ba4e
   - d4dbddff2dd6
   - d9157dd6a489
@@ -3661,6 +3843,7 @@ tools:
   revisions:
   - 045995dc36bc
   - 6530e5b0b966
+  - 905a2b83fa9d
   - 9cdd5faa34d0
   - ce167f132711
   tool_panel_section_label: Proteomics - OpenMS
@@ -3671,6 +3854,7 @@ tools:
   - 3e817bdb6d2e
   - 9aec88d81f18
   - 9e47c4855b18
+  - bf0b36140329
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_fileinfo
   owner: galaxyp
@@ -3679,6 +3863,7 @@ tools:
   - 32264aaa27b8
   - 4af67edd5aef
   - 52ba9695e752
+  - 5a45e6ac9aae
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignerposeclustering
   owner: galaxyp
@@ -3687,6 +3872,7 @@ tools:
   - 246847b3a188
   - 7f1786e1c462
   - d02fe0dfd2dc
+  - e527a8a430dd
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_siriusadapter
   owner: galaxyp
@@ -3694,12 +3880,14 @@ tools:
   - 0c27444604dd
   - 1a6f39227aca
   - 5f87757577cc
+  - b7505ec60b7d
   - d784e23cc91c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_databasefilter
   owner: galaxyp
   revisions:
   - 0878a55de9e7
+  - 2f7a8b58314e
   - 56c9ad9cdb65
   - b30134671ac5
   - fd64bf34cb08
@@ -3709,6 +3897,7 @@ tools:
   revisions:
   - 047d6bdf5c9f
   - 4ef2f946290d
+  - a1724438d580
   - a3b09a079597
   - da78f97a6dda
   tool_panel_section_label: Proteomics - OpenMS
@@ -3724,6 +3913,7 @@ tools:
   owner: galaxyp
   revisions:
   - 02cabca46ad9
+  - 78024781d209
   - 79706b7647c3
   - 856b0f25f4cc
   - c170c9662d11
@@ -3733,6 +3923,7 @@ tools:
   revisions:
   - 5b672697da3f
   - b210cea1b4f6
+  - b4f6792e0b22
   - fdb48515d895
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_ffeval
@@ -3749,6 +3940,7 @@ tools:
   - 4d950ff26e35
   - 6d9cd32c941b
   - bd210b86fb5d
+  - ea02cc72f0b9
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathdecoygenerator
   owner: galaxyp
@@ -3756,6 +3948,7 @@ tools:
   - 496cf619e311
   - 5e1e666e1228
   - 965413f29bf5
+  - e833a89f25c8
   - f861ec9fbe59
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_pepnovoadapter
@@ -3770,6 +3963,7 @@ tools:
   revisions:
   - 34e7afee141d
   - acefdc019876
+  - bdcdd2a5ea43
   - ded32493f0f9
   - f817513840a9
   tool_panel_section_label: Proteomics - OpenMS
@@ -3777,6 +3971,7 @@ tools:
   owner: galaxyp
   revisions:
   - 16026cdb1330
+  - 89ece0562fe0
   - 8a45fd5a608a
   - d426affe977c
   tool_panel_section_label: Proteomics - OpenMS
@@ -3785,6 +3980,7 @@ tools:
   revisions:
   - 181f7bb2d04d
   - 43c3edaadb5d
+  - 464f7877215b
   - 47982606f542
   - da0add7a8abd
   tool_panel_section_label: Proteomics - OpenMS
@@ -3793,6 +3989,7 @@ tools:
   revisions:
   - 6d492588ae83
   - c951784e4967
+  - ef145c9fb233
   - f7bc536b3bf3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_filefilter
@@ -3800,12 +3997,14 @@ tools:
   revisions:
   - 0bb5056cb775
   - 4b5c7feac8db
+  - 86a9dd43dd09
   - daec99595337
   - fe4e4587d265
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathrtnormalizer
   owner: galaxyp
   revisions:
+  - 0eaf3d4219cf
   - 6e8cc5ed2a9b
   - 79dbeb3cbfb4
   - d31426ef20f6
@@ -3816,6 +4015,7 @@ tools:
   revisions:
   - 0f97ea098da0
   - 25cc460f9092
+  - 33e2670c3a18
   - 7df285ee982e
   - 85d212da1e00
   tool_panel_section_label: Proteomics - OpenMS
@@ -3823,12 +4023,14 @@ tools:
   owner: galaxyp
   revisions:
   - 76e8df062c6d
+  - 986d14ec9394
   - c99d5004b74f
   - d4396637b9f5
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnamasscalculator
   owner: galaxyp
   revisions:
+  - 148c000ea2ec
   - 1af5b39289b8
   - bb58f2f266e8
   - cb0f5beef55f
@@ -3838,6 +4040,7 @@ tools:
   revisions:
   - 04221d3a662c
   - 4204882495f2
+  - 5a56ed4fb4c2
   - b239adedaa73
   - be74a8cd7d66
   tool_panel_section_label: Proteomics - OpenMS
@@ -3847,6 +4050,7 @@ tools:
   - 34dda034b019
   - 846eea397eba
   - ea8f9d83f34f
+  - fa544e12732f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathworkflow
   owner: galaxyp
@@ -3855,11 +4059,13 @@ tools:
   - 4a7b96835140
   - 887be35bc42e
   - 94d245e69164
+  - ec4490c65f95
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_peakpickerhires
   owner: galaxyp
   revisions:
   - 3d8d4ada5405
+  - 401f500aae50
   - 6b01678ec2fc
   - decc397c3b7e
   tool_panel_section_label: Proteomics - OpenMS
@@ -3882,6 +4088,7 @@ tools:
 - name: openms_targetedfileconverter
   owner: galaxyp
   revisions:
+  - 43b9ed22e8ce
   - 9c70a651a53e
   - aa62f8f48dd4
   - dd71e020e2aa
@@ -3892,6 +4099,7 @@ tools:
   revisions:
   - 0a1d6105889b
   - 5368af178b30
+  - 604c9363dcfd
   - 72e4bf868316
   - 844c32358954
   tool_panel_section_label: Proteomics - OpenMS
@@ -3906,6 +4114,7 @@ tools:
 - name: openms_idfilter
   owner: galaxyp
   revisions:
+  - 093a52644633
   - 8d04dd993653
   - a5d785af0ad8
   - ca799a7246e7
@@ -3916,6 +4125,7 @@ tools:
   revisions:
   - 12ae09b3a0b4
   - 247aabec1b99
+  - 77b66c1c5415
   - 8434f070e939
   - dbd714e74e21
   tool_panel_section_label: Proteomics - OpenMS
@@ -3925,10 +4135,12 @@ tools:
   - 75480fff2586
   - dedbf43ccfb5
   - e58e7a1ce396
+  - f0c018228cec
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_triqlerconverter
   owner: galaxyp
   revisions:
+  - f9675543622a
   - fb0ebc6f97f3
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_sequencecoveragecalculator
@@ -3939,11 +4151,13 @@ tools:
   - 3fe59b1a1370
   - 452a5e307d05
   - 47ad03766bd8
+  - b5348eebc36c
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_digestormotif
   owner: galaxyp
   revisions:
   - 01f5e95b5961
+  - 3138bbc00588
   - 38676a2713f5
   - 87b797e33998
   tool_panel_section_label: Proteomics - OpenMS
@@ -3951,6 +4165,7 @@ tools:
   owner: galaxyp
   revisions:
   - 83f22c5c5f92
+  - 988ae4cfb522
   - c49a738628e8
   - d29c4c46e057
   - dd0a6ad39f0e
@@ -3959,6 +4174,7 @@ tools:
   owner: galaxyp
   revisions:
   - 2735db4dd8d9
+  - 748dfbdf2201
   - 821974b68e01
   - c679f920716e
   - ee860980edc6
@@ -3969,17 +4185,20 @@ tools:
   - 3cedbe742c68
   - a27853dd6204
   - aeaadbf1d7ec
+  - c0f39306c687
   - f253d41d9170
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openmsdatabasesinfo
   owner: galaxyp
   revisions:
   - a7ff1eeba91f
+  - ea9291282c0f
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_openswathrewritetofeaturexml
   owner: galaxyp
   revisions:
   - 1f7cf69e180c
+  - 77f01ffce2b7
   - 99d514749a9c
   - 9da6772a761c
   - b956337a7473
@@ -3988,6 +4207,7 @@ tools:
   owner: galaxyp
   revisions:
   - 35acd0d34d48
+  - 4b603a44b009
   - 892c0dfeb401
   - d913c83081e1
   - fcbe0103feed
@@ -3996,6 +4216,7 @@ tools:
   owner: galaxyp
   revisions:
   - 81d5ef72ef9d
+  - 8ee87d58ed48
   - beadd01e222c
   - e7a97a131b5f
   tool_panel_section_label: Proteomics - OpenMS
@@ -4005,6 +4226,7 @@ tools:
   - 2451315543f9
   - 55ebdf4618df
   - a1c76c5160ee
+  - a49dde5a836e
   - ede71c074e9a
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_featurefinderidentification
@@ -4013,6 +4235,7 @@ tools:
   - 17ecb923aa31
   - 3baff5ec6dab
   - 5dc928c83939
+  - 65bdfab68571
   - 8bdf87119680
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignerspectrum
@@ -4021,11 +4244,13 @@ tools:
   - 085863ba8f0e
   - 401a83dcff39
   - 8751db99e4bb
+  - c4c64002d01e
   - eb4c663659f7
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_mapalignertreeguided
   owner: galaxyp
   revisions:
+  - 37d1f970c572
   - 4bdaddb03b67
   - 502c7e321ba5
   - acbd811b19e1
@@ -4041,6 +4266,7 @@ tools:
 - name: openms_qcshrinker
   owner: galaxyp
   revisions:
+  - 047c8ea82162
   - 21d045f5985f
   - 381abb197081
   - a4b5b3c5df07
@@ -4053,6 +4279,7 @@ tools:
   - 6b1947c628af
   - 7ff821b34ebc
   - c4e15b449974
+  - f7226e34dc70
   tool_panel_section_label: Proteomics - OpenMS
 - name: openms_rnpxl
   owner: galaxyp
@@ -4514,11 +4741,13 @@ tools:
   revisions:
   - 4b627470dea2
   - 69ed543767b2
+  - da36e8bbcfbd
   tool_panel_section_label: Metabolomics
 - name: mspurity_averagefragspectra
   owner: computational-metabolomics
   revisions:
   - 94eb1fcfde88
+  - ac284b969836
   - e79c1a0654af
   tool_panel_section_label: Metabolomics
 - name: mspurity_createdatabase
@@ -4526,16 +4755,19 @@ tools:
   revisions:
   - 0cc6b67dccb8
   - 3ec6fd8e4c17
+  - 751b7378a683
   tool_panel_section_label: Metabolomics
 - name: mspurity_createmsp
   owner: computational-metabolomics
   revisions:
+  - 3d92b95cf6c0
   - 50409aeeeac5
   - 8512923bdd37
   tool_panel_section_label: Metabolomics
 - name: mspurity_purityx
   owner: computational-metabolomics
   revisions:
+  - 374022b7b469
   - 84b2151fd8f4
   - 942e676515fe
   tool_panel_section_label: Metabolomics
@@ -4544,17 +4776,20 @@ tools:
   revisions:
   - 03b45dceb134
   - d7104112fac6
+  - f11c129a4227
   tool_panel_section_label: Metabolomics
 - name: mspurity_dimspredictpuritysingle
   owner: computational-metabolomics
   revisions:
   - 067566eef56f
   - 2ce66d2f6a24
+  - 548fed2ef792
   tool_panel_section_label: Metabolomics
 - name: mspurity_puritya
   owner: computational-metabolomics
   revisions:
   - 0d73912c7cdc
+  - 10e56e53668c
   - 55f1691db108
   tool_panel_section_label: Metabolomics
 - name: mspurity_filterfragspectra
@@ -4562,16 +4797,19 @@ tools:
   revisions:
   - 2e10c13085c9
   - 31920dd28862
+  - a8842e5e75a7
   tool_panel_section_label: Metabolomics
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
   - 20f4fdaf36bb
   - 829af6fecd96
+  - c33b92eeb1fb
   tool_panel_section_label: Metabolomics
 - name: mspurity_frag4feature
   owner: computational-metabolomics
   revisions:
+  - 174a523cb1da
   - 2f7cd31eba49
   - e9fbb65451f6
   tool_panel_section_label: Metabolomics
@@ -4861,6 +5099,7 @@ tools:
   revisions:
   - 4aab5ae907b6
   - 57251c760cab
+  - 5cb6146337d8
   - a62c4a11a67d
   - ea5e944f447d
   tool_panel_section_label: Data Export
@@ -7503,6 +7742,7 @@ tools:
   - 0cb27ea69dc1
   - 4ba60cb14cb0
   - 9c43baa60906
+  - a88f077f1994
   tool_panel_section_label: Data Managers
 - name: data_manager_gtdbtk_database_installer
   owner: iuc
@@ -7516,3 +7756,18 @@ tools:
   - e4b4837f06f5
   - ed1518ce2237
   tool_panel_section_label: Data Managers
+- name: baseline_toxicity_calculator
+  owner: mbernt
+  revisions:
+  - ce46f2008024
+  tool_panel_section_label: Toxicology
+- name: drep_compare
+  owner: iuc
+  revisions:
+  - 9902c85117a4
+  tool_panel_section_label: Metagenomics
+- name: drep_dereplicate
+  owner: iuc
+  revisions:
+  - cafcc13990ee
+  tool_panel_section_label: Metagenomics

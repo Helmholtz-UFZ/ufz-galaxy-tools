@@ -3113,15 +3113,28 @@ tools:
 - name: data_manager_build_kraken2_database
   owner: iuc
   tool_panel_section_label: Data Managers
-- name: dose_response_analysis_tool
-  owner: ufz
-  tool_panel_section_label: Toxicology
+# Can't be deployed https://github.com/galaxyproject/galaxy/issues/18359 
+# - name: dose_response_analysis_tool
+#   owner: ufz
+#   tool_panel_section_label: Toxicology
 - name: baseline_toxicity_calculator
-  owner: ufz
+  owner: mbernt
   tool_panel_section_label: Toxicology
 - name: defense_finder
   owner: rplanel
   tool_panel_section_label: Genome annotation
 - name: data_manager_defense_finder
   owner: rplanel
+  tool_panel_section_label: Data Managers
+- name: drep_compare
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: drep_dereplicate
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: genomad_end_to_end
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: genomad_build_database
+  owner: ufz
   tool_panel_section_label: Data Managers
