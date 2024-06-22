@@ -7322,6 +7322,7 @@ tools:
 - name: xtb_molecular_optimization
   owner: recetox
   revisions:
+  - cba7123c2741
   - d5633eaf3552
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_subsetting
@@ -7761,6 +7762,16 @@ tools:
   revisions:
   - ce46f2008024
   tool_panel_section_label: Toxicology
+- name: defense_finder
+  owner: rplanel
+  revisions:
+  - 596fa7bf596f
+  tool_panel_section_label: Annotation
+- name: data_manager_defense_finder
+  owner: rplanel
+  revisions:
+  - e661b9ac3223
+  tool_panel_section_label: Data Managers
 - name: drep_compare
   owner: iuc
   revisions:
@@ -7771,3 +7782,13 @@ tools:
   revisions:
   - cafcc13990ee
   tool_panel_section_label: Metagenomics
+- name: genomad_end_to_end
+  owner: ufz
+  revisions:
+  - 955e33326e20
+  tool_panel_section_label: Metagenomics
+- name: genomad_build_database
+  owner: ufz
+  revisions:
+  - c4ec3d81eeee
+  tool_panel_section_label: Data Managers
