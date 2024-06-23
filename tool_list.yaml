@@ -3138,3 +3138,9 @@ tools:
 - name: genomad_build_database
   owner: ufz
   tool_panel_section_label: Data Managers
+- name: virsorter
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: virsorter_build_database
+  owner: ufz
+  tool_panel_section_label: Data Managers
