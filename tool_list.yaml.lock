@@ -697,6 +697,7 @@ tools:
   - 33d61c89fb8d
   - 3a6b78c39dca
   - cf34c344508d
+  - cf4397560712
   tool_panel_section_label: Text Manipulation
 - name: text_processing
   owner: bgruening
@@ -2309,12 +2310,14 @@ tools:
   - 34d29339abab
   - 557ec8d7087d
   - 59278960a2e7
+  - 90f657745fea
   - 9cc411a62277
   tool_panel_section_label: Text Manipulation
 - name: sqlite_to_tabular
   owner: iuc
   revisions:
   - b722161a845a
+  - c4d18aa4ec4a
   - dfe38b7c34ed
   - f768f6183386
   tool_panel_section_label: Text Manipulation
@@ -7791,4 +7794,14 @@ tools:
   owner: ufz
   revisions:
   - c4ec3d81eeee
+  tool_panel_section_label: Data Managers
+- name: virsorter
+  owner: ufz
+  revisions:
+  - 76a7de225f06
+  tool_panel_section_label: Metagenomics
+- name: virsorter_build_database
+  owner: ufz
+  revisions:
+  - 863ba94fb6e4
   tool_panel_section_label: Data Managers
