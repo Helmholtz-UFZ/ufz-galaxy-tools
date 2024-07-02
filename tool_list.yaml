@@ -3144,3 +3144,9 @@ tools:
 - name: virsorter_build_database
   owner: ufz
   tool_panel_section_label: Data Managers
+- name: cp_cellprofiler4
+  owner: bgruening
+  tool_panel_section_label: Imaging
+- name: cp_cellprofiler
+  owner: bgruening
+  tool_panel_section_label: Imaging
