@@ -3150,3 +3150,9 @@ tools:
 - name: cp_cellprofiler
   owner: bgruening
   tool_panel_section_label: Imaging
+- name: upload_roi_and_measures_to_omero
+  owner: lldelisle
+  tool_panel_section_label: Imaging
+- name: rfove
+  owner: imgteam
+  tool_panel_section_label: Imaging
