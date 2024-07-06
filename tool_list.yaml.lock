@@ -7805,3 +7805,23 @@ tools:
   revisions:
   - 863ba94fb6e4
   tool_panel_section_label: Data Managers
+- name: cp_cellprofiler4
+  owner: bgruening
+  revisions:
+  - f0656d0f2a4d
+  tool_panel_section_label: Imaging
+- name: cp_cellprofiler
+  owner: bgruening
+  revisions:
+  - eb6c08714244
+  tool_panel_section_label: Imaging
+- name: upload_roi_and_measures_to_omero
+  owner: lldelisle
+  revisions:
+  - d507ce86f0d0
+  tool_panel_section_label: Imaging
+- name: rfove
+  owner: imgteam
+  revisions:
+  - e438d87ef91a
+  tool_panel_section_label: Imaging
