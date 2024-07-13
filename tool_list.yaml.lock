@@ -39,6 +39,7 @@ tools:
   - 49370cb85f0f
   - 660cffd8d92a
   - 8c0175e03cee
+  - aa784cb3810d
   - b1c926deaa2d
   - c4b82dce8335
   - e4691e1589d3
@@ -7374,6 +7375,7 @@ tools:
   - 236ec78b2e53
   - 7b6d9412c7f8
   - 8c25d4ff0b51
+  - f8b4eada923c
   tool_panel_section_label: Imaging
 - name: scale_image
   owner: imgteam
