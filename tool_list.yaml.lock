@@ -37,6 +37,7 @@ tools:
   - 135b80fb1ac2
   - 48f587c13075
   - 49370cb85f0f
+  - 5eb7e84243f2
   - 660cffd8d92a
   - 8c0175e03cee
   - aa784cb3810d
@@ -727,6 +728,7 @@ tools:
   - 15646e937936
   - 363cce459fff
   - 378ddb410225
+  - 6550698fe60f
   - 793f87231d49
   - 9eebe9690ced
   - b02d1992a43a
@@ -740,6 +742,7 @@ tools:
   - 13558e8a4778
   - 2b676d5eb848
   - 4c8507667cd6
+  - 71572faf938e
   - 761913919c21
   - d45a786cbc40
   - fe4002ac5193
@@ -752,6 +755,7 @@ tools:
   - 3a5204f14fff
   - 58b5a4b6e1da
   - 5bd125a3f3b0
+  - 6d475a389abc
   - a301f001835c
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_plot_chromatogram
@@ -761,6 +765,7 @@ tools:
   - 0cab69429e1e
   - 271c9d5f0d10
   - 8846a03995d3
+  - c8bef8f6a1cb
   - dbd877060ac3
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_retcor
@@ -772,6 +777,7 @@ tools:
   - 8242376d9f35
   - aa252eec9229
   - c914743e3f2f
+  - d2b82d89f848
   - e4e0254a3c0a
   - faf4a6b67304
   tool_panel_section_label: Metabolomics - W4M
@@ -784,12 +790,14 @@ tools:
   - bb9ee352fce0
   - dcb9041cb9ea
   - de0d85537ee3
+  - ec9aebabc1d2
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_summary
   owner: lecorguille
   revisions:
   - 018a9771de28
   - 2a2850fdf29e
+  - 444e3ed135e3
   - 4c757d1ba7b4
   - a5347d57899f
   - acc0a4a366c1
@@ -824,6 +832,7 @@ tools:
   - 11ab2081bd4a
   - 12def6edac2f
   - 226fb89cacc4
+  - 6de175c1f6ef
   - 7faf9b2d83f6
   - 86a20118e743
   - d7a7ef786fbe
@@ -4820,11 +4829,13 @@ tools:
 - name: xcms_export_samplemetadata
   owner: lecorguille
   revisions:
+  - 4ea32e46b2d6
   - cdab04a1d1d7
   tool_panel_section_label: Metabolomics
 - name: xcms_refine
   owner: workflow4metabolomics
   revisions:
+  - 090b33a9981c
   - 20f8ebc3a391
   tool_panel_section_label: Metabolomics
 - name: mzmine_batch
@@ -7212,6 +7223,7 @@ tools:
   - 73c902331bbc
   - 7e2066111683
   - 9b36710378ce
+  - b576ed720711
   - dd49ef90297c
   - e337075d0aaa
   - f04610d25411
@@ -7219,6 +7231,7 @@ tools:
 - name: matchms_filtering
   owner: recetox
   revisions:
+  - 00e66c401366
   - 039e7ab31836
   - 07cac38cbd29
   - 36a53917818d
@@ -7234,6 +7247,7 @@ tools:
   - 072c7a101da6
   - 0cf68b536cd1
   - 446fddefcee7
+  - 500f473df7e4
   - eba733715eaf
   - ffe46a9b1124
   tool_panel_section_label: Exposomics - recetox
@@ -7246,6 +7260,7 @@ tools:
   - 402620029a7a
   - 6501d0287dcd
   - 8bd942dcf1ad
+  - 9e3c83d2afc3
   - afc881c21a62
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
@@ -7262,6 +7277,7 @@ tools:
   - ad9d2d1b2b8d
   - c2d546691b7a
   - cdb41d95648c
+  - d7b517f2c5fe
   - f87b1c271012
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_convert
@@ -7272,6 +7288,7 @@ tools:
   - a3d2f919cb98
   - b9cc12600553
   - c5ed6bfcd806
+  - c990df6afc24
   - fb09ed49c70e
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_spectral_similarity
@@ -7280,6 +7297,7 @@ tools:
   - 26c92af1bd28
   - 54b6775010e0
   - 5fae85d4a69a
+  - 7627b40601f6
   - 9ff95a1a2705
   - ee35dcec350a
   - f30b53a817af
@@ -7288,6 +7306,7 @@ tools:
   owner: recetox
   revisions:
   - 03bc9b7f40f6
+  - 1d443ed476a1
   - 44441b0ee4dd
   - 844d32c59314
   - 86e080d81cfb
@@ -7302,6 +7321,7 @@ tools:
 - name: matchms_add_key
   owner: recetox
   revisions:
+  - 1d10d32fa3b3
   - 4e8a6d6f0e6a
   - 7c5b86026e57
   - 8fb8ac6c37b0
@@ -7311,6 +7331,7 @@ tools:
 - name: matchms_networking
   owner: recetox
   revisions:
+  - 1d74ae228df3
   - 7a8743876c60
   - 9c12114c7aee
   - 9f2e7e1600c0
@@ -7333,6 +7354,7 @@ tools:
   owner: recetox
   revisions:
   - 2b61ec493df6
+  - 6d2f2c565431
   - c4835715c7ac
   - cab0e4dcf372
   - d11b27e59dfa
@@ -7344,6 +7366,7 @@ tools:
   revisions:
   - 6e965d099233
   - 81e6df6ccd9a
+  - 84ead993862c
   - 8e18dcf410ec
   - c1c1cb295b74
   - fc1a698a71e8
@@ -7355,6 +7378,7 @@ tools:
   - 19367db5cf3c
   - 6b5867cab698
   - 8c98b3cb320e
+  - 9d1b01d3fedd
   tool_panel_section_label: Exposomics - recetox
 - name: bfconvert
   owner: imgteam
@@ -7759,6 +7783,7 @@ tools:
   owner: iuc
   revisions:
   - 13851aefa67a
+  - 1e34d2e3d285
   - e4b4837f06f5
   - ed1518ce2237
   tool_panel_section_label: Data Managers
