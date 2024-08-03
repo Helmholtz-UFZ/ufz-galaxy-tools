@@ -1057,6 +1057,7 @@ tools:
   owner: iuc
   revisions:
   - 1aaa9b943a83
+  - 4b6ac1f0042b
   - 6efa06ffbac8
   - 8ea21f0669f1
   - 97ad0d817a45
@@ -1067,12 +1068,14 @@ tools:
   - 025b0113ee97
   - 150ebe4d0fd9
   - 254cb00a578f
+  - a755466eb47c
   - f93a61ef06cf
   tool_panel_section_label: Metagenomics
 - name: merge_metaphlan_tables
   owner: iuc
   revisions:
   - 0270541aaf46
+  - 05ad7d35ce92
   - 2e5ae05160e0
   - 327d9f4cc95f
   - 3b469e230e82
@@ -1084,6 +1087,7 @@ tools:
   - 1a6cdf55390f
   - 289b3807e80c
   - a16313517e55
+  - b6897977d13e
   - b89b0765695d
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
@@ -1246,6 +1250,7 @@ tools:
   owner: iuc
   revisions:
   - 073c867c5244
+  - 4960abe31b4d
   tool_panel_section_label: Metagenomics
 - name: krakentools_alpha_diversity
   owner: iuc
@@ -2440,6 +2445,7 @@ tools:
   owner: galaxy-australia
   revisions:
   - 2f7702fd0a4c
+  - 6ab1a261520a
   - f9eb041c518c
   tool_panel_section_label: Proteomics
 - name: calisp
@@ -7104,6 +7110,7 @@ tools:
   revisions:
   - 32b66fb6a6a0
   - 6ba3526237e0
+  - b3413f335327
   - e7305ba0dd38
   - ebca18e223bf
   tool_panel_section_label: Exposomics - recetox
@@ -7114,12 +7121,14 @@ tools:
   - 15aae2bfa67d
   - 550667ce03f1
   - b9b19a74ac01
+  - f3a18e020cdd
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_align_features
   owner: recetox
   revisions:
   - 1a01ffa85adc
   - 2b6bfa234d8b
+  - 79ad928a0dae
   - 7b42ee54d757
   - d5c638b72ce4
   tool_panel_section_label: Exposomics - recetox
@@ -7130,12 +7139,14 @@ tools:
   - 8fb5e458831f
   - b5a1f35abd8a
   - d90187b0f247
+  - ffbabefbd2e2
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_correct_time
   owner: recetox
   revisions:
   - 02c772a49998
   - 1574b8a29e6f
+  - 9064aecc78a7
   - bd1956f4c2aa
   - d69ec1171d71
   tool_panel_section_label: Exposomics - recetox
@@ -7144,6 +7155,7 @@ tools:
   revisions:
   - 481d769e2f7a
   - 4963811b6dec
+  - dfebc82ba1f0
   - e2dc815e1b2c
   - f8c4db95eec3
   tool_panel_section_label: Exposomics - recetox
@@ -7151,6 +7163,7 @@ tools:
   owner: recetox
   revisions:
   - 04892b463957
+  - 17a48d0a80f4
   - 8ecb609cc265
   - fb95cb4a6b9b
   tool_panel_section_label: Exposomics - recetox
@@ -7159,6 +7172,7 @@ tools:
   revisions:
   - 99d118321d5f
   - a9bb2ccc53de
+  - d7f5878a98c3
   - e0536ff73f36
   - e2cb970d99dd
   tool_panel_section_label: Exposomics - recetox
@@ -7774,6 +7788,7 @@ tools:
   - 4ba60cb14cb0
   - 9c43baa60906
   - a88f077f1994
+  - d8dc037e3c13
   tool_panel_section_label: Data Managers
 - name: data_manager_gtdbtk_database_installer
   owner: iuc
