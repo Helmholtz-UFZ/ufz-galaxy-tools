@@ -3159,7 +3159,10 @@ tools:
 - name: background_removal
   owner: imgteam
   tool_panel_section_label: Imaging
-- name: suite_omero_py
+- name: omero_import
   owner: ufz
   tool_panel_section_label: Imaging
-  
+- name: omero_metadata_import
+  owner: ufz
+  tool_panel_section_label: Imaging
+
