@@ -61,6 +61,7 @@ tools:
 - name: fastqc
   owner: devteam
   revisions:
+  - 2c64fded1286
   - 2d094334f61e
   - 3d0c7bdf12f5
   - 5ec9f6bceaee
@@ -2376,6 +2377,7 @@ tools:
   revisions:
   - 054483e27a35
   - 468c71dac78a
+  - 95fb5712344f
   - af5eccf83605
   - bfdc6a7ffd3a
   - f7ebd1b4783b
@@ -7184,6 +7186,7 @@ tools:
   - 425c0494ec2d
   - 6480c6d5fa36
   - b77023c41c76
+  - bf32ae95a06f
   - dbbedb14b44c
   - e424fa636281
   tool_panel_section_label: Exposomics - recetox
@@ -7693,6 +7696,7 @@ tools:
 - name: cp_cellprofiler4
   owner: bgruening
   revisions:
+  - 77bc1c2e1b91
   - f0656d0f2a4d
   tool_panel_section_label: Run CellProfiler pipeline
 - name: data_manager_sam_fasta_index_builder
@@ -7852,6 +7856,7 @@ tools:
 - name: cp_cellprofiler4
   owner: bgruening
   revisions:
+  - 77bc1c2e1b91
   - f0656d0f2a4d
   tool_panel_section_label: Imaging
 - name: cp_cellprofiler
@@ -7868,4 +7873,19 @@ tools:
   owner: imgteam
   revisions:
   - e438d87ef91a
+  tool_panel_section_label: Imaging
+- name: background_removal
+  owner: imgteam
+  revisions:
+  - 6e9e98a7be4e
+  tool_panel_section_label: Imaging
+- name: omero_import
+  owner: ufz
+  revisions:
+  - f762de618b1f
+  tool_panel_section_label: Imaging
+- name: omero_metadata_import
+  owner: ufz
+  revisions:
+  - 352e9d4eaf70
   tool_panel_section_label: Imaging
