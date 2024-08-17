@@ -213,6 +213,7 @@ tools:
   - 6c2351178f8d
   - a935cbdf1c0e
   - c59d48774d03
+  - d60c3f704da0
   - dbf9c561ef29
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_alimask
@@ -707,6 +708,7 @@ tools:
   revisions:
   - 0a8c6b61f0f4
   - 74a8bef53a00
+  - 86755160afbf
   - d698c222f354
   - fb4ff3c42cd3
   - fbf99087e067
@@ -1085,6 +1087,7 @@ tools:
 - name: metaphlan
   owner: iuc
   revisions:
+  - 1a037928504c
   - 1a6cdf55390f
   - 289b3807e80c
   - a16313517e55
@@ -2589,6 +2592,7 @@ tools:
   revisions:
   - 01ab890bf0ad
   - 13bd3774c5b1
+  - a638d8d13bb3
   - a84187d7bda6
   - f924a1728291
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -2606,10 +2610,12 @@ tools:
   - 99ecf8dd7ba1
   - aedce3959676
   - d92ada24e4ad
+  - f5d7ffbb2d33
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_genprop
   owner: bgruening
   revisions:
+  - 50eaae9df8d3
   - 53cf744d1c6f
   - a26f96c1f061
   - b249bf9be0d1
@@ -2622,6 +2628,7 @@ tools:
   - 136ceea822f5
   - 3ec5e9a716ac
   - 4ad272a2e3ea
+  - 75ee9c410951
   - 7672039a0bb0
   - ba2d56f16904
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -2629,6 +2636,7 @@ tools:
   owner: bgruening
   revisions:
   - 5c3c1c132f9f
+  - 81836d586797
   - ac9567d307a2
   - d7f0ca1f2669
   - e38d865baa37
@@ -2641,6 +2649,7 @@ tools:
   - 1c418abdafd9
   - 274193d6c443
   - 36ed1fab1de6
+  - 985ab0acd514
   - f27e2eaffb5f
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_addh
@@ -2649,6 +2658,7 @@ tools:
   - 0691e5e97cd5
   - 6e4b7e0c61a6
   - 716dcb5bbb71
+  - 7b6fd1c273cd
   - 883fe4f7f1b2
   - b18b147b90fd
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -2657,6 +2667,7 @@ tools:
   revisions:
   - 202e3a64859b
   - 80d78559a5a3
+  - 9adf3fae2771
   - abac1b21fbb8
   - c19608db6b15
   - c4abd2c7d5f6
@@ -2669,6 +2680,7 @@ tools:
   - 87eb779942bd
   - 9249b0e0e6bd
   - cc8ca507174f
+  - f70b83b730ac
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_filter
   owner: bgruening
@@ -2676,6 +2688,7 @@ tools:
   - 340f8d63c1f4
   - 5004fcfb80bf
   - 72d13f75b67c
+  - 988085c7a0ea
   - a9ea2eac7300
   - df4dc55197dd
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -2683,6 +2696,7 @@ tools:
   owner: bgruening
   revisions:
   - 0bf5331f62ef
+  - 22a866858b81
   - 5dc2a6cd6da1
   - 62e6d52c83bf
   - adc3b24c083f
@@ -2691,6 +2705,7 @@ tools:
 - name: openbabel_compound_convert
   owner: bgruening
   revisions:
+  - 4242b4d68e9c
   - 56080bd1eb86
   - a072cb207571
   - b59c91adeac1
@@ -2704,6 +2719,7 @@ tools:
   - 6eedb6c3cfdf
   - 854a7a169623
   - b2569e22b40c
+  - c5de6c19eb06
   - e289f65f6b91
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: fastqtofasta
@@ -2844,6 +2860,7 @@ tools:
   revisions:
   - 0f1c34698076
   - a02b8b3f5a0c
+  - a38bdcec9e4c
   - edbb6c5028f5
   tool_panel_section_label: Visualization
 - name: ggplot2_heatmap2
@@ -4951,6 +4968,7 @@ tools:
   - 015ccbd1ad68
   - 2ba07316c7e0
   - 5486f7a2b0cb
+  - fac2c28b4c55
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: dada2_filterandtrim
   owner: iuc
@@ -5094,6 +5112,7 @@ tools:
   owner: bgruening
   revisions:
   - 2c5c7da26e08
+  - 8302ab092300
   - f0502d809c4b
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openms_lowmempeakpickerhiresrandomaccess
@@ -5132,6 +5151,7 @@ tools:
   - 3cf310697624
   - 545054b15d7c
   - 6153e8ada1ee
+  - ab6c14374bc0
   tool_panel_section_label: Proteomics
 - name: proteore_build_protein_interaction_maps
   owner: proteore
@@ -5373,35 +5393,42 @@ tools:
   owner: iuc
   revisions:
   - 540aedfc81c7
+  - d6bb2e3febda
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_place_seqs
   owner: iuc
   revisions:
   - 680fb3eb574c
+  - 73b56418e7f4
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_pathway_pipeline
   owner: iuc
   revisions:
   - 6077821e8ae7
+  - f53beb324696
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_metagenome_pipeline
   owner: iuc
   revisions:
   - 415cb5d91168
+  - 709adbfcf308
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_add_descriptions
   owner: iuc
   revisions:
+  - 2f47a294ef49
   - 6034c3f3ecf0
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_shuffle_predictions
   owner: iuc
   revisions:
+  - 677f3c8db525
   - 881f2faa5fe7
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_hsp
   owner: iuc
   revisions:
+  - 3b133b8d578a
   - 6eafc1e01a8c
   tool_panel_section_label: Amplicon Analysis
 - name: enasearch_retrieve_analysis_report
@@ -5584,6 +5611,7 @@ tools:
 - name: ampvis2_ordinate
   owner: iuc
   revisions:
+  - 46a85469c104
   - 811df76f4f26
   - be1918c80d9f
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5592,22 +5620,26 @@ tools:
   revisions:
   - 338f47a9e25c
   - 62c6d4c55190
+  - 6acf30f0d9fa
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
   - 0feab98f9577
   - ac9564dcdb99
+  - ff9bc9357c89
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_subset_taxa
   owner: iuc
   revisions:
   - 70a98af91147
+  - adf75bf963f7
   - e2df49914652
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_timeseries
   owner: iuc
   revisions:
+  - 6121b061418a
   - 77d2f88d8716
   - 9de032723f5b
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5616,16 +5648,19 @@ tools:
   revisions:
   - 2c21c267391c
   - d02f4a87eb55
+  - d1727ab06449
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_heatmap
   owner: iuc
   revisions:
+  - 0895b4ebcfc8
   - 14695ae019be
   - 1979fdd0914f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_export_fasta
   owner: iuc
   revisions:
+  - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5634,35 +5669,41 @@ tools:
   revisions:
   - 2e69edaaa834
   - aeca454c398e
+  - febf16487e02
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_otu_network
   owner: iuc
   revisions:
   - 354d645455cd
+  - 47aec96764b8
   - 7e6f33f40312
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_load
   owner: iuc
   revisions:
   - 3481feabc54e
+  - 91efbd7b52dc
   - dc0840e31406
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_merge_ampvis2
   owner: iuc
   revisions:
   - 028ba7c0b400
+  - a14326f1e7df
   - d8334b328618
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_subset_samples
   owner: iuc
   revisions:
   - 14b38ec15fe9
+  - 317728cb0f8a
   - c8bfb923d7d4
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_alpha_diversity
   owner: iuc
   revisions:
   - 52fbe4eb7ce7
+  - 61acf8a76396
   - 6b8580e02e99
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
@@ -5670,28 +5711,33 @@ tools:
   revisions:
   - 4289db874e3c
   - 7b81221e7925
+  - a194e5f09106
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_core
   owner: iuc
   revisions:
   - 943c2ae9594a
   - de6156c8ef16
+  - f360e09dd04b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_mergereplicates
   owner: iuc
   revisions:
   - 0e10df6f37c6
   - 63ed7a3cd45f
+  - 74ee43d45476
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
   owner: iuc
   revisions:
   - 0c069fc2471c
+  - 874b1a4fe7f0
   - b4c6f8741989
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_setmetadata
   owner: iuc
   revisions:
+  - 024a22e84bea
   - b8fd62239d7e
   - e7afc79b841e
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -7194,6 +7240,7 @@ tools:
   owner: recetox
   revisions:
   - 0b86600b715e
+  - 6cd2a9e6ac49
   - 90dc951da294
   - e5fcba090b10
   tool_panel_section_label: Exposomics - recetox
@@ -7797,6 +7844,7 @@ tools:
 - name: data_manager_gtdbtk_database_installer
   owner: iuc
   revisions:
+  - 10232d2b5062
   - 2814c058a087
   tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
