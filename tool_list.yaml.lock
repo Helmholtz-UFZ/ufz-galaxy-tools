@@ -102,6 +102,7 @@ tools:
   owner: rnateam
   revisions:
   - 4de39704d423
+  - 8e649f27aa0d
   - a65296ffb4a0
   - aaefa93c2dd2
   - bf28a8cff401
@@ -313,22 +314,26 @@ tools:
   revisions:
   - 53583f715a8c
   - 535f2e41d4f7
+  - a1c9c960cdd5
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_exparnap
   owner: rnateam
   revisions:
   - 8723e3f8e422
+  - a80f279b4ad0
   - e66514da3a99
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_multiple
   owner: rnateam
   revisions:
+  - 6e20ad2c8752
   - 7554c0df9139
   - 94b0468f0db8
   tool_panel_section_label: RNA - Utilities for RNA
 - name: locarna_reliability_profile
   owner: rnateam
   revisions:
+  - 7d63908343c3
   - dd991ca3d8ce
   - e84d1fc87829
   tool_panel_section_label: RNA - Utilities for RNA
@@ -336,6 +341,7 @@ tools:
   owner: rnateam
   revisions:
   - 433601e9f132
+  - 4839df2b2f6b
   - f3f08a777c10
   tool_panel_section_label: RNA - Utilities for RNA
 - name: sortmerna
@@ -685,6 +691,7 @@ tools:
   - 626658afe4cb
   - 6595517c2dd8
   - 6e8d94597139
+  - aff5135563c6
   - be25c075ed54
   tool_panel_section_label: Text Manipulation
 - name: singularity_scriptrunner
