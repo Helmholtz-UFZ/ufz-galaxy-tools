@@ -398,6 +398,7 @@ tools:
   owner: iuc
   revisions:
   - 0dbf49c414ae
+  - 2dce91e11ca7
   - 5826298f6a73
   - 6be888be75f9
   - bf328cec6a42
@@ -547,6 +548,7 @@ tools:
   - 33c060ec0ac9
   - 8e66f695d859
   - e989670c7fc7
+  - f73ab5187eed
   - f89e3c318453
   tool_panel_section_label: Assembly
 - name: velvetoptimiser
@@ -2756,6 +2758,7 @@ tools:
   owner: iuc
   revisions:
   - 3ea5a2a63fa2
+  - 4014de1b6daf
   - 4074fc1940e2
   - 4df95e2d7f61
   - 980d2a2e1180
@@ -5487,6 +5490,7 @@ tools:
   - 516a54ddf218
   - 6ea73833cf67
   - 734abc7ac21d
+  - 8848455c0270
   - ba931a59dd59
   - f8054ea1c365
   tool_panel_section_label: Data Source
@@ -5619,6 +5623,7 @@ tools:
   owner: iuc
   revisions:
   - 46a85469c104
+  - 7c675dae82eb
   - 811df76f4f26
   - be1918c80d9f
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5628,12 +5633,14 @@ tools:
   - 338f47a9e25c
   - 62c6d4c55190
   - 6acf30f0d9fa
+  - bbb4a531d80b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
   - 0feab98f9577
   - ac9564dcdb99
+  - f309f1ef68f3
   - ff9bc9357c89
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_subset_taxa
@@ -5641,6 +5648,7 @@ tools:
   revisions:
   - 70a98af91147
   - adf75bf963f7
+  - cf579d6919e8
   - e2df49914652
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_timeseries
@@ -5649,10 +5657,12 @@ tools:
   - 6121b061418a
   - 77d2f88d8716
   - 9de032723f5b
+  - f41dad652845
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
   owner: iuc
   revisions:
+  - 18de61c5527c
   - 2c21c267391c
   - d02f4a87eb55
   - d1727ab06449
@@ -5663,10 +5673,12 @@ tools:
   - 0895b4ebcfc8
   - 14695ae019be
   - 1979fdd0914f
+  - 9bdb74297b3d
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_export_fasta
   owner: iuc
   revisions:
+  - 0cce683798d3
   - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
@@ -5676,12 +5688,14 @@ tools:
   revisions:
   - 2e69edaaa834
   - aeca454c398e
+  - cfa509a60770
   - febf16487e02
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_otu_network
   owner: iuc
   revisions:
   - 354d645455cd
+  - 454bfdfa6de5
   - 47aec96764b8
   - 7e6f33f40312
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5689,6 +5703,7 @@ tools:
   owner: iuc
   revisions:
   - 3481feabc54e
+  - 576dd33588bf
   - 91efbd7b52dc
   - dc0840e31406
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5696,6 +5711,7 @@ tools:
   owner: iuc
   revisions:
   - 028ba7c0b400
+  - 2f9731cc4c87
   - a14326f1e7df
   - d8334b328618
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5705,10 +5721,12 @@ tools:
   - 14b38ec15fe9
   - 317728cb0f8a
   - c8bfb923d7d4
+  - f9fa155c191f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_alpha_diversity
   owner: iuc
   revisions:
+  - 289d6299bd2e
   - 52fbe4eb7ce7
   - 61acf8a76396
   - 6b8580e02e99
@@ -5718,11 +5736,13 @@ tools:
   revisions:
   - 4289db874e3c
   - 7b81221e7925
+  - a0a792d4efae
   - a194e5f09106
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_core
   owner: iuc
   revisions:
+  - 2bbf288d6334
   - 943c2ae9594a
   - de6156c8ef16
   - f360e09dd04b
@@ -5731,6 +5751,7 @@ tools:
   owner: iuc
   revisions:
   - 0e10df6f37c6
+  - 1f6f3bc6edd1
   - 63ed7a3cd45f
   - 74ee43d45476
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5739,6 +5760,7 @@ tools:
   revisions:
   - 0c069fc2471c
   - 874b1a4fe7f0
+  - b3c5560ffac6
   - b4c6f8741989
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_setmetadata
@@ -5746,6 +5768,7 @@ tools:
   revisions:
   - 024a22e84bea
   - b8fd62239d7e
+  - cfd7bafb820f
   - e7afc79b841e
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: humann2_associate
@@ -7521,11 +7544,13 @@ tools:
   - 057c13b2dc42
   - 1baa4ad1ac2f
   - 1ef267476a17
+  - 770bceda7785
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
   owner: iuc
   revisions:
   - 66b138a2e74c
+  - 7e041c120b96
   - df9743790176
   - ee407fae3ccd
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -7533,6 +7558,7 @@ tools:
   owner: iuc
   revisions:
   - 159b04e36791
+  - 7beb76ffbc0f
   - bf0cb5dd02f2
   - d1f62024a08b
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -7542,17 +7568,20 @@ tools:
   - 1af48f9cc27b
   - 5d8b93c0731f
   - c05232655d00
+  - cab19c0452c4
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmap
   owner: iuc
   revisions:
   - 3f94a2e3d513
+  - 456d8ebb6a28
   - 517464809c33
   - 7f19559b8b55
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_tadpole
   owner: iuc
   revisions:
+  - 0ddf147d1897
   - 20aef74d20a1
   - 654c9da47f74
   - cbc75076778f
