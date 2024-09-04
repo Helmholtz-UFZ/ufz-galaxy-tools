@@ -7776,12 +7776,6 @@ tools:
   revisions:
   - aeae7e29d525
   tool_panel_section_label: Imaging - ImageJ2
-- name: cp_cellprofiler4
-  owner: bgruening
-  revisions:
-  - 77bc1c2e1b91
-  - f0656d0f2a4d
-  tool_panel_section_label: Run CellProfiler pipeline
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:

@@ -3062,9 +3062,6 @@ tools:
 - name: imagej2_watershed_binary
   owner: imgteam
   tool_panel_section_label: Imaging - ImageJ2
-- name: cp_cellprofiler4
-  owner: bgruening
-  tool_panel_section_label: Run CellProfiler pipeline
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   tool_panel_section_label: Data Managers
