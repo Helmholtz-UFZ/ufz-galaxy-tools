@@ -57,6 +57,7 @@ tools:
   - bf675f34b056
   - e4574a4d09d8
   - f7985e0479b9
+  - f7e2f1eb3a16
   tool_panel_section_label: Fastq Manipulation
 - name: fastqc
   owner: devteam
@@ -1196,50 +1197,60 @@ tools:
   owner: iuc
   revisions:
   - 6d1c282e2ce2
+  - ce3fd529a6ec
   tool_panel_section_label: Metagenomics
 - name: checkm_lineage_wf
   owner: iuc
   revisions:
+  - 8345d273ba82
   - f0107b9f2dc3
   tool_panel_section_label: Metagenomics
 - name: checkm_tree_qa
   owner: iuc
   revisions:
+  - 36ea6d5441c3
   - b9a38ce53252
   tool_panel_section_label: Metagenomics
 - name: checkm_analyze
   owner: iuc
   revisions:
   - 5ee29434330f
+  - bcb8dc01f296
   tool_panel_section_label: Metagenomics
 - name: checkm_taxonomy_wf
   owner: iuc
   revisions:
+  - 19e4e2d98ebb
   - 2e995a9aa00e
   tool_panel_section_label: Metagenomics
 - name: checkm_tetra
   owner: iuc
   revisions:
   - bb3b50fa4956
+  - d0d9e52a46b8
   tool_panel_section_label: Metagenomics
 - name: checkm_qa
   owner: iuc
   revisions:
+  - 5466420816b9
   - 8236b90ce44c
   tool_panel_section_label: Metagenomics
 - name: checkm_taxon_set
   owner: iuc
   revisions:
+  - 407e50329077
   - 600b129adb72
   tool_panel_section_label: Metagenomics
 - name: checkm_plot
   owner: iuc
   revisions:
+  - 9916308301da
   - b24e4f6c8b4d
   tool_panel_section_label: Metagenomics
 - name: checkm_lineage_set
   owner: iuc
   revisions:
+  - 3693acdbf0d6
   - 640400ad260d
   tool_panel_section_label: Metagenomics
 - name: gtdbtk_classify_wf
@@ -7876,6 +7887,7 @@ tools:
   revisions:
   - 10232d2b5062
   - 2814c058a087
+  - e7b39a7e0024
   tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
   owner: iuc
@@ -7960,10 +7972,17 @@ tools:
 - name: omero_import
   owner: ufz
   revisions:
+  - 267227e757cb
   - f762de618b1f
   tool_panel_section_label: Imaging
 - name: omero_metadata_import
   owner: ufz
   revisions:
   - 352e9d4eaf70
+  - 588d6fa22fc4
+  tool_panel_section_label: Imaging
+- name: omero_roi_import
+  owner: ufz
+  revisions:
+  - e957793051a8
   tool_panel_section_label: Imaging
