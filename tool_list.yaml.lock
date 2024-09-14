@@ -394,12 +394,14 @@ tools:
   - 344fc91e1bfd
   - a4a10c7924d1
   - b5c88b7b153e
+  - b8beef827165
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_view
   owner: iuc
   revisions:
   - 0dbf49c414ae
   - 2dce91e11ca7
+  - 32dc5f781059
   - 5826298f6a73
   - 6be888be75f9
   - bf328cec6a42
@@ -429,6 +431,7 @@ tools:
   - 720217c23995
   - a8d69aee190e
   - b3d99709fe1a
+  - b906586a6596
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_fixmate
   owner: iuc
@@ -436,12 +439,14 @@ tools:
   - 41e36c99a008
   - 595ae1ba934a
   - bc0cc7bfbfe9
+  - d2df79922531
   - e5ece8fa99de
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_markdup
   owner: iuc
   revisions:
   - 046cbf29795a
+  - 40fa6c240105
   - 83b8e36e9cbe
   - 8c440c3002bc
   - a389f74c3630
@@ -455,12 +460,14 @@ tools:
   - 65a38e8c8e2a
   - 740ce0a18f0d
   - b40e2d865d52
+  - cae2794d2deb
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_split
   owner: devteam
   revisions:
   - 135c85f4cfaf
   - 57f3e32f809d
+  - 818030fa6bbf
   - b7f7826ef1cd
   - bcedabb53ddf
   - bd850490c7f1
@@ -471,6 +478,7 @@ tools:
   - 145f6d74ff5e
   - 1cc79f49b8d5
   - 3a0efe14891f
+  - 541082d03bef
   - 5a08c09b9311
   - 8cfc17e27132
   - 95a7ddf617e7
@@ -482,6 +490,7 @@ tools:
   - 6c2c1836728b
   - a430da4f04cd
   - a577ea614bed
+  - d54a4df48867
   - e613c1ad4c4c
   - f56bdb93ae58
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -497,12 +506,14 @@ tools:
 - name: sam_to_bam
   owner: devteam
   revisions:
+  - 0e60e2dd20af
   - 9bd1568619cd
   - d04d9f1c6791
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bam_to_sam
   owner: devteam
   revisions:
+  - 3c661e57a88f
   - 88eedb4abea0
   - a53efedba9e7
   - af7c50162f0b
@@ -512,6 +523,7 @@ tools:
   revisions:
   - 06dc50b7b711
   - 1ebb4ecdc1ef
+  - 26b4f9f98aca
   - 92ec40abcdcf
   - c89806670ab9
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -529,6 +541,7 @@ tools:
   revisions:
   - 020e144b5f78
   - 30388d878f81
+  - 85e38b31e8b3
   - bb8cfc6f6e0c
   - d7b4851d1971
   - db000c6007a0
@@ -1074,6 +1087,7 @@ tools:
   - 6efa06ffbac8
   - 8ea21f0669f1
   - 97ad0d817a45
+  - db58d5898fea
   tool_panel_section_label: Metagenomics
 - name: customize_metaphlan_database
   owner: iuc
@@ -1081,6 +1095,7 @@ tools:
   - 025b0113ee97
   - 150ebe4d0fd9
   - 254cb00a578f
+  - 25a5fa5f86a5
   - a755466eb47c
   - f93a61ef06cf
   tool_panel_section_label: Metagenomics
@@ -1092,6 +1107,7 @@ tools:
   - 2e5ae05160e0
   - 327d9f4cc95f
   - 3b469e230e82
+  - 3cc4a60615c0
   - ab1a9a932182
   tool_panel_section_label: Metagenomics
 - name: metaphlan
@@ -1103,6 +1119,7 @@ tools:
   - a16313517e55
   - b6897977d13e
   - b89b0765695d
+  - ef65b083bd0c
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
   owner: iuc
@@ -4800,11 +4817,13 @@ tools:
   revisions:
   - 4b627470dea2
   - 69ed543767b2
+  - 816bac69e03e
   - da36e8bbcfbd
   tool_panel_section_label: Metabolomics
 - name: mspurity_averagefragspectra
   owner: computational-metabolomics
   revisions:
+  - 406ae6769162
   - 94eb1fcfde88
   - ac284b969836
   - e79c1a0654af
@@ -4815,6 +4834,7 @@ tools:
   - 0cc6b67dccb8
   - 3ec6fd8e4c17
   - 751b7378a683
+  - fa84bfaab681
   tool_panel_section_label: Metabolomics
 - name: mspurity_createmsp
   owner: computational-metabolomics
@@ -4822,6 +4842,7 @@ tools:
   - 3d92b95cf6c0
   - 50409aeeeac5
   - 8512923bdd37
+  - f98b4bb0fa58
   tool_panel_section_label: Metabolomics
 - name: mspurity_purityx
   owner: computational-metabolomics
@@ -4829,11 +4850,13 @@ tools:
   - 374022b7b469
   - 84b2151fd8f4
   - 942e676515fe
+  - d84cc9960035
   tool_panel_section_label: Metabolomics
 - name: mspurity_combineannotations
   owner: computational-metabolomics
   revisions:
   - 03b45dceb134
+  - 85e83614f891
   - d7104112fac6
   - f11c129a4227
   tool_panel_section_label: Metabolomics
@@ -4843,17 +4866,20 @@ tools:
   - 067566eef56f
   - 2ce66d2f6a24
   - 548fed2ef792
+  - b563d5fe4fc0
   tool_panel_section_label: Metabolomics
 - name: mspurity_puritya
   owner: computational-metabolomics
   revisions:
   - 0d73912c7cdc
   - 10e56e53668c
+  - 416460f611cc
   - 55f1691db108
   tool_panel_section_label: Metabolomics
 - name: mspurity_filterfragspectra
   owner: computational-metabolomics
   revisions:
+  - 0a0f22586cad
   - 2e10c13085c9
   - 31920dd28862
   - a8842e5e75a7
@@ -4861,6 +4887,7 @@ tools:
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
+  - 01cbb99bca13
   - 20f4fdaf36bb
   - 829af6fecd96
   - c33b92eeb1fb
@@ -4870,6 +4897,7 @@ tools:
   revisions:
   - 174a523cb1da
   - 2f7cd31eba49
+  - 31f64ff8320d
   - e9fbb65451f6
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata
@@ -7877,6 +7905,7 @@ tools:
   owner: iuc
   revisions:
   - 0cb27ea69dc1
+  - 2c61c30a57e7
   - 4ba60cb14cb0
   - 9c43baa60906
   - a88f077f1994
@@ -7887,6 +7916,7 @@ tools:
   revisions:
   - 10232d2b5062
   - 2814c058a087
+  - df84aaed4769
   - e7b39a7e0024
   tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
@@ -7954,11 +7984,6 @@ tools:
   revisions:
   - eb6c08714244
   tool_panel_section_label: Imaging
-- name: upload_roi_and_measures_to_omero
-  owner: lldelisle
-  revisions:
-  - d507ce86f0d0
-  tool_panel_section_label: Imaging
 - name: rfove
   owner: imgteam
   revisions:
@@ -7973,6 +7998,7 @@ tools:
   owner: ufz
   revisions:
   - 267227e757cb
+  - 83ccd2b525e5
   - f762de618b1f
   tool_panel_section_label: Imaging
 - name: omero_metadata_import
@@ -7980,9 +8006,11 @@ tools:
   revisions:
   - 352e9d4eaf70
   - 588d6fa22fc4
+  - e41f70e69349
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
   revisions:
+  - 4f4dc352d660
   - e957793051a8
   tool_panel_section_label: Imaging
