@@ -554,6 +554,7 @@ tools:
   - 3ce74eab308b
   - 7547fcab5d19
   - 8f1b150a2487
+  - d6d5ccc2c581
   - fa5259cc561b
   tool_panel_section_label: Assembly
 - name: rnaquast
@@ -1116,6 +1117,7 @@ tools:
   - 1a037928504c
   - 1a6cdf55390f
   - 289b3807e80c
+  - 740fd2d16a28
   - a16313517e55
   - b6897977d13e
   - b89b0765695d
@@ -1276,6 +1278,7 @@ tools:
   - 6501b5b33988
   - 65d52c693b8e
   - a68b985913ab
+  - b907a3c0434f
   tool_panel_section_label: Metagenomics
 - name: krakentools_extract_kraken_reads
   owner: iuc
@@ -7228,6 +7231,7 @@ tools:
   - 32b66fb6a6a0
   - 6ba3526237e0
   - b3413f335327
+  - b341cfd4baf8
   - e7305ba0dd38
   - ebca18e223bf
   tool_panel_section_label: Exposomics - recetox
@@ -7236,6 +7240,7 @@ tools:
   revisions:
   - 149b9cc7499b
   - 15aae2bfa67d
+  - 18ec7635bac6
   - 550667ce03f1
   - b9b19a74ac01
   - f3a18e020cdd
@@ -7247,6 +7252,7 @@ tools:
   - 2b6bfa234d8b
   - 79ad928a0dae
   - 7b42ee54d757
+  - c53a97599181
   - d5c638b72ce4
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_remove_noise
@@ -7256,6 +7262,7 @@ tools:
   - 8fb5e458831f
   - b5a1f35abd8a
   - d90187b0f247
+  - ea0758b41473
   - ffbabefbd2e2
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_correct_time
@@ -7263,6 +7270,7 @@ tools:
   revisions:
   - 02c772a49998
   - 1574b8a29e6f
+  - 51332c2520c7
   - 9064aecc78a7
   - bd1956f4c2aa
   - d69ec1171d71
@@ -7270,6 +7278,7 @@ tools:
 - name: recetox_aplcms_compute_template
   owner: recetox
   revisions:
+  - 134be5abb208
   - 481d769e2f7a
   - 4963811b6dec
   - dfebc82ba1f0
@@ -7282,11 +7291,13 @@ tools:
   - 04892b463957
   - 17a48d0a80f4
   - 8ecb609cc265
+  - cf061712a184
   - fb95cb4a6b9b
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_recover_weaker_signals
   owner: recetox
   revisions:
+  - 24278c6b6d1c
   - 99d118321d5f
   - a9bb2ccc53de
   - d7f5878a98c3
