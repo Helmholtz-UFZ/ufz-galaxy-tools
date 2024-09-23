@@ -3162,3 +3162,9 @@ tools:
 - name: omero_roi_import
   owner: ufz
   tool_panel_section_label: Imaging
+- name: 2d_filter_segmentation_by_features
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: 2d_feature_extraction
+  owner: imgteam
+  tool_panel_section_label: Imaging
