@@ -3168,3 +3168,9 @@ tools:
 - name: 2d_feature_extraction
   owner: imgteam
   tool_panel_section_label: Imaging
+- name: spot_detection_2d
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: points2binaryimage
+  owner: imgteam
+  tool_panel_section_label: Imaging
