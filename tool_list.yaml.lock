@@ -83,6 +83,7 @@ tools:
 - name: fastq_to_tabular
   owner: devteam
   revisions:
+  - 43807a65369f
   - 4b347702c4aa
   tool_panel_section_label: Fastq Manipulation
 - name: blast_rbh
@@ -839,6 +840,7 @@ tools:
   - 1c30ff90f3ae
   - 225cb8347572
   - 3886548ea1d1
+  - 3d63a762954a
   - 4b9ab71be05e
   - 512c2b701d96
   - 6139bfcc95cb
@@ -2368,6 +2370,7 @@ tools:
   owner: devteam
   revisions:
   - 03d57fea6482
+  - 523c2aff0376
   - f3936d0632cb
   tool_panel_section_label: Fastq Manipulation
 - name: fastq_paired_end_interlacer
@@ -2375,6 +2378,7 @@ tools:
   revisions:
   - 2ccb8dcabddc
   - 3e396e702cea
+  - b41c2c1bcfbf
   tool_panel_section_label: Fastq Manipulation
 - name: filter_tabular
   owner: iuc
@@ -2610,6 +2614,7 @@ tools:
   owner: iuc
   revisions:
   - 0f710191a66d
+  - 3c5e024a18cf
   - 3c97c841a443
   - f99d7825a501
   - f99dd58de04f
@@ -2780,12 +2785,14 @@ tools:
   revisions:
   - 297962e79f39
   - a64c24430f5e
+  - ac3fed111eb6
   tool_panel_section_label: Fastq Manipulation
 - name: fastq_groomer
   owner: devteam
   revisions:
   - 47e5dbc3e790
   - 8611b80a14d6
+  - e9f8633db0a2
   tool_panel_section_label: Fastq Manipulation
 - name: bowtie2
   owner: devteam
@@ -4952,6 +4959,7 @@ tools:
   - 53cf74abf836
   - 7d354fd4614c
   - 7d868844e952
+  - a64d1a16f04b
   - ae3a5d753d42
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_egquery
@@ -4967,6 +4975,7 @@ tools:
   owner: iuc
   revisions:
   - 254f40d3ae2b
+  - 4dc2757b8ce6
   - 7fe990069458
   - 82e10809842f
   - c8d4ea6376a7
@@ -4979,12 +4988,14 @@ tools:
   - 2791c731fc65
   - 55b3067762f9
   - 98365d44f1fa
+  - bb5af69cf3f7
   - c75419361087
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_einfo
   owner: iuc
   revisions:
   - 5b1dc5936af2
+  - 6a0463d18db2
   - ccc58c7435fd
   - cd5a82a16bbf
   - f6007bce569d
@@ -4994,6 +5005,7 @@ tools:
   owner: iuc
   revisions:
   - 1dff3adb0a97
+  - 62614b5a7834
   - 732a52c18758
   - 9a9c5027ea7c
   - ad1e5225bca4
@@ -5007,11 +5019,13 @@ tools:
   - c6096cd97120
   - e267701c187b
   - ef77a3b01899
+  - f3a84eecaf8b
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
   revisions:
   - 0977ec0f3ba8
+  - 0ccb2855dd55
   - 0fc65a60436f
   - 6c4b39080ed7
   - c09fcbe4b16a
@@ -5384,6 +5398,7 @@ tools:
   owner: iuc
   revisions:
   - 0e7290688b50
+  - 17b666467c32
   - d8305f18060e
   tool_panel_section_label: Visualization
 - name: table_compute
@@ -5396,24 +5411,28 @@ tools:
   owner: iuc
   revisions:
   - 10515715c940
+  - 1a72f938213e
   - a4d83ba2a1bc
   tool_panel_section_label: Visualization
 - name: ggplot2_histogram
   owner: iuc
   revisions:
   - 497d700a5229
+  - 6fc8bab811da
   - b0d96516e6a5
   tool_panel_section_label: Visualization
 - name: ggplot2_point
   owner: iuc
   revisions:
   - 3b12bf9b4b87
+  - 5298e06f14f9
   - a36551483a8f
   tool_panel_section_label: Visualization
 - name: ggplot2_pca
   owner: iuc
   revisions:
   - 90928b255abb
+  - ae344ccf9d62
   - b1268b7544d3
   tool_panel_section_label: Visualization
 - name: picrust_categorize
@@ -7969,6 +7988,7 @@ tools:
   revisions:
   - 10232d2b5062
   - 2814c058a087
+  - 3b1d503c6260
   - df84aaed4769
   - e7b39a7e0024
   tool_panel_section_label: Data Managers
