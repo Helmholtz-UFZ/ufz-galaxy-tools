@@ -3173,3 +3173,15 @@ tools:
 - name: points2binaryimage
   owner: imgteam
   tool_panel_section_label: Imaging
+- name: checkv_end_to_end
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: checkv_build_database
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: vibrant
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: vibrant_build_database
+  owner: ufz
+  tool_panel_section_label: Metagenomics
