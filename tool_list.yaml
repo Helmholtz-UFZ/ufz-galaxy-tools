@@ -3110,10 +3110,9 @@ tools:
 - name: data_manager_build_kraken2_database
   owner: iuc
   tool_panel_section_label: Data Managers
-# Can't be deployed https://github.com/galaxyproject/galaxy/issues/18359 
-# - name: dose_response_analysis_tool
-#   owner: ufz
-#   tool_panel_section_label: Toxicology
+- name: dose_response_analysis_tool
+  owner: ufz
+  tool_panel_section_label: Toxicology
 - name: baseline_toxicity_calculator
   owner: mbernt
   tool_panel_section_label: Toxicology
