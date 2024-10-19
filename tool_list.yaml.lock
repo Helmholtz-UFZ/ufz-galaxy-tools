@@ -218,6 +218,7 @@ tools:
   - c59d48774d03
   - d60c3f704da0
   - dbf9c561ef29
+  - dbfc505896e9
   tool_panel_section_label: Sequence Analysis
 - name: hmmer_alimask
   owner: iuc
@@ -2928,6 +2929,7 @@ tools:
   owner: iuc
   revisions:
   - 374e9062d874
+  - 51c6ccaace7e
   - '566197475670'
   - ca7cb0eaad62
   tool_panel_section_label: Visualization
@@ -4549,6 +4551,7 @@ tools:
   revisions:
   - 4b494533146a
   - 58c8ece95b53
+  - a019807f4e67
   - a09586d5149a
   tool_panel_section_label: Fastq Manipulation
 - name: stacks2_denovomap
@@ -7582,6 +7585,7 @@ tools:
 - name: scale_image
   owner: imgteam
   revisions:
+  - 72b8a6b7661b
   - 85666e555698
   - c4c76f1ebad2
   tool_panel_section_label: Imaging
@@ -7997,6 +8001,7 @@ tools:
   revisions:
   - 13851aefa67a
   - 1e34d2e3d285
+  - 90b4d4f0a3a4
   - e4b4837f06f5
   - ed1518ce2237
   tool_panel_section_label: Data Managers
@@ -8132,4 +8137,14 @@ tools:
   owner: ufz
   revisions:
   - 200343b50d46
+  tool_panel_section_label: Metagenomics
+- name: iphop_predict
+  owner: ufz
+  revisions:
+  - b6dba8fabeb2
+  tool_panel_section_label: Metagenomics
+- name: iphop_build_database
+  owner: ufz
+  revisions:
+  - 5c31cd602239
   tool_panel_section_label: Metagenomics
