@@ -2572,6 +2572,7 @@ tools:
   owner: iuc
   revisions:
   - 1759d845181e
+  - 1b851f87fbe0
   - 38b6d12edc68
   - 46cccc52be5f
   - 6f66ae7c5f7a
@@ -5701,6 +5702,7 @@ tools:
   owner: iuc
   revisions:
   - 46a85469c104
+  - 520dd44283ea
   - 7c675dae82eb
   - 811df76f4f26
   - be1918c80d9f
@@ -5712,11 +5714,13 @@ tools:
   - 62c6d4c55190
   - 6acf30f0d9fa
   - bbb4a531d80b
+  - e85ff12bc025
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
   - 0feab98f9577
+  - 467da4453127
   - ac9564dcdb99
   - f309f1ef68f3
   - ff9bc9357c89
@@ -5724,6 +5728,7 @@ tools:
 - name: ampvis2_subset_taxa
   owner: iuc
   revisions:
+  - 20a62b3a3038
   - 70a98af91147
   - adf75bf963f7
   - cf579d6919e8
@@ -5734,12 +5739,14 @@ tools:
   revisions:
   - 6121b061418a
   - 77d2f88d8716
+  - 9c6dbd8a875b
   - 9de032723f5b
   - f41dad652845
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
   owner: iuc
   revisions:
+  - 17b44753a1df
   - 18de61c5527c
   - 2c21c267391c
   - d02f4a87eb55
@@ -5752,11 +5759,13 @@ tools:
   - 14695ae019be
   - 1979fdd0914f
   - 9bdb74297b3d
+  - 9dab85e62cf2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_export_fasta
   owner: iuc
   revisions:
   - 0cce683798d3
+  - 5939a607c306
   - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
@@ -5765,6 +5774,7 @@ tools:
   owner: iuc
   revisions:
   - 2e69edaaa834
+  - 30ac301ba3d6
   - aeca454c398e
   - cfa509a60770
   - febf16487e02
@@ -5773,6 +5783,7 @@ tools:
   owner: iuc
   revisions:
   - 354d645455cd
+  - 4122ff5882e0
   - 454bfdfa6de5
   - 47aec96764b8
   - 7e6f33f40312
@@ -5782,6 +5793,7 @@ tools:
   revisions:
   - 3481feabc54e
   - 576dd33588bf
+  - 7db90993aa92
   - 91efbd7b52dc
   - dc0840e31406
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5790,6 +5802,7 @@ tools:
   revisions:
   - 028ba7c0b400
   - 2f9731cc4c87
+  - 5c6edb00ef4a
   - a14326f1e7df
   - d8334b328618
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5797,6 +5810,7 @@ tools:
   owner: iuc
   revisions:
   - 14b38ec15fe9
+  - 1db7e3d33871
   - 317728cb0f8a
   - c8bfb923d7d4
   - f9fa155c191f
@@ -5808,11 +5822,13 @@ tools:
   - 52fbe4eb7ce7
   - 61acf8a76396
   - 6b8580e02e99
+  - c14c7fd4d1be
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
   owner: iuc
   revisions:
   - 4289db874e3c
+  - 79ea913636fe
   - 7b81221e7925
   - a0a792d4efae
   - a194e5f09106
@@ -5821,6 +5837,7 @@ tools:
   owner: iuc
   revisions:
   - 2bbf288d6334
+  - 4b023017896a
   - 943c2ae9594a
   - de6156c8ef16
   - f360e09dd04b
@@ -5830,6 +5847,7 @@ tools:
   revisions:
   - 0e10df6f37c6
   - 1f6f3bc6edd1
+  - 21a8b4e5e300
   - 63ed7a3cd45f
   - 74ee43d45476
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5837,6 +5855,7 @@ tools:
   owner: iuc
   revisions:
   - 0c069fc2471c
+  - 61db741e4614
   - 874b1a4fe7f0
   - b3c5560ffac6
   - b4c6f8741989
@@ -5845,6 +5864,7 @@ tools:
   owner: iuc
   revisions:
   - 024a22e84bea
+  - 7c9c6448b57c
   - b8fd62239d7e
   - cfd7bafb820f
   - e7afc79b841e
@@ -7306,6 +7326,7 @@ tools:
   revisions:
   - 02c772a49998
   - 1574b8a29e6f
+  - 501a232f3cd5
   - 51332c2520c7
   - 9064aecc78a7
   - bd1956f4c2aa
@@ -7993,6 +8014,7 @@ tools:
   - 10232d2b5062
   - 2814c058a087
   - 3b1d503c6260
+  - 750d902de22c
   - df84aaed4769
   - e7b39a7e0024
   tool_panel_section_label: Data Managers
@@ -8083,6 +8105,7 @@ tools:
   revisions:
   - 267227e757cb
   - 83ccd2b525e5
+  - d0c0f3c95368
   - f762de618b1f
   tool_panel_section_label: Imaging
 - name: omero_metadata_import
@@ -8091,11 +8114,13 @@ tools:
   - 352e9d4eaf70
   - 588d6fa22fc4
   - e41f70e69349
+  - eba4011643dd
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
   revisions:
   - 4f4dc352d660
+  - dfe0aae1495c
   - e957793051a8
   tool_panel_section_label: Imaging
 - name: 2d_filter_segmentation_by_features
@@ -8148,3 +8173,18 @@ tools:
   revisions:
   - 5c31cd602239
   tool_panel_section_label: Metagenomics
+- name: omero_filter
+  owner: ufz
+  revisions:
+  - 8a3324018fc5
+  tool_panel_section_label: Imaging
+- name: omero_get_id
+  owner: ufz
+  revisions:
+  - c23735b45a4a
+  tool_panel_section_label: Imaging
+- name: omero_get_value
+  owner: ufz
+  revisions:
+  - 1ae349b83c08
+  tool_panel_section_label: Imaging
