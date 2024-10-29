@@ -3200,3 +3200,6 @@ tools:
 - name: omero_get_value
   owner: ufz
   tool_panel_section_label: Imaging
+- name: xls2tabular
+  owner: ylebras
+  tool_panel_section_label: Convert Formats
