@@ -3203,3 +3203,6 @@ tools:
 - name: split_file_on_column
   owner: bgruening
   tool_panel_section_label: Text Manipulation
+- name: diann
+  owner: galaxyp
+  tool_panel_section_label: Proteomics
