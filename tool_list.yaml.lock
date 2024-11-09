@@ -8365,3 +8365,8 @@ tools:
   revisions:
   - ff2a81aa3f08
   tool_panel_section_label: Text Manipulation
+- name: diann
+  owner: galaxyp
+  revisions:
+  - ff8c9e0e8a7b
+  tool_panel_section_label: Proteomics
