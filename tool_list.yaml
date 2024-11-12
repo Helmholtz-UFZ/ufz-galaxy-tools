@@ -3191,6 +3191,36 @@ tools:
 - name: iphop_build_database
   owner: ufz
   tool_panel_section_label: Metagenomics
+- name: phabox_build_database
+  owner: ufz
+  tool_panel_section_label: Data Managers
+- name: phabox_cherry
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_contamination
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_end_to_end
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_phagcn
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_phamer
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_phatyp
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_phavip
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_tree
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: phabox_votu
+  owner: ufz
+  tool_panel_section_label: Metagenomics
 - name: omero_filter
   owner: ufz
   tool_panel_section_label: Imaging
