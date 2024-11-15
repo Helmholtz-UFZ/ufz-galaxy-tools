@@ -3236,3 +3236,44 @@ tools:
 - name: diann
   owner: galaxyp
   tool_panel_section_label: Proteomics
+- name: prodigal
+  owner: iuc
+  tool_panel_section_label: Genome Annotation
+- name: bakta
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_bakta
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: concoct
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: concoct_coverage_table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: concoct_cut_up_fasta
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: concoct_extract_fasta_bins
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: concoct_merge_cut_up_clustering
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: metawrapmg_binning
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: salmon
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: alevin
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: salmonquantmerge
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_salmon_index_builder
+  owner: iuc
+  tool_panel_section_label: Data Managers
+
+
