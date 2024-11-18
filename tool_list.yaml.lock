@@ -214,6 +214,7 @@ tools:
   - 1d8fe9bc4cb0
   - 65b93b623c77
   - 6c2351178f8d
+  - a626e8c0e1ba
   - a935cbdf1c0e
   - c59d48774d03
   - d60c3f704da0
@@ -594,6 +595,7 @@ tools:
   - 6fcbee531de6
   - 72472698a2df
   - 875d0f36d66f
+  - a3b35edea53a
   - ebb0dcdb621a
   tool_panel_section_label: Assembly
 - name: spades
@@ -2932,6 +2934,7 @@ tools:
   owner: iuc
   revisions:
   - 374e9062d874
+  - 48b42ee61bc5
   - 51c6ccaace7e
   - '566197475670'
   - ca7cb0eaad62
@@ -5705,6 +5708,7 @@ tools:
   revisions:
   - 46a85469c104
   - 520dd44283ea
+  - 7825694588d6
   - 7c675dae82eb
   - 811df76f4f26
   - be1918c80d9f
@@ -5717,12 +5721,14 @@ tools:
   - 6acf30f0d9fa
   - bbb4a531d80b
   - e85ff12bc025
+  - f28f2faad83b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
   - 0feab98f9577
   - 467da4453127
+  - ac3774320d28
   - ac9564dcdb99
   - f309f1ef68f3
   - ff9bc9357c89
@@ -5732,6 +5738,7 @@ tools:
   revisions:
   - 20a62b3a3038
   - 70a98af91147
+  - 76cb398e9110
   - adf75bf963f7
   - cf579d6919e8
   - e2df49914652
@@ -5743,6 +5750,7 @@ tools:
   - 77d2f88d8716
   - 9c6dbd8a875b
   - 9de032723f5b
+  - bd41251e42ec
   - f41dad652845
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
@@ -5751,6 +5759,7 @@ tools:
   - 17b44753a1df
   - 18de61c5527c
   - 2c21c267391c
+  - cf0944377d87
   - d02f4a87eb55
   - d1727ab06449
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -5762,11 +5771,13 @@ tools:
   - 1979fdd0914f
   - 9bdb74297b3d
   - 9dab85e62cf2
+  - c980e4bd48f2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_export_fasta
   owner: iuc
   revisions:
   - 0cce683798d3
+  - 3fd332f614f3
   - 5939a607c306
   - 7c3fea31765c
   - c1fcdec30d69
@@ -5775,6 +5786,7 @@ tools:
 - name: ampvis2_rarecurve
   owner: iuc
   revisions:
+  - 094d0b97f92c
   - 2e69edaaa834
   - 30ac301ba3d6
   - aeca454c398e
@@ -5789,12 +5801,14 @@ tools:
   - 454bfdfa6de5
   - 47aec96764b8
   - 7e6f33f40312
+  - bb054c50a96c
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_load
   owner: iuc
   revisions:
   - 3481feabc54e
   - 576dd33588bf
+  - 738474880da8
   - 7db90993aa92
   - 91efbd7b52dc
   - dc0840e31406
@@ -5804,6 +5818,7 @@ tools:
   revisions:
   - 028ba7c0b400
   - 2f9731cc4c87
+  - 378ce300fb3d
   - 5c6edb00ef4a
   - a14326f1e7df
   - d8334b328618
@@ -5816,6 +5831,7 @@ tools:
   - 317728cb0f8a
   - c8bfb923d7d4
   - f9fa155c191f
+  - ff07f41b8e54
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_alpha_diversity
   owner: iuc
@@ -5825,11 +5841,13 @@ tools:
   - 61acf8a76396
   - 6b8580e02e99
   - 77000428c613
+  - bd518ee51da5
   - c14c7fd4d1be
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
   owner: iuc
   revisions:
+  - 33087ecbd8f4
   - 4289db874e3c
   - 79ea913636fe
   - 7b81221e7925
@@ -5843,6 +5861,7 @@ tools:
   - 4b023017896a
   - 943c2ae9594a
   - de6156c8ef16
+  - e595eafb5ecf
   - f360e09dd04b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_mergereplicates
@@ -5853,11 +5872,13 @@ tools:
   - 21a8b4e5e300
   - 63ed7a3cd45f
   - 74ee43d45476
+  - f34ea612eecf
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
   owner: iuc
   revisions:
   - 0c069fc2471c
+  - 5e4e2b612a4f
   - 61db741e4614
   - 874b1a4fe7f0
   - b3c5560ffac6
@@ -5868,6 +5889,7 @@ tools:
   revisions:
   - 024a22e84bea
   - 7c9c6448b57c
+  - a9dacd650ad5
   - b8fd62239d7e
   - cfd7bafb820f
   - e7afc79b841e
@@ -7589,6 +7611,7 @@ tools:
   revisions:
   - 73c902331bbc
   - 7e2066111683
+  - 8832425b1ff6
   - 9b36710378ce
   - b576ed720711
   - dd49ef90297c
@@ -7602,6 +7625,7 @@ tools:
   - 039e7ab31836
   - 07cac38cbd29
   - 36a53917818d
+  - 83c4b4359ac4
   - 86d265d2a334
   - a177ac3c752c
   - c5076cc15e8c
@@ -7615,6 +7639,7 @@ tools:
   - 0cf68b536cd1
   - 446fddefcee7
   - 500f473df7e4
+  - ea6c5636c0cf
   - eba733715eaf
   - ffe46a9b1124
   tool_panel_section_label: Exposomics - recetox
@@ -7628,6 +7653,7 @@ tools:
   - 6501d0287dcd
   - 8bd942dcf1ad
   - 9e3c83d2afc3
+  - a5a5b147da70
   - afc881c21a62
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
@@ -7646,12 +7672,14 @@ tools:
   - cdb41d95648c
   - d7b517f2c5fe
   - f87b1c271012
+  - fd890f162ce6
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_convert
   owner: recetox
   revisions:
   - 5d8553853fab
   - 692471e62c68
+  - 9e83636da9d3
   - a3d2f919cb98
   - b9cc12600553
   - c5ed6bfcd806
@@ -7665,6 +7693,7 @@ tools:
   - 54b6775010e0
   - 5fae85d4a69a
   - 7627b40601f6
+  - 7ba589b01dbc
   - 9ff95a1a2705
   - ee35dcec350a
   - f30b53a817af
@@ -7674,6 +7703,7 @@ tools:
   revisions:
   - 03bc9b7f40f6
   - 1d443ed476a1
+  - 330b0dfae8da
   - 44441b0ee4dd
   - 844d32c59314
   - 86e080d81cfb
@@ -7692,6 +7722,7 @@ tools:
   - 4e8a6d6f0e6a
   - 7c5b86026e57
   - 8fb8ac6c37b0
+  - a5d41764722d
   - b23b6a640f6a
   - fb80536001bc
   tool_panel_section_label: Exposomics - recetox
@@ -7704,6 +7735,7 @@ tools:
   - 9f2e7e1600c0
   - ab8a33c370f5
   - d8e937f335b8
+  - f04b378325e5
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_xmsannotator_advanced
   owner: recetox
@@ -7722,6 +7754,7 @@ tools:
   owner: recetox
   revisions:
   - 2b61ec493df6
+  - 5bbd1a8404f5
   - 6d2f2c565431
   - c4835715c7ac
   - cab0e4dcf372
@@ -7732,6 +7765,7 @@ tools:
 - name: matchms_metadata_merge
   owner: recetox
   revisions:
+  - 1fd950c5586a
   - 6e965d099233
   - 81e6df6ccd9a
   - 84ead993862c
@@ -7747,6 +7781,7 @@ tools:
   - 6b5867cab698
   - 8c98b3cb320e
   - 9d1b01d3fedd
+  - fbdb2ae524df
   tool_panel_section_label: Exposomics - recetox
 - name: bfconvert
   owner: imgteam
@@ -8191,6 +8226,7 @@ tools:
   - 1e34d2e3d285
   - 90b4d4f0a3a4
   - e4b4837f06f5
+  - e9ee4d074d5d
   - ed1518ce2237
   tool_panel_section_label: Data Managers
 - name: dose_response_analysis_tool
@@ -8340,7 +8376,58 @@ tools:
 - name: iphop_build_database
   owner: ufz
   revisions:
+  - 26f850e35fa0
   - 5c31cd602239
+  tool_panel_section_label: Metagenomics
+- name: phabox_build_database
+  owner: ufz
+  revisions:
+  - 6521d8d6dbdf
+  tool_panel_section_label: Data Managers
+- name: phabox_cherry
+  owner: ufz
+  revisions:
+  - bf17977c003f
+  tool_panel_section_label: Metagenomics
+- name: phabox_contamination
+  owner: ufz
+  revisions:
+  - 3f73568fafdc
+  tool_panel_section_label: Metagenomics
+- name: phabox_end_to_end
+  owner: ufz
+  revisions:
+  - 14307de7bbab
+  tool_panel_section_label: Metagenomics
+- name: phabox_phagcn
+  owner: ufz
+  revisions:
+  - e339c70fec63
+  tool_panel_section_label: Metagenomics
+- name: phabox_phamer
+  owner: ufz
+  revisions:
+  - d0ebd3f37125
+  tool_panel_section_label: Metagenomics
+- name: phabox_phatyp
+  owner: ufz
+  revisions:
+  - eb22ba00cd4c
+  tool_panel_section_label: Metagenomics
+- name: phabox_phavip
+  owner: ufz
+  revisions:
+  - f5dba8d92cf0
+  tool_panel_section_label: Metagenomics
+- name: phabox_tree
+  owner: ufz
+  revisions:
+  - daaab891f936
+  tool_panel_section_label: Metagenomics
+- name: phabox_votu
+  owner: ufz
+  revisions:
+  - f2f6dc0072ac
   tool_panel_section_label: Metagenomics
 - name: omero_filter
   owner: ufz
@@ -8370,3 +8457,68 @@ tools:
   revisions:
   - ff8c9e0e8a7b
   tool_panel_section_label: Proteomics
+- name: prodigal
+  owner: iuc
+  revisions:
+  - 91791b6ecd38
+  tool_panel_section_label: Genome Annotation
+- name: bakta
+  owner: iuc
+  revisions:
+  - d77802fe76f7
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_bakta
+  owner: iuc
+  revisions:
+  - 97b1b5ad1cda
+  tool_panel_section_label: Data Managers
+- name: concoct
+  owner: iuc
+  revisions:
+  - eae7ee167917
+  tool_panel_section_label: Metagenomics
+- name: concoct_coverage_table
+  owner: iuc
+  revisions:
+  - fd31cd168efc
+  tool_panel_section_label: Metagenomics
+- name: concoct_cut_up_fasta
+  owner: iuc
+  revisions:
+  - 4d8bc5dd9e95
+  tool_panel_section_label: Metagenomics
+- name: concoct_extract_fasta_bins
+  owner: iuc
+  revisions:
+  - 8b1b09fcd8b7
+  tool_panel_section_label: Metagenomics
+- name: concoct_merge_cut_up_clustering
+  owner: iuc
+  revisions:
+  - 20ccec4a2c38
+  tool_panel_section_label: Metagenomics
+- name: metawrapmg_binning
+  owner: galaxy-australia
+  revisions:
+  - 2a8bc1d26d06
+  tool_panel_section_label: Metagenomics
+- name: salmon
+  owner: bgruening
+  revisions:
+  - f4d5237a84f6
+  tool_panel_section_label: Sequence Analysis
+- name: alevin
+  owner: bgruening
+  revisions:
+  - b0fe3e482cb7
+  tool_panel_section_label: Sequence Analysis
+- name: salmonquantmerge
+  owner: bgruening
+  revisions:
+  - a896b8b7d264
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_salmon_index_builder
+  owner: iuc
+  revisions:
+  - 566207ae614c
+  tool_panel_section_label: Data Managers
