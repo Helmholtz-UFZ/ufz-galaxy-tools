@@ -3261,7 +3261,7 @@ tools:
   owner: iuc
   tool_panel_section_label: Metagenomics
 - name: metawrapmg_binning
-  owner: iuc
+  owner: galaxy-australia
   tool_panel_section_label: Metagenomics
 - name: salmon
   owner: bgruening
