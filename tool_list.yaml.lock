@@ -560,6 +560,7 @@ tools:
   - 7547fcab5d19
   - 8f1b150a2487
   - d6d5ccc2c581
+  - db9b10824c61
   - fa5259cc561b
   tool_panel_section_label: Assembly
 - name: rnaquast
@@ -1301,33 +1302,39 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 4bf1e2701504
   - f329328da134
   tool_panel_section_label: Metagenomics
 - name: krakentools_beta_diversity
   owner: iuc
   revisions:
+  - 4505d7643673
   - c254d75b8b67
   tool_panel_section_label: Metagenomics
 - name: krakentools_combine_kreports
   owner: iuc
   revisions:
   - 073c867c5244
+  - 3d2cffa2c4ab
   - 4960abe31b4d
   tool_panel_section_label: Metagenomics
 - name: krakentools_alpha_diversity
   owner: iuc
   revisions:
+  - 78b69342c280
   - bab112ba9d62
   tool_panel_section_label: Metagenomics
 - name: krakentools_kreport2krona
   owner: iuc
   revisions:
+  - 02bbace216f2
   - 2deaada69b14
   tool_panel_section_label: Metagenomics
 - name: krakentools_kreport2mpa
   owner: iuc
   revisions:
   - bb96a1e6583d
+  - d33cf727ed94
   tool_panel_section_label: Metagenomics
 - name: metabat2_jgi_summarize_bam_contig_depths
   owner: iuc
@@ -5044,6 +5051,7 @@ tools:
   owner: iuc
   revisions:
   - 5cc8e93ee98f
+  - 80414c33a59a
   tool_panel_section_label: Genomic Interval Operations
 - name: xy_plot
   owner: devteam
@@ -7855,10 +7863,12 @@ tools:
   - 1baa4ad1ac2f
   - 1ef267476a17
   - 770bceda7785
+  - e607b61a68ad
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
   owner: iuc
   revisions:
+  - 3854db061e6e
   - 66b138a2e74c
   - 7e041c120b96
   - df9743790176
@@ -7871,11 +7881,13 @@ tools:
   - 7beb76ffbc0f
   - bf0cb5dd02f2
   - d1f62024a08b
+  - d58c27d2c5a7
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
   - 1af48f9cc27b
+  - 1bb2b5b52030
   - 5d8b93c0731f
   - c05232655d00
   - cab19c0452c4
@@ -7887,6 +7899,7 @@ tools:
   - 456d8ebb6a28
   - 517464809c33
   - 7f19559b8b55
+  - 8015d7ab8357
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_tadpole
   owner: iuc
@@ -7895,6 +7908,7 @@ tools:
   - 20aef74d20a1
   - 654c9da47f74
   - cbc75076778f
+  - ce13b4678f18
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: calculate_numeric_param
   owner: iuc
@@ -8269,6 +8283,7 @@ tools:
 - name: genomad_build_database
   owner: ufz
   revisions:
+  - 03623fc64d5c
   - c4ec3d81eeee
   tool_panel_section_label: Data Managers
 - name: virsorter
@@ -8280,11 +8295,13 @@ tools:
   owner: ufz
   revisions:
   - 863ba94fb6e4
+  - ad63dbb3493a
   tool_panel_section_label: Data Managers
 - name: cp_cellprofiler4
   owner: bgruening
   revisions:
   - 77bc1c2e1b91
+  - 9799fc53433e
   - f0656d0f2a4d
   tool_panel_section_label: Imaging
 - name: cp_cellprofiler
@@ -8357,6 +8374,7 @@ tools:
   owner: ufz
   revisions:
   - 3756ac7a625b
+  - 88042a5ead89
   tool_panel_section_label: Metagenomics
 - name: vibrant
   owner: ufz
@@ -8367,6 +8385,7 @@ tools:
   owner: ufz
   revisions:
   - 200343b50d46
+  - 3f68072f2da6
   tool_panel_section_label: Metagenomics
 - name: iphop_predict
   owner: ufz
@@ -8378,10 +8397,12 @@ tools:
   revisions:
   - 26f850e35fa0
   - 5c31cd602239
+  - d636e6221f8e
   tool_panel_section_label: Metagenomics
 - name: phabox_build_database
   owner: ufz
   revisions:
+  - 334bd61d216d
   - 6521d8d6dbdf
   tool_panel_section_label: Data Managers
 - name: phabox_cherry
