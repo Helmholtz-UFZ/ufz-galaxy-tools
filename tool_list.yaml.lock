@@ -850,6 +850,7 @@ tools:
   - 512c2b701d96
   - 6139bfcc95cb
   - 73d82de36369
+  - 75a1b3f7bacc
   - cb923396e70f
   tool_panel_section_label: Metabolomics - W4M
 - name: camera_combinexsannos
@@ -859,6 +860,7 @@ tools:
   - 3bf04fc404d9
   - 617cf0705775
   - c4c13745e797
+  - e461f344226c
   tool_panel_section_label: Metabolomics - W4M
 - name: msnbase_readmsdata
   owner: lecorguille
