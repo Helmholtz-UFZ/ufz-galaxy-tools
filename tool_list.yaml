@@ -3275,5 +3275,6 @@ tools:
 - name: data_manager_salmon_index_builder
   owner: iuc
   tool_panel_section_label: Data Managers
-
-
+- name: histogram
+  owner: devteam
+  tool_panel_section_label: Statistics
