@@ -2827,6 +2827,7 @@ tools:
   - 4014de1b6daf
   - 4074fc1940e2
   - 4df95e2d7f61
+  - 53255f6eecfc
   - 980d2a2e1180
   - b0f2be869d6d
   - c772497b2c32
@@ -5095,6 +5096,7 @@ tools:
   revisions:
   - 04144473e59e
   - 073608a50ac3
+  - 1770d188f72d
   - 5b752525bd6f
   - 7136e9ab70db
   - 7f3b59dee073
@@ -5127,6 +5129,7 @@ tools:
   owner: iuc
   revisions:
   - 1c9715cef808
+  - 3a89c3f99f3d
   - 4d89978c6188
   - 5b5a7af9fbb4
   - 63f86089423e
@@ -5176,6 +5179,11 @@ tools:
   - d60df8727f59
   - f947b4bb5107
   - fa11922f3d91
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_primercheck
+  owner: iuc
+  revisions:
+  - 74ec28dbdf17
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
   owner: iuc
@@ -6069,6 +6077,11 @@ tools:
   - 8a0db69428c7
   - 9dbdf05beaa9
   - f9e68fa06585
+  tool_panel_section_label: Qiime2
+- name: qiime2_core__tools__import_fastq
+  owner: q2d2
+  revisions:
+  - 1c3937219d27
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__trim_single
   owner: q2d2
@@ -7952,6 +7965,7 @@ tools:
 - name: phyloseq_from_dada2
   owner: iuc
   revisions:
+  - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
   tool_panel_section_label: Phyloseq
@@ -7959,11 +7973,13 @@ tools:
   owner: iuc
   revisions:
   - 11d43fa12aab
+  - c35e0075c7a2
   - dfe800a3faaf
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
+  - 1a6c2cc92c6e
   - 92b82deaaed1
   - fb7c4bbe8994
   tool_panel_section_label: Phyloseq
@@ -8134,6 +8150,7 @@ tools:
   revisions:
   - 1865e693d8b2
   - a256278e5bff
+  - defd3e9ddd2d
   - f8418a1bf7d0
   tool_panel_section_label: Data Managers
 - name: data_manager_metaphlan2_database_downloader
@@ -8156,6 +8173,7 @@ tools:
 - name: data_manager_bowtie2_index_builder
   owner: devteam
   revisions:
+  - 39865c64a4e1
   - 83da94c0e4a6
   - 847c9ef56a52
   - 9dd107db92c2
@@ -8197,6 +8215,7 @@ tools:
 - name: data_manager_bwa_mem_index_builder
   owner: devteam
   revisions:
+  - 0a87b85d9911
   - 63d5652be07a
   - 9e993022c762
   tool_panel_section_label: Data Managers
@@ -8545,3 +8564,8 @@ tools:
   revisions:
   - 566207ae614c
   tool_panel_section_label: Data Managers
+- name: histogram
+  owner: devteam
+  revisions:
+  - 6f134426c2b0
+  tool_panel_section_label: Statistics
