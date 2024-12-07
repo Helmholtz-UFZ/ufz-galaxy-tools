@@ -1919,6 +1919,9 @@ tools:
 - name: dada2_plotqualityprofile
   owner: iuc
   tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_primercheck
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
   owner: iuc
   tool_panel_section_label: Statistics
@@ -2322,6 +2325,9 @@ tools:
   owner: q2d2
   tool_panel_section_label: Qiime2
 - name: qiime2_core__tools__import
+  owner: q2d2
+  tool_panel_section_label: Qiime2
+- name: qiime2_core__tools__import_fastq
   owner: q2d2
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__trim_single
