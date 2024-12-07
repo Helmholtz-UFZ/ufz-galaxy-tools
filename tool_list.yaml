@@ -1919,7 +1919,7 @@ tools:
 - name: dada2_plotqualityprofile
   owner: iuc
   tool_panel_section_label: Amplicon Analysis - dada2
-- name: dada2_primerCheck
+- name: dada2_primercheck
   owner: iuc
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
