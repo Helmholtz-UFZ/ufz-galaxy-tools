@@ -1958,69 +1958,6 @@ tools:
 - name: msconvert
   owner: galaxyp
   tool_panel_section_label: Proteomics
-- name: proteore_build_protein_interaction_maps
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_clusterprofiler
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_filter_keywords_values
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_get_unique_peptide_srm_method
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_goprofiles
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_kegg_pathways_coverage
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_reactome
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_topgo
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_venn_diagram
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_expression_levels_by_tissue
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_expression_rnaseq_abbased
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_go_terms_enrich_comparison
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_heatmap_visualization
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_id_converter
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_maps_visualization
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_ms_observation_pepatlas
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_prot_features
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_prot_features_3orga
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_prot_features_mouse
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: proteore_tissue_specific_expression_data
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
-- name: filter_keywords_values
-  owner: proteore
-  tool_panel_section_label: Proteomics - ProteoRE
 - name: export2graphlan
   owner: iuc
   tool_panel_section_label: Metagenomics
@@ -3091,9 +3028,6 @@ tools:
   tool_panel_section_label: Data Managers
 - name: data_manager_diamond_database_builder
   owner: bgruening
-  tool_panel_section_label: Data Managers
-- name: proteore_data_manager
-  owner: proteore
   tool_panel_section_label: Data Managers
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
