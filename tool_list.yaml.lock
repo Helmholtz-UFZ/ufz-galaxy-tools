@@ -2654,12 +2654,6 @@ tools:
   - 6ab42baa56e9
   - f4af63aaf57a
   tool_panel_section_label: Assembly
-- name: rmarkdown_wgcna
-  owner: mingchen0919
-  revisions:
-  - 05bcad4b5b4f
-  - 240af4b07b92
-  tool_panel_section_label: RNA - Utilities for RNA
 - name: openbabel_change_title
   owner: bgruening
   revisions:
