@@ -3215,3 +3215,9 @@ tools:
 - name: histogram
   owner: devteam
   tool_panel_section_label: Statistics
+- name:  xlsx2tsv
+  owner: ufz
+  tool_panel_section_label: Convert Formats
+- name: omero_dataset_to_plate
+  owner: ufz
+  tool_panel_section_label: Imaging
