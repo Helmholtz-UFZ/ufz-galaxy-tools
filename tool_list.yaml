@@ -3221,3 +3221,9 @@ tools:
 - name: omero_dataset_to_plate
   owner: ufz
   tool_panel_section_label: Imaging
+- name: dfpl_train
+  owner: ufz
+  tool_panel_section_label: Computational chemistry
+- name: dfpl_predict
+  owner: ufz
+  tool_panel_section_label: Computational chemistry
