@@ -1001,9 +1001,6 @@ tools:
 - name: hisat2
   owner: iuc
   tool_panel_section_label: Assembly
-- name: rmarkdown_wgcna
-  owner: mingchen0919
-  tool_panel_section_label: RNA - Utilities for RNA
 - name: openbabel_change_title
   owner: bgruening
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -3218,6 +3215,12 @@ tools:
 - name: histogram
   owner: devteam
   tool_panel_section_label: Statistics
+- name:  xlsx2tsv
+  owner: ufz
+  tool_panel_section_label: Convert Formats
+- name: omero_dataset_to_plate
+  owner: ufz
+  tool_panel_section_label: Imaging
 - name: dfpl_train
   owner: ufz
   tool_panel_section_label: Computational chemistry

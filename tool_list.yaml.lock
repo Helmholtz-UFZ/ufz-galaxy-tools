@@ -2477,6 +2477,7 @@ tools:
   - 12692567c7f9
   - 1a5690a5eedc
   - 265c35540faa
+  - 4ddc8da62671
   - a371252a2cf6
   - e1abc9a35c64
   tool_panel_section_label: Proteomics
@@ -2654,12 +2655,6 @@ tools:
   - 6ab42baa56e9
   - f4af63aaf57a
   tool_panel_section_label: Assembly
-- name: rmarkdown_wgcna
-  owner: mingchen0919
-  revisions:
-  - 05bcad4b5b4f
-  - 240af4b07b92
-  tool_panel_section_label: RNA - Utilities for RNA
 - name: openbabel_change_title
   owner: bgruening
   revisions:
@@ -5201,6 +5196,7 @@ tools:
   revisions:
   - 2f557f6abbfb
   - 83c573f2e73c
+  - 99ace6c1ff57
   - a363ba287b88
   tool_panel_section_label: Statistics
 - name: add_input_name_as_column
@@ -8141,6 +8137,7 @@ tools:
   revisions:
   - 13851aefa67a
   - 1e34d2e3d285
+  - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
   - e9ee4d074d5d
