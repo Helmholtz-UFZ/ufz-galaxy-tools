@@ -8147,6 +8147,7 @@ tools:
   owner: ufz
   revisions:
   - 8a1b524ed9d8
+  - c122403ac78a
   tool_panel_section_label: Toxicology
 - name: baseline_toxicity_calculator
   owner: mbernt
@@ -8184,6 +8185,7 @@ tools:
   owner: ufz
   revisions:
   - 03623fc64d5c
+  - 75abfb03b635
   - c4ec3d81eeee
   tool_panel_section_label: Data Managers
 - name: virsorter
@@ -8196,6 +8198,7 @@ tools:
   revisions:
   - 863ba94fb6e4
   - ad63dbb3493a
+  - c456ae8354f2
   tool_panel_section_label: Data Managers
 - name: cp_cellprofiler4
   owner: bgruening
@@ -8224,6 +8227,7 @@ tools:
   revisions:
   - 18b86dcdd421
   - 267227e757cb
+  - 42a454d4b482
   - 83ccd2b525e5
   - d0c0f3c95368
   - f762de618b1f
@@ -8242,6 +8246,7 @@ tools:
   revisions:
   - 131470834fee
   - 4f4dc352d660
+  - 55e3d33cf4bd
   - dfe0aae1495c
   - e957793051a8
   tool_panel_section_label: Imaging
@@ -8274,6 +8279,7 @@ tools:
   owner: ufz
   revisions:
   - 3756ac7a625b
+  - 7e80c69020f7
   - 88042a5ead89
   tool_panel_section_label: Metagenomics
 - name: vibrant
@@ -8286,6 +8292,7 @@ tools:
   revisions:
   - 200343b50d46
   - 3f68072f2da6
+  - e0faddfd9cf9
   tool_panel_section_label: Metagenomics
 - name: iphop_predict
   owner: ufz
@@ -8296,6 +8303,7 @@ tools:
   owner: ufz
   revisions:
   - 26f850e35fa0
+  - 39dc692a9554
   - 5c31cd602239
   - d636e6221f8e
   tool_panel_section_label: Metagenomics
@@ -8304,6 +8312,7 @@ tools:
   revisions:
   - 334bd61d216d
   - 6521d8d6dbdf
+  - 9645eb4a0ee2
   tool_panel_section_label: Data Managers
 - name: phabox_cherry
   owner: ufz
@@ -8355,18 +8364,21 @@ tools:
   revisions:
   - 375281d11535
   - 8a3324018fc5
+  - f86ba5328466
   tool_panel_section_label: Imaging
 - name: omero_get_id
   owner: ufz
   revisions:
   - ae07ea142e0f
   - c23735b45a4a
+  - c7b2650718fe
   tool_panel_section_label: Imaging
 - name: omero_get_value
   owner: ufz
   revisions:
   - 1ae349b83c08
   - 9a50e57339d8
+  - ecb13e93fae2
   tool_panel_section_label: Imaging
 - name: split_file_on_column
   owner: bgruening
@@ -8448,3 +8460,23 @@ tools:
   revisions:
   - 6f134426c2b0
   tool_panel_section_label: Statistics
+- name: xlsx2tsv
+  owner: ufz
+  revisions:
+  - a21347be425d
+  tool_panel_section_label: Convert Formats
+- name: omero_dataset_to_plate
+  owner: ufz
+  revisions:
+  - c6f34af26769
+  tool_panel_section_label: Imaging
+- name: dfpl_train
+  owner: ufz
+  revisions:
+  - e0bb949eac45
+  tool_panel_section_label: Computational chemistry
+- name: dfpl_predict
+  owner: ufz
+  revisions:
+  - 8956e949d466
+  tool_panel_section_label: Computational chemistry
