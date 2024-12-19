@@ -3218,3 +3218,9 @@ tools:
 - name: histogram
   owner: devteam
   tool_panel_section_label: Statistics
+- name: dfpl_train
+  owner: ufz
+  tool_panel_section_label: Computational chemistry
+- name: dfpl_predict
+  owner: ufz
+  tool_panel_section_label: Computational chemistry
