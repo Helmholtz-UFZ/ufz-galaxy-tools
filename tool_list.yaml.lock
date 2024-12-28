@@ -2589,6 +2589,7 @@ tools:
   - 1b851f87fbe0
   - 38b6d12edc68
   - 46cccc52be5f
+  - 5dbff3a5845a
   - 6f66ae7c5f7a
   - 9301937c9037
   - a37612abf7f9
@@ -7851,11 +7852,13 @@ tools:
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
+  - d1c93a32cb25
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_ordination
   owner: iuc
   revisions:
   - 11d43fa12aab
+  - 5007bc8a3d90
   - c35e0075c7a2
   - dfe800a3faaf
   tool_panel_section_label: Phyloseq
@@ -7863,6 +7866,7 @@ tools:
   owner: iuc
   revisions:
   - 1a6c2cc92c6e
+  - '817853857084'
   - 92b82deaaed1
   - fb7c4bbe8994
   tool_panel_section_label: Phyloseq
