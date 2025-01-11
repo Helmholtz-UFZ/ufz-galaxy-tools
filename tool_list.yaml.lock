@@ -7852,6 +7852,7 @@ tools:
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
+  - bda00cb136ee
   - d1c93a32cb25
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_ordination
@@ -7861,6 +7862,7 @@ tools:
   - 5007bc8a3d90
   - c35e0075c7a2
   - dfe800a3faaf
+  - f9543efabd85
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_richness
   owner: iuc
@@ -7868,6 +7870,7 @@ tools:
   - 1a6c2cc92c6e
   - '817853857084'
   - 92b82deaaed1
+  - a20bc31f2821
   - fb7c4bbe8994
   tool_panel_section_label: Phyloseq
 - name: imagej2_adjust_threshold_binary
