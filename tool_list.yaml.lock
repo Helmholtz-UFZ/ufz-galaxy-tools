@@ -8175,11 +8175,13 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - 2c6f204ae1b9
   - 9902c85117a4
   tool_panel_section_label: Metagenomics
 - name: drep_dereplicate
   owner: iuc
   revisions:
+  - 76b57044069d
   - cafcc13990ee
   tool_panel_section_label: Metagenomics
 - name: genomad_end_to_end
@@ -8487,3 +8489,8 @@ tools:
   revisions:
   - 8956e949d466
   tool_panel_section_label: Computational chemistry
+- name: saqc
+  owner: ufz
+  revisions:
+  - 55bbea0cdc60
+  tool_panel_section_label: Statistics
