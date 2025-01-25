@@ -53,6 +53,7 @@ tools:
   - 1c2db0054039
   - 3d93dd18d9f8
   - 467486f1c568
+  - a7e081ceb76a
   - abfd8a6544d7
   - bf675f34b056
   - e4574a4d09d8
@@ -1341,6 +1342,7 @@ tools:
 - name: metabat2_jgi_summarize_bam_contig_depths
   owner: iuc
   revisions:
+  - 00e3b4ef7e0c
   - a4441f35f17b
   - ec045ca00b50
   tool_panel_section_label: Metagenomics
@@ -1349,6 +1351,7 @@ tools:
   revisions:
   - 708abf08a626
   - eb50e7eca3dc
+  - f375b4f6ef57
   tool_panel_section_label: Metagenomics
 - name: krona_text
   owner: saskia-hiltemann
@@ -7852,6 +7855,7 @@ tools:
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
+  - ae4d404a8227
   - bda00cb136ee
   - d1c93a32cb25
   tool_panel_section_label: Phyloseq
@@ -7862,12 +7866,14 @@ tools:
   - 5007bc8a3d90
   - c35e0075c7a2
   - dfe800a3faaf
+  - eab0b21652c4
   - f9543efabd85
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
   - 1a6c2cc92c6e
+  - 4faa9c663b38
   - '817853857084'
   - 92b82deaaed1
   - a20bc31f2821
@@ -8144,6 +8150,7 @@ tools:
   revisions:
   - 13851aefa67a
   - 1e34d2e3d285
+  - 201eff2131d6
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -8153,6 +8160,7 @@ tools:
 - name: dose_response_analysis_tool
   owner: ufz
   revisions:
+  - 2aa9da0a84a4
   - 8a1b524ed9d8
   - c122403ac78a
   tool_panel_section_label: Toxicology
