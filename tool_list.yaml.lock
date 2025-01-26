@@ -7787,21 +7787,6 @@ tools:
   - b19e21af9c52
   - bf793b71559a
   tool_panel_section_label: Expression Tools
-- name: proteomicsr_intensity_workflow
-  owner: mbernt
-  revisions:
-  - 31212f7e7611
-  tool_panel_section_label: Testing
-- name: proteomicsr_fc_workflow
-  owner: mbernt
-  revisions:
-  - f2cb63ca02fa
-  tool_panel_section_label: Testing
-- name: proteomicsr_msigdb_workflow
-  owner: mbernt
-  revisions:
-  - 0fbb062e0cf5
-  tool_panel_section_label: Testing
 - name: phyloseq_from_dada2
   owner: iuc
   revisions:

@@ -2895,15 +2895,6 @@ tools:
 - name: pick_value
   owner: iuc
   tool_panel_section_label: Expression Tools
-- name: proteomicsr_intensity_workflow
-  owner: mbernt
-  tool_panel_section_label: Testing
-- name: proteomicsr_fc_workflow
-  owner: mbernt
-  tool_panel_section_label: Testing
-- name: proteomicsr_msigdb_workflow
-  owner: mbernt
-  tool_panel_section_label: Testing
 - name: phyloseq_from_dada2
   owner: iuc
   tool_panel_section_label: Phyloseq
