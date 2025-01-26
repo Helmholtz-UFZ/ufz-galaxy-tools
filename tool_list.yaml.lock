@@ -4851,8 +4851,6 @@ tools:
 - name: mspurity_flagremove
   owner: computational-metabolomics
   revisions:
-  - 4b627470dea2
-  - 69ed543767b2
   - 816bac69e03e
   - da36e8bbcfbd
   tool_panel_section_label: Metabolomics
@@ -4860,15 +4858,11 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 406ae6769162
-  - 94eb1fcfde88
   - ac284b969836
-  - e79c1a0654af
   tool_panel_section_label: Metabolomics
 - name: mspurity_createdatabase
   owner: computational-metabolomics
   revisions:
-  - 0cc6b67dccb8
-  - 3ec6fd8e4c17
   - 751b7378a683
   - fa84bfaab681
   tool_panel_section_label: Metabolomics
@@ -4876,65 +4870,49 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 3d92b95cf6c0
-  - 50409aeeeac5
-  - 8512923bdd37
   - f98b4bb0fa58
   tool_panel_section_label: Metabolomics
 - name: mspurity_purityx
   owner: computational-metabolomics
   revisions:
   - 374022b7b469
-  - 84b2151fd8f4
-  - 942e676515fe
   - d84cc9960035
   tool_panel_section_label: Metabolomics
 - name: mspurity_combineannotations
   owner: computational-metabolomics
   revisions:
-  - 03b45dceb134
   - 85e83614f891
-  - d7104112fac6
   - f11c129a4227
   tool_panel_section_label: Metabolomics
 - name: mspurity_dimspredictpuritysingle
   owner: computational-metabolomics
   revisions:
-  - 067566eef56f
-  - 2ce66d2f6a24
   - 548fed2ef792
   - b563d5fe4fc0
   tool_panel_section_label: Metabolomics
 - name: mspurity_puritya
   owner: computational-metabolomics
   revisions:
-  - 0d73912c7cdc
   - 10e56e53668c
   - 416460f611cc
-  - 55f1691db108
   tool_panel_section_label: Metabolomics
 - name: mspurity_filterfragspectra
   owner: computational-metabolomics
   revisions:
   - 0a0f22586cad
-  - 2e10c13085c9
-  - 31920dd28862
   - a8842e5e75a7
   tool_panel_section_label: Metabolomics
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
   - 01cbb99bca13
-  - 20f4fdaf36bb
-  - 829af6fecd96
   - c33b92eeb1fb
   tool_panel_section_label: Metabolomics
 - name: mspurity_frag4feature
   owner: computational-metabolomics
   revisions:
   - 174a523cb1da
-  - 2f7cd31eba49
   - 31f64ff8320d
-  - e9fbb65451f6
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata
   owner: lecorguille
