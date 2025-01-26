@@ -320,9 +320,6 @@ tools:
 - name: lcmsmatching
   owner: prog
   tool_panel_section_label: Metabolomics - W4M
-- name: hmdb_ms_search
-  owner: fgiacomoni
-  tool_panel_section_label: Metabolomics - W4M
 - name: metams_rungc
   owner: yguitton
   tool_panel_section_label: Metabolomics - W4M
