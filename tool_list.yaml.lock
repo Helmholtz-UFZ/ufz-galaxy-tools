@@ -4547,11 +4547,6 @@ tools:
   revisions:
   - f4e6b77c46e3
   tool_panel_section_label: Metabolomics - W4M
-- name: massbank_ws_searchspectrum
-  owner: fgiacomoni
-  revisions:
-  - 023c380900ef
-  tool_panel_section_label: Metabolomics - W4M
 - name: fasta_regex_finder
   owner: mbernt
   revisions:
