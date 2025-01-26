@@ -905,14 +905,6 @@ tools:
   - f86fec07f392
   - fb9c0409d85c
   tool_panel_section_label: Metabolomics - W4M
-- name: hmdb_ms_search
-  owner: fgiacomoni
-  revisions:
-  - 144e4a8ad000
-  - 29195cb5d378
-  - 4eb2de7c24d1
-  - 63ba1cb240b7
-  tool_panel_section_label: Metabolomics - W4M
 - name: metams_rungc
   owner: yguitton
   revisions:
