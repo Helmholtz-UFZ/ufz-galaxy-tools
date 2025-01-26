@@ -53,6 +53,7 @@ tools:
   - 1c2db0054039
   - 3d93dd18d9f8
   - 467486f1c568
+  - a7e081ceb76a
   - abfd8a6544d7
   - bf675f34b056
   - e4574a4d09d8
@@ -1341,6 +1342,7 @@ tools:
 - name: metabat2_jgi_summarize_bam_contig_depths
   owner: iuc
   revisions:
+  - 00e3b4ef7e0c
   - a4441f35f17b
   - ec045ca00b50
   tool_panel_section_label: Metagenomics
@@ -1349,6 +1351,7 @@ tools:
   revisions:
   - 708abf08a626
   - eb50e7eca3dc
+  - f375b4f6ef57
   tool_panel_section_label: Metagenomics
 - name: krona_text
   owner: saskia-hiltemann
@@ -4542,11 +4545,6 @@ tools:
   revisions:
   - 52798007c6b2
   tool_panel_section_label: Metabolomics - W4M
-- name: lipidmaps_textsearch
-  owner: fgiacomoni
-  revisions:
-  - f4e6b77c46e3
-  tool_panel_section_label: Metabolomics - W4M
 - name: fasta_regex_finder
   owner: mbernt
   revisions:
@@ -4848,8 +4846,6 @@ tools:
 - name: mspurity_flagremove
   owner: computational-metabolomics
   revisions:
-  - 4b627470dea2
-  - 69ed543767b2
   - 816bac69e03e
   - da36e8bbcfbd
   tool_panel_section_label: Metabolomics
@@ -4857,15 +4853,11 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 406ae6769162
-  - 94eb1fcfde88
   - ac284b969836
-  - e79c1a0654af
   tool_panel_section_label: Metabolomics
 - name: mspurity_createdatabase
   owner: computational-metabolomics
   revisions:
-  - 0cc6b67dccb8
-  - 3ec6fd8e4c17
   - 751b7378a683
   - fa84bfaab681
   tool_panel_section_label: Metabolomics
@@ -4873,65 +4865,49 @@ tools:
   owner: computational-metabolomics
   revisions:
   - 3d92b95cf6c0
-  - 50409aeeeac5
-  - 8512923bdd37
   - f98b4bb0fa58
   tool_panel_section_label: Metabolomics
 - name: mspurity_purityx
   owner: computational-metabolomics
   revisions:
   - 374022b7b469
-  - 84b2151fd8f4
-  - 942e676515fe
   - d84cc9960035
   tool_panel_section_label: Metabolomics
 - name: mspurity_combineannotations
   owner: computational-metabolomics
   revisions:
-  - 03b45dceb134
   - 85e83614f891
-  - d7104112fac6
   - f11c129a4227
   tool_panel_section_label: Metabolomics
 - name: mspurity_dimspredictpuritysingle
   owner: computational-metabolomics
   revisions:
-  - 067566eef56f
-  - 2ce66d2f6a24
   - 548fed2ef792
   - b563d5fe4fc0
   tool_panel_section_label: Metabolomics
 - name: mspurity_puritya
   owner: computational-metabolomics
   revisions:
-  - 0d73912c7cdc
   - 10e56e53668c
   - 416460f611cc
-  - 55f1691db108
   tool_panel_section_label: Metabolomics
 - name: mspurity_filterfragspectra
   owner: computational-metabolomics
   revisions:
   - 0a0f22586cad
-  - 2e10c13085c9
-  - 31920dd28862
   - a8842e5e75a7
   tool_panel_section_label: Metabolomics
 - name: mspurity_spectralmatching
   owner: computational-metabolomics
   revisions:
   - 01cbb99bca13
-  - 20f4fdaf36bb
-  - 829af6fecd96
   - c33b92eeb1fb
   tool_panel_section_label: Metabolomics
 - name: mspurity_frag4feature
   owner: computational-metabolomics
   revisions:
   - 174a523cb1da
-  - 2f7cd31eba49
   - 31f64ff8320d
-  - e9fbb65451f6
   tool_panel_section_label: Metabolomics
 - name: xcms_export_samplemetadata
   owner: lecorguille
@@ -7847,6 +7823,7 @@ tools:
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
+  - ae4d404a8227
   - bda00cb136ee
   - d1c93a32cb25
   tool_panel_section_label: Phyloseq
@@ -7857,12 +7834,14 @@ tools:
   - 5007bc8a3d90
   - c35e0075c7a2
   - dfe800a3faaf
+  - eab0b21652c4
   - f9543efabd85
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
   - 1a6c2cc92c6e
+  - 4faa9c663b38
   - '817853857084'
   - 92b82deaaed1
   - a20bc31f2821
@@ -8139,6 +8118,7 @@ tools:
   revisions:
   - 13851aefa67a
   - 1e34d2e3d285
+  - 201eff2131d6
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -8148,6 +8128,7 @@ tools:
 - name: dose_response_analysis_tool
   owner: ufz
   revisions:
+  - 2aa9da0a84a4
   - 8a1b524ed9d8
   - c122403ac78a
   tool_panel_section_label: Toxicology
