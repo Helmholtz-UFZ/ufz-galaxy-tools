@@ -4534,11 +4534,6 @@ tools:
   revisions:
   - c415b7dc6f37
   tool_panel_section_label: Metabolomics - W4M
-- name: golm_ws_lib_search
-  owner: fgiacomoni
-  revisions:
-  - 28d579fa1718
-  tool_panel_section_label: Metabolomics - W4M
 - name: bank_inhouse
   owner: fgiacomoni
   revisions:

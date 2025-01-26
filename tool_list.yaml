@@ -1685,9 +1685,6 @@ tools:
 - name: w4mkmeans
   owner: eschen42
   tool_panel_section_label: Metabolomics - W4M
-- name: golm_ws_lib_search
-  owner: fgiacomoni
-  tool_panel_section_label: Metabolomics - W4M
 - name: bank_inhouse
   owner: fgiacomoni
   tool_panel_section_label: Metabolomics - W4M
