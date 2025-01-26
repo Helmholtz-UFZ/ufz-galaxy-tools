@@ -1695,9 +1695,6 @@ tools:
 # - name: lipidmaps_textsearch
 #   owner: fgiacomoni
 #   tool_panel_section_label: Metabolomics - W4M
-- name: massbank_ws_searchspectrum
-  owner: fgiacomoni
-  tool_panel_section_label: Metabolomics - W4M
 - name: fasta_regex_finder
   owner: mbernt
   tool_panel_section_label: Sequence Analysis
