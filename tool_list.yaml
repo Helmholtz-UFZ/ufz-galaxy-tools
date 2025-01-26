@@ -1691,9 +1691,10 @@ tools:
 - name: bank_inhouse
   owner: fgiacomoni
   tool_panel_section_label: Metabolomics - W4M
-- name: lipidmaps_textsearch
-  owner: fgiacomoni
-  tool_panel_section_label: Metabolomics - W4M
+# Old version 2018-10-02 broken and uninstalled, no new version available yet
+# - name: lipidmaps_textsearch
+#   owner: fgiacomoni
+#   tool_panel_section_label: Metabolomics - W4M
 - name: massbank_ws_searchspectrum
   owner: fgiacomoni
   tool_panel_section_label: Metabolomics - W4M
