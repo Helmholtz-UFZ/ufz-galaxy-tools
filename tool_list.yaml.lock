@@ -4545,11 +4545,6 @@ tools:
   revisions:
   - 52798007c6b2
   tool_panel_section_label: Metabolomics - W4M
-- name: lipidmaps_textsearch
-  owner: fgiacomoni
-  revisions:
-  - f4e6b77c46e3
-  tool_panel_section_label: Metabolomics - W4M
 - name: massbank_ws_searchspectrum
   owner: fgiacomoni
   revisions:
