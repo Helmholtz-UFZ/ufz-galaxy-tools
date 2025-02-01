@@ -2824,6 +2824,7 @@ tools:
 - name: dexseq
   owner: iuc
   revisions:
+  - 74ec758e63a4
   - 9a7c5b6d8f1e
   - 9fd8b69e6e68
   - f1c406f9554c
@@ -5152,6 +5153,7 @@ tools:
   owner: iuc
   revisions:
   - 2f557f6abbfb
+  - 5e08a1e22dbc
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
@@ -5201,6 +5203,7 @@ tools:
   - 4aab5ae907b6
   - 57251c760cab
   - 5cb6146337d8
+  - 89329e428dc6
   - a62c4a11a67d
   - ea5e944f447d
   tool_panel_section_label: Data Export
