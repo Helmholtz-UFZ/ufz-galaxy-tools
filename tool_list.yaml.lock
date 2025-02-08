@@ -42,6 +42,7 @@ tools:
   - 8c0175e03cee
   - aa784cb3810d
   - b1c926deaa2d
+  - c0b2c2e39c9c
   - c4b82dce8335
   - e4691e1589d3
   - fe74900d6dc7
@@ -204,6 +205,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
   - e8ac2b53f262
@@ -212,6 +214,7 @@ tools:
 - name: fastp
   owner: iuc
   revisions:
+  - 10678d49d39e
   - 1d8fe9bc4cb0
   - 65b93b623c77
   - 6c2351178f8d
@@ -763,6 +766,7 @@ tools:
   - 15646e937936
   - 363cce459fff
   - 378ddb410225
+  - 3990a65b45a4
   - 6550698fe60f
   - 793f87231d49
   - 9eebe9690ced
@@ -776,6 +780,7 @@ tools:
   - 0d05d0458376
   - 13558e8a4778
   - 2b676d5eb848
+  - 3820e3f3b1cb
   - 4c8507667cd6
   - 71572faf938e
   - 761913919c21
@@ -792,6 +797,7 @@ tools:
   - 5bd125a3f3b0
   - 6d475a389abc
   - a301f001835c
+  - ae28a753a6f8
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_plot_chromatogram
   owner: lecorguille
@@ -800,12 +806,14 @@ tools:
   - 0cab69429e1e
   - 271c9d5f0d10
   - 8846a03995d3
+  - 9291271ec4d9
   - c8bef8f6a1cb
   - dbd877060ac3
   tool_panel_section_label: Metabolomics - W4M
 - name: xcms_retcor
   owner: lecorguille
   revisions:
+  - 33c0ca93f3ee
   - 36480435e92b
   - 4bfef820569b
   - 7faadba7c625
@@ -822,6 +830,7 @@ tools:
   - 26d77e9ceb49
   - 3bc94c3abb28
   - 999f9db0ca2c
+  - a8d866a71ba1
   - bb9ee352fce0
   - dcb9041cb9ea
   - de0d85537ee3
@@ -831,6 +840,7 @@ tools:
   owner: lecorguille
   revisions:
   - 018a9771de28
+  - 1ae878634ab3
   - 2a2850fdf29e
   - 444e3ed135e3
   - 4c757d1ba7b4
@@ -870,6 +880,7 @@ tools:
   - 11ab2081bd4a
   - 12def6edac2f
   - 226fb89cacc4
+  - 35b6fe4d481c
   - 6de175c1f6ef
   - 7faf9b2d83f6
   - 86a20118e743
@@ -2926,6 +2937,7 @@ tools:
   owner: iuc
   revisions:
   - 0f1c34698076
+  - 2a9afed42353
   - a02b8b3f5a0c
   - a38bdcec9e4c
   - edbb6c5028f5
@@ -4900,12 +4912,14 @@ tools:
   revisions:
   - 4ea32e46b2d6
   - cdab04a1d1d7
+  - e13c7bc91c63
   tool_panel_section_label: Metabolomics
 - name: xcms_refine
   owner: workflow4metabolomics
   revisions:
   - 090b33a9981c
   - 20f8ebc3a391
+  - 6c2798bce3eb
   tool_panel_section_label: Metabolomics
 - name: mzmine_batch
   owner: iuc
@@ -7793,6 +7807,7 @@ tools:
 - name: phyloseq_from_dada2
   owner: iuc
   revisions:
+  - 0b9d4ec77c4f
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 87064cb77a52
@@ -7805,6 +7820,7 @@ tools:
   revisions:
   - 11d43fa12aab
   - 5007bc8a3d90
+  - bbd9d1022144
   - c35e0075c7a2
   - dfe800a3faaf
   - eab0b21652c4
@@ -7818,6 +7834,7 @@ tools:
   - '817853857084'
   - 92b82deaaed1
   - a20bc31f2821
+  - d6cbeb48294d
   - fb7c4bbe8994
   tool_panel_section_label: Phyloseq
 - name: imagej2_adjust_threshold_binary
@@ -8417,6 +8434,7 @@ tools:
   owner: devteam
   revisions:
   - 6f134426c2b0
+  - d0b9dd19e919
   tool_panel_section_label: Statistics
 - name: xlsx2tsv
   owner: ufz
