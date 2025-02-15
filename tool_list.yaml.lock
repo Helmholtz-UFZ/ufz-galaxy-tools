@@ -57,6 +57,7 @@ tools:
   - a7e081ceb76a
   - abfd8a6544d7
   - bf675f34b056
+  - d2aaac19f42f
   - e4574a4d09d8
   - f7985e0479b9
   - f7e2f1eb3a16
@@ -1233,6 +1234,7 @@ tools:
   revisions:
   - 14ddfc8ffb93
   - a96f3ad4e0d8
+  - ab208c87d973
   tool_panel_section_label: Metagenomics
 - name: checkm_tree
   owner: iuc
@@ -5039,6 +5041,7 @@ tools:
 - name: dada2_filterandtrim
   owner: iuc
   revisions:
+  - 00e0347751b1
   - 23fc35093b11
   - 777f9846c56d
   - a9f4a217dcd6
@@ -5056,6 +5059,7 @@ tools:
   - 2222f08c8316
   - 6b4ddc3b64bd
   - 96336c6a2bb7
+  - b35a5e8ff0fe
   - f79565b12646
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_removebimeradenovo
@@ -5069,6 +5073,7 @@ tools:
   - 7f3b59dee073
   - 7f8f0e9fcb37
   - b6dddf8c2e6f
+  - efe26de231ec
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_learnerrors
   owner: iuc
@@ -5078,6 +5083,7 @@ tools:
   - 5fe3edf19b9c
   - 75403243703a
   - 8c202e741d68
+  - a14a18a47c36
   - afdfa35a89d9
   - c48d42d65d2b
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -5091,6 +5097,7 @@ tools:
   - 9ccec6ed8e82
   - bfd62e881837
   - e96bbb9e24ea
+  - ebd632e95aae
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_assigntaxonomyaddspecies
   owner: iuc
@@ -5101,6 +5108,7 @@ tools:
   - 5b5a7af9fbb4
   - 63f86089423e
   - 65db807336bc
+  - 705d26fbea02
   - 79212a309499
   - 7c2100246a2f
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -5109,6 +5117,7 @@ tools:
   revisions:
   - 0a1224c4b781
   - 19299bb1c6af
+  - 390bc2645138
   - 4cc834cce4fb
   - 7d28da5e9e27
   - a7817705348e
@@ -5123,6 +5132,7 @@ tools:
   - 306a40d4bb8f
   - 35176674168c
   - 5c865a382933
+  - 646c58820267
   - 69900ffd3b8e
   - b1e55c248f17
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -5131,6 +5141,7 @@ tools:
   revisions:
   - 32c9ea835770
   - 498d57610fcd
+  - 6f06d501b7e6
   - 78faebd0879c
   - 806fe614ca46
   - 8daf4564ccda
@@ -5140,6 +5151,7 @@ tools:
   owner: iuc
   revisions:
   - 2a90d2fd3336
+  - 4e469b758915
   - 52a911972c02
   - 7b8cb2b02978
   - cae017b76acb
@@ -5151,6 +5163,7 @@ tools:
   owner: iuc
   revisions:
   - 74ec28dbdf17
+  - ee763baa80c3
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
   owner: iuc
@@ -5289,6 +5302,7 @@ tools:
   owner: iuc
   revisions:
   - 3bf5661c0280
+  - 56a8da1f2243
   - 93a3ce78ce55
   tool_panel_section_label: Text Manipulation
 - name: ggplot2_heatmap
@@ -7734,6 +7748,7 @@ tools:
   - 057c13b2dc42
   - 1baa4ad1ac2f
   - 1ef267476a17
+  - 5f047a0d4c2e
   - 770bceda7785
   - e607b61a68ad
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -7743,6 +7758,7 @@ tools:
   - 3854db061e6e
   - 66b138a2e74c
   - 7e041c120b96
+  - b4279a293312
   - df9743790176
   - ee407fae3ccd
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -7750,6 +7766,7 @@ tools:
   owner: iuc
   revisions:
   - 159b04e36791
+  - 55e500606bbe
   - 7beb76ffbc0f
   - bf0cb5dd02f2
   - d1f62024a08b
@@ -7758,6 +7775,7 @@ tools:
 - name: bbtools_bbmerge
   owner: iuc
   revisions:
+  - 08b2f8e6846d
   - 1af48f9cc27b
   - 1bb2b5b52030
   - 5d8b93c0731f
@@ -7767,6 +7785,7 @@ tools:
 - name: bbtools_bbmap
   owner: iuc
   revisions:
+  - 20ab37575227
   - 3f94a2e3d513
   - 456d8ebb6a28
   - 517464809c33
@@ -7779,6 +7798,7 @@ tools:
   - 0ddf147d1897
   - 20aef74d20a1
   - 654c9da47f74
+  - 7ad0f4bfa923
   - cbc75076778f
   - ce13b4678f18
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -8130,12 +8150,14 @@ tools:
 - name: defense_finder
   owner: rplanel
   revisions:
+  - 236cb00084c4
   - 4ff81ce331f9
   - 596fa7bf596f
   tool_panel_section_label: Annotation
 - name: data_manager_defense_finder
   owner: rplanel
   revisions:
+  - 6dd2220e0a1c
   - e661b9ac3223
   tool_panel_section_label: Data Managers
 - name: drep_compare
