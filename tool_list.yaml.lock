@@ -5227,6 +5227,7 @@ tools:
 - name: ena_upload
   owner: iuc
   revisions:
+  - '440074098911'
   - 4aab5ae907b6
   - 57251c760cab
   - 5cb6146337d8
@@ -8234,6 +8235,7 @@ tools:
   revisions:
   - 351c6b43e16c
   - 352e9d4eaf70
+  - 4c96c51b7880
   - 588d6fa22fc4
   - e41f70e69349
   tool_panel_section_label: Imaging
@@ -8482,3 +8484,33 @@ tools:
   revisions:
   - 55bbea0cdc60
   tool_panel_section_label: Statistics
+- name: data_manager_funannotate
+  owner: iuc
+  revisions:
+  - 0cadd0a04412
+  tool_panel_section_label: Data Managers
+- name: funannotate_annotate
+  owner: iuc
+  revisions:
+  - 9c15ca7e764e
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_clean
+  owner: iuc
+  revisions:
+  - 8e1ace8f77c6
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_compare
+  owner: iuc
+  revisions:
+  - 0418d28136de
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_predict
+  owner: iuc
+  revisions:
+  - 4b96ced19f75
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_sort
+  owner: iuc
+  revisions:
+  - d77fdcca400e
+  tool_panel_section_label: Genome Annotation
