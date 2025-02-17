@@ -8236,7 +8236,6 @@ tools:
   - 352e9d4eaf70
   - 588d6fa22fc4
   - e41f70e69349
-  - eba4011643dd
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
