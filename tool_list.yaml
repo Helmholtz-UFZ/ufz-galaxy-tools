@@ -3213,21 +3213,21 @@ tools:
 - name: saqc
   owner: ufz
   tool_panel_section_label: Statistics
-- name: data_manager_funannotate
-  owner: iuc
-  tool_panel_section_label: Data Managers
-- name: funannotate_annotate
-  owner: iuc
-  tool_panel_section_label: Genome Annotation
-- name:  funannotate_clean
-  owner: iuc
-  tool_panel_section_label: Genome Annotation
-- name: funannotate_compare
-  owner: iuc
-  tool_panel_section_label: Genome Annotation
-- name: funannotate_predict
-  owner: iuc
-  tool_panel_section_label: Genome Annotation
-- name: funannotate_sort
-  owner: iuc
-  tool_panel_section_label: Genome Annotation
+# - name: data_manager_funannotate
+#   owner: iuc
+#   tool_panel_section_label: Data Managers
+# - name: funannotate_annotate
+#   owner: iuc
+#   tool_panel_section_label: Genome Annotation
+# - name:  funannotate_clean
+#   owner: iuc
+#   tool_panel_section_label: Genome Annotation
+# - name: funannotate_compare
+#   owner: iuc
+#   tool_panel_section_label: Genome Annotation
+# - name: funannotate_predict
+#   owner: iuc
+#   tool_panel_section_label: Genome Annotation
+# - name: funannotate_sort
+#   owner: iuc
+#   tool_panel_section_label: Genome Annotation
