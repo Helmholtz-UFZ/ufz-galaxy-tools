@@ -52,6 +52,7 @@ tools:
   revisions:
   - 161f4383df15
   - 1c2db0054039
+  - 31c42a2c02d3
   - 3d93dd18d9f8
   - 467486f1c568
   - a7e081ceb76a
@@ -1144,6 +1145,7 @@ tools:
   - a16313517e55
   - b6897977d13e
   - b89b0765695d
+  - eca2e2e20436
   - ef65b083bd0c
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
@@ -2542,6 +2544,7 @@ tools:
   revisions:
   - 0a5c785ac6db
   - 18aeac3cd1db
+  - 2892111d91f8
   - 64e2edfe7a2c
   - 87ee588b3d45
   - a1a923cd89e8
@@ -5449,6 +5452,7 @@ tools:
   - a3395b1d871b
   - a6a475ed58cb
   - ac24fff14f23
+  - da8260eba74b
   tool_panel_section_label: Data Source
 - name: idr_download_by_ids
   owner: iuc
@@ -8362,6 +8366,7 @@ tools:
   revisions:
   - 375281d11535
   - 8a3324018fc5
+  - f79a1bf2f386
   - f86ba5328466
   tool_panel_section_label: Imaging
 - name: omero_get_id
