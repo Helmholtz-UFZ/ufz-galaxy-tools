@@ -189,6 +189,7 @@ tools:
   revisions:
   - 0a189243186d
   - ae69d14b6fbf
+  - e3507be607eb
   tool_panel_section_label: Sequence Analysis
 - name: gffread
   owner: devteam
@@ -371,6 +372,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 63f3f7b17aa4
+  - b6c26fd58eeb
   tool_panel_section_label: Computational chemistry
 - name: samtools_flagstat
   owner: devteam
@@ -2648,6 +2650,7 @@ tools:
 - name: multigsea
   owner: iuc
   revisions:
+  - e08383c04167
   - e48b10ce08b8
   tool_panel_section_label: Transcriptomics
 - name: emboss_5
@@ -2931,6 +2934,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 16e925bf567e
+  - 1e85af7a29c4
   - 541a2ffc01ff
   - 6a5282f71f82
   - 87b6de3ef63e
@@ -5226,6 +5230,7 @@ tools:
   owner: earlhaminst
   revisions:
   - 9838eed606ad
+  - ddd9749d3b00
   tool_panel_section_label: Data Export
 - name: ena_upload
   owner: iuc
@@ -5452,6 +5457,7 @@ tools:
   - a3395b1d871b
   - a6a475ed58cb
   - ac24fff14f23
+  - d951c5b0edd1
   - da8260eba74b
   tool_panel_section_label: Data Source
 - name: idr_download_by_ids
