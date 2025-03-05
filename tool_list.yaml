@@ -3213,6 +3213,12 @@ tools:
 - name: saqc
   owner: ufz
   tool_panel_section_label: Statistics
+- name: coverm_contig
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: coverm_genome
+  owner: iuc
+  tool_panel_section_label: Metagenomics
 # - name: data_manager_funannotate
 #   owner: iuc
 #   tool_panel_section_label: Data Managers
