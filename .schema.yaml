@@ -78,7 +78,8 @@ mapping:
                         'BED tools',
                         'Computational chemistry',
                         'Computational chemistry - Ball',
-                        'Toxicology'
+                        'Toxicology',
+                        'OpenGeoSys',
                     ]
                 "tool_panel_section_id":
                     type: str
@@ -136,5 +137,6 @@ mapping:
                         "bed_tools",
                         "computational_chemistry",
                         "computational_chemistry_ball",
-                        "toxicology"
+                        "toxicology",
+                        "opengeosys",
                     ]
