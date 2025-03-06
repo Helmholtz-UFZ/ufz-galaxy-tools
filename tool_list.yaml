@@ -3219,6 +3219,31 @@ tools:
 - name: coverm_genome
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: msh2vtu
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: shp2msh
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_addlayer
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_extractboundary
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_extractsurface
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_generatestructuredmesh
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_identifysubdomains
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_simulation
+  owner: ufz
+  tool_panel_section_label: OpenGeoSys
+
 # - name: data_manager_funannotate
 #   owner: iuc
 #   tool_panel_section_label: Data Managers
