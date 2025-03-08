@@ -107,6 +107,7 @@ tools:
 - name: mafft
   owner: rnateam
   revisions:
+  - 1233363389c1
   - 4de39704d423
   - 8e649f27aa0d
   - a65296ffb4a0
@@ -279,6 +280,7 @@ tools:
   - 084bbd8ba7b8
   - 949f01671246
   - cd7e644cae1d
+  - eefb644655a5
   tool_panel_section_label: Sequence Analysis
 - name: ucsc_blat
   owner: yating-l
@@ -610,6 +612,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 65d1598a9256
   - 884dc0264950
   - 9006e5836729
   - a789e163a670
@@ -622,10 +625,12 @@ tools:
   - 48cf45a53456
   - 6357b127161e
   - b3490b036c5a
+  - dc5d1a54054b
   tool_panel_section_label: Assembly
 - name: spades_plasmidspades
   owner: iuc
   revisions:
+  - 5be72b7648fa
   - 6aad515a5270
   - 75405f5e2cc5
   - 8cc856b935ee
@@ -636,6 +641,7 @@ tools:
   - 7922870efcca
   - 86f66ab58e14
   - e060c3987513
+  - ea83ac535a1f
   tool_panel_section_label: Assembly
 - name: spades_metaplasmidspades
   owner: iuc
@@ -643,10 +649,12 @@ tools:
   - 21da31ed41a1
   - 4a01e0d2892c
   - 7e27faaad80e
+  - c8097e741b13
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 4ae660dd1fb6
   - 655fa188c3cc
   - fee85957cebe
   - ff41a00a6745
@@ -655,6 +663,7 @@ tools:
   owner: iuc
   revisions:
   - 1fc82fe7ebef
+  - a5d68876c44e
   - c33a476f4001
   - d89ced9439f3
   tool_panel_section_label: Assembly
@@ -662,6 +671,7 @@ tools:
   owner: iuc
   revisions:
   - 378e55aeeb25
+  - 59be68ba26c2
   - 5fc94b3a4704
   - 675ee1aa5952
   tool_panel_section_label: Assembly
@@ -671,6 +681,7 @@ tools:
   - 05c394313b1c
   - 606b09cc9860
   - 6563e22a9fd0
+  - 9638ba70882c
   - 99ecfdafc64f
   tool_panel_section_label: Assembly
 - name: ball
@@ -746,6 +757,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
+  - 3dc70b59608c
   - 74a8bef53a00
   - 86755160afbf
   - d698c222f354
@@ -5229,6 +5241,7 @@ tools:
 - name: export_to_cluster
   owner: earlhaminst
   revisions:
+  - 8b8466d30d50
   - 9838eed606ad
   - ddd9749d3b00
   tool_panel_section_label: Data Export
@@ -7761,6 +7774,7 @@ tools:
   - 1ef267476a17
   - 5f047a0d4c2e
   - 770bceda7785
+  - 8b18f42bda13
   - e607b61a68ad
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
@@ -7769,6 +7783,7 @@ tools:
   - 3854db061e6e
   - 66b138a2e74c
   - 7e041c120b96
+  - a033aa9a822e
   - b4279a293312
   - df9743790176
   - ee407fae3ccd
@@ -7778,6 +7793,7 @@ tools:
   revisions:
   - 159b04e36791
   - 55e500606bbe
+  - 6ffff37d3daf
   - 7beb76ffbc0f
   - bf0cb5dd02f2
   - d1f62024a08b
@@ -7791,6 +7807,7 @@ tools:
   - 1bb2b5b52030
   - 5d8b93c0731f
   - c05232655d00
+  - c9e516d65a3d
   - cab19c0452c4
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbmap
@@ -7802,12 +7819,14 @@ tools:
   - 517464809c33
   - 7f19559b8b55
   - 8015d7ab8357
+  - 95e9d34c4cad
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_tadpole
   owner: iuc
   revisions:
   - 0ddf147d1897
   - 20aef74d20a1
+  - 51947de90615
   - 654c9da47f74
   - 7ad0f4bfa923
   - cbc75076778f
@@ -8495,3 +8514,53 @@ tools:
   revisions:
   - 55bbea0cdc60
   tool_panel_section_label: Statistics
+- name: coverm_contig
+  owner: iuc
+  revisions:
+  - 28d740f2c0b0
+  tool_panel_section_label: Metagenomics
+- name: coverm_genome
+  owner: iuc
+  revisions:
+  - 73b667038f46
+  tool_panel_section_label: Metagenomics
+- name: msh2vtu
+  owner: ufz
+  revisions:
+  - be04ecda594e
+  tool_panel_section_label: OpenGeoSys
+- name: shp2msh
+  owner: ufz
+  revisions:
+  - 068822846f48
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_addlayer
+  owner: ufz
+  revisions:
+  - 3e3794ac4fab
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_extractboundary
+  owner: ufz
+  revisions:
+  - 99d999e2e8dc
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_extractsurface
+  owner: ufz
+  revisions:
+  - ce5e86dfb37c
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_generatestructuredmesh
+  owner: ufz
+  revisions:
+  - 4e31c396004d
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_identifysubdomains
+  owner: ufz
+  revisions:
+  - 690f7f0431b0
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_simulation
+  owner: ufz
+  revisions:
+  - ce3d848dff57
+  tool_panel_section_label: OpenGeoSys
