@@ -8564,3 +8564,33 @@ tools:
   revisions:
   - ce3d848dff57
   tool_panel_section_label: OpenGeoSys
+- name: data_manager_funannotate
+  owner: iuc
+  revisions:
+  - 5459ec34767a
+  tool_panel_section_label: Data Managers
+- name: funannotate_annotate
+  owner: iuc
+  revisions:
+  - 0b8d49d3742d
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_clean
+  owner: iuc
+  revisions:
+  - 19ddd5557b4f
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_compare
+  owner: iuc
+  revisions:
+  - 7f8f38e27dee
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_predict
+  owner: iuc
+  revisions:
+  - 3cc3ef448854
+  tool_panel_section_label: Genome Annotation
+- name: funannotate_sort
+  owner: iuc
+  revisions:
+  - 0346aad0d6dd
+  tool_panel_section_label: Genome Annotation
