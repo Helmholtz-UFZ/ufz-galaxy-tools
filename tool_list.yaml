@@ -3264,3 +3264,9 @@ tools:
 - name: isescan
   owner: iuc
   tool_panel_section_label: Sequence Analysis
+- name: staramr
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_build_staramr
+  owner: iuc
+  tool_panel_section_label: Data Managers
