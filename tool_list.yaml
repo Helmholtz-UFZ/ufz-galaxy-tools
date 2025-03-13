@@ -3261,3 +3261,6 @@ tools:
 - name: funannotate_sort
   owner: iuc
   tool_panel_section_label: Genome Annotation
+- name: isescan
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
