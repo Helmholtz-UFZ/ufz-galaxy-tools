@@ -3270,3 +3270,10 @@ tools:
 - name: data_manager_build_staramr
   owner: iuc
   tool_panel_section_label: Data Managers
+- name: checkm2
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: checkm2_build_database
+  owner: iuc
+  tool_panel_section_label: Data Managers
+  
