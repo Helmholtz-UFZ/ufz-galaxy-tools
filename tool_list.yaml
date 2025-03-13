@@ -3276,4 +3276,12 @@ tools:
 - name: checkm2_build_database
   owner: iuc
   tool_panel_section_label: Data Managers
-  
+- name: amrfinderplus_data_manager_build
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: amrfinderplus
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: abritamr
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
