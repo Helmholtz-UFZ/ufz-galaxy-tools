@@ -190,6 +190,7 @@ tools:
   revisions:
   - 0a189243186d
   - ae69d14b6fbf
+  - ce83c3f83561
   - e3507be607eb
   tool_panel_section_label: Sequence Analysis
 - name: gffread
@@ -616,6 +617,7 @@ tools:
   - 884dc0264950
   - 9006e5836729
   - a789e163a670
+  - b512435320e3
   - b8c00ce5dfa0
   - d5887ace0dd4
   tool_panel_section_label: Assembly
@@ -624,6 +626,7 @@ tools:
   revisions:
   - 48cf45a53456
   - 6357b127161e
+  - a9aa4115cb68
   - b3490b036c5a
   - dc5d1a54054b
   tool_panel_section_label: Assembly
@@ -634,10 +637,12 @@ tools:
   - 6aad515a5270
   - 75405f5e2cc5
   - 8cc856b935ee
+  - b40b77418372
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
   owner: iuc
   revisions:
+  - 6766a94ef559
   - 7922870efcca
   - 86f66ab58e14
   - e060c3987513
@@ -649,11 +654,13 @@ tools:
   - 21da31ed41a1
   - 4a01e0d2892c
   - 7e27faaad80e
+  - c5c4fa59be65
   - c8097e741b13
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 152ff7d1817a
   - 4ae660dd1fb6
   - 655fa188c3cc
   - fee85957cebe
@@ -663,6 +670,7 @@ tools:
   owner: iuc
   revisions:
   - 1fc82fe7ebef
+  - 60b8f1668552
   - a5d68876c44e
   - c33a476f4001
   - d89ced9439f3
@@ -670,6 +678,7 @@ tools:
 - name: rnaspades
   owner: iuc
   revisions:
+  - 001aa495b39a
   - 378e55aeeb25
   - 59be68ba26c2
   - 5fc94b3a4704
@@ -681,6 +690,7 @@ tools:
   - 05c394313b1c
   - 606b09cc9860
   - 6563e22a9fd0
+  - 697c9156dafe
   - 9638ba70882c
   - 99ecfdafc64f
   tool_panel_section_label: Assembly
@@ -1320,6 +1330,7 @@ tools:
   - 65d52c693b8e
   - a68b985913ab
   - b907a3c0434f
+  - c30adf839acd
   tool_panel_section_label: Metagenomics
 - name: krakentools_extract_kraken_reads
   owner: iuc
@@ -2952,6 +2963,7 @@ tools:
   - 87b6de3ef63e
   - b29ee6a16524
   - d40b9a7debe5
+  - e4d5d9a69c9d
   - ed74587a13c8
   tool_panel_section_label: Phylogenetics
 - name: nanoplot
@@ -5259,6 +5271,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 331a50e8fd2f
   - 3cf310697624
   - 545054b15d7c
   - 6153e8ada1ee
@@ -5466,6 +5479,7 @@ tools:
   - 18eed8fa7f23
   - 198c75abbf55
   - 1e188c9610c3
+  - 40a5d68e929a
   - 75acf92c8fd5
   - a3395b1d871b
   - a6a475ed58cb
@@ -7860,6 +7874,7 @@ tools:
   - 0b9d4ec77c4f
   - 40ebae5bbe51
   - 46a99bd1f10e
+  - 6000b8a8dd9d
   - 87064cb77a52
   - ae4d404a8227
   - bda00cb136ee
@@ -7869,6 +7884,7 @@ tools:
   owner: iuc
   revisions:
   - 11d43fa12aab
+  - 32f892954ef6
   - 5007bc8a3d90
   - bbd9d1022144
   - c35e0075c7a2
@@ -7879,6 +7895,7 @@ tools:
 - name: phyloseq_plot_richness
   owner: iuc
   revisions:
+  - 10a7732528b2
   - 1a6c2cc92c6e
   - 4faa9c663b38
   - '817853857084'
@@ -8462,6 +8479,7 @@ tools:
   owner: galaxy-australia
   revisions:
   - 2a8bc1d26d06
+  - 6f7211f93b06
   tool_panel_section_label: Metagenomics
 - name: salmon
   owner: bgruening
@@ -8594,3 +8612,43 @@ tools:
   revisions:
   - 0346aad0d6dd
   tool_panel_section_label: Genome Annotation
+- name: isescan
+  owner: iuc
+  revisions:
+  - 9e776e7fab4f
+  tool_panel_section_label: Sequence Analysis
+- name: staramr
+  owner: iuc
+  revisions:
+  - d0a2e0a9c853
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_build_staramr
+  owner: iuc
+  revisions:
+  - 0b367fda55da
+  tool_panel_section_label: Data Managers
+- name: checkm2
+  owner: iuc
+  revisions:
+  - 0f5f7fa9c08f
+  tool_panel_section_label: Metagenomics
+- name: checkm2_build_database
+  owner: iuc
+  revisions:
+  - df2f47a0e57a
+  tool_panel_section_label: Data Managers
+- name: amrfinderplus_data_manager_build
+  owner: iuc
+  revisions:
+  - a5921c09b7b7
+  tool_panel_section_label: Data Managers
+- name: amrfinderplus
+  owner: iuc
+  revisions:
+  - 7844dbe4f8e2
+  tool_panel_section_label: Sequence Analysis
+- name: abritamr
+  owner: iuc
+  revisions:
+  - 468fd92deaaa
+  tool_panel_section_label: Sequence Analysis
