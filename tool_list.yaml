@@ -3285,3 +3285,6 @@ tools:
 - name: abritamr
   owner: iuc
   tool_panel_section_label: Sequence Analysis
+- name: lm_get_projects
+  owner: ufz
+  tool_panel_section_label: Lambda-Miner
