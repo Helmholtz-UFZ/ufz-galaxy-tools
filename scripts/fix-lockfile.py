@@ -52,6 +52,7 @@ def update_file(fn, dry):
 
         clean_lockfile['tools'].append(new_tool)
 
+    clean_lockfile['tools'] = sorted(clean_lockfile['tools'], key=lambda d: d['name'])
     with open(fn + '.lock', 'w') as handle:
         yaml.dump(clean_lockfile, handle, default_flow_style=False)
 
