@@ -80,6 +80,7 @@ mapping:
                         'Computational chemistry - Ball',
                         'Toxicology',
                         'OpenGeoSys',
+                        'Lambda-Miner'
                     ]
                 "tool_panel_section_id":
                     type: str
@@ -139,4 +140,5 @@ mapping:
                         "computational_chemistry_ball",
                         "toxicology",
                         "opengeosys",
+                        "lambda_miner"
                     ]
