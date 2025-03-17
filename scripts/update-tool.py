@@ -72,6 +72,7 @@ def update_file(fn, owner=None, name=None, without=False):
 
         tool["revisions"] = sorted(list(set(tool["revisions"])))
 
+    locked['tools'] = sorted(locked['tools'], key=lambda d: d['name'])
     with open(fn + ".lock", "w") as handle:
         yaml.dump(locked, handle, default_flow_style=False)
     return success
