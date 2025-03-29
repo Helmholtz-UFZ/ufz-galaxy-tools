@@ -233,10 +233,7 @@ tools:
   - 338f47a9e25c
   - 62c6d4c55190
   - 6acf30f0d9fa
-  - bbb4a531d80b
   - dcbe3affb349
-  - e85ff12bc025
-  - f28f2faad83b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: amrfinderplus
   owner: iuc
@@ -520,6 +517,7 @@ tools:
   owner: devteam
   revisions:
   - 01ac0a5fedc3
+  - 1dfc975b48d5
   - 2477830927ec
   - 4a196b9c72c2
   - e188dc7a68e6
@@ -3500,6 +3498,7 @@ tools:
   - 7538e2bfcd41
   - cbf3f518b668
   - e25d3acf6e68
+  - fc35ffc8c548
   tool_panel_section_label: Sequence Analysis (BLAST)
 - name: ncbi_datasets
   owner: iuc
@@ -7634,6 +7633,7 @@ tools:
   revisions:
   - 0a8c6b61f0f4
   - 3dc70b59608c
+  - 6073bb457ec0
   - 74a8bef53a00
   - 86755160afbf
   - d698c222f354
