@@ -1,7 +1,10 @@
 # check all revisions in the lockfile if they are installable
-# remove if not and the next installable version is installed
+# remove if not and the next installable version is added
 #
-# backgroud vor each version there can be only one revision installed
+# the script only updates the lock file and does not install
+# or uninstall any tools from a Galaxy instance
+#
+# backgroud for each version there can be only one revision installed
 # (multiple revisions with the same version happen eg if the version
 # is not bumbed)
 #
@@ -81,13 +84,14 @@ def fix_uninstallable(lockfile_name, toolshed_url):
             all_revisions = get_all_revisions(toolshed_url, name, owner)
             # all_versions = get_all_versions(toolshed_url, name, owner, all_revisions)
 
-        remove = []
+        to_remove = []
+        to_append = []
         for cur in tool["revisions"]:
             if cur in ordered_installable_revisions:
                 continue
             if cur not in all_revisions:
                 print(f"{cur} is not a valid revision of {name} {owner}")
-                remove.append(cur)
+                to_remove.append(cur)
                 continue
             start = all_revisions.index(cur)
             nxt = None
@@ -95,19 +99,17 @@ def fix_uninstallable(lockfile_name, toolshed_url):
                 if all_revisions[i] in ordered_installable_revisions:
                     nxt = all_revisions[i]
             if nxt:
-                if nxt in tool["revisions"]:
-                    print(f"remove {cur} in favor of {nxt} {name} {owner}")
-                    remove.append(cur)
-                else:
-                    # not adding, will be done in next update anyway
-                    print(
-                        f"NOT removing {cur} since {nxt} not installed {name} {owner}"
-                    )
+                print(f"remove {cur} in favor of {nxt} {name} {owner}")
+                to_remove.append(cur)
+                if nxt not in tool["revisions"]:
+                    print(f"adding {nxt} which was absent so far {name} {owner}")
+                    to_append(nxt)
             else:
                 print(f"Could not determine next revision for {cur} {name} {owner}")
 
-        for r in remove:
+        for r in to_remove:
             tool["revisions"].remove(r)
+        tool["revisions"].extend(to_append)
 
     with open(lockfile_name, "w") as handle:
         yaml.dump(lockfile, handle, default_flow_style=False)
