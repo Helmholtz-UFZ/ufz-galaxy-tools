@@ -233,7 +233,10 @@ tools:
   - 338f47a9e25c
   - 62c6d4c55190
   - 6acf30f0d9fa
+  - bbb4a531d80b
   - dcbe3affb349
+  - e85ff12bc025
+  - f28f2faad83b
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: amrfinderplus
   owner: iuc
