@@ -23,12 +23,13 @@ import argparse
 import subprocess
 import os.path
 import yaml
+from typing import List, Set, Dict, Tuple
 
 from bioblend import toolshed
 from galaxy.tool_util.loader_directory import load_tool_sources_from_path
 
 
-def clone(toolshed_url, name, owner, repo_path):
+def clone(toolshed_url: str, name: str, owner: str, repo_path: str) -> None:
     if not os.path.exists(repo_path):
         cmd = [
             "hg",
@@ -39,7 +40,7 @@ def clone(toolshed_url, name, owner, repo_path):
         subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 
-def get_all_revisions(toolshed_url, name, owner):
+def get_all_revisions(toolshed_url: str, name: str, owner: str) -> List[str]:
     repo_path = f"/tmp/toolshed-{owner}-{name}"
     clone(toolshed_url, name, owner, repo_path)
     cmd = ["hg", "update", "tip"]
@@ -48,11 +49,13 @@ def get_all_revisions(toolshed_url, name, owner):
     return list(reversed(result.stdout.splitlines()))
 
 
-def get_all_versions(toolshed_url, name, owner, revisions):
+def get_all_versions(
+    toolshed_url: str, name: str, owner: str, revisions: List[str]
+) -> Dict[str, Set[Tuple[str, str]]]:
     repo_path = f"/tmp/toolshed-{owner}-{name}"
     clone(toolshed_url, name, owner, repo_path)
 
-    versions = {}
+    versions: Dict[str, Set[Tuple[str, str]]] = {}
     for r in revisions:
         cmd = ["hg", "update", r]
         subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -64,7 +67,7 @@ def get_all_versions(toolshed_url, name, owner, revisions):
     return versions
 
 
-def fix_uninstallable(lockfile_name, toolshed_url):
+def fix_uninstallable(lockfile_name: str, toolshed_url: str) -> None:
     ts = toolshed.ToolShedInstance(url=toolshed_url)
 
     with open(lockfile_name) as f:
@@ -103,7 +106,7 @@ def fix_uninstallable(lockfile_name, toolshed_url):
                 to_remove.append(cur)
                 if nxt not in tool["revisions"]:
                     print(f"adding {nxt} which was absent so far {name} {owner}")
-                    to_append(nxt)
+                    to_append.append(nxt)
             else:
                 print(f"Could not determine next revision for {cur} {name} {owner}")
 
