@@ -26,6 +26,7 @@
 # - if only cur in in the list then cur is removed and nxt is added
 
 import argparse
+import logging
 import subprocess
 import os.path
 import yaml
@@ -76,7 +77,7 @@ def get_all_versions(
     versions: Dict[str, Set[Tuple[str, str]]] = {}
     for r in revisions:
         cmd = ["hg", "update", r]
-        subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        subprocess.run(cmd, cwd=repo_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
         versions[r] = set()
         for _, tool in load_tool_sources_from_path(repo_path):
@@ -106,11 +107,13 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
         name = locked_tool["name"]
         owner = locked_tool["owner"]
 
+        # if name != "omero_metadata_import":
+        #     continue
+
         # get ordered_installable_revisions from oldest to newest
         ordered_installable_revisions = (
             ts.repositories.get_ordered_installable_revisions(name, owner)
         )
-
         if len(set(locked_tool["revisions"]) - set(ordered_installable_revisions)):
             all_revisions = get_all_revisions(toolshed_url, name, owner)
             all_versions = get_all_versions(toolshed_url, name, owner, all_revisions)
@@ -129,16 +132,20 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
                     break
 
             assert nxt, f"Could not determine next revision for {cur} {name} {owner}"
-            assert all_versions[cur] == all_versions[nxt], f"{name},{onwer} {cur} {next} have unequal versions"
+            if all_versions[cur] != all_versions[nxt]:
+                log.warning(f"{name},{owner} {cur} {nxt} have unequal versions")
+                continue
 
-            print(f"remove {cur} in favor of {nxt} {name} {owner}")
-            to_remove.append(cur)
             if nxt not in locked_tool["revisions"]:
-                print(f"adding {nxt} which was absent so far {name} {owner}")
+                log.info(f"adding {nxt} which was absent so far {name} {owner}")
                 to_append.append(nxt)
             elif galaxy_url:
                 assert (name, owner) in installed_tools
-                assert cur not in installed_tools[(name, owner)], f"{name},{owner} {cur} still installed on {galaxy_url}"
+                if cur in installed_tools[(name, owner)]:
+                    log.warning(f"{name},{owner} {cur} still installed on {galaxy_url}")
+                    continue
+            log.info(f"remove {cur} in favor of {nxt} {name} {owner}")
+            to_remove.append(cur)
 
         for r in to_remove:
             locked_tool["revisions"].remove(r)
