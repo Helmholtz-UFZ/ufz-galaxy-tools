@@ -43,15 +43,20 @@ def clone(toolshed_url: str, name: str, owner: str, repo_path: str) -> None:
             f"{toolshed_url}/repos/{owner}/{name}",
             repo_path,
         ]
-        subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
+        proc = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    else:
+        cmd = ["hg", "pull", "-u"]
+        proc = subprocess.run(cmd, cwd = repo_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    assert proc.returncode == 0, f"failed {' '.join(cmd)}"
 
 def get_all_revisions(toolshed_url: str, name: str, owner: str) -> List[str]:
     repo_path = f"/tmp/repos/toolshed-{owner}-{name}"
     clone(toolshed_url, name, owner, repo_path)
     cmd = ["hg", "update", "tip"]
-    subprocess.run(cmd, cwd=repo_path, capture_output=True, text=True)
+    proc = subprocess.run(cmd, cwd=repo_path, capture_output=True, text=True)
+    assert proc.returncode == 0, f"failed {' '.join(cmd)}"
     cmd = ["hg", "log", "--template", "{node|short}\n"]
+    assert proc.returncode == 0, f"failed {' '.join(cmd)}"
     result = subprocess.run(cmd, cwd=repo_path, capture_output=True, text=True)
     return list(reversed(result.stdout.splitlines()))
 
@@ -85,7 +90,7 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
             # TODO? could also check for 'status': 'Installed'
             if t['deleted'] or t['uninstalled']:
                 continue
-            installed_tools[(t['name'], t['owner'])].add(t['installed_changeset_revision'])
+            installed_tools[(t['name'], t['owner'])].add(t['changeset_revision'])
 
     with open(lockfile_name) as f:
         lockfile = yaml.safe_load(f)
@@ -100,8 +105,6 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
             ts.repositories.get_ordered_installable_revisions(name, owner)
         )
 
-        print(f"{locked_tool['revisions']=}")
-        print(f"{ordered_installable_revisions=}")
         if len(set(locked_tool["revisions"]) - set(ordered_installable_revisions)):
             all_revisions = get_all_revisions(toolshed_url, name, owner)
             all_versions = get_all_versions(toolshed_url, name, owner, all_revisions)
@@ -121,19 +124,21 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
                 if all_revisions[i] in ordered_installable_revisions:
                     nxt = all_revisions[i]
                     break
-            if nxt:
-                assert all_versions[cur] == all_versions[nxt], f"{name},{onwer} {cur} {next} have unequal versions"
-                print(f"remove {cur} in favor of {nxt} {name} {owner}")
-                to_remove.append(cur)
-                if nxt not in locked_tool["revisions"]:
-                    print(f"adding {nxt} which was absent so far {name} {owner}")
-                    to_append.append(nxt)
+
+            assert nxt, f"Could not determine next revision for {cur} {name} {owner}"
+            assert all_versions[cur] == all_versions[nxt], f"{name},{onwer} {cur} {next} have unequal versions"
+
+            print(f"remove {cur} in favor of {nxt} {name} {owner}")
+            to_remove.append(cur)
+            if nxt not in locked_tool["revisions"]:
+                print(f"adding {nxt} which was absent so far {name} {owner}")
+                to_append.append(nxt)
             else:
-                print(f"Could not determine next revision for {cur} {name} {owner}")
+                if galaxy_url and (name, owner) in installed_tools and cur in installed_tools[(name, owner)]:
+                    print(f"{name},{owner} {cur} still installed on {galaxy_url}")
+                    print(f"{installed_tools[(name, owner)]=}")
 
         for r in to_remove:
-            if galaxy_url and (name, owner) in installed_tools and r in installed_tools[(name, owner)]:
-                print(f"{name},{owner} {r} still installed on {galaxy_url}")
             locked_tool["revisions"].remove(r)
         locked_tool["revisions"].extend(to_append)
 
