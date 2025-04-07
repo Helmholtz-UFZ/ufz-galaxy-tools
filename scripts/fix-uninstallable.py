@@ -18,6 +18,12 @@
 # and clones (to /tmp/) the mercurial repos to get all revisions
 # (the later is opnly done for tools with revisions that are not
 # installable)
+#
+# For each revision cur that has been replaced by nxt
+# - check that the tool versions of the revisons are really the same
+# - if cur and nxt are in the lock file cur is removed
+#   - if a Galaxy URL is given it is checked that cur is not installed
+# - if only cur in in the list then cur is removed and nxt is added
 
 import argparse
 import subprocess
@@ -50,7 +56,7 @@ def clone(toolshed_url: str, name: str, owner: str, repo_path: str) -> None:
     assert proc.returncode == 0, f"failed {' '.join(cmd)}"
 
 def get_all_revisions(toolshed_url: str, name: str, owner: str) -> List[str]:
-    repo_path = f"/tmp/repos/toolshed-{owner}-{name}"
+    repo_path = f"/tmp/repos/{os.path.basename(toolshed_url)}-{owner}-{name}"
     clone(toolshed_url, name, owner, repo_path)
     cmd = ["hg", "update", "tip"]
     proc = subprocess.run(cmd, cwd=repo_path, capture_output=True, text=True)
@@ -64,7 +70,7 @@ def get_all_revisions(toolshed_url: str, name: str, owner: str) -> List[str]:
 def get_all_versions(
     toolshed_url: str, name: str, owner: str, revisions: List[str]
 ) -> Dict[str, Set[Tuple[str, str]]]:
-    repo_path = f"/tmp/repos/toolshed-{owner}-{name}"
+    repo_path = f"/tmp/repos/{os.path.basename(toolshed_url)}-{owner}-{name}"
     clone(toolshed_url, name, owner, repo_path)
 
     versions: Dict[str, Set[Tuple[str, str]]] = {}
@@ -114,10 +120,7 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
         for cur in locked_tool["revisions"]:
             if cur in ordered_installable_revisions:
                 continue
-            if cur not in all_revisions:
-                print(f"{cur} is not a valid revision of {name} {owner}")
-                to_remove.append(cur)
-                continue
+            assert cur in all_revisions, f"{cur} is not a valid revision of {name} {owner}"
             start = all_revisions.index(cur)
             nxt = None
             for i in range(start, len(all_revisions)):
@@ -133,10 +136,9 @@ def fix_uninstallable(lockfile_name: str, toolshed_url: str, galaxy_url: Optiona
             if nxt not in locked_tool["revisions"]:
                 print(f"adding {nxt} which was absent so far {name} {owner}")
                 to_append.append(nxt)
-            else:
-                if galaxy_url and (name, owner) in installed_tools and cur in installed_tools[(name, owner)]:
-                    print(f"{name},{owner} {cur} still installed on {galaxy_url}")
-                    print(f"{installed_tools[(name, owner)]=}")
+            elif galaxy_url:
+                assert (name, owner) in installed_tools
+                assert cur not in installed_tools[(name, owner)], f"{name},{owner} {cur} still installed on {galaxy_url}"
 
         for r in to_remove:
             locked_tool["revisions"].remove(r)
