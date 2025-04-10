@@ -24,7 +24,6 @@ install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
 %.fix: %
 	@# Generates the lockfile or updates it if it is missing tools
 	python3 scripts/fix-lockfile.py $<
-	python3 scripts/fix-uninstallable.py $<.lock
 	@# --without says only add those hashes for those missing hashes (i.e. new tools)
 	python3 scripts/update-tool.py $< --without
 
