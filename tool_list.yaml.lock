@@ -90,11 +90,13 @@ tools:
   - 77000428c613
   - bd518ee51da5
   - c14c7fd4d1be
+  - e9168eec404c
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
   owner: iuc
   revisions:
   - 0c069fc2471c
+  - 3ea43408e5db
   - 5e4e2b612a4f
   - 61db741e4614
   - 874b1a4fe7f0
@@ -105,6 +107,7 @@ tools:
   owner: iuc
   revisions:
   - 2bbf288d6334
+  - 49c0d34d583f
   - 4b023017896a
   - 943c2ae9594a
   - de6156c8ef16
@@ -116,6 +119,7 @@ tools:
   revisions:
   - 0cce683798d3
   - 3fd332f614f3
+  - 54ea08f9fd97
   - 5939a607c306
   - 7c3fea31765c
   - c1fcdec30d69
@@ -125,6 +129,7 @@ tools:
   owner: iuc
   revisions:
   - 0feab98f9577
+  - 301a6ffaf2a2
   - 467da4453127
   - ac3774320d28
   - ac9564dcdb99
@@ -136,6 +141,7 @@ tools:
   revisions:
   - 0895b4ebcfc8
   - 14695ae019be
+  - 16b4934fc7e7
   - 1979fdd0914f
   - 9bdb74297b3d
   - 9dab85e62cf2
@@ -145,6 +151,7 @@ tools:
   owner: iuc
   revisions:
   - 3481feabc54e
+  - 5029fd9d572e
   - 576dd33588bf
   - 738474880da8
   - 7db90993aa92
@@ -156,6 +163,7 @@ tools:
   revisions:
   - 028ba7c0b400
   - 2f9731cc4c87
+  - 35d71afa93f4
   - 378ce300fb3d
   - 5c6edb00ef4a
   - a14326f1e7df
@@ -169,6 +177,7 @@ tools:
   - 21a8b4e5e300
   - 63ed7a3cd45f
   - 74ee43d45476
+  - c9143bcb2072
   - f34ea612eecf
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
@@ -180,6 +189,7 @@ tools:
   - 7b81221e7925
   - a0a792d4efae
   - a194e5f09106
+  - cb617c2139fa
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_ordinate
   owner: iuc
@@ -187,6 +197,7 @@ tools:
   - 46a85469c104
   - 520dd44283ea
   - 7825694588d6
+  - 7a168b554d65
   - 7c675dae82eb
   - 811df76f4f26
   - be1918c80d9f
@@ -198,6 +209,7 @@ tools:
   - 4122ff5882e0
   - 454bfdfa6de5
   - 47aec96764b8
+  - 7822d7a5a496
   - 7e6f33f40312
   - bb054c50a96c
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -207,6 +219,7 @@ tools:
   - 17b44753a1df
   - 18de61c5527c
   - 2c21c267391c
+  - c5ccc28a2696
   - cf0944377d87
   - d02f4a87eb55
   - d1727ab06449
@@ -217,6 +230,7 @@ tools:
   - 094d0b97f92c
   - 2e69edaaa834
   - 30ac301ba3d6
+  - 9f4d491ebad2
   - aeca454c398e
   - cfa509a60770
   - febf16487e02
@@ -225,6 +239,7 @@ tools:
   owner: iuc
   revisions:
   - 024a22e84bea
+  - 14b992fb08d4
   - 7c9c6448b57c
   - a9dacd650ad5
   - b8fd62239d7e
@@ -238,6 +253,7 @@ tools:
   - 1db7e3d33871
   - 317728cb0f8a
   - c8bfb923d7d4
+  - ef800b2766c4
   - f9fa155c191f
   - ff07f41b8e54
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -247,6 +263,7 @@ tools:
   - 20a62b3a3038
   - 70a98af91147
   - 76cb398e9110
+  - ac98ca3ff0d2
   - adf75bf963f7
   - cf579d6919e8
   - e2df49914652
@@ -258,6 +275,7 @@ tools:
   - 77d2f88d8716
   - 9c6dbd8a875b
   - 9de032723f5b
+  - bc6221716772
   - bd41251e42ec
   - f41dad652845
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -267,6 +285,7 @@ tools:
   - 338f47a9e25c
   - 62c6d4c55190
   - 6acf30f0d9fa
+  - ba76e1682a00
   - bbb4a531d80b
   - dcbe3affb349
   - e85ff12bc025
@@ -339,6 +358,7 @@ tools:
 - name: bakta
   owner: iuc
   revisions:
+  - 1942e86e2ee1
   - d77802fe76f7
   tool_panel_section_label: Sequence Analysis
 - name: ball
@@ -1235,6 +1255,7 @@ tools:
 - name: diann
   owner: galaxyp
   revisions:
+  - 4d3da69301ae
   - ff8c9e0e8a7b
   tool_panel_section_label: Proteomics
 - name: dose_response_analysis_tool
@@ -4025,6 +4046,7 @@ tools:
 - name: omero_dataset_to_plate
   owner: ufz
   revisions:
+  - b1f969b7c527
   - c6f34af26769
   tool_panel_section_label: Imaging
 - name: omero_filter
@@ -4032,12 +4054,14 @@ tools:
   revisions:
   - 375281d11535
   - 8a3324018fc5
+  - 9d04b28b8dc8
   - f79a1bf2f386
   - f86ba5328466
   tool_panel_section_label: Imaging
 - name: omero_get_id
   owner: ufz
   revisions:
+  - 2cf36947bcb6
   - ae07ea142e0f
   - c23735b45a4a
   - c7b2650718fe
@@ -4046,6 +4070,7 @@ tools:
   owner: ufz
   revisions:
   - 1ae349b83c08
+  - 7a94eb8c345d
   - 9a50e57339d8
   - ecb13e93fae2
   tool_panel_section_label: Imaging
@@ -4057,6 +4082,7 @@ tools:
   - 42a454d4b482
   - 83ccd2b525e5
   - d0c0f3c95368
+  - ec96412e9027
   - f762de618b1f
   tool_panel_section_label: Imaging
 - name: omero_metadata_import
@@ -4066,12 +4092,14 @@ tools:
   - 352e9d4eaf70
   - 4c96c51b7880
   - 588d6fa22fc4
+  - 931eb5fed2c0
   - e41f70e69349
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
   revisions:
   - 131470834fee
+  - 45cdf0dbd3f8
   - 4f4dc352d660
   - 55e3d33cf4bd
   - dfe0aae1495c
@@ -5784,6 +5812,7 @@ tools:
   owner: iuc
   revisions:
   - 0b9d4ec77c4f
+  - 24488fae5b04
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 6000b8a8dd9d
@@ -5800,6 +5829,7 @@ tools:
   - 5007bc8a3d90
   - bbd9d1022144
   - c35e0075c7a2
+  - cee4982a717b
   - dfe800a3faaf
   - eab0b21652c4
   - f9543efabd85
@@ -5810,6 +5840,7 @@ tools:
   - 10a7732528b2
   - 1a6c2cc92c6e
   - 4faa9c663b38
+  - 7ed99cb39c9d
   - '817853857084'
   - 92b82deaaed1
   - a20bc31f2821
@@ -7888,6 +7919,7 @@ tools:
   owner: mbernt
   revisions:
   - 0da37b889932
+  - 2eb0532a911c
   tool_panel_section_label: Text Manipulation
 - name: sortmerna
   owner: rnateam
