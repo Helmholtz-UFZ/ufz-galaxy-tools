@@ -3288,3 +3288,9 @@ tools:
 - name: lm_get_projects
   owner: ufz
   tool_panel_section_label: Lambda-Miner
+- name: data_manager_dfast
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: dfast
+  owner: ufz
+  tool_panel_section_label: Metagenomics
