@@ -3294,6 +3294,15 @@ tools:
 - name: dfast
   owner: ufz
   tool_panel_section_label: Metagenomics
+- name: busco
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_fetch_busco
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco_options
+  owner: iuc
+  tool_panel_section_label: Data Managers
 - name: kaiju_data_manager
   owner: iuc
   tool_panel_section_label: Metagenomics
