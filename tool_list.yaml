@@ -3303,3 +3303,21 @@ tools:
 - name: data_manager_fetch_busco_options
   owner: iuc
   tool_panel_section_label: Data Managers
+- name: data_manager_kaiju
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_addtaxonnames
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_mergeoutputs
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2krona
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
