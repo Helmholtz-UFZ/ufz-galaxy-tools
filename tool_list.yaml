@@ -3303,7 +3303,7 @@ tools:
 - name: data_manager_fetch_busco_options
   owner: iuc
   tool_panel_section_label: Data Managers
-- name: kaiju_data_manager
+- name: data_manager_kaiju
   owner: iuc
   tool_panel_section_label: Metagenomics
 - name: kaiju_addtaxonnames
