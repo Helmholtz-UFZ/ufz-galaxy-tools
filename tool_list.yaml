@@ -3288,3 +3288,14 @@ tools:
 - name: lm_get_projects
   owner: ufz
   tool_panel_section_label: Lambda-Miner
+- name: busco
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_fetch_busco
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco_options
+  owner: iuc
+  tool_panel_section_label: Data Managers
+  
+
