@@ -3288,3 +3288,21 @@ tools:
 - name: lm_get_projects
   owner: ufz
   tool_panel_section_label: Lambda-Miner
+- name: kaiju_data_manager
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_addtaxonnames
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_mergeoutputs
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2krona
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2table
+  owner: iuc
+  tool_panel_section_label: Metagenomics
