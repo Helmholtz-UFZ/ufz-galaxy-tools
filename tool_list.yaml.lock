@@ -75,6 +75,7 @@ tools:
 - name: alphafold2
   owner: galaxy-australia
   revisions:
+  - 2891385d6ace
   - 2f7702fd0a4c
   - 3f188450ca4f
   - 6ab1a261520a
@@ -558,6 +559,7 @@ tools:
   owner: recetox
   revisions:
   - 0b86600b715e
+  - 0f1b15d51801
   - 6cd2a9e6ac49
   - 90dc951da294
   - e5fcba090b10
@@ -1268,6 +1270,7 @@ tools:
 - name: drep_compare
   owner: iuc
   revisions:
+  - 0a3caad1554a
   - 2c6f204ae1b9
   - 9902c85117a4
   - c2f471480624
@@ -1276,6 +1279,7 @@ tools:
   owner: iuc
   revisions:
   - 76b57044069d
+  - 81ada02ffe46
   - cafcc13990ee
   - d730086e1432
   tool_panel_section_label: Metagenomics
@@ -5766,46 +5770,55 @@ tools:
 - name: phabox_cherry
   owner: ufz
   revisions:
+  - 965a49e82ed8
   - bf17977c003f
   tool_panel_section_label: Metagenomics
 - name: phabox_contamination
   owner: ufz
   revisions:
   - 3f73568fafdc
+  - 94390e0d6791
   tool_panel_section_label: Metagenomics
 - name: phabox_end_to_end
   owner: ufz
   revisions:
   - 14307de7bbab
+  - 9758bed53a38
   tool_panel_section_label: Metagenomics
 - name: phabox_phagcn
   owner: ufz
   revisions:
+  - 049c32038e05
   - e339c70fec63
   tool_panel_section_label: Metagenomics
 - name: phabox_phamer
   owner: ufz
   revisions:
+  - 724fcc6ee63b
   - d0ebd3f37125
   tool_panel_section_label: Metagenomics
 - name: phabox_phatyp
   owner: ufz
   revisions:
+  - e12dacb1d3b1
   - eb22ba00cd4c
   tool_panel_section_label: Metagenomics
 - name: phabox_phavip
   owner: ufz
   revisions:
+  - 4844d9472fa6
   - f5dba8d92cf0
   tool_panel_section_label: Metagenomics
 - name: phabox_tree
   owner: ufz
   revisions:
   - daaab891f936
+  - ffeed1c58086
   tool_panel_section_label: Metagenomics
 - name: phabox_votu
   owner: ufz
   revisions:
+  - e4bc6e141f01
   - f2f6dc0072ac
   tool_panel_section_label: Metagenomics
 - name: phyloseq_from_dada2
