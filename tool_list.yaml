@@ -3321,3 +3321,6 @@ tools:
 - name: kaiju_kaiju2table
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: abricate
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
