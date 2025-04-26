@@ -35,6 +35,11 @@ tools:
   revisions:
   - 307518fb51af
   tool_panel_section_label: Convert Formats
+- name: abricate
+  owner: iuc
+  revisions:
+  - c2ef298da409
+  tool_panel_section_label: Sequence Analysis
 - name: abritamr
   owner: iuc
   revisions:
@@ -586,6 +591,11 @@ tools:
   - cd659e8cc5fa
   - d5ceb9f3c25b
   tool_panel_section_label: Next Gen Mappers
+- name: busco
+  owner: iuc
+  revisions:
+  - 4e70d88adf2f
+  tool_panel_section_label: Sequence Analysis
 - name: bwa
   owner: devteam
   revisions:
@@ -1076,6 +1086,11 @@ tools:
   - 6dd2220e0a1c
   - e661b9ac3223
   tool_panel_section_label: Data Managers
+- name: data_manager_dfast
+  owner: ufz
+  revisions:
+  - a3ef2075f00e
+  tool_panel_section_label: Data Managers
 - name: data_manager_diamond_database_builder
   owner: bgruening
   revisions:
@@ -1089,6 +1104,16 @@ tools:
   - 3d82020b1e3b
   - 516eb4e1cf8e
   - 5a2ffc486246
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco
+  owner: iuc
+  revisions:
+  - 8ef19ca5d289
+  tool_panel_section_label: Data Managers
+- name: data_manager_fetch_busco_options
+  owner: iuc
+  revisions:
+  - 4e3bbaa0b70f
   tool_panel_section_label: Data Managers
 - name: data_manager_funannotate
   owner: iuc
@@ -1124,6 +1149,11 @@ tools:
   - 87febc68b45b
   - fea85c467896
   tool_panel_section_label: Data Managers
+- name: data_manager_kaiju
+  owner: iuc
+  revisions:
+  - d89783920192
+  tool_panel_section_label: Metagenomics
 - name: data_manager_metaphlan2_database_downloader
   owner: iuc
   revisions:
@@ -1234,6 +1264,11 @@ tools:
   - 9fd8b69e6e68
   - f1c406f9554c
   tool_panel_section_label: Transcriptomics
+- name: dfast
+  owner: ufz
+  revisions:
+  - ea20f51a3184
+  tool_panel_section_label: Metagenomics
 - name: dfpl_predict
   owner: ufz
   revisions:
@@ -1272,6 +1307,7 @@ tools:
   revisions:
   - 0a3caad1554a
   - 2c6f204ae1b9
+  - 30d4702cdba6
   - 9902c85117a4
   - c2f471480624
   tool_panel_section_label: Metagenomics
@@ -1280,6 +1316,7 @@ tools:
   revisions:
   - 76b57044069d
   - 81ada02ffe46
+  - a0c4b280e67c
   - cafcc13990ee
   - d730086e1432
   tool_panel_section_label: Metagenomics
@@ -1412,6 +1449,7 @@ tools:
   revisions:
   - 10678d49d39e
   - 1d8fe9bc4cb0
+  - 25c59c0ceb55
   - 65b93b623c77
   - 6c2351178f8d
   - a626e8c0e1ba
@@ -1471,46 +1509,55 @@ tools:
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 34edfa69c149
   - 529bccd5e4a1
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_barcode_splitter
   owner: devteam
   revisions:
   - 0b7ec11b3c7c
+  - 229caeddb2df
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_clipper
   owner: devteam
   revisions:
   - 90858c306551
+  - c60cf18ec2b0
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_collapser
   owner: devteam
   revisions:
   - 07497255281e
+  - 72494a86e047
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_nucleotides_distribution
   owner: devteam
   revisions:
+  - 751878fa37e5
   - b6b54ba71bd8
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_quality_statistics
   owner: devteam
   revisions:
+  - 48c943a0290a
   - cc0fd298cc17
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_renamer
   owner: devteam
   revisions:
+  - 0ffae348abae
   - f984bb114520
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_reverse_complement
   owner: devteam
   revisions:
   - 177f0621c266
+  - 7566b751e769
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_trimmer
   owner: devteam
   revisions:
+  - 1ea2ae5afb28
   - 73194cdd4f57
   tool_panel_section_label: Fasta Manipulation
 - name: featurecounts
@@ -1724,6 +1771,7 @@ tools:
   - a68b985913ab
   - b907a3c0434f
   - c30adf839acd
+  - ed407eeb69ee
   tool_panel_section_label: Metagenomics
 - name: gtftobed12
   owner: iuc
@@ -2304,6 +2352,31 @@ tools:
   - 718d04143c31
   - a10f49d9218a
   tool_panel_section_label: Join, Subtract and Group
+- name: kaiju_addtaxonnames
+  owner: iuc
+  revisions:
+  - 92763a040deb
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju
+  owner: iuc
+  revisions:
+  - 403401167d98
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2krona
+  owner: iuc
+  revisions:
+  - b5092138ab0d
+  tool_panel_section_label: Metagenomics
+- name: kaiju_kaiju2table
+  owner: iuc
+  revisions:
+  - e7d2c4ed18a5
+  tool_panel_section_label: Metagenomics
+- name: kaiju_mergeoutputs
+  owner: iuc
+  revisions:
+  - cdc8a98ed4fc
+  tool_panel_section_label: Metagenomics
 - name: kofamscan
   owner: iuc
   revisions:
@@ -3741,6 +3814,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 28ffaaa5739f
   - 331a50e8fd2f
   - 3cf310697624
   - 545054b15d7c
@@ -8466,6 +8540,7 @@ tools:
   owner: galaxyp
   revisions:
   - 21a560af5913
+  - 2e297d531259
   - 34758ab8aaa4
   - 4953dcd7dd39
   - 75b3b3d0adbf
