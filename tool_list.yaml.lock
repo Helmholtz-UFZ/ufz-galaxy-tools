@@ -1083,6 +1083,7 @@ tools:
 - name: data_manager_defense_finder
   owner: rplanel
   revisions:
+  - 46528ab18f85
   - 6dd2220e0a1c
   - e661b9ac3223
   tool_panel_section_label: Data Managers
@@ -1231,6 +1232,7 @@ tools:
   - 236cb00084c4
   - 4ff81ce331f9
   - 596fa7bf596f
+  - a7953d17b4ff
   tool_panel_section_label: Annotation
 - name: deg_annotate
   owner: iuc
