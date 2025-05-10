@@ -1084,10 +1084,12 @@ tools:
   owner: rplanel
   revisions:
   - 46528ab18f85
+  - 502208b90cfe
   tool_panel_section_label: Data Managers
 - name: data_manager_dfast
   owner: ufz
   revisions:
+  - 23aec9361162
   - a3ef2075f00e
   tool_panel_section_label: Data Managers
 - name: data_manager_diamond_database_builder
@@ -1264,6 +1266,7 @@ tools:
 - name: dfast
   owner: ufz
   revisions:
+  - 8194a780bd81
   - ea20f51a3184
   tool_panel_section_label: Metagenomics
 - name: dfpl_predict
@@ -1307,6 +1310,7 @@ tools:
   - 30d4702cdba6
   - 9902c85117a4
   - c2f471480624
+  - f0334664a47b
   tool_panel_section_label: Metagenomics
 - name: drep_dereplicate
   owner: iuc
@@ -1316,6 +1320,7 @@ tools:
   - a0c4b280e67c
   - cafcc13990ee
   - d730086e1432
+  - f54e7b3da33c
   tool_panel_section_label: Metagenomics
 - name: eggnog_mapper
   owner: galaxyp
@@ -1561,6 +1566,7 @@ tools:
   revisions:
   - 1759d845181e
   - 1b851f87fbe0
+  - 30f6985f0ac7
   - 38b6d12edc68
   - 46cccc52be5f
   - 5dbff3a5845a
@@ -1761,6 +1767,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 30a4bdf88e14
   - 4d9445dff47b
   - 6501b5b33988
   - 65d52c693b8e
@@ -2336,6 +2343,7 @@ tools:
   owner: ufz
   revisions:
   - b6dba8fabeb2
+  - d357350b6da0
   tool_panel_section_label: Metagenomics
 - name: isescan
   owner: iuc
@@ -2351,26 +2359,31 @@ tools:
 - name: kaiju_addtaxonnames
   owner: iuc
   revisions:
+  - 1832b854f0ae
   - 92763a040deb
   tool_panel_section_label: Metagenomics
 - name: kaiju_kaiju
   owner: iuc
   revisions:
   - 403401167d98
+  - c020a41566fd
   tool_panel_section_label: Metagenomics
 - name: kaiju_kaiju2krona
   owner: iuc
   revisions:
+  - 360618c7e37d
   - b5092138ab0d
   tool_panel_section_label: Metagenomics
 - name: kaiju_kaiju2table
   owner: iuc
   revisions:
   - e7d2c4ed18a5
+  - eedcb4cc9e5a
   tool_panel_section_label: Metagenomics
 - name: kaiju_mergeoutputs
   owner: iuc
   revisions:
+  - 01585d091036
   - cdc8a98ed4fc
   tool_panel_section_label: Metagenomics
 - name: kofamscan
@@ -6115,6 +6128,7 @@ tools:
   - 839862089ccb
   - a0a48c15c573
   - a8962b34c94e
+  - ab62eec0cd2b
   - c4a4ba3c7a9c
   - da8c194c5dc5
   tool_panel_section_label: Qiime2
@@ -6123,6 +6137,7 @@ tools:
   revisions:
   - 26215ab0ef72
   - 442d1a046fa6
+  - 4ea333b09d2c
   - 4fde174f0118
   - 51e7e9d2c302
   - 793348b25298
@@ -6131,6 +6146,7 @@ tools:
   owner: q2d2
   revisions:
   - 1d37aa0aed4f
+  - 2c9fc6d16f81
   - 58797be8efd4
   - d71423249631
   - dd189714b70d
@@ -6139,6 +6155,7 @@ tools:
 - name: qiime2__composition__add_pseudocount
   owner: q2d2
   revisions:
+  - 68d6090cd226
   - c6780899249e
   - cd98e4bb92ee
   - d6677599b512
@@ -6153,10 +6170,12 @@ tools:
   - e3a9e7cb7b77
   - e3fdc3dc9fcc
   - f072d901c63c
+  - fcb75c51072d
   tool_panel_section_label: Qiime2
 - name: qiime2__composition__ancombc
   owner: q2d2
   revisions:
+  - 2d288113a582
   - 3bdf127442ed
   - 4b71e36cc3d2
   - 952686c734e9
@@ -6168,6 +6187,7 @@ tools:
   revisions:
   - 7953212dace1
   - 915545a7c0f9
+  - b26cbb89e85e
   - c2690db851b5
   - de8a1f53761e
   tool_panel_section_label: Qiime2
@@ -6178,11 +6198,13 @@ tools:
   - 45a7de813cd5
   - 49889ce4eafe
   - 54caf7f5c410
+  - 600f11a2839d
   - cb1a60431256
   tool_panel_section_label: Qiime2
 - name: qiime2__cutadapt__demux_paired
   owner: q2d2
   revisions:
+  - 0c5a140e04f3
   - 12dfb163a004
   - 9b5a775806be
   - c6a8822e19f2
@@ -6194,6 +6216,7 @@ tools:
   revisions:
   - 47652cda9695
   - 5551ccc407c9
+  - 5fed73dc56b0
   - d244802d52d0
   - d8851a5b9360
   - fcb0c9bd84a3
@@ -6202,6 +6225,7 @@ tools:
   owner: q2d2
   revisions:
   - 4f340404bbf8
+  - aa7ffb412083
   - b2b61aecb444
   - b7fc07bacdb2
   - d3cdc3eafc41
@@ -6214,11 +6238,13 @@ tools:
   - 42cd76be2cbf
   - 6e1771d7a3a9
   - 9a9d639bd2ec
+  - b652bc0bd0ff
   - f8d5e0d4dfec
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_ccs
   owner: q2d2
   revisions:
+  - 1eb5c20bf4cf
   - 312e59448469
   - 9977f9d23166
   - a22807aaff34
@@ -6233,6 +6259,7 @@ tools:
   - b1ec737d40f0
   - bbaba1707475
   - d2bf79e0bd52
+  - efafec3b4e06
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_pyro
   owner: q2d2
@@ -6241,11 +6268,13 @@ tools:
   - 1fa5664f9157
   - 377a0bd6edd4
   - bf424ada5b92
+  - d244cbb520a0
   - d9e75c4f54b9
   tool_panel_section_label: Qiime2
 - name: qiime2__dada2__denoise_single
   owner: q2d2
   revisions:
+  - 1e09dd637eb7
   - 20a297ae4505
   - 354f63459d37
   - 3c8340e400df
@@ -6256,6 +6285,7 @@ tools:
   owner: q2d2
   revisions:
   - 2572fc0f88f2
+  - 71201a5b1513
   - ab9ed5ac604c
   - b883cbea5623
   - d2ba73cf503d
@@ -6269,12 +6299,14 @@ tools:
   - 816ca3000a39
   - 86e36a2b44b0
   - 8b5a4afd4616
+  - 987f3e32bc09
   tool_panel_section_label: Qiime2
 - name: qiime2__deblur__visualize_stats
   owner: q2d2
   revisions:
   - 0be892a57bfe
   - 2e4eafd6f1f6
+  - 9e46d37c994a
   - d1b15724ff2b
   - e02092a0b2db
   - e62bac3eb4af
@@ -6283,6 +6315,7 @@ tools:
   owner: q2d2
   revisions:
   - 551e9187951c
+  - 6acfde3557b4
   - 8edb4dc16d6e
   - 934e204a857e
   - a9ce731fab29
@@ -6294,6 +6327,7 @@ tools:
   - 19e2495b60e8
   - 335abb486193
   - 75b07a996ac0
+  - 89d319dd67f2
   - 8e01d149bcdb
   - e7ae23a1d303
   tool_panel_section_label: Qiime2
@@ -6301,6 +6335,7 @@ tools:
   owner: q2d2
   revisions:
   - 0e5d4dc5c23e
+  - 4a7e51ec5689
   - 7573001162c8
   - 7595f1cbe5b7
   - a23769ef6bd8
@@ -6309,6 +6344,7 @@ tools:
 - name: qiime2__demux__subsample_paired
   owner: q2d2
   revisions:
+  - 36aa7a55e756
   - 522cc8ebcf4f
   - 669e59a2a229
   - 7b44ee1e60ea
@@ -6323,6 +6359,7 @@ tools:
   - 4c598bbefcbb
   - 6c2c8696456f
   - 76384b6b3d90
+  - 8199a544a842
   tool_panel_section_label: Qiime2
 - name: qiime2__demux__summarize
   owner: q2d2
@@ -6332,6 +6369,7 @@ tools:
   - 84877e27c82c
   - acb0f8837379
   - d8a9f74f1a6d
+  - e058a939e844
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__adonis
   owner: q2d2
@@ -6339,12 +6377,14 @@ tools:
   - 28d5145fbbe3
   - 4701a5b2b60d
   - 472a46b5d416
+  - 6579a7b08fd6
   - 82f9bc0feff3
   - 94a8478403ad
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha
   owner: q2d2
   revisions:
+  - 15114dfce30e
   - 324ab5e710fa
   - 5c2c4ceabe7e
   - 87b68b482c8e
@@ -6354,6 +6394,7 @@ tools:
 - name: qiime2__diversity__alpha_correlation
   owner: q2d2
   revisions:
+  - 1f40041cf946
   - 339546317bfa
   - 356a07706de8
   - 41a4f9caafaa
@@ -6363,6 +6404,7 @@ tools:
 - name: qiime2__diversity__alpha_group_significance
   owner: q2d2
   revisions:
+  - 0465253099bf
   - 25b94f589fc8
   - 8307f76b9b31
   - 96988c25ca01
@@ -6376,11 +6418,13 @@ tools:
   - 6af85aa9f62d
   - 7627c4bdf87f
   - b6e20cd4fd2c
+  - ee712ca8cac8
   - fbf59d034371
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__alpha_rarefaction
   owner: q2d2
   revisions:
+  - 1a1ad9b61531
   - 22bfda174157
   - 97cb20f77d50
   - a19425489a68
@@ -6393,6 +6437,7 @@ tools:
   - 525d07dd31b2
   - 7ed55f1323ee
   - 97a8f4d7b51d
+  - 9aa038590267
   - eb36fbb83a9d
   - f5026cf3e156
   tool_panel_section_label: Qiime2
@@ -6400,6 +6445,7 @@ tools:
   owner: q2d2
   revisions:
   - 26b99164f629
+  - 2d568787fa99
   - 913fde2097a3
   - 93d88cdf089a
   - f7e81c151e17
@@ -6410,6 +6456,7 @@ tools:
   - 2df83b20af3f
   - 35c850ccce45
   - a0d20b8b681e
+  - adc5f0fb3c3f
   - ae04ef51094f
   - e8b79e1c58ad
   tool_panel_section_label: Qiime2
@@ -6419,6 +6466,7 @@ tools:
   - 0f15d1570213
   - 26534bb91445
   - 394712a51004
+  - 6f129e6127a7
   - 83d06804b15c
   - 9de0fa39f017
   tool_panel_section_label: Qiime2
@@ -6429,6 +6477,7 @@ tools:
   - 1506cdb7caad
   - 1ab2573cba43
   - a5b96ea48d79
+  - ba17431d7703
   - f6c00f9e0eb7
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__bioenv
@@ -6438,6 +6487,7 @@ tools:
   - 0fb37e0413d6
   - 1e4f0944ae33
   - 21ca3e4d0f06
+  - 56a0004016a9
   - df846bfc8b5e
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__core_metrics
@@ -6446,12 +6496,14 @@ tools:
   - 2b7bcbf8bdf3
   - 4b8cdacb02f5
   - 703db464b072
+  - 88eff88c3e00
   - 9602903a0fbd
   - c18b62c7d0f8
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__core_metrics_phylogenetic
   owner: q2d2
   revisions:
+  - 38bd36bfb5af
   - 76e136962089
   - 7fc930fc43cf
   - 9d29f6a334e5
@@ -6461,6 +6513,7 @@ tools:
 - name: qiime2__diversity__filter_distance_matrix
   owner: q2d2
   revisions:
+  - '366473274326'
   - 40dc453ee8fd
   - 6741643b2f7f
   - 6d85ed80f077
@@ -6474,6 +6527,7 @@ tools:
   - 39109e3921ee
   - 57fa02b53979
   - 9a97bf1e0e05
+  - f0637bd36c6f
   - f5f2c923cda4
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__pcoa
@@ -6484,6 +6538,7 @@ tools:
   - 250e13179e54
   - 9f6dfa1155c4
   - d5ab076b70f7
+  - e8d08c5dec8c
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__pcoa_biplot
   owner: q2d2
@@ -6491,12 +6546,14 @@ tools:
   - 0b649d0fe617
   - 2e71c30ba512
   - 30a01d00df77
+  - 37a3c3468136
   - 41a52cf11f2d
   - 5279c32b6eab
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity__procrustes_analysis
   owner: q2d2
   revisions:
+  - 0ac6fda18afb
   - 111d05bd9e0d
   - 87d03d780da3
   - 888d37bd0b9b
@@ -6509,6 +6566,7 @@ tools:
   - 1e30542264c3
   - 1edfb19a6c43
   - 70d6cf1e8db0
+  - e7a9b459575e
   - eccbb594cd17
   - f5dde68b544d
   tool_panel_section_label: Qiime2
@@ -6517,6 +6575,7 @@ tools:
   revisions:
   - 21c17986c882
   - 32c5fea4831a
+  - 5e122d6a9670
   - 955fd41ac481
   - 9c7d4870e7c2
   - f2be72c1f1a0
@@ -6528,6 +6587,7 @@ tools:
   - 444cd66d6101
   - 71a10fd28964
   - 86034ce5e0b5
+  - 93509f4b48aa
   - 98ae2621b590
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__beta_passthrough
@@ -6537,6 +6597,7 @@ tools:
   - 38a55b074008
   - 66045b02d6c1
   - 7bc5ff8456ff
+  - 9d4eac2198a0
   - da6fdc7618c7
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__beta_phylogenetic_meta_passthrough
@@ -6545,6 +6606,7 @@ tools:
   - 1f01b410d3f2
   - 1fe13f74d48a
   - 4de686329a37
+  - 6e591077b4b3
   - a6205ca8caec
   - c7ae6170043a
   tool_panel_section_label: Qiime2
@@ -6555,6 +6617,7 @@ tools:
   - 423e0a6e9a1f
   - 5ab19b2ef7d8
   - a1166fa9986e
+  - dc43869f7657
   - fcbeb4dc4b81
   tool_panel_section_label: Qiime2
 - name: qiime2__diversity_lib__bray_curtis
@@ -6562,6 +6625,7 @@ tools:
   revisions:
   - 4111b5b17fd4
   - 6e6d848f2b5b
+  - 82046a5bb300
   - 84b38b24a50e
   - a1422e558f73
   - b007e2c3c08b
@@ -6570,6 +6634,7 @@ tools:
   owner: q2d2
   revisions:
   - 1142e83c6ae3
+  - 49c00aaacd6d
   - c2eccef98006
   - c5a92b4cb5db
   - f08636f56fd7
@@ -6578,6 +6643,7 @@ tools:
 - name: qiime2__diversity_lib__jaccard
   owner: q2d2
   revisions:
+  - 58c46e32cff6
   - 760b9ecc9575
   - a7a8b9b1fa1e
   - a80fde700012
@@ -6587,6 +6653,7 @@ tools:
 - name: qiime2__diversity_lib__observed_features
   owner: q2d2
   revisions:
+  - 37e114ead80a
   - 4785e02346c5
   - 89d7fabc1120
   - a08147f79fe9
@@ -6597,6 +6664,7 @@ tools:
   owner: q2d2
   revisions:
   - 02d2141ff634
+  - 389fba4362bc
   - 3fff9475b959
   - 70becbb8baf2
   - 987b58fe1f9f
@@ -6605,6 +6673,7 @@ tools:
 - name: qiime2__diversity_lib__shannon_entropy
   owner: q2d2
   revisions:
+  - 00420a6149c8
   - 63d2b15ad101
   - 7f8e31cd33ed
   - 86209e66e3b3
@@ -6615,6 +6684,7 @@ tools:
   owner: q2d2
   revisions:
   - 16f6f1bb70df
+  - 4b073ff8dfab
   - 5c190c90bab0
   - 60cbf3e37ee1
   - 7de32a239176
@@ -6626,6 +6696,7 @@ tools:
   - 5f6f3053916b
   - 85f762ce919f
   - a166647c366a
+  - dac91f2a6edf
   - eafeb0b89ece
   tool_panel_section_label: Qiime2
 - name: qiime2__emperor__biplot
@@ -6633,6 +6704,7 @@ tools:
   revisions:
   - 500d81d6d22d
   - 5aced4a38720
+  - 60b974644777
   - 6830d5e1f0db
   - c7d25d15856f
   - e485f0703f77
@@ -6644,12 +6716,14 @@ tools:
   - 41cb62f3cb7b
   - 64a9ebc05ae4
   - 7c9ec8b8b7f8
+  - ad8f7d728a95
   tool_panel_section_label: Qiime2
 - name: qiime2__emperor__procrustes_plot
   owner: q2d2
   revisions:
   - 4a9f1bf4499e
   - 5a6cf1e4fd5a
+  - 7332848f37ab
   - bd0dbc487394
   - e2e3685e9ead
   - ec2a0e6d9baf
@@ -6657,6 +6731,7 @@ tools:
 - name: qiime2__feature_classifier__blast
   owner: q2d2
   revisions:
+  - 07d2b31e5dea
   - 18cf1aa7f508
   - 24b72d60805e
   - 6f881a1c40be
@@ -6667,6 +6742,7 @@ tools:
   owner: q2d2
   revisions:
   - 0024a2733c77
+  - 1a669211cfed
   - 1ca4b5d6ea40
   - 8f8f6d3d2304
   - f30561d08160
@@ -6677,6 +6753,7 @@ tools:
   revisions:
   - 06f77767806a
   - 1006c36b2b57
+  - d33916702866
   - f40e6da10c03
   - f82f2dbf0c04
   - f965e6e951e7
@@ -6684,6 +6761,7 @@ tools:
 - name: qiime2__feature_classifier__classify_hybrid_vsearch_sklearn
   owner: q2d2
   revisions:
+  - 26c3d6bc0754
   - 4d9059e67f87
   - 6f3e4b4cd85f
   - 9162ded52c6a
@@ -6694,6 +6772,7 @@ tools:
   owner: q2d2
   revisions:
   - 771d8be25d7a
+  - 83b0feec07cf
   - 863bb205e6d1
   - 8aa82af30760
   - d6632af373ab
@@ -6702,6 +6781,7 @@ tools:
 - name: qiime2__feature_classifier__extract_reads
   owner: q2d2
   revisions:
+  - 19337dd7d160
   - 4ad70e7b2dba
   - 920dbc6886d7
   - 9db411be36ba
@@ -6713,6 +6793,7 @@ tools:
   revisions:
   - 333ce5304712
   - 44246091f51f
+  - 4f5ee6c1fd33
   - 4fafff628c81
   - b6121b90c568
   - e2f6444dd8b4
@@ -6720,6 +6801,7 @@ tools:
 - name: qiime2__feature_classifier__fit_classifier_naive_bayes
   owner: q2d2
   revisions:
+  - 07f2440927a3
   - 1088a30ad72f
   - 14666a4cb442
   - 42f3a9cab210
@@ -6731,6 +6813,7 @@ tools:
   revisions:
   - 3c9fe85c41ed
   - 651c5518951f
+  - a66d426ba05b
   - b58536f29139
   - e736fe382938
   - fe5fc2afd727
@@ -6743,6 +6826,7 @@ tools:
   - 84d83752cc49
   - b4ccd6f48728
   - c7bde9e4638d
+  - fd8ee3b7a00b
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__core_features
   owner: q2d2
@@ -6752,12 +6836,14 @@ tools:
   - 3ab02629e494
   - 5bd93c10087b
   - 723a95a6db07
+  - d46074b693bd
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_features
   owner: q2d2
   revisions:
   - 10954feb4893
   - 1a5eea94cd0f
+  - 4190dbce3775
   - a63fa31b8367
   - b2df7f8e4a07
   - d6536f0c370c
@@ -6765,6 +6851,7 @@ tools:
 - name: qiime2__feature_table__filter_features_conditionally
   owner: q2d2
   revisions:
+  - 03a35f7bf38a
   - 09226feca49a
   - 46bc11016e31
   - 6c8f74d8df6d
@@ -6779,10 +6866,12 @@ tools:
   - 4a129fe72b67
   - 540707a41f82
   - 552388e54b68
+  - 682d957756f9
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__filter_seqs
   owner: q2d2
   revisions:
+  - 14bb84c18f3e
   - 3d5a194fbdcb
   - 4e61dddfe0b5
   - 8aec6a03bd3f
@@ -6797,6 +6886,7 @@ tools:
   - 94617586f2cb
   - a27ceaf4cfc2
   - d8d9cde18805
+  - dfadf6b977d3
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__heatmap
   owner: q2d2
@@ -6804,6 +6894,7 @@ tools:
   - 0a0e626e6f31
   - 1579e3bbdc11
   - 75a470897973
+  - 84941f46775e
   - a8de96a8b8eb
   - c087d23bc043
   tool_panel_section_label: Qiime2
@@ -6811,6 +6902,7 @@ tools:
   owner: q2d2
   revisions:
   - 02074619b5e8
+  - 4739cd035af0
   - 6bad55f4a310
   - b5eb47c65e65
   - bbef44c4221b
@@ -6821,12 +6913,14 @@ tools:
   - 656b878d4049
   - 6d3775f3a859
   - 9b95556df0f4
+  - b0a9320437c2
   - b46e5d243a98
   - e6d95dc1d9e2
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__merge_taxa
   owner: q2d2
   revisions:
+  - 0941b3434b84
   - 0ffd4aef0c59
   - a0c16a5250e4
   - a96e86eac4e3
@@ -6838,6 +6932,7 @@ tools:
   revisions:
   - 02f7e34192b1
   - 88b3f5ff20b3
+  - 9133f4809ee1
   - aa33dec8fd70
   - d853b44a37b5
   - f2daa4bceccc
@@ -6845,6 +6940,7 @@ tools:
 - name: qiime2__feature_table__rarefy
   owner: q2d2
   revisions:
+  - 1f43fb6d2d13
   - 76f44ad77e0c
   - 77dce1a45822
   - 985c7f96ce2a
@@ -6855,6 +6951,7 @@ tools:
   owner: q2d2
   revisions:
   - 580e1edc91d7
+  - 60dedc1e1f7c
   - 8e63cd00a1a1
   - b775f27fe8db
   - e0ecbe54ffa8
@@ -6863,6 +6960,7 @@ tools:
 - name: qiime2__feature_table__rename_ids
   owner: q2d2
   revisions:
+  - 413b93003f0f
   - 8ae8ef4804fa
   - a213286d3a38
   - b8225d65b620
@@ -6878,6 +6976,7 @@ tools:
 - name: qiime2__feature_table__summarize
   owner: q2d2
   revisions:
+  - 0298280f2bfd
   - 365ce7a8e641
   - 517cc51856dd
   - c7553080ec2e
@@ -6891,12 +6990,14 @@ tools:
   - 38b618d1eb4d
   - 6d5cd7bcc0d0
   - 9fe85eec5420
+  - a3a920ac8909
   - c4570ced1d88
   tool_panel_section_label: Qiime2
 - name: qiime2__feature_table__transpose
   owner: q2d2
   revisions:
   - 14196448788e
+  - 492edbc22449
   - 70629120ae6c
   - 8a3e71857c0a
   - acadff77dd50
@@ -6909,6 +7010,7 @@ tools:
   - 2821f5e19fe7
   - 52cffcc84c14
   - 62764fe71186
+  - 9f3165bbb183
   - d15eba82b356
   tool_panel_section_label: Qiime2
 - name: qiime2__fragment_insertion__filter_features
@@ -6916,6 +7018,7 @@ tools:
   revisions:
   - 0cd2b96adce2
   - 2fe92e997c9a
+  - 4f4a3231e69d
   - 5b0a3c45d0ed
   - b27d577c13e0
   - fef2604b8a87
@@ -6926,6 +7029,7 @@ tools:
   - 157b7ea4cd38
   - 2fa85eae206e
   - 3d97bd4f5a7b
+  - 480f1f48ffea
   - a74f06287b8c
   - f900d65ea217
   tool_panel_section_label: Qiime2
@@ -6980,6 +7084,7 @@ tools:
 - name: qiime2__longitudinal__anova
   owner: q2d2
   revisions:
+  - 4df0cd029add
   - 5141cd08458f
   - 649a6f5a7ff8
   - b281d1caa69c
@@ -6991,6 +7096,7 @@ tools:
   revisions:
   - 956dbe6f39bd
   - ba818c170b06
+  - d0c1032c407b
   - e1f34a303e1c
   - e2fd93e4e3f7
   - ecc06a63663d
@@ -7000,6 +7106,7 @@ tools:
   revisions:
   - 0019d6fb2df8
   - 2cb105e00a71
+  - 34b713fc4356
   - 372affefd8a3
   - 6159fc49222c
   - c6a55025afec
@@ -7012,10 +7119,12 @@ tools:
   - 405565578b7c
   - 54f724ba9dc6
   - 607a63ad9e92
+  - 83b0a04db957
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__linear_mixed_effects
   owner: q2d2
   revisions:
+  - 01648b9936bf
   - 2f4d65c8cfc0
   - 54f24a4e861d
   - 6253ca844c62
@@ -7030,6 +7139,7 @@ tools:
   - 65eb20bd61f1
   - 915a49001f9b
   - ae21a4eac775
+  - c1ce31c7b91f
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__nmit
   owner: q2d2
@@ -7038,11 +7148,13 @@ tools:
   - 4facf6ad69be
   - 738ef153dcb1
   - 87412f607999
+  - c9b7113bf8f1
   - d17232fb5897
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__pairwise_differences
   owner: q2d2
   revisions:
+  - 069b6f81c2c8
   - 82847cdbf7fd
   - b56e60e6c6e0
   - d58901d901a6
@@ -7055,6 +7167,7 @@ tools:
   - 24347c0aa796
   - 2dba2c15b48e
   - 7799afde3e88
+  - 7fc5d8fc4c4a
   - ab8727358817
   - c02040f48a72
   tool_panel_section_label: Qiime2
@@ -7065,6 +7178,7 @@ tools:
   - 1a9474d0391a
   - 2b93f7a91399
   - 48f8582fa64b
+  - 5d155150e8de
   - 6fd0dec3112c
   tool_panel_section_label: Qiime2
 - name: qiime2__longitudinal__volatility
@@ -7073,6 +7187,7 @@ tools:
   - 085340f69dfe
   - 0e3d1b6523e2
   - 646d4929b1ea
+  - 6873643e4779
   - 7c4629181605
   - bea0cdf2d9c8
   tool_panel_section_label: Qiime2
@@ -7080,6 +7195,7 @@ tools:
   owner: q2d2
   revisions:
   - 3ff91b9bf4bb
+  - 5305caf97a38
   - 855d0a9bc79c
   - 873c9175076f
   - 8a43985a8f35
@@ -7090,6 +7206,7 @@ tools:
   revisions:
   - 69c87f602b5a
   - 7428c64149fb
+  - 7d80bc1c73aa
   - 99fb88cf7a12
   - d310fdba1caf
   - e5920de13a94
@@ -7097,6 +7214,7 @@ tools:
 - name: qiime2__metadata__tabulate
   owner: q2d2
   revisions:
+  - 692bb81f7f1e
   - 9857be21dcaf
   - b833fbd936a7
   - d6e1b976c373
@@ -7109,6 +7227,7 @@ tools:
   - 2a9461620d5e
   - 39b5b030033a
   - 43e5dd36de74
+  - b252342b97a5
   - b552bc376487
   - e226dcac1ec8
   tool_panel_section_label: Qiime2
@@ -7119,12 +7238,14 @@ tools:
   - 3258ec546d07
   - 7cd05b132c74
   - 9f7b98404a1f
+  - abdee16863d9
   - ec98b720efc9
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__align_to_tree_mafft_raxml
   owner: q2d2
   revisions:
   - 5d20cf180904
+  - 62e2e0c60e14
   - 9af151e32f0e
   - c1018e6b9e55
   - d8bb362c42a5
@@ -7133,6 +7254,7 @@ tools:
 - name: qiime2__phylogeny__fasttree
   owner: q2d2
   revisions:
+  - 130d1647cc1b
   - 139fe749b0e5
   - 54e234742860
   - 67a54c48a537
@@ -7145,6 +7267,7 @@ tools:
   - 05d29a3294de
   - 167ee24ffe2f
   - 2f4e088869d4
+  - 3042b2e32868
   - 63f054c1fce2
   - fa11896bafbb
   tool_panel_section_label: Qiime2
@@ -7153,6 +7276,7 @@ tools:
   revisions:
   - 2f35a9736467
   - 6106d14aabd1
+  - 818d20c622ed
   - 97716f0bd25b
   - d24d147a225d
   - fbdbfcbe5121
@@ -7164,11 +7288,13 @@ tools:
   - 6d01299f597a
   - 77c94392c3e8
   - 931254bf17a4
+  - e6c24d76366b
   - f104eefb878b
   tool_panel_section_label: Qiime2
 - name: qiime2__phylogeny__iqtree_ultrafast_bootstrap
   owner: q2d2
   revisions:
+  - 28ef140b35ce
   - 7f29e76a07c2
   - adccaaf33660
   - caa6e396efc4
@@ -7179,6 +7305,7 @@ tools:
   owner: q2d2
   revisions:
   - 0a0e30476122
+  - 2a58fba2eb04
   - 2de661df7aa8
   - ad4c87cd901a
   - c52143a5d73d
@@ -7188,6 +7315,7 @@ tools:
   owner: q2d2
   revisions:
   - 1f553c9cc99e
+  - 6f7c4386f0ce
   - a40eb1afbd0f
   - a516b3efde8d
   - a874d4dfbac6
@@ -7198,6 +7326,7 @@ tools:
   - 1de3a5758b8c
   - 444a88ecf0d8
   - 9d523344e9fb
+  - a47dc629c367
   - e46713e5531a
   - eb6c15cd603b
   tool_panel_section_label: Qiime2
@@ -7205,6 +7334,7 @@ tools:
   owner: q2d2
   revisions:
   - 48893627c8f9
+  - 4b5ea6850212
   - a43f0d5cfd3f
   - abe6db32295f
   - cc749369d963
@@ -7214,6 +7344,7 @@ tools:
   revisions:
   - 3a464de609d5
   - 7291a764b254
+  - 9b1cb8c8842d
   - c2a5d40cd4ae
   - dc6b98098f4f
   - ea81dc3914f8
@@ -7223,6 +7354,7 @@ tools:
   revisions:
   - 0036b5f124ef
   - 653d55f191df
+  - 6e6608be01ae
   - 99bf4ed8cb61
   - ba52336465f9
   tool_panel_section_label: Qiime2
@@ -7231,6 +7363,7 @@ tools:
   revisions:
   - 239447c3062a
   - 2e8e3258af39
+  - 643750e7cbd8
   - 9edda646c9dd
   - ceb8db9c0509
   tool_panel_section_label: Qiime2
@@ -7238,6 +7371,7 @@ tools:
   owner: q2d2
   revisions:
   - 4f9bd4924e66
+  - 5357caeb7c22
   - 69c5dfffb92f
   - 8f17025fb019
   - d9c71e139c9b
@@ -7248,6 +7382,7 @@ tools:
   revisions:
   - 4bb288dbd04c
   - 53f089ad7161
+  - 63b1c4ade428
   - 7f6c6e75ad0d
   - b21256ee1cde
   - f45d42427237
@@ -7257,6 +7392,7 @@ tools:
   revisions:
   - 13f0559220c2
   - 2719c0bf3bd7
+  - 324ea0a40d05
   - 769112ac7a6e
   - 8e6a404fb338
   - de2941482b65
@@ -7266,6 +7402,7 @@ tools:
   revisions:
   - 051ac848cd6b
   - 505d6f366518
+  - 895060360adc
   - 9d29d1b06e2c
   - cf4229cd0a05
   - f697a0b6a702
@@ -7278,6 +7415,7 @@ tools:
   - 8620c7cb2e31
   - 8ea205bf4e7b
   - bb1d6b8b06a8
+  - f13a41d2295e
   tool_panel_section_label: Qiime2
 - name: qiime2__quality_filter__q_score
   owner: q2d2
@@ -7286,12 +7424,14 @@ tools:
   - 1996c955a0e6
   - 2c4de53c8903
   - 363bb431c355
+  - 9f0f673e6ea0
   - d786401d6619
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__classify_samples
   owner: q2d2
   revisions:
   - 096916b40a5a
+  - 5b705adb0526
   - 6c18cbbf0f5b
   - 84156d6e1291
   - e5daff8f4e9e
@@ -7303,6 +7443,7 @@ tools:
   - 2dad5e35f34c
   - 3287c7a4f1a6
   - 5f37765a9e5e
+  - 871a0738c883
   - da06a9b29ebc
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__classify_samples_ncv
@@ -7310,6 +7451,7 @@ tools:
   revisions:
   - 23c5522fa836
   - 6abdf19e5d53
+  - 937d0b4d8083
   - 9c6128727a71
   - ab96421e61c5
   - f00cbad41c55
@@ -7321,12 +7463,14 @@ tools:
   - 2fe2bd8895ab
   - 3164358cd72f
   - 37d091c9f5ce
+  - c3126bbd64e4
   - e0a29b2a35a8
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__fit_classifier
   owner: q2d2
   revisions:
   - 2116b939ff07
+  - 346c58898c4f
   - 431ccbdd8582
   - 71cd01b7a74f
   - 745c0bca48dd
@@ -7335,6 +7479,7 @@ tools:
 - name: qiime2__sample_classifier__fit_regressor
   owner: q2d2
   revisions:
+  - 5ff252c32c34
   - c0aa54edd09e
   - c2c6554fda49
   - d0708941b20b
@@ -7345,6 +7490,7 @@ tools:
   owner: q2d2
   revisions:
   - 5ceed9008edb
+  - 669259fa60f9
   - 8fa6957e6cb0
   - c8a9c7b66934
   - d15d1e895aed
@@ -7354,6 +7500,7 @@ tools:
   owner: q2d2
   revisions:
   - 115e5387e46a
+  - 63930077c13a
   - 905113a20ca7
   - ac49a2a49935
   - f58e813e201d
@@ -7365,11 +7512,13 @@ tools:
   - 4da3dcc06eec
   - 555cb8da4688
   - 8efd4ae79026
+  - c9198aa034be
   - d4dd156970fc
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__predict_regression
   owner: q2d2
   revisions:
+  - 28ae84f5ca57
   - 6e134166916b
   - 8281a7dc5248
   - cb01bdeace09
@@ -7379,6 +7528,7 @@ tools:
 - name: qiime2__sample_classifier__regress_samples
   owner: q2d2
   revisions:
+  - 028961beb681
   - 09981e91ac53
   - 7d56c6806c36
   - a400ec06bae3
@@ -7392,6 +7542,7 @@ tools:
   - b89a29409daa
   - c468c032ee23
   - e6d86f57fe1a
+  - f4e0ae35393f
   - fba2a1dc2e30
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__scatterplot
@@ -7400,12 +7551,14 @@ tools:
   - 195348fe70ef
   - 22e510854bb2
   - 25135b363e40
+  - 880fd4eb20e2
   - b2a04cea7140
   - fcd6d3d308b7
   tool_panel_section_label: Qiime2
 - name: qiime2__sample_classifier__split_table
   owner: q2d2
   revisions:
+  - 3dfc1a5ca1c1
   - a80604576ca2
   - b0af6d277910
   - b3fdc6dd0eab
@@ -7418,6 +7571,7 @@ tools:
   - 10191f1db325
   - 87f5057466b2
   - 8fa73ff177a2
+  - 96543d2f2217
   - d2cd82660ab6
   - e56a7f3e8b05
   tool_panel_section_label: Qiime2
@@ -7428,6 +7582,7 @@ tools:
   - 124673b2e9e7
   - 3da2f87501ee
   - 5750bac5b744
+  - 8f3f08228c59
   - d9d69991f2b2
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__collapse
@@ -7437,6 +7592,7 @@ tools:
   - 615a560393c2
   - 96d3a6a511bc
   - e8ab6eff4cf8
+  - f0f9d9b5095d
   - f17ae5fa0c60
   tool_panel_section_label: Qiime2
 - name: qiime2__taxa__filter_seqs
@@ -7445,6 +7601,7 @@ tools:
   - 22f155638105
   - 2e3425c03486
   - 526b35d5a4cd
+  - 9d2cb6f48d1d
   - a0eb7c8820b5
   - c4e992863672
   tool_panel_section_label: Qiime2
@@ -7454,6 +7611,7 @@ tools:
   - 4d6cd6706bfd
   - 8415c3cbedb6
   - a8972ecf15c1
+  - c9236ca2f9b3
   - ca4a6aa29205
   - e4872ac2c683
   tool_panel_section_label: Qiime2
@@ -7464,6 +7622,7 @@ tools:
   - 89648217a7ef
   - 99f3bb0084fe
   - bdfd1704be32
+  - ed0fcc8c5f42
   - f1a4c7d2e5a7
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__cluster_features_de_novo
@@ -7474,11 +7633,13 @@ tools:
   - 397c1be954c2
   - a753a1136636
   - a7e23c72f344
+  - ec8f8c2f4d54
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__cluster_features_open_reference
   owner: q2d2
   revisions:
   - 3dbcb981c4c9
+  - 559d1494e258
   - 576b090ccd63
   - b501894f0679
   - d62c0266f393
@@ -7491,12 +7652,14 @@ tools:
   - 4fb2b5e9beba
   - 89cf98a14b38
   - 9c9e6b7d7286
+  - cef06e59b345
   - d33fbe0e2c37
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__fastq_stats
   owner: q2d2
   revisions:
   - 55e1a7184edd
+  - 627decf9330a
   - 6acd7854064f
   - 826f1e13fbd1
   - b770f74843a4
@@ -7509,12 +7672,14 @@ tools:
   - 421396209ac3
   - 4756c43a7181
   - b26cb5419c39
+  - e20076e29510
   - f455181d916d
   tool_panel_section_label: Qiime2
 - name: qiime2__vsearch__uchime_denovo
   owner: q2d2
   revisions:
   - 2ecd644cdfcf
+  - 37c6c368acdd
   - 40ea1722fbab
   - a02a20641fb6
   - c328a49a8ebf
@@ -7526,6 +7691,7 @@ tools:
   - 74b478765f80
   - 7baf77299428
   - 7dbbd990440e
+  - b1a6337f9f18
   - e9b3abbe198e
   - f13c03b34e2d
   tool_panel_section_label: Qiime2
@@ -7537,6 +7703,7 @@ tools:
   - d3b1853c4efd
   - ddff0f6d5740
   - e96704fc516d
+  - f83fcc984626
   tool_panel_section_label: Qiime2
 - name: qiime2_core__tools__import
   owner: q2d2
@@ -7544,6 +7711,7 @@ tools:
   - 10447a4b0cc3
   - 18c6b2b6740f
   - 5d9a36073ed6
+  - 65ea76686e11
   - 8a0db69428c7
   - 9dbdf05beaa9
   - f9e68fa06585
@@ -7552,6 +7720,7 @@ tools:
   owner: q2d2
   revisions:
   - 1c3937219d27
+  - 241bed7043bd
   tool_panel_section_label: Qiime2
 - name: qiime_extract_viz
   owner: iuc
@@ -8415,6 +8584,7 @@ tools:
   revisions:
   - 084bbd8ba7b8
   - 949f01671246
+  - b94789823aad
   - cd7e644cae1d
   - eefb644655a5
   tool_panel_section_label: Sequence Analysis
@@ -8592,6 +8762,7 @@ tools:
 - name: vibrant
   owner: ufz
   revisions:
+  - 4883d709b470
   - fafa6b033c97
   tool_panel_section_label: Metagenomics
 - name: vibrant_build_database
