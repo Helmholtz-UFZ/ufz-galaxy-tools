@@ -490,6 +490,7 @@ tools:
   owner: imgteam
   revisions:
   - 6e65fd971e13
+  - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_label: Imaging
 - name: biom_add_metadata
@@ -1676,6 +1677,7 @@ tools:
   owner: iuc
   revisions:
   - 0f710191a66d
+  - 31d5c8c3adde
   - 3c5e024a18cf
   - 3c97c841a443
   - f99d7825a501
@@ -1692,6 +1694,7 @@ tools:
   owner: iuc
   revisions:
   - 10515715c940
+  - 15cebddc6dba
   - 1a72f938213e
   - a4d83ba2a1bc
   tool_panel_section_label: Visualization
@@ -1708,12 +1711,14 @@ tools:
   owner: iuc
   revisions:
   - 497d700a5229
+  - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
   tool_panel_section_label: Visualization
 - name: ggplot2_pca
   owner: iuc
   revisions:
+  - 1df3b30325dd
   - 90928b255abb
   - ae344ccf9d62
   - b1268b7544d3
@@ -1724,12 +1729,14 @@ tools:
   - 3b12bf9b4b87
   - 5298e06f14f9
   - a36551483a8f
+  - f87634b12749
   tool_panel_section_label: Visualization
 - name: ggplot2_violin
   owner: iuc
   revisions:
   - 0e7290688b50
   - 17b666467c32
+  - 63d211052ffb
   - d8305f18060e
   tool_panel_section_label: Visualization
 - name: goseq
@@ -2812,6 +2819,7 @@ tools:
   - 697c9156dafe
   - 9638ba70882c
   - 99ecfdafc64f
+  - f192c2fbe13f
   tool_panel_section_label: Assembly
 - name: metawrapmg_binning
   owner: galaxy-australia
@@ -7945,6 +7953,7 @@ tools:
   - 001aa495b39a
   - 378e55aeeb25
   - 59be68ba26c2
+  - 5bd3f053c303
   - 5fc94b3a4704
   - 675ee1aa5952
   tool_panel_section_label: Assembly
@@ -7999,6 +8008,7 @@ tools:
   - 90f2dd176d80
   - ae36fab06bc2
   - c4ff13d2aab3
+  - f4f7f632815d
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_depth
   owner: iuc
@@ -8183,6 +8193,7 @@ tools:
   owner: nml
   revisions:
   - 65d1598a9256
+  - 822954de3f59
   - 884dc0264950
   - 9006e5836729
   - a789e163a670
@@ -8194,6 +8205,7 @@ tools:
   owner: iuc
   revisions:
   - 1fc82fe7ebef
+  - 5e7a2a927b56
   - 60b8f1668552
   - a5d68876c44e
   - c33a476f4001
@@ -8203,6 +8215,7 @@ tools:
   owner: iuc
   revisions:
   - 152ff7d1817a
+  - 2cf8a2028ddc
   - 4ae660dd1fb6
   - 655fa188c3cc
   - fee85957cebe
@@ -8216,6 +8229,7 @@ tools:
   - 7e27faaad80e
   - c5c4fa59be65
   - c8097e741b13
+  - edac5e292b7f
   tool_panel_section_label: Assembly
 - name: spades_metaviralspades
   owner: iuc
@@ -8225,10 +8239,12 @@ tools:
   - 86f66ab58e14
   - e060c3987513
   - ea83ac535a1f
+  - ed32d95f436a
   tool_panel_section_label: Assembly
 - name: spades_plasmidspades
   owner: iuc
   revisions:
+  - 388dbecbf03b
   - 5be72b7648fa
   - 6aad515a5270
   - 75405f5e2cc5
@@ -8242,6 +8258,7 @@ tools:
   - 6357b127161e
   - a9aa4115cb68
   - b3490b036c5a
+  - d5645713603a
   - dc5d1a54054b
   tool_panel_section_label: Assembly
 - name: spec2vec_similarity
@@ -8763,6 +8780,7 @@ tools:
   owner: ufz
   revisions:
   - 4883d709b470
+  - e087d0bccff4
   - fafa6b033c97
   tool_panel_section_label: Metagenomics
 - name: vibrant_build_database
@@ -8788,6 +8806,7 @@ tools:
   owner: iuc
   revisions:
   - 2f557f6abbfb
+  - 3af838dc0637
   - 5e08a1e22dbc
   - 83c573f2e73c
   - 99ace6c1ff57
@@ -8828,6 +8847,7 @@ tools:
   - 1a2aeb8137bf
   - 425c0494ec2d
   - 6480c6d5fa36
+  - 6fc9f6dbcef5
   - b77023c41c76
   - bf32ae95a06f
   - dbbedb14b44c
