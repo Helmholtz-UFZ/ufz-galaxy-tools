@@ -8585,6 +8585,7 @@ tools:
   - 19e45916daf9
   - 26c6706bfb07
   - 344e10282449
+  - 5c04f9decc01
   - 63769c4217a7
   - 77a18a61aeed
   - 92ac8e086317
@@ -8707,6 +8708,7 @@ tools:
 - name: ucsc_blat
   owner: yating-l
   revisions:
+  - 0f7cb5f69f7d
   - 2a89f630fa85
   - 820f68ad34a7
   - b8fa39b09aa4
@@ -8805,6 +8807,7 @@ tools:
 - name: volcanoplot
   owner: iuc
   revisions:
+  - 11c344627e52
   - 2f557f6abbfb
   - 3af838dc0637
   - 5e08a1e22dbc
