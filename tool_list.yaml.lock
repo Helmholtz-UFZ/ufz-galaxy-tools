@@ -1353,6 +1353,7 @@ tools:
   - 4aab5ae907b6
   - 57251c760cab
   - 5cb6146337d8
+  - 7ca4ed416391
   - 89329e428dc6
   - a62c4a11a67d
   - ea5e944f447d
@@ -2403,6 +2404,7 @@ tools:
   owner: iuc
   revisions:
   - 20e2f64aa1fe
+  - 241a78eb2935
   - cdee7158adf3
   - e674066930b2
   tool_panel_section_label: Metagenomics
@@ -3848,6 +3850,7 @@ tools:
   revisions:
   - 2ada1099f42e
   - 3e2cb0bc6959
+  - 646ef66527da
   - 90745ecc5e9f
   - a6af1e124e06
   - b5467dead5b1
@@ -7738,6 +7741,7 @@ tools:
 - name: qualitymetrics
   owner: ethevenot
   revisions:
+  - 25c9349d1be9
   - 6d3b7b6573d8
   - acdf51018708
   tool_panel_section_label: Metabolomics - W4M
@@ -7922,6 +7926,7 @@ tools:
   - 980d2a2e1180
   - b0f2be869d6d
   - c772497b2c32
+  - de21b616f03a
   tool_panel_section_label: Next Gen Mappers
 - name: riassigner
   owner: recetox
