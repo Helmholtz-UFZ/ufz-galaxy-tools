@@ -3324,3 +3324,6 @@ tools:
 - name: abricate
   owner: iuc
   tool_panel_section_label: Sequence Analysis
+- name: phi_toolkit_report
+  owner: ufz
+  tool_panel_section_label: Metagenomics
