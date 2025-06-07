@@ -6,6 +6,7 @@ tools:
   owner: imgteam
   revisions:
   - 0c777d708acc
+  - 50fa6150e340
   - 699a5e9146b3
   tool_panel_section_label: Imaging
 - name: 2d_feature_extraction
@@ -893,6 +894,7 @@ tools:
   - 49370cb85f0f
   - 5eb7e84243f2
   - 660cffd8d92a
+  - 80766b36005d
   - 8c0175e03cee
   - aa784cb3810d
   - b1c926deaa2d
@@ -1165,6 +1167,7 @@ tools:
   owner: iuc
   revisions:
   - 0cb27ea69dc1
+  - 2c22b676ec46
   - 2c61c30a57e7
   - 4ba60cb14cb0
   - 9c43baa60906
@@ -1453,6 +1456,7 @@ tools:
   - 10678d49d39e
   - 1d8fe9bc4cb0
   - 25c59c0ceb55
+  - 480ddbd12a03
   - 65b93b623c77
   - 6c2351178f8d
   - a626e8c0e1ba
@@ -5915,6 +5919,11 @@ tools:
   - e4bc6e141f01
   - f2f6dc0072ac
   tool_panel_section_label: Metagenomics
+- name: phi_toolkit_report
+  owner: ufz
+  revisions:
+  - 315c2ed31af1
+  tool_panel_section_label: Metagenomics
 - name: phyloseq_from_dada2
   owner: iuc
   revisions:
@@ -8580,6 +8589,7 @@ tools:
   - 6073bb457ec0
   - 74a8bef53a00
   - 86755160afbf
+  - c41d78ae5fee
   - d698c222f354
   - fb4ff3c42cd3
   - fbf99087e067
