@@ -3327,3 +3327,6 @@ tools:
 - name: phi_toolkit_report
   owner: ufz
   tool_panel_section_label: Metagenomics
+- name: binette
+  owner: iuc
+  tool_panel_section_label: Metagenomics
