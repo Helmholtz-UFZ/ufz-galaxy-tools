@@ -494,6 +494,11 @@ tools:
   - 7f8102bdbfa1
   - 984358e43242
   tool_panel_section_label: Imaging
+- name: binette
+  owner: iuc
+  revisions:
+  - 1d97ddbc3464
+  tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
   owner: iuc
   revisions:
@@ -1287,6 +1292,7 @@ tools:
   owner: bgruening
   revisions:
   - 1e3323a44643
+  - 20d92dc4c6cb
   - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
@@ -1297,6 +1303,7 @@ tools:
   owner: galaxyp
   revisions:
   - 4d3da69301ae
+  - be5a0b2d8bd7
   - ff8c9e0e8a7b
   tool_panel_section_label: Proteomics
 - name: dose_response_analysis_tool
@@ -1456,6 +1463,7 @@ tools:
   - 10678d49d39e
   - 1d8fe9bc4cb0
   - 25c59c0ceb55
+  - 3432a0e49b86
   - 480ddbd12a03
   - 65b93b623c77
   - 6c2351178f8d
@@ -1664,12 +1672,14 @@ tools:
   owner: ufz
   revisions:
   - 03623fc64d5c
+  - 34b729713d0c
   - 75abfb03b635
   - c4ec3d81eeee
   tool_panel_section_label: Data Managers
 - name: genomad_end_to_end
   owner: ufz
   revisions:
+  - 26f5822743aa
   - 955e33326e20
   - edb671f0661e
   tool_panel_section_label: Metagenomics
@@ -4148,6 +4158,7 @@ tools:
 - name: omero_dataset_to_plate
   owner: ufz
   revisions:
+  - 0ebede62d62d
   - b1f969b7c527
   - c6f34af26769
   tool_panel_section_label: Imaging
@@ -4157,6 +4168,7 @@ tools:
   - 375281d11535
   - 8a3324018fc5
   - 9d04b28b8dc8
+  - a70140649a13
   - f79a1bf2f386
   - f86ba5328466
   tool_panel_section_label: Imaging
@@ -4164,6 +4176,7 @@ tools:
   owner: ufz
   revisions:
   - 2cf36947bcb6
+  - 426415e73f46
   - ae07ea142e0f
   - c23735b45a4a
   - c7b2650718fe
@@ -4175,6 +4188,7 @@ tools:
   - 7a94eb8c345d
   - 9a50e57339d8
   - ecb13e93fae2
+  - f5c4f523432d
   tool_panel_section_label: Imaging
 - name: omero_import
   owner: ufz
@@ -4183,6 +4197,7 @@ tools:
   - 267227e757cb
   - 42a454d4b482
   - 83ccd2b525e5
+  - afe3e24336ed
   - d0c0f3c95368
   - ec96412e9027
   - f762de618b1f
@@ -4194,12 +4209,14 @@ tools:
   - 352e9d4eaf70
   - 4c96c51b7880
   - 588d6fa22fc4
+  - 7cd85e1c50f3
   - 931eb5fed2c0
   - e41f70e69349
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
   revisions:
+  - 0db3327db967
   - 131470834fee
   - 45cdf0dbd3f8
   - 4f4dc352d660
@@ -8196,6 +8213,7 @@ tools:
   revisions:
   - 0da37b889932
   - 2eb0532a911c
+  - 9c34e2ececc9
   tool_panel_section_label: Text Manipulation
 - name: sortmerna
   owner: rnateam
@@ -8566,6 +8584,7 @@ tools:
   - 3bf5661c0280
   - 56a8da1f2243
   - 93a3ce78ce55
+  - cd36d6e45e29
   tool_panel_section_label: Text Manipulation
 - name: tabular_to_fasta
   owner: devteam
