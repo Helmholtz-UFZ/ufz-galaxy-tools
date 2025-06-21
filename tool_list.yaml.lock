@@ -376,6 +376,7 @@ tools:
 - name: bam_to_sam
   owner: devteam
   revisions:
+  - 2b7acdca5fe1
   - 3c661e57a88f
   - 88eedb4abea0
   - a53efedba9e7
@@ -687,22 +688,26 @@ tools:
   revisions:
   - 5ee29434330f
   - bcb8dc01f296
+  - f23a0598b4bc
   tool_panel_section_label: Metagenomics
 - name: checkm_lineage_set
   owner: iuc
   revisions:
   - 3693acdbf0d6
   - 640400ad260d
+  - a32ee0bb028b
   tool_panel_section_label: Metagenomics
 - name: checkm_lineage_wf
   owner: iuc
   revisions:
+  - '482705438671'
   - 8345d273ba82
   - f0107b9f2dc3
   tool_panel_section_label: Metagenomics
 - name: checkm_plot
   owner: iuc
   revisions:
+  - 0ac2ba0b0d81
   - 9916308301da
   - b24e4f6c8b4d
   tool_panel_section_label: Metagenomics
@@ -711,28 +716,33 @@ tools:
   revisions:
   - 5466420816b9
   - 8236b90ce44c
+  - 82caa8ed507c
   tool_panel_section_label: Metagenomics
 - name: checkm_taxon_set
   owner: iuc
   revisions:
+  - 03c18e927a7e
   - 407e50329077
   - 600b129adb72
   tool_panel_section_label: Metagenomics
 - name: checkm_taxonomy_wf
   owner: iuc
   revisions:
+  - 0ea86ba426e1
   - 19e4e2d98ebb
   - 2e995a9aa00e
   tool_panel_section_label: Metagenomics
 - name: checkm_tetra
   owner: iuc
   revisions:
+  - 46bc08145439
   - bb3b50fa4956
   - d0d9e52a46b8
   tool_panel_section_label: Metagenomics
 - name: checkm_tree
   owner: iuc
   revisions:
+  - 626ab1058170
   - 6d1c282e2ce2
   - ce3fd529a6ec
   tool_panel_section_label: Metagenomics
@@ -740,6 +750,7 @@ tools:
   owner: iuc
   revisions:
   - 36ea6d5441c3
+  - a99ca4bb4d1d
   - b9a38ce53252
   tool_panel_section_label: Metagenomics
 - name: checkv_build_database
@@ -1238,11 +1249,13 @@ tools:
 - name: defense_finder
   owner: rplanel
   revisions:
+  - 71e221c4906c
   - a7953d17b4ff
   tool_panel_section_label: Annotation
 - name: deg_annotate
   owner: iuc
   revisions:
+  - e81fbbea6e8f
   - e98d4ab5b5bc
   tool_panel_section_label: Transcriptomics
 - name: describe_samples
@@ -1473,6 +1486,7 @@ tools:
   - d60c3f704da0
   - dbf9c561ef29
   - dbfc505896e9
+  - e25816738ef3
   tool_panel_section_label: Sequence Analysis
 - name: fastq_groomer
   owner: devteam
@@ -7804,6 +7818,7 @@ tools:
   - 9b716db0a786
   - d70dd1d6ac4d
   - da7722f665f4
+  - f52181a205d3
   tool_panel_section_label: Exposomics - recetox
 - name: ramclustr_define_experiment
   owner: recetox
@@ -7813,6 +7828,7 @@ tools:
   - 7bbdcce50541
   - 7c50666b88e8
   - 87ac0b56b9b0
+  - ef3cbcdf5f5d
   - f2c1d0bbb074
   tool_panel_section_label: Exposomics - recetox
 - name: rdock
@@ -8011,6 +8027,7 @@ tools:
   owner: devteam
   revisions:
   - 0e60e2dd20af
+  - 73913bb77da3
   - 9bd1568619cd
   - d04d9f1c6791
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8020,6 +8037,7 @@ tools:
   - 12749212f61b
   - 46c6639921f1
   - 6856f8a01905
+  - 762f63d4e25d
   - 8c3472790020
   - 9149ad20699a
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8029,6 +8047,7 @@ tools:
   - 06dc50b7b711
   - 1ebb4ecdc1ef
   - 26b4f9f98aca
+  - 3d5853a84711
   - 92ec40abcdcf
   - c89806670ab9
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8039,6 +8058,7 @@ tools:
   - 90f2dd176d80
   - ae36fab06bc2
   - c4ff13d2aab3
+  - ddbd49b892e5
   - f4f7f632815d
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_depth
@@ -8047,6 +8067,7 @@ tools:
   - 2ee8dc1aeda9
   - 44de678a44c4
   - 56faa6a57e50
+  - '772919943459'
   - 971dc85e9441
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_fastx
@@ -8054,6 +8075,7 @@ tools:
   revisions:
   - 66e23b11feae
   - 720217c23995
+  - 9038311ed624
   - a8d69aee190e
   - b3d99709fe1a
   - b906586a6596
@@ -8064,6 +8086,7 @@ tools:
   - 41e36c99a008
   - 595ae1ba934a
   - bc0cc7bfbfe9
+  - c05afbeaf42d
   - d2df79922531
   - e5ece8fa99de
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8073,6 +8096,7 @@ tools:
   - 0072bf593791
   - 22970df7a40e
   - db17d5321bad
+  - fbc6c28a5b14
   - fe34990e5ce7
   - fefd89ab563c
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8083,12 +8107,14 @@ tools:
   - 7def34e6cf4d
   - 811fc2d75ad4
   - 87398ae795c7
+  - c9d9f721a568
   - fa5d3e61e429
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_markdup
   owner: iuc
   revisions:
   - 046cbf29795a
+  - 229ba92a3b55
   - 40fa6c240105
   - 83b8e36e9cbe
   - 8c440c3002bc
@@ -8102,6 +8128,7 @@ tools:
   - 36677f429310
   - 65a38e8c8e2a
   - 740ce0a18f0d
+  - a7617eb92baf
   - b40e2d865d52
   - cae2794d2deb
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8109,6 +8136,7 @@ tools:
   owner: devteam
   revisions:
   - 329deb17a9f7
+  - 32f6fffbc3e9
   - 9da0311ab1dd
   - aa0ef6f0ee89
   - b61f5d6a7f25
@@ -8124,6 +8152,7 @@ tools:
   owner: devteam
   revisions:
   - 020e144b5f78
+  - 2d7f0d455ad4
   - 30388d878f81
   - 85e38b31e8b3
   - bb8cfc6f6e0c
@@ -8138,11 +8167,13 @@ tools:
   - a4a10c7924d1
   - b5c88b7b153e
   - b8beef827165
+  - fea1a167b822
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_sort
   owner: devteam
   revisions:
   - 6c2c1836728b
+  - 9ede25e390ff
   - a430da4f04cd
   - a577ea614bed
   - d54a4df48867
@@ -8169,6 +8200,7 @@ tools:
   - 5a08c09b9311
   - 8cfc17e27132
   - 95a7ddf617e7
+  - e221fe58c2f5
   - fed4aa48ba09
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_view
@@ -8177,6 +8209,7 @@ tools:
   - 0dbf49c414ae
   - 2dce91e11ca7
   - 32dc5f781059
+  - 48bbbcb692ce
   - 5826298f6a73
   - 6be888be75f9
   - bf328cec6a42
