@@ -378,6 +378,7 @@ tools:
   revisions:
   - 2b7acdca5fe1
   - 3c661e57a88f
+  - 69aa7277b44c
   - 88eedb4abea0
   - a53efedba9e7
   - af7c50162f0b
@@ -1476,6 +1477,7 @@ tools:
   - 10678d49d39e
   - 1d8fe9bc4cb0
   - 25c59c0ceb55
+  - 281054a26e41
   - 3432a0e49b86
   - 480ddbd12a03
   - 65b93b623c77
@@ -8027,6 +8029,7 @@ tools:
   owner: devteam
   revisions:
   - 0e60e2dd20af
+  - 72b8a3614802
   - 73913bb77da3
   - 9bd1568619cd
   - d04d9f1c6791
@@ -8034,6 +8037,7 @@ tools:
 - name: samtools_bedcov
   owner: devteam
   revisions:
+  - 09652022e285
   - 12749212f61b
   - 46c6639921f1
   - 6856f8a01905
@@ -8046,6 +8050,7 @@ tools:
   revisions:
   - 06dc50b7b711
   - 1ebb4ecdc1ef
+  - 22c2ab33cec9
   - 26b4f9f98aca
   - 3d5853a84711
   - 92ec40abcdcf
@@ -8095,6 +8100,7 @@ tools:
   revisions:
   - 0072bf593791
   - 22970df7a40e
+  - 3ed3e1146308
   - db17d5321bad
   - fbc6c28a5b14
   - fe34990e5ce7
@@ -8103,6 +8109,7 @@ tools:
 - name: samtools_idxstats
   owner: devteam
   revisions:
+  - 5c25c98e2a88
   - 7a6034296ae9
   - 7def34e6cf4d
   - 811fc2d75ad4
@@ -8137,6 +8144,7 @@ tools:
   revisions:
   - 329deb17a9f7
   - 32f6fffbc3e9
+  - 7df230bec125
   - 9da0311ab1dd
   - aa0ef6f0ee89
   - b61f5d6a7f25
@@ -8152,6 +8160,7 @@ tools:
   owner: devteam
   revisions:
   - 020e144b5f78
+  - 2899e5b8c52a
   - 2d7f0d455ad4
   - 30388d878f81
   - 85e38b31e8b3
@@ -8165,6 +8174,7 @@ tools:
   - 2b474ebbfc7d
   - 344fc91e1bfd
   - a4a10c7924d1
+  - adc4ed59d82b
   - b5c88b7b153e
   - b8beef827165
   - fea1a167b822
@@ -8178,6 +8188,7 @@ tools:
   - a577ea614bed
   - d54a4df48867
   - e613c1ad4c4c
+  - f2f2650aeade
   - f56bdb93ae58
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_split
@@ -8195,6 +8206,7 @@ tools:
   revisions:
   - 145f6d74ff5e
   - 1cc79f49b8d5
+  - 1ed8ed887035
   - 3a0efe14891f
   - 541082d03bef
   - 5a08c09b9311
@@ -8776,6 +8788,7 @@ tools:
   owner: yating-l
   revisions:
   - 0f7cb5f69f7d
+  - 1c49371db3a4
   - 2a89f630fa85
   - 820f68ad34a7
   - b8fa39b09aa4
