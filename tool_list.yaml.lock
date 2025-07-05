@@ -85,6 +85,7 @@ tools:
   - 2f7702fd0a4c
   - 3f188450ca4f
   - 6ab1a261520a
+  - c62f678e5555
   - f9eb041c518c
   tool_panel_section_label: Proteomics
 - name: ampvis2_alpha_diversity
@@ -499,6 +500,7 @@ tools:
 - name: binette
   owner: iuc
   revisions:
+  - 15dba9749732
   - 1d97ddbc3464
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
@@ -2572,6 +2574,7 @@ tools:
 - name: matchms_add_key
   owner: recetox
   revisions:
+  - 081390a8e739
   - 1d10d32fa3b3
   - 4e8a6d6f0e6a
   - 7c5b86026e57
@@ -2583,6 +2586,7 @@ tools:
 - name: matchms_convert
   owner: recetox
   revisions:
+  - 50836782d36f
   - 5d8553853fab
   - 692471e62c68
   - 9e83636da9d3
@@ -2602,6 +2606,7 @@ tools:
   - 83c4b4359ac4
   - 86d265d2a334
   - a177ac3c752c
+  - a6583110825c
   - c5076cc15e8c
   - ca5a8db023e1
   tool_panel_section_label: Exposomics - recetox
@@ -2616,6 +2621,7 @@ tools:
   - d7b517f2c5fe
   - f87b1c271012
   - fd890f162ce6
+  - fe9f3cd0b8dd
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_formatter
   owner: recetox
@@ -2624,6 +2630,7 @@ tools:
   - 1e58bf51a0e5
   - 23d4bc72c505
   - 402620029a7a
+  - 604131c54f97
   - 6501d0287dcd
   - 8bd942dcf1ad
   - 9e3c83d2afc3
@@ -2633,6 +2640,7 @@ tools:
 - name: matchms_metadata_export
   owner: recetox
   revisions:
+  - 51205379251d
   - 73c902331bbc
   - 7e2066111683
   - 8832425b1ff6
@@ -2652,6 +2660,7 @@ tools:
   - 844d32c59314
   - 86e080d81cfb
   - be20e19c57e8
+  - c86d265f6f5e
   - ec81ec7cea2e
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_metadata_merge
@@ -2663,11 +2672,13 @@ tools:
   - 84ead993862c
   - 8e18dcf410ec
   - c1c1cb295b74
+  - e23c14cee5a9
   - fc1a698a71e8
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_networking
   owner: recetox
   revisions:
+  - 131baa30af82
   - 1d74ae228df3
   - 7a8743876c60
   - 9c12114c7aee
@@ -2680,6 +2691,7 @@ tools:
   owner: recetox
   revisions:
   - 0676c9aeaeac
+  - 10908b5bb7c8
   - 19367db5cf3c
   - 6b5867cab698
   - 8c98b3cb320e
@@ -2699,6 +2711,7 @@ tools:
   - 54b6775010e0
   - 5fae85d4a69a
   - 7627b40601f6
+  - 77d6425daa07
   - 7ba589b01dbc
   - 9ff95a1a2705
   - ee35dcec350a
@@ -2712,6 +2725,7 @@ tools:
   - 0cf68b536cd1
   - 446fddefcee7
   - 500f473df7e4
+  - 6864944b00fd
   - ea6c5636c0cf
   - eba733715eaf
   - ffe46a9b1124
@@ -2721,6 +2735,7 @@ tools:
   revisions:
   - 2b61ec493df6
   - 5bbd1a8404f5
+  - 6ac4a790adad
   - 6d2f2c565431
   - c4835715c7ac
   - cab0e4dcf372
@@ -8797,6 +8812,7 @@ tools:
 - name: ucsc_fasplit
   owner: iuc
   revisions:
+  - 1add611a6018
   - 71f649c23021
   - bf04bd405d5b
   - d3f58a0dc09d
@@ -8931,6 +8947,7 @@ tools:
   - 425c0494ec2d
   - 6480c6d5fa36
   - 6fc9f6dbcef5
+  - 821062fc5782
   - b77023c41c76
   - bf32ae95a06f
   - dbbedb14b44c
