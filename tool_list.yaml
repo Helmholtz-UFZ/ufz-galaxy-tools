@@ -3330,3 +3330,9 @@ tools:
 - name: binette
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: eukcc_single
+  owner: ufz
+  tool_panel_section_label: Metagenomics
+- name: data_manager_eukcc
+  owner: ufz
+  tool_panel_section_label: Data Managers
