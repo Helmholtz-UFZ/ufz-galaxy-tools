@@ -1128,6 +1128,11 @@ tools:
   - 516eb4e1cf8e
   - 5a2ffc486246
   tool_panel_section_label: Data Managers
+- name: data_manager_eukcc
+  owner: ufz
+  revisions:
+  - 7f11e0da0e4f
+  tool_panel_section_label: Data Managers
 - name: data_manager_fetch_busco
   owner: iuc
   revisions:
@@ -1169,6 +1174,7 @@ tools:
   owner: iuc
   revisions:
   - 19bbd19b74b3
+  - 81aa3846c4ea
   - 87febc68b45b
   - fea85c467896
   tool_panel_section_label: Data Managers
@@ -1424,6 +1430,11 @@ tools:
   - e4d5d9a69c9d
   - ed74587a13c8
   tool_panel_section_label: Phylogenetics
+- name: eukcc_single
+  owner: ufz
+  revisions:
+  - 65d952c59d8b
+  tool_panel_section_label: Metagenomics
 - name: export2graphlan
   owner: iuc
   revisions:
@@ -1716,6 +1727,7 @@ tools:
   - 31d5c8c3adde
   - 3c5e024a18cf
   - 3c97c841a443
+  - a3e78550e42e
   - f99d7825a501
   - f99dd58de04f
   tool_panel_section_label: Transcriptomics
@@ -4061,6 +4073,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
+  - 0f3b3813b6ae
   - 18eed8fa7f23
   - 198c75abbf55
   - 1e188c9610c3
@@ -5978,6 +5991,7 @@ tools:
   owner: ufz
   revisions:
   - 315c2ed31af1
+  - 3a7f73d638ba
   tool_panel_section_label: Metagenomics
 - name: phyloseq_from_dada2
   owner: iuc
