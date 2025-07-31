@@ -3339,3 +3339,12 @@ tools:
 - name: canu
   owner: bgruening
   tool_panel_section_label: Assembly
+- name: data_manager_deeparg
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: deeparg_predict
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: deeparg_short_reads
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
