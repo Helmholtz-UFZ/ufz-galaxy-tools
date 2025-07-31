@@ -3336,3 +3336,6 @@ tools:
 - name: data_manager_eukcc
   owner: ufz
   tool_panel_section_label: Data Managers
+- name: canu
+  owner: bgruening
+  tool_panel_section_label: Assembly
