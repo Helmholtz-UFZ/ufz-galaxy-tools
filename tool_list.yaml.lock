@@ -651,6 +651,11 @@ tools:
   - c4c13745e797
   - e461f344226c
   tool_panel_section_label: Metabolomics - W4M
+- name: canu
+  owner: bgruening
+  revisions:
+  - e05f5ee0ffb9
+  tool_panel_section_label: Assembly
 - name: cat_bins
   owner: iuc
   revisions:
@@ -1102,6 +1107,11 @@ tools:
   - 678176bff643
   - a6a81f921701
   tool_panel_section_label: Data Managers
+- name: data_manager_deeparg
+  owner: iuc
+  revisions:
+  - c5511a9b1442
+  tool_panel_section_label: Data Managers
 - name: data_manager_defense_finder
   owner: rplanel
   revisions:
@@ -1258,6 +1268,16 @@ tools:
   - a85fbebe8b2f
   - e9df53a75f3c
   tool_panel_section_label: Proteomics
+- name: deeparg_predict
+  owner: iuc
+  revisions:
+  - 07801d7ee81f
+  tool_panel_section_label: Sequence Analysis
+- name: deeparg_short_reads
+  owner: iuc
+  revisions:
+  - 854b7c026a7e
+  tool_panel_section_label: Sequence Analysis
 - name: defense_finder
   owner: rplanel
   revisions:
@@ -4073,6 +4093,7 @@ tools:
 - name: ncbi_datasets
   owner: iuc
   revisions:
+  - 03a801ded645
   - 0f3b3813b6ae
   - 18eed8fa7f23
   - 198c75abbf55
@@ -9011,6 +9032,7 @@ tools:
   revisions:
   - 054483e27a35
   - 468c71dac78a
+  - 60f7e2a6b9c7
   - 95fb5712344f
   - af5eccf83605
   - bfdc6a7ffd3a
