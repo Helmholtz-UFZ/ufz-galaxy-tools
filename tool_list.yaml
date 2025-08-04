@@ -3348,3 +3348,28 @@ tools:
 - name: deeparg_short_reads
   owner: iuc
   tool_panel_section_label: Sequence Analysis
+- name: eukrep
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: data_manager_semibin
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: semibin	
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: semibin_bin	
+  owner: iuc
+  tool_panel_section_label: Metagenomics 
+- name: semibin_concatenate_fasta	
+  owner: iuc
+  tool_panel_section_label: Metagenomics 
+- name: semibin_generate_cannot_links	
+  owner: iuc
+  tool_panel_section_label: Metagenomics 
+- name: semibin_generate_sequence_features	
+  owner: iuc
+  tool_panel_section_label: Metagenomics 
+- name: semibin_train
+  owner: iuc
+  tool_panel_section_label: Metagenomics 
+
