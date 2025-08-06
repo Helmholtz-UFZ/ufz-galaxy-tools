@@ -3354,22 +3354,24 @@ tools:
 - name: data_manager_semibin
   owner: iuc
   tool_panel_section_label: Data Managers
-- name: semibin	
+- name: semibin
   owner: iuc
   tool_panel_section_label: Metagenomics
-- name: semibin_bin	
+- name: semibin_bin
   owner: iuc
   tool_panel_section_label: Metagenomics 
-- name: semibin_concatenate_fasta	
+- name: semibin_concatenate_fasta
   owner: iuc
   tool_panel_section_label: Metagenomics 
-- name: semibin_generate_cannot_links	
+- name: semibin_generate_cannot_links
   owner: iuc
   tool_panel_section_label: Metagenomics 
-- name: semibin_generate_sequence_features	
+- name: semibin_generate_sequence_features
   owner: iuc
   tool_panel_section_label: Metagenomics 
 - name: semibin_train
   owner: iuc
   tool_panel_section_label: Metagenomics 
-
+- name: minimap2
+  owner: iuc
+  tool_panel_section_label: Next Gen Mappers
