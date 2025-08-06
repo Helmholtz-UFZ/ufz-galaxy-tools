@@ -3372,4 +3372,6 @@ tools:
 - name: semibin_train
   owner: iuc
   tool_panel_section_label: Metagenomics 
-
+- name: minimap2
+  owner: iuc
+  tool_panel_section_label: Next Gen Mappers
