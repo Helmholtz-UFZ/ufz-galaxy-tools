@@ -1230,6 +1230,11 @@ tools:
   - defd3e9ddd2d
   - f8418a1bf7d0
   tool_panel_section_label: Data Managers
+- name: data_manager_semibin
+  owner: iuc
+  revisions:
+  - d584aacd7d13
+  tool_panel_section_label: Data Managers
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
   revisions:
@@ -1341,6 +1346,7 @@ tools:
   - 60f307965815
   - 62c9df8382c2
   - 64be1ac21109
+  - 8b8a3f793f0f
   - e8ac2b53f262
   - f921014aba5a
   tool_panel_section_label: Sequence Analysis
@@ -1455,6 +1461,11 @@ tools:
   revisions:
   - 65d952c59d8b
   tool_panel_section_label: Metagenomics
+- name: eukrep
+  owner: iuc
+  revisions:
+  - 218f37ca06e4
+  tool_panel_section_label: Sequence Analysis
 - name: export2graphlan
   owner: iuc
   revisions:
@@ -2481,6 +2492,7 @@ tools:
 - name: krakentools_alpha_diversity
   owner: iuc
   revisions:
+  - 7337f9722ad7
   - 78b69342c280
   - bab112ba9d62
   tool_panel_section_label: Metagenomics
@@ -2488,6 +2500,7 @@ tools:
   owner: iuc
   revisions:
   - 4505d7643673
+  - 5fa703b1f68a
   - c254d75b8b67
   tool_panel_section_label: Metagenomics
 - name: krakentools_combine_kreports
@@ -2496,10 +2509,12 @@ tools:
   - 073c867c5244
   - 3d2cffa2c4ab
   - 4960abe31b4d
+  - 59fa9d9f4e34
   tool_panel_section_label: Metagenomics
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 3b1963f729cb
   - 4bf1e2701504
   - f329328da134
   tool_panel_section_label: Metagenomics
@@ -2507,6 +2522,7 @@ tools:
   owner: iuc
   revisions:
   - 02bbace216f2
+  - 05e78a90e02d
   - 2deaada69b14
   tool_panel_section_label: Metagenomics
 - name: krakentools_kreport2mpa
@@ -2514,6 +2530,7 @@ tools:
   revisions:
   - bb96a1e6583d
   - d33cf727ed94
+  - fd7d3bfb0fa8
   tool_panel_section_label: Metagenomics
 - name: krona_text
   owner: saskia-hiltemann
@@ -2924,6 +2941,11 @@ tools:
   revisions:
   - 3dbe79671820
   tool_panel_section_label: Metabolomics
+- name: minimap2
+  owner: iuc
+  revisions:
+  - 6945cd53bd2d
+  tool_panel_section_label: Next Gen Mappers
 - name: mothur_align_check
   owner: iuc
   revisions:
@@ -4101,6 +4123,7 @@ tools:
   - 40a5d68e929a
   - 75acf92c8fd5
   - 7b925f7c50b2
+  - 95be88b49f4e
   - a3395b1d871b
   - a6a475ed58cb
   - ac24fff14f23
@@ -8453,6 +8476,36 @@ tools:
   - 85666e555698
   - c4c76f1ebad2
   tool_panel_section_label: Imaging
+- name: semibin
+  owner: iuc
+  revisions:
+  - bcb50c148f4b
+  tool_panel_section_label: Metagenomics
+- name: semibin_bin
+  owner: iuc
+  revisions:
+  - 552cfc6ed475
+  tool_panel_section_label: Metagenomics
+- name: semibin_concatenate_fasta
+  owner: iuc
+  revisions:
+  - c72b50829c03
+  tool_panel_section_label: Metagenomics
+- name: semibin_generate_cannot_links
+  owner: iuc
+  revisions:
+  - 416bfa61b640
+  tool_panel_section_label: Metagenomics
+- name: semibin_generate_sequence_features
+  owner: iuc
+  revisions:
+  - 40ffba87bbcf
+  tool_panel_section_label: Metagenomics
+- name: semibin_train
+  owner: iuc
+  revisions:
+  - 191a3a14a7f1
+  tool_panel_section_label: Metagenomics
 - name: seqtk
   owner: iuc
   revisions:
@@ -9066,6 +9119,7 @@ tools:
   - 5da9a0e2fb2d
   - 8d09f8be269e
   - 920677cd220f
+  - e0e4fc474b07
   tool_panel_section_label: Assembly
 - name: velvetoptimiser
   owner: simon-gladman
