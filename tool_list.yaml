@@ -3210,6 +3210,9 @@ tools:
 - name: dfpl_predict
   owner: ufz
   tool_panel_section_label: Computational chemistry
+- name: saqc_executor
+  owner: ufz
+  tool_panel_section_label: Statistics
 - name: saqc
   owner: ufz
   tool_panel_section_label: Statistics
