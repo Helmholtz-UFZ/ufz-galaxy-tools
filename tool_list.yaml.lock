@@ -576,6 +576,7 @@ tools:
   revisions:
   - 0b86600b715e
   - 0f1b15d51801
+  - 200c5c982dba
   - 6cd2a9e6ac49
   - 90dc951da294
   - e5fcba090b10
@@ -694,6 +695,7 @@ tools:
 - name: checkm_analyze
   owner: iuc
   revisions:
+  - 027297969224
   - 5ee29434330f
   - bcb8dc01f296
   - f23a0598b4bc
@@ -702,6 +704,7 @@ tools:
   owner: iuc
   revisions:
   - 3693acdbf0d6
+  - 3f32eb89d482
   - 640400ad260d
   - a32ee0bb028b
   tool_panel_section_label: Metagenomics
@@ -710,6 +713,7 @@ tools:
   revisions:
   - '482705438671'
   - 8345d273ba82
+  - c3735bcc9cb8
   - f0107b9f2dc3
   tool_panel_section_label: Metagenomics
 - name: checkm_plot
@@ -718,10 +722,12 @@ tools:
   - 0ac2ba0b0d81
   - 9916308301da
   - b24e4f6c8b4d
+  - ca5846873a2e
   tool_panel_section_label: Metagenomics
 - name: checkm_qa
   owner: iuc
   revisions:
+  - 1d9365ace97d
   - 5466420816b9
   - 8236b90ce44c
   - 82caa8ed507c
@@ -732,6 +738,7 @@ tools:
   - 03c18e927a7e
   - 407e50329077
   - 600b129adb72
+  - 7b705d847810
   tool_panel_section_label: Metagenomics
 - name: checkm_taxonomy_wf
   owner: iuc
@@ -739,10 +746,12 @@ tools:
   - 0ea86ba426e1
   - 19e4e2d98ebb
   - 2e995a9aa00e
+  - 98731fd340c5
   tool_panel_section_label: Metagenomics
 - name: checkm_tetra
   owner: iuc
   revisions:
+  - 0061483faf7d
   - 46bc08145439
   - bb3b50fa4956
   - d0d9e52a46b8
@@ -753,11 +762,13 @@ tools:
   - 626ab1058170
   - 6d1c282e2ce2
   - ce3fd529a6ec
+  - d030ce59f075
   tool_panel_section_label: Metagenomics
 - name: checkm_tree_qa
   owner: iuc
   revisions:
   - 36ea6d5441c3
+  - 74767297a247
   - a99ca4bb4d1d
   - b9a38ce53252
   tool_panel_section_label: Metagenomics
@@ -1069,6 +1080,7 @@ tools:
   owner: devteam
   revisions:
   - 39865c64a4e1
+  - 6754002631cd
   - 83da94c0e4a6
   - 847c9ef56a52
   - 9dd107db92c2
@@ -1096,6 +1108,7 @@ tools:
   revisions:
   - 0a87b85d9911
   - 63d5652be07a
+  - 966d4de7bf2d
   - 9e993022c762
   tool_panel_section_label: Data Managers
 - name: data_manager_dada2
@@ -1174,6 +1187,7 @@ tools:
   - a04cebcd77f4
   - d210e1f185bd
   - d74c740bdb25
+  - e4f36467bb51
   tool_panel_section_label: Data Managers
 - name: data_manager_humann2_database_downloader
   owner: iuc
@@ -1526,6 +1540,7 @@ tools:
   - 25c59c0ceb55
   - 281054a26e41
   - 3432a0e49b86
+  - 350c736075eb
   - 480ddbd12a03
   - 65b93b623c77
   - 6c2351178f8d
@@ -2637,12 +2652,14 @@ tools:
   - 8fb8ac6c37b0
   - a5d41764722d
   - b23b6a640f6a
+  - d5a50ec6035d
   - fb80536001bc
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_convert
   owner: recetox
   revisions:
   - 50836782d36f
+  - 5611c132f607
   - 5d8553853fab
   - 692471e62c68
   - 9e83636da9d3
@@ -2659,6 +2676,7 @@ tools:
   - 039e7ab31836
   - 07cac38cbd29
   - 36a53917818d
+  - 3f7790b73906
   - 83c4b4359ac4
   - 86d265d2a334
   - a177ac3c752c
@@ -2669,6 +2687,7 @@ tools:
 - name: matchms_fingerprint_similarity
   owner: recetox
   revisions:
+  - 1ffbd537984f
   - 79accd21387c
   - 84af792d3a78
   - ad9d2d1b2b8d
@@ -2686,6 +2705,7 @@ tools:
   - 1e58bf51a0e5
   - 23d4bc72c505
   - 402620029a7a
+  - 5fa29e292e12
   - 604131c54f97
   - 6501d0287dcd
   - 8bd942dcf1ad
@@ -2699,6 +2719,7 @@ tools:
   - 51205379251d
   - 73c902331bbc
   - 7e2066111683
+  - 86727e1d0866
   - 8832425b1ff6
   - 9b36710378ce
   - b576ed720711
@@ -2713,6 +2734,7 @@ tools:
   - 1d443ed476a1
   - 330b0dfae8da
   - 44441b0ee4dd
+  - 5c379988b7ea
   - 844d32c59314
   - 86e080d81cfb
   - be20e19c57e8
@@ -2728,6 +2750,7 @@ tools:
   - 84ead993862c
   - 8e18dcf410ec
   - c1c1cb295b74
+  - e052eac8be4a
   - e23c14cee5a9
   - fc1a698a71e8
   tool_panel_section_label: Exposomics - recetox
@@ -2740,6 +2763,7 @@ tools:
   - 9c12114c7aee
   - 9f2e7e1600c0
   - ab8a33c370f5
+  - c42b977ec884
   - d8e937f335b8
   - f04b378325e5
   tool_panel_section_label: Exposomics - recetox
@@ -2752,6 +2776,7 @@ tools:
   - 6b5867cab698
   - 8c98b3cb320e
   - 9d1b01d3fedd
+  - ef233c08112e
   - fbdb2ae524df
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
@@ -2770,6 +2795,7 @@ tools:
   - 77d6425daa07
   - 7ba589b01dbc
   - 9ff95a1a2705
+  - b2c7b7705734
   - ee35dcec350a
   - f30b53a817af
   tool_panel_section_label: Exposomics - recetox
@@ -2782,6 +2808,7 @@ tools:
   - 446fddefcee7
   - 500f473df7e4
   - 6864944b00fd
+  - 7676700d7c4f
   - ea6c5636c0cf
   - eba733715eaf
   - ffe46a9b1124
@@ -2793,6 +2820,7 @@ tools:
   - 5bbd1a8404f5
   - 6ac4a790adad
   - 6d2f2c565431
+  - 8f5a1e44b15c
   - c4835715c7ac
   - cab0e4dcf372
   - d11b27e59dfa
@@ -3956,6 +3984,7 @@ tools:
   revisions:
   - 2ada1099f42e
   - 3e2cb0bc6959
+  - 560053b805d2
   - 646ef66527da
   - 90745ecc5e9f
   - a6af1e124e06
@@ -8212,6 +8241,7 @@ tools:
   revisions:
   - 4e47a0fa9287
   - 8c5e65adf694
+  - 984d5fa7acf5
   - af25aa61c611
   - c702620c22b1
   tool_panel_section_label: Exposomics - recetox
@@ -8220,6 +8250,7 @@ tools:
   revisions:
   - 0b28816c1c2c
   - 5a6bb93ec656
+  - 60c2da112839
   - c1a9c990d4b0
   tool_panel_section_label: Exposomics - recetox
 - name: rnaquast
@@ -8468,6 +8499,12 @@ tools:
   owner: ufz
   revisions:
   - 55bbea0cdc60
+  - 724dcbb35c9a
+  tool_panel_section_label: Statistics
+- name: saqc_executor
+  owner: ufz
+  revisions:
+  - 99e2019c318c
   tool_panel_section_label: Statistics
 - name: scale_image
   owner: imgteam
@@ -8480,30 +8517,36 @@ tools:
   owner: iuc
   revisions:
   - bcb50c148f4b
+  - fdb13ee4be38
   tool_panel_section_label: Metagenomics
 - name: semibin_bin
   owner: iuc
   revisions:
   - 552cfc6ed475
+  - 8317c7dc6407
   tool_panel_section_label: Metagenomics
 - name: semibin_concatenate_fasta
   owner: iuc
   revisions:
+  - 2c7ed948eeed
   - c72b50829c03
   tool_panel_section_label: Metagenomics
 - name: semibin_generate_cannot_links
   owner: iuc
   revisions:
   - 416bfa61b640
+  - a490494875c7
   tool_panel_section_label: Metagenomics
 - name: semibin_generate_sequence_features
   owner: iuc
   revisions:
   - 40ffba87bbcf
+  - 8ba0c2edf3f3
   tool_panel_section_label: Metagenomics
 - name: semibin_train
   owner: iuc
   revisions:
+  - 14046254799c
   - 191a3a14a7f1
   tool_panel_section_label: Metagenomics
 - name: seqtk
