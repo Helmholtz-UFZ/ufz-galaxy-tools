@@ -1536,6 +1536,7 @@ tools:
   owner: iuc
   revisions:
   - 10678d49d39e
+  - 1c183b0a6cfd
   - 1d8fe9bc4cb0
   - 25c59c0ceb55
   - 281054a26e41
@@ -2502,6 +2503,7 @@ tools:
   - 20e2f64aa1fe
   - 241a78eb2935
   - cdee7158adf3
+  - e150ae930235
   - e674066930b2
   tool_panel_section_label: Metagenomics
 - name: krakentools_alpha_diversity
@@ -4123,6 +4125,7 @@ tools:
 - name: nanoplot
   owner: iuc
   revisions:
+  - 025139097795
   - 0f1c34698076
   - 2a9afed42353
   - a02b8b3f5a0c
