@@ -8909,6 +8909,7 @@ tools:
   owner: iuc
   revisions:
   - 59d308975e63
+  - 6d5c8a6ceea0
   - d0a2e0a9c853
   tool_panel_section_label: Sequence Analysis
 - name: stringtie
