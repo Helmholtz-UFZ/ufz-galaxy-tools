@@ -425,6 +425,9 @@ tools:
 - name: das_tool
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: fasta_to_contig2bin
+  owner: iuc
+  tool_panel_section_label: Metagenomics
 - name: kraken2
   owner: iuc
   tool_panel_section_label: Metagenomics
