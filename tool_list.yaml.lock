@@ -1871,6 +1871,7 @@ tools:
   revisions:
   - 30a4bdf88e14
   - 4d9445dff47b
+  - 53691cc6af0f
   - 6501b5b33988
   - 65d52c693b8e
   - a68b985913ab
@@ -9211,6 +9212,7 @@ tools:
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
+  - cfb0595f9842
   tool_panel_section_label: Statistics
 - name: w4mclassfilter
   owner: eschen42
