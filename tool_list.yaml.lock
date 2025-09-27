@@ -602,6 +602,7 @@ tools:
   - 749c918495f7
   - cd659e8cc5fa
   - d5ceb9f3c25b
+  - f76cbb84d67f
   tool_panel_section_label: Next Gen Mappers
 - name: busco
   owner: iuc
@@ -9158,6 +9159,7 @@ tools:
 - name: unzip
   owner: imgteam
   revisions:
+  - 4634764e6e2b
   - 57f0914ddb7b
   tool_panel_section_label: Convert Formats
 - name: velvet
