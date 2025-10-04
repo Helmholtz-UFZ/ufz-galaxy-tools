@@ -608,6 +608,7 @@ tools:
   owner: iuc
   revisions:
   - 4e70d88adf2f
+  - c5a90fa4b8dd
   tool_panel_section_label: Sequence Analysis
 - name: bwa
   owner: devteam
@@ -687,6 +688,7 @@ tools:
   revisions:
   - 0f5f7fa9c08f
   - 66acaec9f386
+  - dd6cab3012e1
   tool_panel_section_label: Metagenomics
 - name: checkm2_build_database
   owner: iuc
@@ -2834,6 +2836,7 @@ tools:
 - name: maxbin2
   owner: mbernt
   revisions:
+  - 0917b2d6010d
   - 864279a0d64b
   - 9da9706f7ca9
   - cfd50144a871
@@ -6288,6 +6291,7 @@ tools:
   revisions:
   - 36b848d5f3ec
   - 59fd173ac850
+  - 86d0ebe09628
   tool_panel_section_label: Visualization
 - name: qiime2__alignment__mafft
   owner: q2d2
@@ -8060,6 +8064,7 @@ tools:
   owner: iuc
   revisions:
   - 0834c823d4b9
+  - 1b1cf0c96501
   - 3061c8b029e5
   - 59db8ea8c845
   - 6fcbee531de6
