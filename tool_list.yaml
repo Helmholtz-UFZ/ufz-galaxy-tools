@@ -3378,3 +3378,10 @@ tools:
 - name: minimap2
   owner: iuc
   tool_panel_section_label: Next Gen Mappers
+- name: cellpose
+  owner: bgruening
+  tool_panel_section_label: Imaging
+- name: crop_image
+  owner: imgteam
+  tool_panel_section_label: Imaging
+  
