@@ -672,6 +672,11 @@ tools:
   - 7807800a3d03
   - e0da3400ac2f
   tool_panel_section_label: Sequence Analysis
+- name: cellpose
+  owner: bgruening
+  revisions:
+  - 5251ce4c4a11
+  tool_panel_section_label: Imaging
 - name: cfmid
   owner: computational-metabolomics
   revisions:
@@ -687,6 +692,7 @@ tools:
   owner: iuc
   revisions:
   - 0f5f7fa9c08f
+  - 304ac5b49dea
   - 66acaec9f386
   - dd6cab3012e1
   tool_panel_section_label: Metagenomics
@@ -694,6 +700,7 @@ tools:
   owner: iuc
   revisions:
   - df2f47a0e57a
+  - ef05a2314ae0
   tool_panel_section_label: Data Managers
 - name: checkm_analyze
   owner: iuc
@@ -911,6 +918,11 @@ tools:
   - 77bc1c2e1b91
   - 9799fc53433e
   - f0656d0f2a4d
+  tool_panel_section_label: Imaging
+- name: crop_image
+  owner: imgteam
+  revisions:
+  - d52317f0ac21
   tool_panel_section_label: Imaging
 - name: customize_metaphlan_database
   owner: iuc
@@ -1180,6 +1192,7 @@ tools:
   - 10232d2b5062
   - 2814c058a087
   - 3248e43703e7
+  - 3a3cb74b3f6e
   - 3b1d503c6260
   - 750d902de22c
   - df84aaed4769
@@ -4103,6 +4116,7 @@ tools:
   - bf675f34b056
   - d2aaac19f42f
   - e4574a4d09d8
+  - e4dd4c0622f6
   - f7985e0479b9
   - f7e2f1eb3a16
   tool_panel_section_label: Fastq Manipulation
@@ -9166,6 +9180,7 @@ tools:
 - name: unzip
   owner: imgteam
   revisions:
+  - 28d6129b2901
   - 4634764e6e2b
   - 57f0914ddb7b
   tool_panel_section_label: Convert Formats
