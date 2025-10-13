@@ -1543,6 +1543,11 @@ tools:
   revisions:
   - 20ca2574216a
   tool_panel_section_label: Fasta Manipulation
+- name: fasta_to_contig2bin
+  owner: iuc
+  revisions:
+  - fb2bed0eb02f
+  tool_panel_section_label: Metagenomics
 - name: fasta_to_tabular
   owner: devteam
   revisions:
