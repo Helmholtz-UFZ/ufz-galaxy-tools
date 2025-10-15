@@ -3387,4 +3387,7 @@ tools:
 - name: crop_image
   owner: imgteam
   tool_panel_section_label: Imaging
+- name: unicycler
+  owner: iuc
+  tool_panel_section_label: Assembly
   
