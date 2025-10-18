@@ -67,6 +67,7 @@ tools:
   owner: mvdbeek
   revisions:
   - 3284b72eef56
+  - 8061668d0868
   tool_panel_section_label: Collection Operations
 - name: alevin
   owner: bgruening
@@ -1252,6 +1253,7 @@ tools:
   owner: iuc
   revisions:
   - 566207ae614c
+  - 57274fe5e01a
   tool_panel_section_label: Data Managers
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
@@ -9144,6 +9146,11 @@ tools:
   - bf04bd405d5b
   - d3f58a0dc09d
   tool_panel_section_label: Fasta Manipulation
+- name: unicycler
+  owner: iuc
+  revisions:
+  - e022dff952df
+  tool_panel_section_label: Assembly
 - name: unipept
   owner: galaxyp
   revisions:
