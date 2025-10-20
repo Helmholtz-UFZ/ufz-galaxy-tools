@@ -1252,6 +1252,7 @@ tools:
 - name: data_manager_salmon_index_builder
   owner: iuc
   revisions:
+  - 4d92281e3b30
   - 566207ae614c
   - 57274fe5e01a
   tool_panel_section_label: Data Managers
