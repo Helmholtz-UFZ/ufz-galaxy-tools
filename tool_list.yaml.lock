@@ -1249,12 +1249,6 @@ tools:
   - aec831b54a5b
   - f21e77139fb5
   tool_panel_section_label: Data Managers
-- name: data_manager_salmon_index_builder
-  owner: iuc
-  revisions:
-  - 566207ae614c
-  - 57274fe5e01a
-  tool_panel_section_label: Data Managers
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:
