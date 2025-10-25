@@ -1249,6 +1249,11 @@ tools:
   - aec831b54a5b
   - f21e77139fb5
   tool_panel_section_label: Data Managers
+- name: data_manager_salmon_index_builder
+  owner: iuc
+  revisions:
+  - ec2a1f280d67
+  tool_panel_section_label: Data Managers
 - name: data_manager_sam_fasta_index_builder
   owner: devteam
   revisions:
@@ -1570,6 +1575,7 @@ tools:
   - dbf9c561ef29
   - dbfc505896e9
   - e25816738ef3
+  - f875da9d433c
   tool_panel_section_label: Sequence Analysis
 - name: fastq_groomer
   owner: devteam
@@ -2995,6 +3001,7 @@ tools:
 - name: minimap2
   owner: iuc
   revisions:
+  - 539de907fd99
   - 6945cd53bd2d
   tool_panel_section_label: Next Gen Mappers
 - name: mothur_align_check
