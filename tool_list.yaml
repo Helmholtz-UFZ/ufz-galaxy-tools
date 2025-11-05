@@ -3390,4 +3390,7 @@ tools:
 - name: unicycler
   owner: iuc
   tool_panel_section_label: Assembly
+- name: halla
+  owner: iuc
+  tool_panel_section_label: Metagenomics
   
