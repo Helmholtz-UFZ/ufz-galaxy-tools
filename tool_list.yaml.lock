@@ -504,6 +504,7 @@ tools:
   revisions:
   - 15dba9749732
   - 1d97ddbc3464
+  - 37ab2cfedac4
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
   owner: iuc
@@ -1110,6 +1111,7 @@ tools:
   - 13851aefa67a
   - 1e34d2e3d285
   - 201eff2131d6
+  - 54871a78828e
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -1254,6 +1256,7 @@ tools:
 - name: data_manager_salmon_index_builder
   owner: iuc
   revisions:
+  - d31d59516633
   - ec2a1f280d67
   tool_panel_section_label: Data Managers
 - name: data_manager_sam_fasta_index_builder
@@ -1911,6 +1914,11 @@ tools:
   revisions:
   - b026dae67fba
   tool_panel_section_label: Convert Formats
+- name: halla
+  owner: iuc
+  revisions:
+  - cafea02ae3e0
+  tool_panel_section_label: Metagenomics
 - name: heatmap
   owner: ethevenot
   revisions:
@@ -2988,6 +2996,7 @@ tools:
   revisions:
   - 2a8bc1d26d06
   - 6f7211f93b06
+  - cbd58ca70eac
   tool_panel_section_label: Metagenomics
 - name: metfrag
   owner: computational-metabolomics
