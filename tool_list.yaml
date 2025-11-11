@@ -3393,4 +3393,6 @@ tools:
 - name: halla
   owner: iuc
   tool_panel_section_label: Metagenomics
-  
+- name: sra_tools
+  owner: iuc
+  tool_panel_section_label: Data Source 
