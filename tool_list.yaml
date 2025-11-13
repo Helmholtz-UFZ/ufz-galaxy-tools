@@ -3393,4 +3393,10 @@ tools:
 - name: halla
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: bmtagger
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: bmtagger_index_builder_data_manager
+  owner: iuc
+  tool_panel_section_label: Data Managers
   
