@@ -3399,4 +3399,6 @@ tools:
 - name: bmtagger_index_builder_data_manager
   owner: iuc
   tool_panel_section_label: Data Managers
-  
+- name: split_image
+  owner: imgteam
+  tool_panel_section_label: Imaging
