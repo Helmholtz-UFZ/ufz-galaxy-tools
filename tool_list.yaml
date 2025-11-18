@@ -3405,3 +3405,9 @@ tools:
 - name: repeat_channels
   owner: imgteam
   tool_panel_section_label: Imaging
+- name: data_manager_build_bracken_database
+  owner: iuc
+  tool_panel_section_label: Data Managers
+- name: bracken
+  owner: iuc
+  tool_panel_section_label: Metagenomics
