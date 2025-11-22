@@ -45,6 +45,7 @@ tools:
   owner: iuc
   revisions:
   - 468fd92deaaa
+  - e17bbe564242
   tool_panel_section_label: Sequence Analysis
 - name: abyss
   owner: iuc
@@ -525,6 +526,7 @@ tools:
   - 15dba9749732
   - 1d97ddbc3464
   - 37ab2cfedac4
+  - 9053a39d7994
   tool_panel_section_label: Metagenomics
 - name: biom_add_metadata
   owner: iuc
@@ -637,6 +639,11 @@ tools:
   - d5ceb9f3c25b
   - f76cbb84d67f
   tool_panel_section_label: Next Gen Mappers
+- name: bracken
+  owner: iuc
+  revisions:
+  - 4d350ac5148e
+  tool_panel_section_label: Metagenomics
 - name: busco
   owner: iuc
   revisions:
@@ -1136,6 +1143,11 @@ tools:
   - 9dd107db92c2
   - d1d5feb31804
   tool_panel_section_label: Data Managers
+- name: data_manager_build_bracken_database
+  owner: iuc
+  revisions:
+  - 174a754bd3b6
+  tool_panel_section_label: Data Managers
 - name: data_manager_build_kraken2_database
   owner: iuc
   revisions:
@@ -1165,6 +1177,7 @@ tools:
 - name: data_manager_dada2
   owner: iuc
   revisions:
+  - 0181efacb40a
   - 38ccd4589990
   - 48a42ca61006
   - 5711fc06a63e
@@ -1316,6 +1329,7 @@ tools:
   - 562f3c677828
   - 61e2aa6bb55d
   - 746e8e4bf929
+  - d642efa5cbd7
   tool_panel_section_label: Text Manipulation
 - name: datamash_reverse
   owner: iuc
@@ -8447,6 +8461,11 @@ tools:
   - 503bcd6ebe4b
   - ae8c4b2488e7
   tool_panel_section_label: Text Manipulation
+- name: repeat_channels
+  owner: imgteam
+  revisions:
+  - 7cdb50fee601
+  tool_panel_section_label: Imaging
 - name: repeat_masker
   owner: bgruening
   revisions:
@@ -8670,6 +8689,7 @@ tools:
   owner: devteam
   revisions:
   - 1e5880498f52
+  - 2f901e9402dd
   - b5c3b1856370
   - b85b9712cb18
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -8936,6 +8956,11 @@ tools:
   - baabc30154cd
   - e77b954f0da5
   tool_panel_section_label: Collection Operations
+- name: split_image
+  owner: imgteam
+  revisions:
+  - 73d7a4ffc03d
+  tool_panel_section_label: Imaging
 - name: split_tabular_columns
   owner: jjohnson
   revisions:
@@ -9480,6 +9505,7 @@ tools:
   - 99ace6c1ff57
   - a363ba287b88
   - cfb0595f9842
+  - e4790edb4299
   tool_panel_section_label: Statistics
 - name: w4mclassfilter
   owner: eschen42
