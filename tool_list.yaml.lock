@@ -330,6 +330,7 @@ tools:
   owner: iuc
   revisions:
   - a5921c09b7b7
+  - dfa1eb2941b0
   tool_panel_section_label: Data Managers
 - name: annotatemyids
   owner: iuc
@@ -1632,6 +1633,7 @@ tools:
 - name: fastq_groomer
   owner: devteam
   revisions:
+  - 10d4df6a9d94
   - 47e5dbc3e790
   - 8611b80a14d6
   - e9f8633db0a2
@@ -1641,6 +1643,7 @@ tools:
   revisions:
   - 03d57fea6482
   - 523c2aff0376
+  - c48cf4699be7
   - f3936d0632cb
   tool_panel_section_label: Fastq Manipulation
 - name: fastq_paired_end_interlacer
@@ -1648,6 +1651,7 @@ tools:
   revisions:
   - 2ccb8dcabddc
   - 3e396e702cea
+  - acb5090e281f
   - b41c2c1bcfbf
   tool_panel_section_label: Fastq Manipulation
 - name: fastq_to_tabular
@@ -1673,6 +1677,7 @@ tools:
   owner: devteam
   revisions:
   - 297962e79f39
+  - 4a3e93647a4e
   - a64c24430f5e
   - ac3fed111eb6
   tool_panel_section_label: Fastq Manipulation
@@ -6059,6 +6064,7 @@ tools:
 - name: overlay_images
   owner: imgteam
   revisions:
+  - 66fe62b96281
   - 8dc02c854048
   - b74693340624
   - ca362a9bfa20
@@ -7242,6 +7248,7 @@ tools:
   revisions:
   - 10954feb4893
   - 1a5eea94cd0f
+  - 3847bb58cce7
   - 4190dbce3775
   - 5545c2f27907
   - a4ee4441998f
