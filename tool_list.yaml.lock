@@ -28,6 +28,7 @@ tools:
 - name: 2d_simple_filter
   owner: imgteam
   revisions:
+  - 1b7e67168732
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -717,6 +718,7 @@ tools:
   owner: bgruening
   revisions:
   - 5251ce4c4a11
+  - 6b840482cc25
   tool_panel_section_label: Imaging
 - name: cfmid
   owner: computational-metabolomics
@@ -1184,6 +1186,7 @@ tools:
   - 5711fc06a63e
   - 678176bff643
   - a6a81f921701
+  - f15270614b1b
   tool_panel_section_label: Data Managers
 - name: data_manager_deeparg
   owner: iuc
@@ -1431,6 +1434,7 @@ tools:
   - 62c9df8382c2
   - 64be1ac21109
   - 8b8a3f793f0f
+  - 9553180705b7
   - e8ac2b53f262
   - f921014aba5a
   tool_panel_section_label: Sequence Analysis
@@ -1951,6 +1955,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 28bc8c01b193
   - 30a4bdf88e14
   - 4d9445dff47b
   - 53691cc6af0f
@@ -2591,6 +2596,7 @@ tools:
   revisions:
   - 20e2f64aa1fe
   - 241a78eb2935
+  - cbe396d9773e
   - cdee7158adf3
   - e150ae930235
   - e674066930b2
@@ -4223,6 +4229,7 @@ tools:
   - 025139097795
   - 0f1c34698076
   - 2a9afed42353
+  - 9eab750c367d
   - a02b8b3f5a0c
   - a38bdcec9e4c
   - edbb6c5028f5
@@ -8452,6 +8459,7 @@ tools:
   owner: recetox
   revisions:
   - 29fc1af350f5
+  - a48a1c23257c
   - d1f44632f206
   - e7eff0c9baa3
   tool_panel_section_label: Exposomics - recetox
@@ -8796,6 +8804,7 @@ tools:
   - 72b8a6b7661b
   - 85666e555698
   - c4c76f1ebad2
+  - e85846f4a05f
   tool_panel_section_label: Imaging
 - name: semibin
   owner: iuc
@@ -8967,6 +8976,7 @@ tools:
 - name: split_image
   owner: imgteam
   revisions:
+  - 390943df8a35
   - 73d7a4ffc03d
   tool_panel_section_label: Imaging
 - name: split_tabular_columns
