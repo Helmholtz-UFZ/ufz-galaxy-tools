@@ -3411,3 +3411,6 @@ tools:
 - name: bracken
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: cellposesam
+  owner: bgruening
+  tool_panel_section_label: Imaging
