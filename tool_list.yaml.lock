@@ -13,6 +13,7 @@ tools:
   owner: imgteam
   revisions:
   - 5bc8cdc17fd0
+  - 6a2b26c297a4
   tool_panel_section_label: Imaging
 - name: 2d_filter_segmentation_by_features
   owner: imgteam
@@ -29,6 +30,7 @@ tools:
   owner: imgteam
   revisions:
   - 1b7e67168732
+  - 59e9798010ce
   - d51310ab328a
   - dba87c4b32d3
   tool_panel_section_label: Imaging
@@ -720,6 +722,11 @@ tools:
   - 5251ce4c4a11
   - 6b840482cc25
   tool_panel_section_label: Imaging
+- name: cellposesam
+  owner: bgruening
+  revisions:
+  - 130d15e15378
+  tool_panel_section_label: Imaging
 - name: cfmid
   owner: computational-metabolomics
   revisions:
@@ -1010,6 +1017,7 @@ tools:
   - 705d26fbea02
   - 79212a309499
   - 7c2100246a2f
+  - 9f306361a58e
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_dada
   owner: iuc
@@ -1018,6 +1026,7 @@ tools:
   - 18a502a9d287
   - 1c35dadbe76f
   - 2222f08c8316
+  - 47198090501e
   - 6b4ddc3b64bd
   - 96336c6a2bb7
   - b35a5e8ff0fe
@@ -1032,6 +1041,7 @@ tools:
   - a9f4a217dcd6
   - addaf9d22850
   - ca73bbac615a
+  - e8768ddeba32
   - e8fba04706d3
   - f732237754fc
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -1046,6 +1056,7 @@ tools:
   - a14a18a47c36
   - afdfa35a89d9
   - c48d42d65d2b
+  - dd6572434618
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_makesequencetable
   owner: iuc
@@ -1053,6 +1064,7 @@ tools:
   - 1c9b3bcd4261
   - 43c99742158b
   - 75c8945b0da2
+  - 88677f452aea
   - 99c6929236fa
   - 9ccec6ed8e82
   - bfd62e881837
@@ -1064,6 +1076,7 @@ tools:
   revisions:
   - 0b884b080bb6
   - 1d75bd0595e2
+  - 273b8a00c8a2
   - 306a40d4bb8f
   - 35176674168c
   - 5c865a382933
@@ -1074,6 +1087,7 @@ tools:
 - name: dada2_plotcomplexity
   owner: iuc
   revisions:
+  - 224abe7c80ed
   - 32c9ea835770
   - 498d57610fcd
   - 6f06d501b7e6
@@ -1091,6 +1105,7 @@ tools:
   - 7b8cb2b02978
   - cae017b76acb
   - d60df8727f59
+  - e7c2674e01fe
   - f947b4bb5107
   - fa11922f3d91
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -1098,6 +1113,7 @@ tools:
   owner: iuc
   revisions:
   - 74ec28dbdf17
+  - 7dfcb39313d4
   - ee763baa80c3
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_removebimeradenovo
@@ -1106,6 +1122,7 @@ tools:
   - 04144473e59e
   - 073608a50ac3
   - 1770d188f72d
+  - 4efeb75704c8
   - 5b752525bd6f
   - 7136e9ab70db
   - 7f3b59dee073
@@ -1118,6 +1135,7 @@ tools:
   revisions:
   - 0a1224c4b781
   - 19299bb1c6af
+  - 213a3fda0b91
   - 390bc2645138
   - 4cc834cce4fb
   - 7d28da5e9e27
@@ -1393,6 +1411,7 @@ tools:
   owner: iuc
   revisions:
   - 0696db066a5b
+  - 2275d0688bca
   - 24a09ca67621
   - 6a3a025714d3
   - 8fe98f7094de
@@ -6075,6 +6094,7 @@ tools:
   - 66fe62b96281
   - 8dc02c854048
   - b74693340624
+  - bc4cf90cfc3b
   - ca362a9bfa20
   tool_panel_section_label: Imaging
 - name: pathview
@@ -8491,6 +8511,7 @@ tools:
 - name: rfove
   owner: imgteam
   revisions:
+  - 81b246085378
   - e438d87ef91a
   tool_panel_section_label: Imaging
 - name: rgrnastar
@@ -8869,6 +8890,11 @@ tools:
   - 2eb0532a911c
   - 9c34e2ececc9
   tool_panel_section_label: Text Manipulation
+- name: sipros
+  owner: ufz
+  revisions:
+  - 4db77f218765
+  tool_panel_section_label: Proteomics
 - name: sortmerna
   owner: rnateam
   revisions:
@@ -9229,6 +9255,7 @@ tools:
 - name: superdsm
   owner: imgteam
   revisions:
+  - 30d88f083ae9
   - 700ae37e5c69
   - 79ec3263686a
   tool_panel_section_label: Imaging
@@ -9466,6 +9493,7 @@ tools:
 - name: unzip
   owner: imgteam
   revisions:
+  - 06eac2d1a8a9
   - 28d6129b2901
   - 4634764e6e2b
   - 57f0914ddb7b
