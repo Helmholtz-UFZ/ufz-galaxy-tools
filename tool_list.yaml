@@ -3414,3 +3414,7 @@ tools:
 - name: cellposesam
   owner: bgruening
   tool_panel_section_label: Imaging
+- name: sipros
+  owner: ufz
+  tool_panel_section_label: Proteomics
+
