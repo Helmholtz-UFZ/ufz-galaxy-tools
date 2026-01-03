@@ -6,6 +6,7 @@ tools:
   owner: imgteam
   revisions:
   - 0c777d708acc
+  - 2ee04d2ebdcf
   - 50fa6150e340
   - 699a5e9146b3
   tool_panel_section_label: Imaging
@@ -18,6 +19,7 @@ tools:
 - name: 2d_filter_segmentation_by_features
   owner: imgteam
   revisions:
+  - 7876ee93bcaf
   - 9d47aabda459
   tool_panel_section_label: Imaging
 - name: 2d_histogram_equalization
@@ -520,6 +522,7 @@ tools:
 - name: binary2labelimage
   owner: imgteam
   revisions:
+  - 364e235bf378
   - 6e65fd971e13
   - 7f8102bdbfa1
   - 984358e43242
