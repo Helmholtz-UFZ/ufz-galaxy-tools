@@ -13,6 +13,7 @@ tools:
 - name: 2d_feature_extraction
   owner: imgteam
   revisions:
+  - 519fad2c552a
   - 5bc8cdc17fd0
   - 6a2b26c297a4
   tool_panel_section_label: Imaging
@@ -729,6 +730,7 @@ tools:
   owner: bgruening
   revisions:
   - 130d15e15378
+  - bc1410a8a247
   tool_panel_section_label: Imaging
 - name: cfmid
   owner: computational-metabolomics
@@ -975,6 +977,7 @@ tools:
 - name: crop_image
   owner: imgteam
   revisions:
+  - 2852af87036d
   - d52317f0ac21
   tool_panel_section_label: Imaging
 - name: customize_metaphlan_database
@@ -1417,6 +1420,7 @@ tools:
   - 2275d0688bca
   - 24a09ca67621
   - 6a3a025714d3
+  - 6c363db8c702
   - 8fe98f7094de
   - 9a882d108833
   - cd9874cb9019
