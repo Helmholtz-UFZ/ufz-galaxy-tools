@@ -22,6 +22,7 @@ tools:
   revisions:
   - 7876ee93bcaf
   - 9d47aabda459
+  - ea6dae3f10a2
   tool_panel_section_label: Imaging
 - name: 2d_histogram_equalization
   owner: imgteam
@@ -1981,13 +1982,13 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
-  - 7209f32a9e9d
   - 30a4bdf88e14
   - 4d9445dff47b
   - 53691cc6af0f
   - 53a019316350
   - 6501b5b33988
   - 65d52c693b8e
+  - 7209f32a9e9d
   - a68b985913ab
   - b907a3c0434f
   - c30adf839acd
@@ -4214,6 +4215,7 @@ tools:
   revisions:
   - 161f4383df15
   - 1c2db0054039
+  - 26ee5e11ecbe
   - 31c42a2c02d3
   - 3d93dd18d9f8
   - 467486f1c568
@@ -4288,6 +4290,7 @@ tools:
   - a3395b1d871b
   - a6a475ed58cb
   - ac24fff14f23
+  - bc18e25d4204
   - d951c5b0edd1
   - da8260eba74b
   tool_panel_section_label: Data Source
@@ -9305,6 +9308,7 @@ tools:
   - 6073bb457ec0
   - 74a8bef53a00
   - 86755160afbf
+  - ab83aa685821
   - c41d78ae5fee
   - d698c222f354
   - fb4ff3c42cd3
