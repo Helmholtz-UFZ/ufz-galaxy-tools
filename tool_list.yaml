@@ -3417,4 +3417,6 @@ tools:
 - name: sipros
   owner: ufz
   tool_panel_section_label: Proteomics
-
+- name: biapy
+  owner: iuc
+  tool_panel_section_label: Imaging
