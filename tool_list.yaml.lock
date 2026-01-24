@@ -521,6 +521,11 @@ tools:
   - bbb307f731c3
   - fcadded98e61
   tool_panel_section_label: Imaging
+- name: biapy
+  owner: iuc
+  revisions:
+  - e434d9b9cd13
+  tool_panel_section_label: Imaging
 - name: binary2labelimage
   owner: imgteam
   revisions:
@@ -1502,6 +1507,7 @@ tools:
 - name: eggnog_mapper
   owner: galaxyp
   revisions:
+  - 02439eb2b37d
   - 3cb37af59360
   - 4e4c6329f6cd
   - 5a30ae278db0
