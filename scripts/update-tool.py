@@ -32,7 +32,6 @@ def update_file(fn, owner=None, name=None, without=False):
             continue
 
         logging.info("Fetching updates for {owner}/{name}".format(**tool))
-
         try:
             revs = ts.repositories.get_ordered_installable_revisions(
                 tool["name"], tool["owner"]
@@ -50,7 +49,8 @@ def update_file(fn, owner=None, name=None, without=False):
             )
             success = False
             continue
-        logging.debug("TS revisions: %s" % ",".join(revs))
+        logging.info(f"TS revisions: {revs}")
+        logging.info(f"Installed revisions: {tool.get("revisions", [])}")
         latest_rev = revs[-1]
         if latest_rev in tool.get("revisions", []):
             # The rev is already known, don't add again.
