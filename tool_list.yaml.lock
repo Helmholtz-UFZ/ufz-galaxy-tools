@@ -61,6 +61,7 @@ tools:
   - 0a5c7992b1ac
   - 3ce74eab308b
   - 7547fcab5d19
+  - 7a30b65088d1
   - 8f1b150a2487
   - d6d5ccc2c581
   - db9b10824c61
@@ -524,6 +525,7 @@ tools:
 - name: biapy
   owner: iuc
   revisions:
+  - 8dab52928e70
   - e434d9b9cd13
   tool_panel_section_label: Imaging
 - name: binary2labelimage
@@ -2023,6 +2025,7 @@ tools:
   - 3fb01a8c902d
   - 61ee47027bd3
   - 6ab42baa56e9
+  - b12d81af0291
   - f4af63aaf57a
   tool_panel_section_label: Assembly
 - name: histogram
@@ -2153,6 +2156,7 @@ tools:
   - 65c80ca30373
   - 6b7622dda516
   - 95bf7479d53c
+  - a00df747f03c
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomics
@@ -9883,6 +9887,7 @@ tools:
 - name: xlsx2tsv
   owner: ufz
   revisions:
+  - 27bc52511ebe
   - a21347be425d
   tool_panel_section_label: Convert Formats
 - name: xtb_molecular_optimization
