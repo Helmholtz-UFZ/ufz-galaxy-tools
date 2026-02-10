@@ -3462,3 +3462,7 @@ tools:
 - name: integron_finder
   owner: iuc
   tool_panel_section_label: Sequence Analysis
+- name: data_manager_fetch_plasmidfinder
+  owner: iuc
+  tool_panel_section_label: Data Managers
+
