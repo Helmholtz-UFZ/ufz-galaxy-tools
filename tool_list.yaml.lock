@@ -416,6 +416,46 @@ tools:
   - a53efedba9e7
   - af7c50162f0b
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools
+  owner: devteam
+  revisions:
+  - 8eb649e67987
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_filter
+  owner: devteam
+  revisions:
+  - 62e4d6cdbaa7
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_split
+  owner: devteam
+  revisions:
+  - 96c9315b0e29
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_split_mapped
+  owner: iuc
+  revisions:
+  - fa7b5520ae53
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_split_paired
+  owner: iuc
+  revisions:
+  - 75d5afa09972
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_split_ref
+  owner: iuc
+  revisions:
+  - 9b8feb118f9e
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bamtools_split_tag
+  owner: iuc
+  revisions:
+  - e9b9c489aacc
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
+- name: bandage
+  owner: iuc
+  revisions:
+  - ddddce450736
+  tool_panel_section_label: Visualization
 - name: bank_inhouse
   owner: fgiacomoni
   revisions:
@@ -2587,6 +2627,11 @@ tools:
   - 81539b9ae80a
   - 9e776e7fab4f
   tool_panel_section_label: Sequence Analysis
+- name: jbrowse2
+  owner: fubar
+  revisions:
+  - bd903fbbc26e
+  tool_panel_section_label: Sequence Analysis
 - name: join
   owner: devteam
   revisions:
@@ -4390,6 +4435,11 @@ tools:
   - b4163d2f64ab
   - fe4235285ee8
   tool_panel_section_label: Phylogenetics
+- name: ngsutils_bam_filter
+  owner: iuc
+  revisions:
+  - 2e957d4c4b95
+  tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: nmr_bucketing
   owner: marie-tremblay-metatoul
   revisions:
@@ -9473,6 +9523,11 @@ tools:
   - c9f8fef1df74
   - e9005d1f3cfd
   tool_panel_section_label: Metagenomics
+- name: tbl2gff3
+  owner: iuc
+  revisions:
+  - 4a7f4b0cc0a3
+  tool_panel_section_label: Convert Formats
 - name: text_processing
   owner: bgruening
   revisions:
@@ -9679,6 +9734,7 @@ tools:
   owner: imgteam
   revisions:
   - 06eac2d1a8a9
+  - 0eec07359840
   - 28d6129b2901
   - 4634764e6e2b
   - 57f0914ddb7b
