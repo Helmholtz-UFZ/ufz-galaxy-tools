@@ -1664,6 +1664,11 @@ tools:
   - 97ad0d817a45
   - db58d5898fea
   tool_panel_section_label: Metagenomics
+- name: falco
+  owner: iuc
+  revisions:
+  - 959a14c1f2dd
+  tool_panel_section_label: Sequence Analysis
 - name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
   revisions:
@@ -2593,6 +2598,11 @@ tools:
   - 29aca8eebdaa
   - aeae7e29d525
   tool_panel_section_label: Imaging - ImageJ2
+- name: integron_finder
+  owner: iuc
+  revisions:
+  - 5429646e486d
+  tool_panel_section_label: Sequence Analysis
 - name: intensity_checks
   owner: melpetera
   revisions:
