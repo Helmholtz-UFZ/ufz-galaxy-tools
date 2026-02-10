@@ -3429,22 +3429,22 @@ tools:
 - name: bamtools
   owner: devteam
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_filter	
+- name: bamtools_filter
   owner: devteam
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_split	
+- name: bamtools_split
   owner: devteam
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_split_mapped	
+- name: bamtools_split_mapped
   owner: iuc
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_split_paired	
+- name: bamtools_split_paired
   owner: iuc
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_split_ref	
+- name: bamtools_split_ref
   owner: iuc
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
-- name: bamtools_split_tag 
+- name: bamtools_split_tag
   owner: iuc
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: ngsutils_bam_filter
