@@ -3453,3 +3453,12 @@ tools:
 - name: bandage
   owner: iuc
   tool_panel_section_label: Visualization
+- name: plasmidfinder
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: plasmidfinder
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: integron_finder
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
