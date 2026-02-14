@@ -419,11 +419,13 @@ tools:
 - name: bamtools
   owner: devteam
   revisions:
+  - 887a9bf73d1a
   - 8eb649e67987
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bamtools_filter
   owner: devteam
   revisions:
+  - 47db0f26ca31
   - 62e4d6cdbaa7
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bamtools_split
@@ -434,21 +436,25 @@ tools:
 - name: bamtools_split_mapped
   owner: iuc
   revisions:
+  - 90af4f8f59af
   - fa7b5520ae53
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bamtools_split_paired
   owner: iuc
   revisions:
   - 75d5afa09972
+  - c5f04783750e
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bamtools_split_ref
   owner: iuc
   revisions:
   - 9b8feb118f9e
+  - f66e109710bd
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bamtools_split_tag
   owner: iuc
   revisions:
+  - a0014762e2ee
   - e9b9c489aacc
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: bandage
@@ -560,6 +566,7 @@ tools:
   revisions:
   - 10eed33aa9b2
   - bbb307f731c3
+  - fa8ce46a95bb
   - fcadded98e61
   tool_panel_section_label: Imaging
 - name: biapy
@@ -1514,6 +1521,7 @@ tools:
   - 64be1ac21109
   - 8b8a3f793f0f
   - 9553180705b7
+  - a02aa0dfb850
   - e8ac2b53f262
   - f921014aba5a
   tool_panel_section_label: Sequence Analysis
@@ -2627,6 +2635,7 @@ tools:
   revisions:
   - 26f850e35fa0
   - 39dc692a9554
+  - 4cc25c2b1d0b
   - 5c31cd602239
   - d636e6221f8e
   tool_panel_section_label: Metagenomics
@@ -2634,6 +2643,7 @@ tools:
   owner: ufz
   revisions:
   - b6dba8fabeb2
+  - be0d13020aec
   - d357350b6da0
   tool_panel_section_label: Metagenomics
 - name: isescan
@@ -4503,6 +4513,7 @@ tools:
   revisions:
   - 21e1765c5f19
   - 375281d11535
+  - 558c09a342cb
   - 8a3324018fc5
   - 9d04b28b8dc8
   - a70140649a13
@@ -4535,6 +4546,7 @@ tools:
   - 18b86dcdd421
   - 267227e757cb
   - 42a454d4b482
+  - 48a4ed7929b3
   - 83ccd2b525e5
   - afe3e24336ed
   - d0c0f3c95368
@@ -4553,6 +4565,7 @@ tools:
   - 7cd85e1c50f3
   - 931eb5fed2c0
   - e41f70e69349
+  - eb967ee0ae4f
   tool_panel_section_label: Imaging
 - name: omero_roi_import
   owner: ufz
@@ -6422,11 +6435,13 @@ tools:
 - name: plasmidfinder
   owner: iuc
   revisions:
+  - 507d59b036c5
   - 7075b7a5441b
   tool_panel_section_label: Sequence Analysis
 - name: plasmidfinder
   owner: iuc
   revisions:
+  - 507d59b036c5
   - 7075b7a5441b
   tool_panel_section_label: Sequence Analysis
 - name: points2binaryimage
