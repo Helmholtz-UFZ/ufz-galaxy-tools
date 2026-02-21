@@ -28,6 +28,7 @@ tools:
   owner: imgteam
   revisions:
   - 70316d792fc9
+  - 99e0ef91ea5e
   - b1c2c210813c
   tool_panel_section_label: Imaging
 - name: 2d_simple_filter
@@ -1236,6 +1237,7 @@ tools:
   - 13851aefa67a
   - 1e34d2e3d285
   - 201eff2131d6
+  - 4877dfefaacc
   - 54871a78828e
   - 8c533e19b697
   - 90b4d4f0a3a4
@@ -4548,6 +4550,7 @@ tools:
   - 42a454d4b482
   - 48a4ed7929b3
   - 83ccd2b525e5
+  - a62f0b725508
   - afe3e24336ed
   - d0c0f3c95368
   - ec96412e9027
@@ -4583,6 +4586,7 @@ tools:
   owner: bgruening
   revisions:
   - 0691e5e97cd5
+  - 6da72bb13a05
   - 6e4b7e0c61a6
   - 716dcb5bbb71
   - 7b6fd1c273cd
@@ -4594,6 +4598,7 @@ tools:
   revisions:
   - 01ab890bf0ad
   - 13bd3774c5b1
+  - 23284172bc4e
   - a638d8d13bb3
   - a84187d7bda6
   - f924a1728291
@@ -4606,11 +4611,13 @@ tools:
   - a072cb207571
   - b59c91adeac1
   - d00ae56d3ba5
+  - ddbfae6646f9
   - e2c36f62e22f
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_filter
   owner: bgruening
   revisions:
+  - 30a4b898e306
   - 340f8d63c1f4
   - 5004fcfb80bf
   - 72d13f75b67c
@@ -4627,6 +4634,7 @@ tools:
   - b249bf9be0d1
   - c73b55d66607
   - e4ece69f1b32
+  - f620af05e524
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_multi_obgrep
   owner: bgruening
@@ -4641,6 +4649,7 @@ tools:
   - 1c418abdafd9
   - 274193d6c443
   - 36ed1fab1de6
+  - 64e2c5ab51cb
   - 985ab0acd514
   - f27e2eaffb5f
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -4652,12 +4661,14 @@ tools:
   - 854a7a169623
   - b2569e22b40c
   - c5de6c19eb06
+  - dd28d21080f3
   - e289f65f6b91
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remions
   owner: bgruening
   revisions:
   - 4e3b2049a4d3
+  - 6cc6c7ef23df
   - 76bbd52058ab
   - 87eb779942bd
   - 9249b0e0e6bd
@@ -4673,6 +4684,7 @@ tools:
   - 62e6d52c83bf
   - adc3b24c083f
   - e376ba0fcde0
+  - f2aef0ee9d78
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_remsmall
   owner: bgruening
@@ -4683,6 +4695,7 @@ tools:
   - d7f0ca1f2669
   - e38d865baa37
   - e70dc90a1e58
+  - fc2a2989c3b1
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_spectrophore_search
   owner: bgruening
@@ -4692,6 +4705,7 @@ tools:
   - 99ecf8dd7ba1
   - aedce3959676
   - d92ada24e4ad
+  - e1676a9f766b
   - f5d7ffbb2d33
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_structure_distance_finder
@@ -4699,6 +4713,7 @@ tools:
   revisions:
   - 2c5c7da26e08
   - 8302ab092300
+  - d5ad79cfa0ae
   - f0502d809c4b
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openbabel_subsearch
@@ -4708,6 +4723,7 @@ tools:
   - 80d78559a5a3
   - 9adf3fae2771
   - abac1b21fbb8
+  - abf3ff7ff5e7
   - c19608db6b15
   - c4abd2c7d5f6
   tool_panel_section_label: Computational chemistry - Open Babel
@@ -4719,6 +4735,7 @@ tools:
   - 4ad272a2e3ea
   - 75ee9c410951
   - 7672039a0bb0
+  - aa62ff7e28b5
   - ba2d56f16904
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: openms_accuratemasssearch
@@ -6455,6 +6472,7 @@ tools:
   - 015ccbd1ad68
   - 2ba07316c7e0
   - 5486f7a2b0cb
+  - d9d5aa013bb4
   - fac2c28b4c55
   tool_panel_section_label: Computational chemistry - Open Babel
 - name: probmetab
@@ -8931,6 +8949,7 @@ tools:
   - 41e36c99a008
   - 595ae1ba934a
   - 68a116f469db
+  - 84819580b8a5
   - bc0cc7bfbfe9
   - c05afbeaf42d
   - d2df79922531
@@ -9751,6 +9770,7 @@ tools:
   - 60f7e2a6b9c7
   - 95fb5712344f
   - af5eccf83605
+  - bf5121c5c2be
   - bfdc6a7ffd3a
   - f7ebd1b4783b
   tool_panel_section_label: Proteomics
@@ -9831,6 +9851,7 @@ tools:
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
+  - c0b740d23adc
   - cfb0595f9842
   - e4790edb4299
   tool_panel_section_label: Statistics
