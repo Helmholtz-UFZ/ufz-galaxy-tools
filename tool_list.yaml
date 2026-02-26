@@ -3468,4 +3468,9 @@ tools:
 - name: falco
   owner: iuc
   tool_panel_section_label: Sequence Analysis
-
+- name: jq
+  owner: iuc
+  tool_panel_section_label: Text Manipulation
+- name: imagemagick_image_montage
+  owner: bgruening
+  tool_panel_section_label: Imaging
