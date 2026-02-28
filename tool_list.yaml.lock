@@ -781,6 +781,7 @@ tools:
   revisions:
   - 5251ce4c4a11
   - 6b840482cc25
+  - d54f702c8909
   tool_panel_section_label: Imaging
 - name: cellposesam
   owner: bgruening
@@ -1055,6 +1056,7 @@ tools:
   - 135b80fb1ac2
   - 48f587c13075
   - 49370cb85f0f
+  - 5d00fd7847eb
   - 5eb7e84243f2
   - 660cffd8d92a
   - 80766b36005d
@@ -2608,6 +2610,11 @@ tools:
   - 29aca8eebdaa
   - aeae7e29d525
   tool_panel_section_label: Imaging - ImageJ2
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - fc43cdc81408
+  tool_panel_section_label: Imaging
 - name: integron_finder
   owner: iuc
   revisions:
@@ -2665,6 +2672,11 @@ tools:
   - 718d04143c31
   - a10f49d9218a
   tool_panel_section_label: Join, Subtract and Group
+- name: jq
+  owner: iuc
+  revisions:
+  - 5ff75eb1a893
+  tool_panel_section_label: Text Manipulation
 - name: kaiju_addtaxonnames
   owner: iuc
   revisions:
@@ -9551,6 +9563,7 @@ tools:
   - 30d88f083ae9
   - 700ae37e5c69
   - 79ec3263686a
+  - fc3724b4f841
   tool_panel_section_label: Imaging
 - name: t_coffee
   owner: earlhaminst
