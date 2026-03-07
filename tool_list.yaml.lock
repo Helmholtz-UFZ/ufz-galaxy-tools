@@ -699,6 +699,7 @@ tools:
   - 121110a12cc9
   - 17062a0decb7
   - 749c918495f7
+  - a470b376503d
   - cd659e8cc5fa
   - d5ceb9f3c25b
   - f76cbb84d67f
@@ -6229,6 +6230,7 @@ tools:
   revisions:
   - 66fe62b96281
   - 8dc02c854048
+  - aece93442819
   - b74693340624
   - bc4cf90cfc3b
   - ca362a9bfa20
@@ -6336,6 +6338,7 @@ tools:
   - 40ebae5bbe51
   - 46a99bd1f10e
   - 6000b8a8dd9d
+  - 6a067bbd4e16
   - 87064cb77a52
   - ae4d404a8227
   - bda00cb136ee
@@ -6345,6 +6348,7 @@ tools:
   owner: iuc
   revisions:
   - 11d43fa12aab
+  - 2715e89adff4
   - 32f892954ef6
   - 5007bc8a3d90
   - bbd9d1022144
@@ -6366,6 +6370,7 @@ tools:
   - a20bc31f2821
   - d6cbeb48294d
   - fb7c4bbe8994
+  - fd170b83f148
   tool_panel_section_label: Phyloseq
 - name: picard
   owner: devteam
@@ -9095,6 +9100,7 @@ tools:
   - 57934e90e27c
   - 5a08c09b9311
   - 8cfc17e27132
+  - 8fca6e1eac98
   - 95a7ddf617e7
   - e221fe58c2f5
   - fed4aa48ba09
@@ -9318,6 +9324,7 @@ tools:
 - name: spot_detection_2d
   owner: imgteam
   revisions:
+  - 73efacdaf71a
   - e8c9e104e109
   tool_panel_section_label: Imaging
 - name: sqlite_to_tabular
@@ -9563,6 +9570,7 @@ tools:
   - 30d88f083ae9
   - 700ae37e5c69
   - 79ec3263686a
+  - f66dce543932
   - fc3724b4f841
   tool_panel_section_label: Imaging
 - name: t_coffee
