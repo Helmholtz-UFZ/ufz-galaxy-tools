@@ -3474,3 +3474,10 @@ tools:
 - name: imagemagick_image_montage
   owner: bgruening
   tool_panel_section_label: Imaging
+- name: cv2_extract_frames
+  owner: imgteam
+  tool_panel_section_label: Imaging
+- name: bioformats2raw
+  owner: imgteam
+  tool_panel_section_label: Imaging
+
