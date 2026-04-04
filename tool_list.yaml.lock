@@ -484,6 +484,7 @@ tools:
   owner: iuc
   revisions:
   - 159b04e36791
+  - 428de92eac6b
   - 55e500606bbe
   - 6ffff37d3daf
   - 7beb76ffbc0f
@@ -495,6 +496,7 @@ tools:
   owner: iuc
   revisions:
   - 20ab37575227
+  - 23d04eabbac5
   - 3f94a2e3d513
   - 456d8ebb6a28
   - 517464809c33
@@ -512,6 +514,7 @@ tools:
   - c05232655d00
   - c9e516d65a3d
   - cab19c0452c4
+  - f8734e69f645
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_bbnorm
   owner: iuc
@@ -522,6 +525,7 @@ tools:
   - 5f047a0d4c2e
   - 770bceda7785
   - 8b18f42bda13
+  - c80190b3ff02
   - e607b61a68ad
   tool_panel_section_label: Sequence Analysis - bbtools
 - name: bbtools_callvariants
@@ -529,6 +533,7 @@ tools:
   revisions:
   - 3854db061e6e
   - 66b138a2e74c
+  - 68564cf83cb0
   - 7e041c120b96
   - a033aa9a822e
   - b4279a293312
@@ -543,6 +548,7 @@ tools:
   - 51947de90615
   - 654c9da47f74
   - 7ad0f4bfa923
+  - 8deeb4c5448b
   - cbc75076778f
   - ce13b4678f18
   tool_panel_section_label: Sequence Analysis - bbtools
@@ -1986,6 +1992,7 @@ tools:
   revisions:
   - 26f5822743aa
   - 955e33326e20
+  - b405bd1eff93
   - e8c8dfc6a809
   - edb671f0661e
   tool_panel_section_label: Metagenomics
@@ -3102,6 +3109,7 @@ tools:
 - name: maxquant
   owner: galaxyp
   revisions:
+  - 022e886e8f94
   - 175e062b6a17
   - 1f39c833f65f
   - 666f3453a99d
@@ -4242,6 +4250,7 @@ tools:
   - 3cf310697624
   - 545054b15d7c
   - 6153e8ada1ee
+  - 8edfcbf32616
   - ab6c14374bc0
   tool_panel_section_label: Proteomics
 - name: msh2vtu
@@ -4360,6 +4369,7 @@ tools:
   - 26ee5e11ecbe
   - 31c42a2c02d3
   - 3d93dd18d9f8
+  - 3dd49be3f7d3
   - 467486f1c568
   - a7e081ceb76a
   - abfd8a6544d7
@@ -6316,6 +6326,7 @@ tools:
   - 66690eb50a32
   - 864bd76db767
   - 943a34df6047
+  - c9b13d4069c8
   - d67a3c1bfd09
   - da885ca16cb2
   tool_panel_section_label: Proteomics
@@ -9190,11 +9201,13 @@ tools:
   revisions:
   - 55bbea0cdc60
   - 724dcbb35c9a
+  - 9e5eb2e6c614
   tool_panel_section_label: Statistics
 - name: saqc_executor
   owner: ufz
   revisions:
   - 99e2019c318c
+  - c5ce635c95de
   tool_panel_section_label: Statistics
 - name: scale_image
   owner: imgteam
@@ -9380,6 +9393,7 @@ tools:
   owner: imgteam
   revisions:
   - 390943df8a35
+  - 7191fd16988f
   - 73d7a4ffc03d
   tool_panel_section_label: Imaging
 - name: split_tabular_columns
@@ -9390,6 +9404,7 @@ tools:
 - name: spot_detection_2d
   owner: imgteam
   revisions:
+  - 1a03fcd4fa80
   - 73efacdaf71a
   - e8c9e104e109
   tool_panel_section_label: Imaging
