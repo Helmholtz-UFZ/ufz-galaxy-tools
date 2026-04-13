@@ -3480,4 +3480,9 @@ tools:
 - name: bioformats2raw
   owner: imgteam
   tool_panel_section_label: Imaging
-
+- name: comebin
+  owner: iuc
+  tool_panel_section_label: Metagenomics
+- name: comebin_bam
+  owner: iuc
+  tool_panel_section_label: Metagenomics
