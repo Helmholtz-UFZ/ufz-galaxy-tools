@@ -54,6 +54,7 @@ tools:
   revisions:
   - 3e8233ce0b99
   - 468fd92deaaa
+  - ca5d51152817
   - e17bbe564242
   tool_panel_section_label: Sequence Analysis
 - name: abyss
@@ -988,6 +989,16 @@ tools:
   - 662a334004b4
   - e25efca0a49c
   tool_panel_section_label: Metagenomics
+- name: comebin
+  owner: iuc
+  revisions:
+  - ddfb9c10740a
+  tool_panel_section_label: Metagenomics
+- name: comebin_bam
+  owner: iuc
+  revisions:
+  - d2dd7be65d47
+  tool_panel_section_label: Metagenomics
 - name: compose_text_param
   owner: iuc
   revisions:
@@ -1564,6 +1575,7 @@ tools:
   owner: bgruening
   revisions:
   - 0cdcf7e99b62
+  - 1196fc76fdc2
   - 1e3323a44643
   - 20d92dc4c6cb
   - 60f307965815
@@ -1770,6 +1782,7 @@ tools:
   - 480ddbd12a03
   - 65b93b623c77
   - 6c2351178f8d
+  - 8276962186f2
   - a626e8c0e1ba
   - a935cbdf1c0e
   - b2e9a56e5259
@@ -2497,6 +2510,7 @@ tools:
   - 236ec78b2e53
   - 7b6d9412c7f8
   - 8c25d4ff0b51
+  - e28851b24032
   - f8b4eada923c
   tool_panel_section_label: Imaging
 - name: imagej2_adjust_threshold_binary
@@ -3162,6 +3176,7 @@ tools:
   owner: iuc
   revisions:
   - 708abf08a626
+  - a040f2dc705c
   - eb50e7eca3dc
   - f375b4f6ef57
   tool_panel_section_label: Metagenomics
@@ -3169,6 +3184,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 6b51b29c0147
   - a4441f35f17b
   - ec045ca00b50
   tool_panel_section_label: Metagenomics
@@ -4371,6 +4387,7 @@ tools:
   - 3d93dd18d9f8
   - 3dd49be3f7d3
   - 467486f1c568
+  - 862943c10425
   - a7e081ceb76a
   - abfd8a6544d7
   - bf675f34b056
@@ -4435,6 +4452,7 @@ tools:
   - 198c75abbf55
   - 1e188c9610c3
   - 40a5d68e929a
+  - 5c7051132156
   - 6ba50cbabbb7
   - 75acf92c8fd5
   - 7b925f7c50b2
@@ -8904,6 +8922,7 @@ tools:
   - 4074fc1940e2
   - 4df95e2d7f61
   - 53255f6eecfc
+  - 55c9ac3aa8f4
   - 980d2a2e1180
   - b0f2be869d6d
   - c772497b2c32
@@ -9901,6 +9920,7 @@ tools:
   - 28d6129b2901
   - 4634764e6e2b
   - 57f0914ddb7b
+  - 6a7e010c05db
   tool_panel_section_label: Convert Formats
 - name: velvet
   owner: devteam
