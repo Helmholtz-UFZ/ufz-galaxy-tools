@@ -111,6 +111,7 @@ tools:
   - 61acf8a76396
   - 6b8580e02e99
   - 77000428c613
+  - b0b7bba11507
   - bd518ee51da5
   - c14c7fd4d1be
   - e9168eec404c
@@ -123,6 +124,7 @@ tools:
   - 3ea43408e5db
   - 5e4e2b612a4f
   - 61db741e4614
+  - 69cce076e0cf
   - 874b1a4fe7f0
   - b3c5560ffac6
   - b4c6f8741989
@@ -135,6 +137,7 @@ tools:
   - 49c0d34d583f
   - 4b023017896a
   - 943c2ae9594a
+  - 96bc42baaa74
   - de6156c8ef16
   - e595eafb5ecf
   - f360e09dd04b
@@ -147,6 +150,7 @@ tools:
   - 3fd332f614f3
   - 54ea08f9fd97
   - 5939a607c306
+  - 61aa0f3b4d74
   - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
@@ -160,6 +164,7 @@ tools:
   - ac3774320d28
   - ac9564dcdb99
   - dfb9413825cc
+  - e0b095891b28
   - f309f1ef68f3
   - ff9bc9357c89
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -170,6 +175,7 @@ tools:
   - 14695ae019be
   - 16b4934fc7e7
   - 1979fdd0914f
+  - 3e5c1fdd0e45
   - 7c3248a397fd
   - 9bdb74297b3d
   - 9dab85e62cf2
@@ -178,6 +184,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 27ac516ba719
   - 3481feabc54e
   - 5029fd9d572e
   - 576dd33588bf
@@ -191,6 +198,7 @@ tools:
   owner: iuc
   revisions:
   - 028ba7c0b400
+  - 24f43b62a172
   - 2f9731cc4c87
   - 35d71afa93f4
   - 378ce300fb3d
@@ -208,6 +216,7 @@ tools:
   - 414355492c32
   - 63ed7a3cd45f
   - 74ee43d45476
+  - 77f9ed2bb200
   - c9143bcb2072
   - f34ea612eecf
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -222,6 +231,7 @@ tools:
   - a0a792d4efae
   - a194e5f09106
   - cb617c2139fa
+  - d5edda7f75eb
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_ordinate
   owner: iuc
@@ -232,6 +242,7 @@ tools:
   - 7a168b554d65
   - 7c675dae82eb
   - 811df76f4f26
+  - 9742e8636a10
   - be1918c80d9f
   - dc31a6f9fb2f
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -245,6 +256,7 @@ tools:
   - 47aec96764b8
   - 7822d7a5a496
   - 7e6f33f40312
+  - a9fd4ada4d2a
   - bb054c50a96c
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
@@ -253,6 +265,7 @@ tools:
   - 17b44753a1df
   - 18de61c5527c
   - 2c21c267391c
+  - 4140e26cafbc
   - c5ccc28a2696
   - cf0944377d87
   - d02f4a87eb55
@@ -263,6 +276,7 @@ tools:
   owner: iuc
   revisions:
   - 094d0b97f92c
+  - 2828d52a8910
   - 2e69edaaa834
   - 30ac301ba3d6
   - 7723ef4c9163
@@ -276,6 +290,7 @@ tools:
   revisions:
   - 024a22e84bea
   - 14b992fb08d4
+  - 638503db7271
   - 7c9c6448b57c
   - 7f5dd19dc792
   - a9dacd650ad5
@@ -289,6 +304,7 @@ tools:
   - 14b38ec15fe9
   - 1db7e3d33871
   - 317728cb0f8a
+  - 492eb6dcfe5c
   - b268ffb0e321
   - c8bfb923d7d4
   - ef800b2766c4
@@ -304,6 +320,7 @@ tools:
   - 76cb398e9110
   - ac98ca3ff0d2
   - adf75bf963f7
+  - bc02fbdb3510
   - cf579d6919e8
   - e2df49914652
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -317,12 +334,14 @@ tools:
   - 9de032723f5b
   - bc6221716772
   - bd41251e42ec
+  - d50cf42420f2
   - f41dad652845
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_venn
   owner: iuc
   revisions:
   - 338f47a9e25c
+  - 49bd53fa8f8d
   - 62c6d4c55190
   - 6acf30f0d9fa
   - ba76e1682a00
@@ -1775,6 +1794,7 @@ tools:
   - 10678d49d39e
   - 1c183b0a6cfd
   - 1d8fe9bc4cb0
+  - 241decaaff3e
   - 25c59c0ceb55
   - 281054a26e41
   - 3432a0e49b86
@@ -2128,6 +2148,7 @@ tools:
   - b907a3c0434f
   - c30adf839acd
   - ed407eeb69ee
+  - ed4c007af906
   tool_panel_section_label: Metagenomics
 - name: gtftobed12
   owner: iuc
@@ -9047,6 +9068,7 @@ tools:
   owner: iuc
   revisions:
   - 491037bfc0d2
+  - 4bde991b8037
   - 66e23b11feae
   - 720217c23995
   - 9038311ed624
@@ -9057,6 +9079,7 @@ tools:
 - name: samtools_fixmate
   owner: iuc
   revisions:
+  - 2f395ebff85f
   - 41e36c99a008
   - 595ae1ba934a
   - 68a116f469db
@@ -9100,6 +9123,7 @@ tools:
   - 83b8e36e9cbe
   - 8c440c3002bc
   - a389f74c3630
+  - a50321bc1a90
   - b5527cc104ab
   - ce32171c6d44
   - ef678e1f70a2
@@ -9108,6 +9132,7 @@ tools:
   owner: iuc
   revisions:
   - 36677f429310
+  - 37c8eb55315d
   - 65a38e8c8e2a
   - 740ce0a18f0d
   - a7617eb92baf
@@ -9158,11 +9183,13 @@ tools:
   - adc4ed59d82b
   - b5c88b7b153e
   - b8beef827165
+  - c4325d32b1a2
   - fea1a167b822
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: samtools_sort
   owner: devteam
   revisions:
+  - 2ce517eb9af2
   - 69dca890852c
   - 6c2c1836728b
   - 9ede25e390ff
