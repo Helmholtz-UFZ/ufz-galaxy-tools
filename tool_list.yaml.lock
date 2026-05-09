@@ -47,6 +47,7 @@ tools:
 - name: abricate
   owner: iuc
   revisions:
+  - 31f58ec0459a
   - c2ef298da409
   tool_panel_section_label: Sequence Analysis
 - name: abritamr
@@ -80,6 +81,7 @@ tools:
   revisions:
   - 3284b72eef56
   - 8061668d0868
+  - 8a19efbd2178
   tool_panel_section_label: Collection Operations
 - name: alevin
   owner: bgruening
@@ -354,6 +356,7 @@ tools:
 - name: amrfinderplus
   owner: iuc
   revisions:
+  - 573cfe217474
   - 7844dbe4f8e2
   tool_panel_section_label: Sequence Analysis
 - name: amrfinderplus_data_manager_build
@@ -633,6 +636,7 @@ tools:
   - 6ef0b5664c69
   - a3b86937ead6
   - ab9350a8ab4d
+  - afa26d1f6809
   - dad9da48a09a
   - e3cbd2287f63
   tool_panel_section_label: Metagenomics
@@ -645,6 +649,7 @@ tools:
   - 584008e574b2
   - 72ed72122deb
   - a4db66553a61
+  - b3858ab7f598
   - d4d4e9febf5c
   - e177a8ea0bf1
   tool_panel_section_label: Metagenomics
@@ -653,6 +658,7 @@ tools:
   revisions:
   - 2cdeed709bf4
   - 2ea73b1e301b
+  - 4869ced5c43b
   - 66d85966f234
   - 7d28b9d64546
   - 8c026d40406b
@@ -666,6 +672,7 @@ tools:
   - 77174295b6f4
   - be44ed503d2b
   - bf72690f0fb0
+  - d8c14bfe6723
   - e34a4fe24d77
   tool_panel_section_label: Metagenomics
 - name: biom_subset_table
@@ -677,10 +684,12 @@ tools:
   - b45ef5bb4241
   - e42574a580c0
   - f594c9971185
+  - f6985730ab47
   tool_panel_section_label: Metagenomics
 - name: biom_summarize_table
   owner: iuc
   revisions:
+  - 011c5389297a
   - 2cc55cbcb4a3
   - 3dff162d44e9
   - 4720da8c2ebf
@@ -838,6 +847,7 @@ tools:
   owner: iuc
   revisions:
   - 0f5f7fa9c08f
+  - 24313e0ff049
   - 304ac5b49dea
   - 66acaec9f386
   - dd6cab3012e1
@@ -1314,6 +1324,7 @@ tools:
   - 201eff2131d6
   - 4877dfefaacc
   - 54871a78828e
+  - 8367be242f35
   - 8c533e19b697
   - 90b4d4f0a3a4
   - e4b4837f06f5
@@ -1759,6 +1770,7 @@ tools:
   owner: iuc
   revisions:
   - 959a14c1f2dd
+  - f48b35baf365
   tool_panel_section_label: Sequence Analysis
 - name: fasta_merge_files_and_filter_unique_sequences
   owner: galaxyp
@@ -1799,6 +1811,7 @@ tools:
   - 281054a26e41
   - 3432a0e49b86
   - 350c736075eb
+  - 4557b2da9e7f
   - 480ddbd12a03
   - 65b93b623c77
   - 6c2351178f8d
@@ -3198,6 +3211,7 @@ tools:
   revisions:
   - 708abf08a626
   - a040f2dc705c
+  - c63e45a190b5
   - eb50e7eca3dc
   - f375b4f6ef57
   tool_panel_section_label: Metagenomics
@@ -3205,6 +3219,7 @@ tools:
   owner: iuc
   revisions:
   - 00e3b4ef7e0c
+  - 45f6d77d37b7
   - 6b51b29c0147
   - a4441f35f17b
   - ec045ca00b50
@@ -4405,6 +4420,7 @@ tools:
   - 1c2db0054039
   - 26ee5e11ecbe
   - 31c42a2c02d3
+  - 371299578b8e
   - 3d93dd18d9f8
   - 3dd49be3f7d3
   - 467486f1c568
@@ -4472,6 +4488,7 @@ tools:
   - 18eed8fa7f23
   - 198c75abbf55
   - 1e188c9610c3
+  - 2a2364765752
   - 40a5d68e929a
   - 5c7051132156
   - 6ba50cbabbb7
@@ -6441,6 +6458,7 @@ tools:
   revisions:
   - 315c2ed31af1
   - 3a7f73d638ba
+  - 8065e0028a60
   tool_panel_section_label: Metagenomics
 - name: phyloseq_from_dada2
   owner: iuc
@@ -9675,6 +9693,7 @@ tools:
 - name: staramr
   owner: iuc
   revisions:
+  - 146b508457e8
   - 59d308975e63
   - 6d5c8a6ceea0
   - d0a2e0a9c853
@@ -9997,6 +10016,7 @@ tools:
   - 11c344627e52
   - 2f557f6abbfb
   - 3af838dc0637
+  - 3d5b9e4df7ba
   - 5e08a1e22dbc
   - 83c573f2e73c
   - 99ace6c1ff57
