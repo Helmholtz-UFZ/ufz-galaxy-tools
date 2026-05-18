@@ -3489,3 +3489,9 @@ tools:
 - name: fasttree
   owner: iuc
   tool_panel_section_label: Phylogenetics
+- name: bwameth
+  owner: iuc
+  tool_panel_section_label: Sequence Analysis
+- name: pileometh
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
