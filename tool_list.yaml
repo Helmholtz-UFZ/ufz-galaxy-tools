@@ -3486,3 +3486,6 @@ tools:
 - name: comebin_bam
   owner: iuc
   tool_panel_section_label: Metagenomics
+- name: fasttree
+  owner: iuc
+  tool_panel_section_label: Phylogenetics
