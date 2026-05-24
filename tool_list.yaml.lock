@@ -766,6 +766,11 @@ tools:
   - 4a196b9c72c2
   - e188dc7a68e6
   tool_panel_section_label: Next Gen Mappers
+- name: bwameth
+  owner: iuc
+  revisions:
+  - b7ce99273d62
+  tool_panel_section_label: Sequence Analysis
 - name: calculate_numeric_param
   owner: iuc
   revisions:
@@ -830,6 +835,7 @@ tools:
   owner: bgruening
   revisions:
   - 130d15e15378
+  - 48fe4ddcaeeb
   - bc1410a8a247
   tool_panel_section_label: Imaging
 - name: cfmid
@@ -1041,27 +1047,32 @@ tools:
 - name: concoct
   owner: iuc
   revisions:
+  - 396cce609c04
   - eae7ee167917
   tool_panel_section_label: Metagenomics
 - name: concoct_coverage_table
   owner: iuc
   revisions:
+  - 6a9c82cc3448
   - fd31cd168efc
   tool_panel_section_label: Metagenomics
 - name: concoct_cut_up_fasta
   owner: iuc
   revisions:
   - 4d8bc5dd9e95
+  - 7a5598f973c9
   tool_panel_section_label: Metagenomics
 - name: concoct_extract_fasta_bins
   owner: iuc
   revisions:
   - 8b1b09fcd8b7
+  - d87b60b2ed78
   tool_panel_section_label: Metagenomics
 - name: concoct_merge_cut_up_clustering
   owner: iuc
   revisions:
   - 20ccec4a2c38
+  - 28b4b21d6aae
   tool_panel_section_label: Metagenomics
 - name: corr_table
   owner: melpetera
@@ -1606,6 +1617,7 @@ tools:
   revisions:
   - 0cdcf7e99b62
   - 1196fc76fdc2
+  - 15c0c0d90c3f
   - 1e3323a44643
   - 20d92dc4c6cb
   - 60f307965815
@@ -1878,6 +1890,11 @@ tools:
   - a64c24430f5e
   - ac3fed111eb6
   tool_panel_section_label: Fastq Manipulation
+- name: fasttree
+  owner: iuc
+  revisions:
+  - bc939965ce41
+  tool_panel_section_label: Phylogenetics
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
@@ -2160,6 +2177,7 @@ tools:
   - a68b985913ab
   - b907a3c0434f
   - c30adf839acd
+  - e91d979deb87
   - ed407eeb69ee
   - ed4c007af906
   tool_panel_section_label: Metagenomics
@@ -4300,6 +4318,7 @@ tools:
   - 28ffaaa5739f
   - 331a50e8fd2f
   - 3cf310697624
+  - 4493fdb346f0
   - 545054b15d7c
   - 6153e8ada1ee
   - 8edfcbf32616
@@ -4321,6 +4340,7 @@ tools:
   - 90745ecc5e9f
   - a6af1e124e06
   - b5467dead5b1
+  - cfa9638fe182
   tool_panel_section_label: Exposomics - recetox
 - name: msnbase_readmsdata
   owner: lecorguille
@@ -4427,6 +4447,7 @@ tools:
   - 862943c10425
   - a7e081ceb76a
   - abfd8a6544d7
+  - bb89ae58738c
   - bf675f34b056
   - d2aaac19f42f
   - e4574a4d09d8
@@ -4489,6 +4510,7 @@ tools:
   - 198c75abbf55
   - 1e188c9610c3
   - 2a2364765752
+  - 3884a407d8f0
   - 40a5d68e929a
   - 5c7051132156
   - 6ba50cbabbb7
@@ -4512,6 +4534,7 @@ tools:
   - 9a9c5027ea7c
   - ad1e5225bca4
   - b00212deaea7
+  - d9dc3534b9db
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_efetch
   owner: iuc
@@ -4522,6 +4545,7 @@ tools:
   - 6c4b39080ed7
   - c09fcbe4b16a
   - c5ff15011115
+  - d2262cc3fddc
   tool_panel_section_label: Get Data
 - name: ncbi_eutils_egquery
   owner: iuc
@@ -4537,6 +4561,7 @@ tools:
   revisions:
   - 5b1dc5936af2
   - 6a0463d18db2
+  - cbddabc5c71a
   - ccc58c7435fd
   - cd5a82a16bbf
   - f6007bce569d
@@ -4545,6 +4570,7 @@ tools:
 - name: ncbi_eutils_elink
   owner: iuc
   revisions:
+  - 18e7b30a39aa
   - 1ed9a99b9b1f
   - 2791c731fc65
   - 55b3067762f9
@@ -4555,6 +4581,7 @@ tools:
 - name: ncbi_eutils_epost
   owner: iuc
   revisions:
+  - 11aa5f503261
   - 196b8dd07896
   - 53cf74abf836
   - 7d354fd4614c
@@ -4566,6 +4593,7 @@ tools:
   owner: iuc
   revisions:
   - 30150bd36c9a
+  - 4f0a4010bf1d
   - 67602de82f6e
   - c6096cd97120
   - e267701c187b
@@ -4576,6 +4604,7 @@ tools:
   owner: iuc
   revisions:
   - 254f40d3ae2b
+  - 308d8bea83f5
   - 4dc2757b8ce6
   - 7fe990069458
   - 82e10809842f
@@ -4635,12 +4664,14 @@ tools:
   - 44f812171bc0
   - 86d6593f54d8
   - b1f969b7c527
+  - b5fa5c86de56
   - c6f34af26769
   - fa0d96599c31
   tool_panel_section_label: Imaging
 - name: omero_filter
   owner: ufz
   revisions:
+  - 006d3a69c365
   - 048353b617ba
   - 21e1765c5f19
   - 375281d11535
@@ -4659,6 +4690,7 @@ tools:
   - 426415e73f46
   - 518221701b10
   - 59f7f9164544
+  - 7e7fc68b169a
   - ae07ea142e0f
   - c23735b45a4a
   - c7b2650718fe
@@ -4672,6 +4704,7 @@ tools:
   - 89fc1f215e77
   - 9a50e57339d8
   - a41878cb0a6e
+  - afc11b6940e2
   - d8c33fef01b9
   - ecb13e93fae2
   - f5c4f523432d
@@ -4684,6 +4717,7 @@ tools:
   - 267227e757cb
   - 42a454d4b482
   - 48a4ed7929b3
+  - 75c2257023e8
   - 83ccd2b525e5
   - a62f0b725508
   - afe3e24336ed
@@ -4702,6 +4736,7 @@ tools:
   - 4c96c51b7880
   - 4dcbcd213ee3
   - 588d6fa22fc4
+  - 6a13fe2fa921
   - 7cd85e1c50f3
   - 931eb5fed2c0
   - b70f6440513c
@@ -4718,6 +4753,7 @@ tools:
   - 4f4dc352d660
   - 55e3d33cf4bd
   - 599c3dd808e6
+  - 8da603b949c1
   - dfe0aae1495c
   - e957793051a8
   - fb20acd19613
@@ -6596,6 +6632,11 @@ tools:
   - a38a0a966a4d
   - f17b7d5a87f7
   tool_panel_section_label: Amplicon Analysis
+- name: pileometh
+  owner: bgruening
+  revisions:
+  - d6787bab7b11
+  tool_panel_section_label: Sequence Analysis
 - name: plasmidfinder
   owner: iuc
   revisions:
