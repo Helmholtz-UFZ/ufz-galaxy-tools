@@ -3495,3 +3495,7 @@ tools:
 - name: pileometh
   owner: bgruening
   tool_panel_section_label: Sequence Analysis
+- name: antismash
+  owner: bgruening
+  tool_panel_section_label: Sequence Analysis
+
