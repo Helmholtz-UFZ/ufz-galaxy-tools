@@ -56,6 +56,7 @@ tools:
   - 3e8233ce0b99
   - 468fd92deaaa
   - ca5d51152817
+  - ce54031c2235
   - e17bbe564242
   tool_panel_section_label: Sequence Analysis
 - name: abyss
@@ -358,10 +359,12 @@ tools:
   revisions:
   - 573cfe217474
   - 7844dbe4f8e2
+  - 96112e4c5e26
   tool_panel_section_label: Sequence Analysis
 - name: amrfinderplus_data_manager_build
   owner: iuc
   revisions:
+  - 5a6e1fa871a2
   - a5921c09b7b7
   - dfa1eb2941b0
   tool_panel_section_label: Data Managers
@@ -382,6 +385,11 @@ tools:
   - 102049093b7d
   - c2be3b890724
   tool_panel_section_label: Metabolomics - W4M
+- name: antismash
+  owner: bgruening
+  revisions:
+  - bc88856eddab
+  tool_panel_section_label: Sequence Analysis
 - name: asca
   owner: marie-tremblay-metatoul
   revisions:
@@ -485,6 +493,7 @@ tools:
 - name: bandage
   owner: iuc
   revisions:
+  - 86ec2f06de3c
   - ddddce450736
   tool_panel_section_label: Visualization
 - name: bank_inhouse
@@ -764,6 +773,7 @@ tools:
   - 1dfc975b48d5
   - 2477830927ec
   - 4a196b9c72c2
+  - c598cbb8b019
   - e188dc7a68e6
   tool_panel_section_label: Next Gen Mappers
 - name: bwameth
@@ -1159,6 +1169,7 @@ tools:
   - 3a89c3f99f3d
   - 4d89978c6188
   - 5b5a7af9fbb4
+  - 60cd35f37c0a
   - 63f86089423e
   - 65db807336bc
   - 705d26fbea02
@@ -1179,6 +1190,7 @@ tools:
   - 89d11e95a9b1
   - 96336c6a2bb7
   - b35a5e8ff0fe
+  - b762f4d54f78
   - f79565b12646
   tool_panel_section_label: Amplicon Analysis - dada2
 - name: dada2_filterandtrim
@@ -1186,6 +1198,7 @@ tools:
   revisions:
   - 00e0347751b1
   - 23fc35093b11
+  - 6be249bfd55b
   - 777f9846c56d
   - 81fc1ff02788
   - a9f4a217dcd6
@@ -1200,6 +1213,7 @@ tools:
   revisions:
   - 04c15826a0b8
   - 39638e0aff59
+  - 4bba91a89457
   - 5fe3edf19b9c
   - 68129ce1c59b
   - 75403243703a
@@ -1219,6 +1233,7 @@ tools:
   - 88677f452aea
   - 99c6929236fa
   - 9ccec6ed8e82
+  - aab8af79110e
   - bfd62e881837
   - e96bbb9e24ea
   - ebd632e95aae
@@ -1234,6 +1249,7 @@ tools:
   - 5c865a382933
   - 646c58820267
   - 69900ffd3b8e
+  - a35c40af067f
   - b1e55c248f17
   - c920e1400f98
   tool_panel_section_label: Amplicon Analysis - dada2
@@ -1244,6 +1260,7 @@ tools:
   - 2875d977c533
   - 32c9ea835770
   - 498d57610fcd
+  - 5cba3a0dc3b6
   - 6f06d501b7e6
   - 78faebd0879c
   - 806fe614ca46
@@ -1255,6 +1272,7 @@ tools:
   revisions:
   - 2a90d2fd3336
   - 4e469b758915
+  - 51971db051ba
   - 52a911972c02
   - 7b8cb2b02978
   - a204f3983d22
@@ -1268,6 +1286,7 @@ tools:
   owner: iuc
   revisions:
   - 00b8932e286e
+  - 506ce55ba922
   - 74ec28dbdf17
   - 7dfcb39313d4
   - ee763baa80c3
@@ -1277,6 +1296,7 @@ tools:
   revisions:
   - 04144473e59e
   - 073608a50ac3
+  - 0a13d449d1bf
   - 1770d188f72d
   - 4efeb75704c8
   - 5b752525bd6f
@@ -1293,6 +1313,7 @@ tools:
   - 0a1224c4b781
   - 19299bb1c6af
   - 213a3fda0b91
+  - 256e7a119a95
   - 390bc2645138
   - 4cc834cce4fb
   - 7d28da5e9e27
@@ -1781,6 +1802,7 @@ tools:
 - name: falco
   owner: iuc
   revisions:
+  - 219ffa24f789
   - 959a14c1f2dd
   - f48b35baf365
   tool_panel_section_label: Sequence Analysis
@@ -1955,6 +1977,7 @@ tools:
   - 1759d845181e
   - 1b851f87fbe0
   - 30f6985f0ac7
+  - 37d067694d40
   - 38b6d12edc68
   - 46cccc52be5f
   - 5dbff3a5845a
@@ -2568,18 +2591,21 @@ tools:
 - name: imagej2_adjust_threshold_binary
   owner: imgteam
   revisions:
+  - 1e1715e2b53d
   - 2b007b1e6c1b
   - da29019170f1
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_analyze_particles_binary
   owner: imgteam
   revisions:
+  - 0601a9056642
   - 862af85a50ec
   - ae4ae9c5c56c
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_analyze_skeleton
   owner: imgteam
   revisions:
+  - 3f5741e550e9
   - 50f2b961b192
   - bdee06a1bcfa
   tool_panel_section_label: Imaging - ImageJ2
@@ -2587,12 +2613,14 @@ tools:
   owner: imgteam
   revisions:
   - 182994b12622
+  - 4ae6e6b0258d
   - 91b8f4730a93
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_adapt_transform
   owner: imgteam
   revisions:
   - c4774c1a35ea
+  - c853e60002db
   - fa64e8aed5a5
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_align
@@ -2600,22 +2628,26 @@ tools:
   revisions:
   - 0a0d2dfd17e0
   - 711adedc5bb8
+  - a13240a1a6d3
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_compare_elastic
   owner: imgteam
   revisions:
   - 42ba21dc9ea6
+  - c1c7a81ba4e5
   - f9f2d9746a01
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_compare_elastic_raw
   owner: imgteam
   revisions:
+  - 07f37e516729
   - 3d5f59603e13
   - da91b5eaf92d
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_compare_raw
   owner: imgteam
   revisions:
+  - 2802f5bf9380
   - 77411a986a70
   - b0da913f048e
   tool_panel_section_label: Imaging - ImageJ2
@@ -2623,11 +2655,13 @@ tools:
   owner: imgteam
   revisions:
   - 7121957d0bbf
+  - 71f2b1e4efa4
   - e781a17b3c14
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_compose_raw
   owner: imgteam
   revisions:
+  - 231ca4c088d9
   - 6c47d8a43207
   - f068e9171af2
   tool_panel_section_label: Imaging - ImageJ2
@@ -2635,6 +2669,7 @@ tools:
   owner: imgteam
   revisions:
   - 4deffc9540a3
+  - 86886859d876
   - bdc70b34153a
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_convert_to_raw
@@ -2642,17 +2677,20 @@ tools:
   revisions:
   - 0cdd96322600
   - bd2aadf0f589
+  - c9e87324073c
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_elastic_transform
   owner: imgteam
   revisions:
   - 55bf135d6b0c
+  - 73b16a95813a
   - f72f8e6787cd
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_bunwarpj_raw_transform
   owner: imgteam
   revisions:
   - 69e951528a0b
+  - aed895206786
   - eabdcf6ad900
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_create_image
@@ -2660,17 +2698,20 @@ tools:
   revisions:
   - 666af1279007
   - 69e28b06e027
+  - b63ed4bb2289
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_enhance_contrast
   owner: imgteam
   revisions:
   - 056e74fbbf6c
   - 1f92b1da556b
+  - 93cb13a320fe
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_find_edges
   owner: imgteam
   revisions:
   - 5023cbf98ca3
+  - 59b8bef26edf
   - 633bea9c8ee0
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_find_maxima
@@ -2678,28 +2719,33 @@ tools:
   revisions:
   - 4409f9eb9433
   - 6a07f71806bb
+  - 8bc0b21938d6
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_make_binary
   owner: imgteam
   revisions:
   - 1cf9771e0e53
+  - ac4aee7dc64c
   - d3e8ef83f3bf
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_math
   owner: imgteam
   revisions:
+  - a2e5c70fdfcc
   - d426c25946d4
   - d7fbe9662213
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_noise
   owner: imgteam
   revisions:
+  - 2b32aaa9a8b1
   - 73cc4e6a741d
   - 756e062741dc
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_shadows
   owner: imgteam
   revisions:
+  - ec82bbbeb775
   - f3c9192bd0b9
   - f7ae316b00e4
   tool_panel_section_label: Imaging - ImageJ2
@@ -2708,16 +2754,19 @@ tools:
   revisions:
   - 418b1fa32b83
   - 49e29abe0fce
+  - f4e396f032fc
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_skeletonize3d
   owner: imgteam
   revisions:
   - 49b5288dcd8c
   - 5f5b7185bc16
+  - efbe484bc683
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagej2_smooth
   owner: imgteam
   revisions:
+  - 129f6b7185af
   - 6d7dd2194b4c
   - c11777ffe5b1
   tool_panel_section_label: Imaging - ImageJ2
@@ -2726,6 +2775,7 @@ tools:
   revisions:
   - 29aca8eebdaa
   - aeae7e29d525
+  - b92f57ebf6c8
   tool_panel_section_label: Imaging - ImageJ2
 - name: imagemagick_image_montage
   owner: bgruening
@@ -2782,6 +2832,7 @@ tools:
   owner: fubar
   revisions:
   - bd903fbbc26e
+  - dd032687675c
   tool_panel_section_label: Sequence Analysis
 - name: join
   owner: devteam
@@ -2985,6 +3036,7 @@ tools:
   - 081390a8e739
   - 1d10d32fa3b3
   - 4e8a6d6f0e6a
+  - 69b568a0dab1
   - 7c5b86026e57
   - 8fb8ac6c37b0
   - a5d41764722d
@@ -3004,6 +3056,7 @@ tools:
   - b9cc12600553
   - c5ed6bfcd806
   - c990df6afc24
+  - d95450eba471
   - fb09ed49c70e
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_filtering
@@ -3017,6 +3070,7 @@ tools:
   - 83c4b4359ac4
   - 86d265d2a334
   - a177ac3c752c
+  - a26afcf352fd
   - a6583110825c
   - c5076cc15e8c
   - ca5a8db023e1
@@ -3027,6 +3081,7 @@ tools:
   - 1ffbd537984f
   - 79accd21387c
   - 84af792d3a78
+  - a465cb84a388
   - ad9d2d1b2b8d
   - c2d546691b7a
   - cdb41d95648c
@@ -3042,6 +3097,7 @@ tools:
   - 1e58bf51a0e5
   - 23d4bc72c505
   - 402620029a7a
+  - 5ab06f9104ec
   - 5fa29e292e12
   - 604131c54f97
   - 6501d0287dcd
@@ -3054,6 +3110,7 @@ tools:
   owner: recetox
   revisions:
   - 51205379251d
+  - 67b885502624
   - 73c902331bbc
   - 7e2066111683
   - 86727e1d0866
@@ -3074,6 +3131,7 @@ tools:
   - 5c379988b7ea
   - 844d32c59314
   - 86e080d81cfb
+  - 9c9af0df1754
   - be20e19c57e8
   - c86d265f6f5e
   - ec81ec7cea2e
@@ -3090,6 +3148,7 @@ tools:
   - e052eac8be4a
   - e23c14cee5a9
   - fc1a698a71e8
+  - fda20b5ff8ed
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_networking
   owner: recetox
@@ -3100,6 +3159,7 @@ tools:
   - 9c12114c7aee
   - 9f2e7e1600c0
   - ab8a33c370f5
+  - ad859b8036ad
   - c42b977ec884
   - d8e937f335b8
   - f04b378325e5
@@ -3112,6 +3172,7 @@ tools:
   - 19367db5cf3c
   - 6b5867cab698
   - 8c98b3cb320e
+  - 9843a619e9be
   - 9d1b01d3fedd
   - ef233c08112e
   - fbdb2ae524df
@@ -3131,6 +3192,7 @@ tools:
   - 7627b40601f6
   - 77d6425daa07
   - 7ba589b01dbc
+  - 931cce430163
   - 9ff95a1a2705
   - b2c7b7705734
   - ee35dcec350a
@@ -3146,6 +3208,7 @@ tools:
   - 500f473df7e4
   - 6864944b00fd
   - 7676700d7c4f
+  - 9e931f6fc8cd
   - ea6c5636c0cf
   - eba733715eaf
   - ffe46a9b1124
@@ -3153,6 +3216,7 @@ tools:
 - name: matchms_subsetting
   owner: recetox
   revisions:
+  - 0da72f66ff79
   - 2b61ec493df6
   - 5bbd1a8404f5
   - 6ac4a790adad
@@ -3183,6 +3247,7 @@ tools:
   - 8934bc76bb52
   - 9c52362ae7bb
   - ea0a1d50c83f
+  - fce1301d386c
   tool_panel_section_label: Proteomics
 - name: maxquant_mqpar
   owner: galaxyp
@@ -3289,6 +3354,7 @@ tools:
 - name: metaspades
   owner: nml
   revisions:
+  - 04d81e5f25e9
   - 05c394313b1c
   - 606b09cc9860
   - 6563e22a9fd0
@@ -3321,6 +3387,7 @@ tools:
   - 3faf9a2bf58d
   - 539de907fd99
   - 6945cd53bd2d
+  - 7a6382582d76
   tool_panel_section_label: Next Gen Mappers
 - name: mothur_align_check
   owner: iuc
@@ -4454,6 +4521,7 @@ tools:
   - e4dd4c0622f6
   - f7985e0479b9
   - f7e2f1eb3a16
+  - fac2260bc88a
   tool_panel_section_label: Fastq Manipulation
 - name: multivariate
   owner: ethevenot
@@ -4484,6 +4552,7 @@ tools:
   - 025139097795
   - 0f1c34698076
   - 2a9afed42353
+  - 640e4eeab4e2
   - 9eab750c367d
   - a02b8b3f5a0c
   - a38bdcec9e4c
@@ -4522,6 +4591,7 @@ tools:
   - a6a475ed58cb
   - ac24fff14f23
   - bc18e25d4204
+  - c28c9cdf3660
   - d951c5b0edd1
   - da8260eba74b
   tool_panel_section_label: Data Source
@@ -6682,6 +6752,7 @@ tools:
   owner: crs4
   revisions:
   - 8a22554cdde2
+  - c105b66eaab1
   tool_panel_section_label: Sequence Analysis
 - name: proteomiqon_joinquantpepionswithproteins
   owner: galaxyp
@@ -9046,6 +9117,7 @@ tools:
   - 5bd3f053c303
   - 5fc94b3a4704
   - 675ee1aa5952
+  - aa1ac2f7a688
   tool_panel_section_label: Assembly
 - name: rseqc
   owner: nilesh
@@ -9399,6 +9471,7 @@ tools:
 - name: spades
   owner: nml
   revisions:
+  - 1f04936b96f3
   - 65d1598a9256
   - 822954de3f59
   - 884dc0264950
@@ -9415,12 +9488,14 @@ tools:
   - 5e7a2a927b56
   - 60b8f1668552
   - a5d68876c44e
+  - afac6d6bd02b
   - c33a476f4001
   - d89ced9439f3
   tool_panel_section_label: Assembly
 - name: spades_coronaspades
   owner: iuc
   revisions:
+  - 045c8498d2dd
   - 152ff7d1817a
   - 2cf8a2028ddc
   - 4ae660dd1fb6
@@ -9434,6 +9509,7 @@ tools:
   - 21da31ed41a1
   - 4a01e0d2892c
   - 7e27faaad80e
+  - ae96f644b722
   - c5c4fa59be65
   - c8097e741b13
   - edac5e292b7f
@@ -9444,6 +9520,7 @@ tools:
   - 6766a94ef559
   - 7922870efcca
   - 86f66ab58e14
+  - c4ba6aa27088
   - e060c3987513
   - ea83ac535a1f
   - ed32d95f436a
@@ -9454,6 +9531,7 @@ tools:
   - 388dbecbf03b
   - 5be72b7648fa
   - 6aad515a5270
+  - 6fb81bb0fe3e
   - 75405f5e2cc5
   - 8cc856b935ee
   - b40b77418372
@@ -9467,6 +9545,7 @@ tools:
   - b3490b036c5a
   - d5645713603a
   - dc5d1a54054b
+  - f4fc734dd9b0
   tool_panel_section_label: Assembly
 - name: spec2vec_similarity
   owner: recetox
@@ -9737,6 +9816,7 @@ tools:
   - 146b508457e8
   - 59d308975e63
   - 6d5c8a6ceea0
+  - cfe8742b704e
   - d0a2e0a9c853
   - eaa563bd535a
   - f2625d1efadd
@@ -9748,6 +9828,7 @@ tools:
   - 333a6e13b622
   - 6e45b443ef1f
   - 76d290331481
+  - 92198ab2345f
   - cbf488da3b2c
   - dd4df992d93d
   - eba36e001f45
@@ -10222,6 +10303,7 @@ tools:
 - name: xtb_molecular_optimization
   owner: recetox
   revisions:
+  - 14a4d81e921e
   - 6e1ef071fffc
   - cba7123c2741
   - d5633eaf3552
