@@ -858,6 +858,7 @@ tools:
   revisions:
   - b6a6b4cc932a
   - e7c5811ec12f
+  - f19a3307db9b
   tool_panel_section_label: Metabolomics - W4M
 - name: checkm2
   owner: iuc
@@ -1606,6 +1607,7 @@ tools:
   - 6c363db8c702
   - 8fe98f7094de
   - 9a882d108833
+  - b060944b3989
   - cd9874cb9019
   - d9e5cadc7f0b
   tool_panel_section_label: Transcriptomics
@@ -4390,6 +4392,7 @@ tools:
 - name: msconvert
   owner: galaxyp
   revisions:
+  - 252d185267fc
   - 28ffaaa5739f
   - 331a50e8fd2f
   - 3cf310697624
