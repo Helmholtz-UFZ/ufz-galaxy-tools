@@ -1914,6 +1914,9 @@ tools:
 - name: dada2_primercheck
   owner: iuc
   tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_mergeSequenceTables
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis - dada2
 - name: graphembed
   owner: iuc
   tool_panel_section_label: Statistics
