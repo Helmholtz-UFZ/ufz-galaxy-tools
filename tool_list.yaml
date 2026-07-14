@@ -3498,4 +3498,6 @@ tools:
 - name: antismash
   owner: bgruening
   tool_panel_section_label: Sequence Analysis
-
+- name: vsearch
+  owner: iuc
+  tool_panel_section_label: Amplicon Analysis
