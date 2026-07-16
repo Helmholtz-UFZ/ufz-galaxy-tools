@@ -3504,3 +3504,6 @@ tools:
 - name: vsearch
   owner: iuc
   tool_panel_section_label: Amplicon Analysis
+- name: fragpipe
+  owner: galaxyp
+  tool_panel_section_label: Proteomics 
