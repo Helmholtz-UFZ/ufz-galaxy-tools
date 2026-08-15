@@ -49,6 +49,7 @@ tools:
   revisions:
   - 31f58ec0459a
   - c2ef298da409
+  - d8b0de0554a9
   tool_panel_section_label: Sequence Analysis
 - name: abritamr
   owner: iuc
@@ -765,6 +766,7 @@ tools:
   revisions:
   - 4e70d88adf2f
   - c5a90fa4b8dd
+  - cc217867028e
   tool_panel_section_label: Sequence Analysis
 - name: bwa
   owner: devteam
@@ -1107,6 +1109,7 @@ tools:
   owner: iuc
   revisions:
   - 28d740f2c0b0
+  - 66919d81c4d1
   - d9b724b4a136
   tool_panel_section_label: Metagenomics
 - name: coverm_genome
@@ -1114,6 +1117,7 @@ tools:
   revisions:
   - 73b667038f46
   - 8c957deb8a68
+  - c91014de79d2
   tool_panel_section_label: Metagenomics
 - name: cp_cellprofiler
   owner: bgruening
@@ -1452,12 +1456,14 @@ tools:
 - name: data_manager_fetch_busco
   owner: iuc
   revisions:
+  - 6136ac58acab
   - 8ef19ca5d289
   tool_panel_section_label: Data Managers
 - name: data_manager_fetch_busco_options
   owner: iuc
   revisions:
   - 4e3bbaa0b70f
+  - 803cef749306
   tool_panel_section_label: Data Managers
 - name: data_manager_fetch_plasmidfinder
   owner: iuc
@@ -1478,6 +1484,7 @@ tools:
   - 3a3cb74b3f6e
   - 3b1d503c6260
   - 750d902de22c
+  - b2a92f75fda8
   - df84aaed4769
   - e7b39a7e0024
   tool_panel_section_label: Data Managers
@@ -1675,6 +1682,7 @@ tools:
   - 62c9df8382c2
   - 64be1ac21109
   - 7483f7d26984
+  - 8a203e727140
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
@@ -1740,6 +1748,7 @@ tools:
   revisions:
   - 63dd26468588
   - 832c20329690
+  - b60d6f1d72a9
   tool_panel_section_label: Sequence Analysis (EMBOSS)
 - name: ena_upload
   owner: iuc
@@ -2047,6 +2056,7 @@ tools:
 - name: filter_tabular
   owner: iuc
   revisions:
+  - 26fc6cf774d4
   - 34d29339abab
   - 557ec8d7087d
   - 59278960a2e7
@@ -2240,6 +2250,7 @@ tools:
   - 7209f32a9e9d
   - a68b985913ab
   - b907a3c0434f
+  - bef32ef81f43
   - c30adf839acd
   - e91d979deb87
   - ed407eeb69ee
@@ -2269,6 +2280,7 @@ tools:
   - 61ee47027bd3
   - 6ab42baa56e9
   - b12d81af0291
+  - eaa10652acc2
   - f4af63aaf57a
   tool_panel_section_label: Assembly
 - name: histogram
@@ -2320,6 +2332,7 @@ tools:
   revisions:
   - 1cd4d0cf8fd9
   - 7b7ff4d209f7
+  - 82d6ca8212dc
   - 96b127c59e6a
   - a6f41287ef2b
   - be03abdc6451
@@ -2401,6 +2414,7 @@ tools:
   - 6b7622dda516
   - 95bf7479d53c
   - a00df747f03c
+  - a6fd47ecbff8
   - c2803012bbb3
   - fc6c328c292f
   tool_panel_section_label: Metagenomics
@@ -2935,6 +2949,7 @@ tools:
   revisions:
   - 8ec7636fa875
   - c3c46f14c7a4
+  - f3534b94ad05
   tool_panel_section_label: Sequence Analysis
 - name: kraken2
   owner: iuc
@@ -4554,6 +4569,7 @@ tools:
 - name: multigsea
   owner: iuc
   revisions:
+  - 8a32303f521d
   - e08383c04167
   - e48b10ce08b8
   tool_panel_section_label: Transcriptomics
@@ -6536,6 +6552,7 @@ tools:
   - 03c13085aecc
   - dbac244d2214
   - f1691de443a7
+  - fb6d30ca4ea6
   tool_panel_section_label: Statistics
 - name: peptideshaker
   owner: galaxyp
@@ -6696,6 +6713,7 @@ tools:
   revisions:
   - 3b133b8d578a
   - 6eafc1e01a8c
+  - 84d4390cbd3a
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_metagenome_pipeline
   owner: iuc
@@ -6708,6 +6726,7 @@ tools:
   revisions:
   - 6077821e8ae7
   - f53beb324696
+  - fc95788aff90
   tool_panel_section_label: Amplicon Analysis
 - name: picrust2_pipeline
   owner: iuc
@@ -9140,6 +9159,7 @@ tools:
   - 980d2a2e1180
   - b0f2be869d6d
   - c772497b2c32
+  - d8d32326fbfb
   - de21b616f03a
   tool_panel_section_label: Next Gen Mappers
 - name: riassigner
@@ -9525,6 +9545,7 @@ tools:
   owner: ufz
   revisions:
   - 4db77f218765
+  - 6961876781cc
   tool_panel_section_label: Proteomics
 - name: sortmerna
   owner: rnateam
@@ -9932,6 +9953,7 @@ tools:
   - 3bf5661c0280
   - 56a8da1f2243
   - 93a3ce78ce55
+  - c656214aa052
   - cd36d6e45e29
   tool_panel_section_label: Text Manipulation
 - name: tabular_to_fasta
@@ -9945,6 +9967,7 @@ tools:
   revisions:
   - 1334cb4c6b68
   - 73486cc6170e
+  - 7d01da0b9e18
   - c9f8fef1df74
   - e9005d1f3cfd
   tool_panel_section_label: Metagenomics
@@ -9998,6 +10021,7 @@ tools:
   owner: pjbriggs
   revisions:
   - 32f1f56bd970
+  - 75a3b8da8e76
   - 898b67846b47
   - b9aaed85cbd1
   - d94aff5ee623
