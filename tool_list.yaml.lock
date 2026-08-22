@@ -1145,6 +1145,7 @@ tools:
   - 254cb00a578f
   - 25a5fa5f86a5
   - 2c8db4bf8834
+  - 43e2eb60dd0b
   - a755466eb47c
   - f93a61ef06cf
   tool_panel_section_label: Metagenomics
@@ -1840,6 +1841,7 @@ tools:
   - 6efa06ffbac8
   - 8ea21f0669f1
   - 97ad0d817a45
+  - d3f229458710
   - db58d5898fea
   tool_panel_section_label: Metagenomics
 - name: falco
@@ -3349,6 +3351,7 @@ tools:
   - 327d9f4cc95f
   - 3b469e230e82
   - 3cc4a60615c0
+  - 80254e412cde
   - ab1a9a932182
   - c3e2a0805600
   tool_panel_section_label: Metagenomics
@@ -3396,6 +3399,7 @@ tools:
   revisions:
   - 1a037928504c
   - 1a6cdf55390f
+  - 1f688befbcdf
   - 289b3807e80c
   - 56ff60ec416d
   - 740fd2d16a28
@@ -9980,6 +9984,7 @@ tools:
   owner: bgruening
   revisions:
   - 0a8c6b61f0f4
+  - 30b60202d990
   - 3dc70b59608c
   - 6073bb457ec0
   - 74a8bef53a00
