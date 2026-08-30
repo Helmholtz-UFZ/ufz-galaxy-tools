@@ -89,6 +89,7 @@ tools:
   owner: bgruening
   revisions:
   - '528052085629'
+  - a8b6292cdffc
   - b0fe3e482cb7
   tool_panel_section_label: Sequence Analysis
 - name: aligned_to_consensus
@@ -118,6 +119,7 @@ tools:
   - b0b7bba11507
   - bd518ee51da5
   - c14c7fd4d1be
+  - e50ac6ad263b
   - e9168eec404c
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
@@ -132,6 +134,7 @@ tools:
   - 874b1a4fe7f0
   - b3c5560ffac6
   - b4c6f8741989
+  - f339ecec9e21
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_core
   owner: iuc
@@ -142,6 +145,7 @@ tools:
   - 4b023017896a
   - 943c2ae9594a
   - 96bc42baaa74
+  - 9cc284833af9
   - de6156c8ef16
   - e595eafb5ecf
   - f360e09dd04b
@@ -158,10 +162,12 @@ tools:
   - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
+  - fc70cfa151cd
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
   owner: iuc
   revisions:
+  - 09bcc3d5e672
   - 0feab98f9577
   - 301a6ffaf2a2
   - 467da4453127
@@ -179,6 +185,7 @@ tools:
   - 14695ae019be
   - 16b4934fc7e7
   - 1979fdd0914f
+  - 241140d6680a
   - 3e5c1fdd0e45
   - 7c3248a397fd
   - 9bdb74297b3d
@@ -194,6 +201,7 @@ tools:
   - 576dd33588bf
   - 738474880da8
   - 7db90993aa92
+  - 841c5e03eb05
   - 91efbd7b52dc
   - 9b3e1acc3ad0
   - dc0840e31406
@@ -202,6 +210,7 @@ tools:
   owner: iuc
   revisions:
   - 028ba7c0b400
+  - 22d5ac862bcf
   - 24f43b62a172
   - 2f9731cc4c87
   - 35d71afa93f4
@@ -223,6 +232,7 @@ tools:
   - 77f9ed2bb200
   - c9143bcb2072
   - f34ea612eecf
+  - fdf58654ad2d
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_octave
   owner: iuc
@@ -236,6 +246,7 @@ tools:
   - a194e5f09106
   - cb617c2139fa
   - d5edda7f75eb
+  - d939a8b3defe
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_ordinate
   owner: iuc
@@ -248,6 +259,7 @@ tools:
   - 811df76f4f26
   - 9742e8636a10
   - be1918c80d9f
+  - c465a1ea3da2
   - dc31a6f9fb2f
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_otu_network
@@ -258,6 +270,7 @@ tools:
   - 4122ff5882e0
   - 454bfdfa6de5
   - 47aec96764b8
+  - 5ca81dc9b5d9
   - 7822d7a5a496
   - 7e6f33f40312
   - a9fd4ada4d2a
@@ -270,6 +283,7 @@ tools:
   - 18de61c5527c
   - 2c21c267391c
   - 4140e26cafbc
+  - 838946d86683
   - c5ccc28a2696
   - cf0944377d87
   - d02f4a87eb55
@@ -282,6 +296,7 @@ tools:
   - 094d0b97f92c
   - 2828d52a8910
   - 2e69edaaa834
+  - 3063daee0d8b
   - 30ac301ba3d6
   - 7723ef4c9163
   - 9f4d491ebad2
@@ -294,6 +309,7 @@ tools:
   revisions:
   - 024a22e84bea
   - 14b992fb08d4
+  - 1615e0550c98
   - 638503db7271
   - 7c9c6448b57c
   - 7f5dd19dc792
@@ -310,6 +326,7 @@ tools:
   - 317728cb0f8a
   - 492eb6dcfe5c
   - b268ffb0e321
+  - bd4aaf683c79
   - c8bfb923d7d4
   - ef800b2766c4
   - f9fa155c191f
@@ -319,6 +336,7 @@ tools:
   owner: iuc
   revisions:
   - 20a62b3a3038
+  - 227d169951d9
   - 35010c1c2d1b
   - 70a98af91147
   - 76cb398e9110
@@ -336,6 +354,7 @@ tools:
   - 77d2f88d8716
   - 9c6dbd8a875b
   - 9de032723f5b
+  - ad262a9581bf
   - bc6221716772
   - bd41251e42ec
   - d50cf42420f2
@@ -354,6 +373,7 @@ tools:
   - e85ff12bc025
   - ed963e5316b7
   - f28f2faad83b
+  - f5987fb716a2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: amrfinderplus
   owner: iuc
@@ -432,6 +452,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 292eea8defa7
   - d77802fe76f7
   tool_panel_section_label: Sequence Analysis
 - name: ball
@@ -1046,12 +1067,14 @@ tools:
 - name: comebin
   owner: iuc
   revisions:
+  - cd1d8332bc04
   - ddfb9c10740a
   tool_panel_section_label: Metagenomics
 - name: comebin_bam
   owner: iuc
   revisions:
   - d2dd7be65d47
+  - e59e54ac8e4b
   tool_panel_section_label: Metagenomics
 - name: compose_text_param
   owner: iuc
@@ -4595,6 +4618,7 @@ tools:
   - bb89ae58738c
   - bf675f34b056
   - d2aaac19f42f
+  - dc0f5512911c
   - e4574a4d09d8
   - e4dd4c0622f6
   - f7985e0479b9
@@ -4632,6 +4656,7 @@ tools:
   - 2a9afed42353
   - 3d8c0b287c51
   - 640e4eeab4e2
+  - 90818f7835f3
   - 9eab750c367d
   - a02b8b3f5a0c
   - a38bdcec9e4c
@@ -6699,6 +6724,7 @@ tools:
   - 7615ac66c6e5
   - 7d34178f2812
   - 881d7645d1bf
+  - bdd173c2d3e3
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
 - name: pick_value
   owner: iuc
@@ -9218,6 +9244,7 @@ tools:
 - name: salmon
   owner: bgruening
   revisions:
+  - 29e12b90949d
   - 30d90b851d3c
   - f4d5237a84f6
   tool_panel_section_label: Sequence Analysis
@@ -9226,6 +9253,7 @@ tools:
   revisions:
   - 71ce24befa24
   - a896b8b7d264
+  - d421497303c0
   tool_panel_section_label: Sequence Analysis
 - name: sam_to_bam
   owner: devteam
