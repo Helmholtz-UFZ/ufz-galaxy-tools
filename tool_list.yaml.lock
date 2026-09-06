@@ -2103,6 +2103,7 @@ tools:
 - name: fragpipe
   owner: galaxyp
   revisions:
+  - 2f46616b7829
   - 42ad5460c1d4
   tool_panel_section_label: Proteomics
 - name: funannotate_annotate
@@ -4613,6 +4614,7 @@ tools:
   - 3dd49be3f7d3
   - 467486f1c568
   - 862943c10425
+  - 97255f6fdf7e
   - a7e081ceb76a
   - abfd8a6544d7
   - bb89ae58738c
