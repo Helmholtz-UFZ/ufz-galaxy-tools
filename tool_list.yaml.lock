@@ -43,6 +43,7 @@ tools:
   owner: ecology
   revisions:
   - 307518fb51af
+  - c835cdc2072a
   tool_panel_section_label: Convert Formats
 - name: abricate
   owner: iuc
@@ -96,6 +97,7 @@ tools:
   owner: ecology
   revisions:
   - 0ccbe1c20fc3
+  - 3d7fff9f7376
   tool_panel_section_label: Sequence Analysis
 - name: alphafold2
   owner: galaxy-australia
@@ -2105,6 +2107,7 @@ tools:
   revisions:
   - 2f46616b7829
   - 42ad5460c1d4
+  - c3a75e21f2bf
   tool_panel_section_label: Proteomics
 - name: funannotate_annotate
   owner: iuc
@@ -4658,6 +4661,7 @@ tools:
   - 2a9afed42353
   - 3d8c0b287c51
   - 640e4eeab4e2
+  - 8de9d54f7a96
   - 90818f7835f3
   - 9eab750c367d
   - a02b8b3f5a0c
