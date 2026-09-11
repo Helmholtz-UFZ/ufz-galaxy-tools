@@ -3507,6 +3507,3 @@ tools:
 - name: fragpipe
   owner: galaxyp
   tool_panel_section_label: Proteomics 
-- name: recap_prok_module3
-  owner: ufz
-  tool_panel_section_label: Metagenomics
