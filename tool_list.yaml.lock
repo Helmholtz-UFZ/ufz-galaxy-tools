@@ -630,6 +630,7 @@ tools:
   revisions:
   - 10eed33aa9b2
   - bbb307f731c3
+  - f0242f99a175
   - fa8ce46a95bb
   - fcadded98e61
   tool_panel_section_label: Imaging
@@ -3482,6 +3483,11 @@ tools:
   revisions:
   - 3dbe79671820
   tool_panel_section_label: Metabolomics
+- name: microsim
+  owner: ufz
+  revisions:
+  - ebceebc5edbd
+  tool_panel_section_label: Imaging
 - name: minimap2
   owner: iuc
   revisions:
@@ -9056,6 +9062,11 @@ tools:
   - 63f3f7b17aa4
   - b6c26fd58eeb
   tool_panel_section_label: Computational chemistry
+- name: recap_prok_module3
+  owner: ufz
+  revisions:
+  - 8981199939ad
+  tool_panel_section_label: Metagenomics
 - name: recetox_aplcms_align_features
   owner: recetox
   revisions:
@@ -9174,6 +9185,7 @@ tools:
 - name: repeat_masker
   owner: bgruening
   revisions:
+  - 31763a56f1d7
   - ba6d2c32f797
   - bfc70c8cc5ca
   tool_panel_section_label: Sequence Analysis
