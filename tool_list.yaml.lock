@@ -805,6 +805,7 @@ tools:
 - name: bwameth
   owner: iuc
   revisions:
+  - b7c3dcb76c02
   - b7ce99273d62
   tool_panel_section_label: Sequence Analysis
 - name: calculate_numeric_param
@@ -1713,6 +1714,7 @@ tools:
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
+  - b250b3058cbb
   - e8ac2b53f262
   - f921014aba5a
   tool_panel_section_label: Sequence Analysis
@@ -1916,6 +1918,7 @@ tools:
   - 281054a26e41
   - 3432a0e49b86
   - 350c736075eb
+  - 36be11c58dac
   - 4557b2da9e7f
   - 480ddbd12a03
   - 65b93b623c77
@@ -3458,6 +3461,7 @@ tools:
   revisions:
   - 04d81e5f25e9
   - 05c394313b1c
+  - 434f2a6c3ade
   - 606b09cc9860
   - 6563e22a9fd0
   - 697c9156dafe
@@ -6699,6 +6703,7 @@ tools:
   - ae4d404a8227
   - bda00cb136ee
   - d1c93a32cb25
+  - f09a7ce2f629
   tool_panel_section_label: Phyloseq
 - name: phyloseq_plot_ordination
   owner: iuc
@@ -6706,6 +6711,7 @@ tools:
   - 11d43fa12aab
   - 2715e89adff4
   - 32f892954ef6
+  - 47fffb4462d8
   - 5007bc8a3d90
   - bbd9d1022144
   - c35e0075c7a2
@@ -6722,6 +6728,7 @@ tools:
   - 4faa9c663b38
   - 7ed99cb39c9d
   - '817853857084'
+  - 83c8e8560d8f
   - 92b82deaaed1
   - a20bc31f2821
   - d6cbeb48294d
@@ -6881,46 +6888,55 @@ tools:
 - name: proteomiqon_joinquantpepionswithproteins
   owner: galaxyp
   revisions:
+  - e68a11ae0c63
   - f7e1c904ac2c
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_labeledproteinquantification
   owner: galaxyp
   revisions:
   - 764e011f1b0e
+  - 9b3f055fafc5
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_labelfreeproteinquantification
   owner: galaxyp
   revisions:
   - 39fa1ddd587d
+  - ba8c254ac79f
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_mzmltomzlite
   owner: galaxyp
   revisions:
   - acb8aba959ed
+  - c2cb1ff0962e
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_peptidedb
   owner: galaxyp
   revisions:
   - 1e5400393797
+  - 66f710aad78d
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_peptidespectrummatching
   owner: galaxyp
   revisions:
+  - 8e21018caeaa
   - a79a24eb9e76
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_proteininference
   owner: galaxyp
   revisions:
+  - 449e3432c8cc
   - 7729b9043b80
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_psmbasedquantification
   owner: galaxyp
   revisions:
   - 4abcc674fc0b
+  - 4b94e02a71cd
   tool_panel_section_label: Proteomics - ProteomIQon
 - name: proteomiqon_psmstatistics
   owner: galaxyp
   revisions:
+  - 069d68c36c6c
   - 9ac2e8232c5c
   - f831f7d721f8
   tool_panel_section_label: Proteomics - ProteomIQon
@@ -9249,6 +9265,7 @@ tools:
   - 5fc94b3a4704
   - 675ee1aa5952
   - aa1ac2f7a688
+  - c6ba8470ed01
   tool_panel_section_label: Assembly
 - name: rseqc
   owner: nilesh
@@ -9607,6 +9624,7 @@ tools:
   owner: nml
   revisions:
   - 1f04936b96f3
+  - 263af8401aed
   - 65d1598a9256
   - 822954de3f59
   - 884dc0264950
@@ -9619,6 +9637,7 @@ tools:
 - name: spades_biosyntheticspades
   owner: iuc
   revisions:
+  - 162a7ff870e9
   - 1fc82fe7ebef
   - 5e7a2a927b56
   - 60b8f1668552
@@ -9632,6 +9651,7 @@ tools:
   revisions:
   - 045c8498d2dd
   - 152ff7d1817a
+  - 2c650dcc6190
   - 2cf8a2028ddc
   - 4ae660dd1fb6
   - 655fa188c3cc
@@ -9644,6 +9664,7 @@ tools:
   - 21da31ed41a1
   - 4a01e0d2892c
   - 7e27faaad80e
+  - 9911ca348668
   - ae96f644b722
   - c5c4fa59be65
   - c8097e741b13
@@ -9656,6 +9677,7 @@ tools:
   - 7922870efcca
   - 86f66ab58e14
   - c4ba6aa27088
+  - dcaf2403747d
   - e060c3987513
   - ea83ac535a1f
   - ed32d95f436a
@@ -9670,12 +9692,14 @@ tools:
   - 75405f5e2cc5
   - 8cc856b935ee
   - b40b77418372
+  - c4e781659379
   tool_panel_section_label: Assembly
 - name: spades_rnaviralspades
   owner: iuc
   revisions:
   - 48cf45a53456
   - 6357b127161e
+  - 7170a53ee406
   - a9aa4115cb68
   - b3490b036c5a
   - d5645713603a
