@@ -119,6 +119,7 @@ tools:
   - 6b8580e02e99
   - 77000428c613
   - b0b7bba11507
+  - bd120bdc6b91
   - bd518ee51da5
   - c14c7fd4d1be
   - e50ac6ad263b
@@ -130,6 +131,7 @@ tools:
   - 0c069fc2471c
   - 22767c01e0cf
   - 3ea43408e5db
+  - 5bca1feefea5
   - 5e4e2b612a4f
   - 61db741e4614
   - 69cce076e0cf
@@ -143,6 +145,7 @@ tools:
   revisions:
   - 09604c87987c
   - 2bbf288d6334
+  - 43d85021770e
   - 49c0d34d583f
   - 4b023017896a
   - 943c2ae9594a
@@ -164,6 +167,7 @@ tools:
   - 7c3fea31765c
   - c1fcdec30d69
   - e10b5eebd415
+  - e5309c637e9d
   - fc70cfa151cd
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_frequency
@@ -173,6 +177,7 @@ tools:
   - 0feab98f9577
   - 301a6ffaf2a2
   - 467da4453127
+  - 8dd9cc5291e0
   - ac3774320d28
   - ac9564dcdb99
   - dfb9413825cc
@@ -189,6 +194,7 @@ tools:
   - 1979fdd0914f
   - 241140d6680a
   - 3e5c1fdd0e45
+  - 4a7449938377
   - 7c3248a397fd
   - 9bdb74297b3d
   - 9dab85e62cf2
@@ -197,6 +203,7 @@ tools:
 - name: ampvis2_load
   owner: iuc
   revisions:
+  - 05d7672c6bed
   - 27ac516ba719
   - 3481feabc54e
   - 5029fd9d572e
@@ -221,6 +228,7 @@ tools:
   - a14326f1e7df
   - c7d03a7b52d6
   - d8334b328618
+  - fcb11c718c5e
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_mergereplicates
   owner: iuc
@@ -230,6 +238,7 @@ tools:
   - 21a8b4e5e300
   - 414355492c32
   - 63ed7a3cd45f
+  - 73a9f35d4ba2
   - 74ee43d45476
   - 77f9ed2bb200
   - c9143bcb2072
@@ -246,6 +255,7 @@ tools:
   - 9fa62bb69dc4
   - a0a792d4efae
   - a194e5f09106
+  - c6ad82bee17b
   - cb617c2139fa
   - d5edda7f75eb
   - d939a8b3defe
@@ -260,6 +270,7 @@ tools:
   - 7c675dae82eb
   - 811df76f4f26
   - 9742e8636a10
+  - ad46c4548d8f
   - be1918c80d9f
   - c465a1ea3da2
   - dc31a6f9fb2f
@@ -275,12 +286,14 @@ tools:
   - 5ca81dc9b5d9
   - 7822d7a5a496
   - 7e6f33f40312
+  - 9b75e02c05e7
   - a9fd4ada4d2a
   - bb054c50a96c
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_rankabundance
   owner: iuc
   revisions:
+  - 0da1af3c1ffc
   - 17b44753a1df
   - 18de61c5527c
   - 2c21c267391c
@@ -301,6 +314,7 @@ tools:
   - 3063daee0d8b
   - 30ac301ba3d6
   - 7723ef4c9163
+  - 93bfcfcee5e6
   - 9f4d491ebad2
   - aeca454c398e
   - cfa509a60770
@@ -315,6 +329,7 @@ tools:
   - 638503db7271
   - 7c9c6448b57c
   - 7f5dd19dc792
+  - 8447d4027c28
   - a9dacd650ad5
   - b8fd62239d7e
   - cfd7bafb820f
@@ -327,6 +342,7 @@ tools:
   - 1db7e3d33871
   - 317728cb0f8a
   - 492eb6dcfe5c
+  - 75a2a80e5ad0
   - b268ffb0e321
   - bd4aaf683c79
   - c8bfb923d7d4
@@ -340,6 +356,7 @@ tools:
   - 20a62b3a3038
   - 227d169951d9
   - 35010c1c2d1b
+  - 4bd2b0a9e529
   - 70a98af91147
   - 76cb398e9110
   - ac98ca3ff0d2
@@ -351,6 +368,7 @@ tools:
 - name: ampvis2_timeseries
   owner: iuc
   revisions:
+  - 4568a232b84e
   - 4dac39937879
   - 6121b061418a
   - 77d2f88d8716
@@ -375,6 +393,7 @@ tools:
   - e85ff12bc025
   - ed963e5316b7
   - f28f2faad83b
+  - f56762079f69
   - f5987fb716a2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: amrfinderplus
@@ -1714,6 +1733,7 @@ tools:
   - 8b8a3f793f0f
   - 9553180705b7
   - a02aa0dfb850
+  - ad7226fac56d
   - b250b3058cbb
   - e8ac2b53f262
   - f921014aba5a
@@ -2943,11 +2963,13 @@ tools:
   - 1832b854f0ae
   - 4d2038a99775
   - 70ec6f9e558a
+  - 7717c1c64543
   - 92763a040deb
   tool_panel_section_label: Metagenomics
 - name: kaiju_kaiju
   owner: iuc
   revisions:
+  - 289616bde1f8
   - 403401167d98
   - 72f3ef4a96e0
   - c020a41566fd
@@ -2960,11 +2982,13 @@ tools:
   - b48d20647c74
   - b5092138ab0d
   - cf4596e5594d
+  - deef8f44f0bb
   tool_panel_section_label: Metagenomics
 - name: kaiju_kaiju2table
   owner: iuc
   revisions:
   - 3fe88629e18d
+  - a63078038a84
   - e7d2c4ed18a5
   - ec1b7da6f79c
   - eedcb4cc9e5a
@@ -2974,6 +2998,7 @@ tools:
   revisions:
   - 01585d091036
   - 3ef6812c457c
+  - '529155076846'
   - 72dc6be28a5f
   - cdc8a98ed4fc
   tool_panel_section_label: Metagenomics
@@ -9088,6 +9113,7 @@ tools:
   revisions:
   - 1a01ffa85adc
   - 2b6bfa234d8b
+  - 2dd734da8a4c
   - 79ad928a0dae
   - 7b42ee54d757
   - c53a97599181
@@ -9103,6 +9129,7 @@ tools:
   - 550667ce03f1
   - 59c393d35e0e
   - b9b19a74ac01
+  - cc972a92941b
   - f3a18e020cdd
   tool_panel_section_label: Exposomics - recetox
 - name: recetox_aplcms_compute_template
@@ -9112,6 +9139,7 @@ tools:
   - 481d769e2f7a
   - 4963811b6dec
   - 50b9918aeff2
+  - b45cc424f836
   - dfebc82ba1f0
   - e2dc815e1b2c
   - f8c4db95eec3
@@ -9123,6 +9151,7 @@ tools:
   - 1574b8a29e6f
   - 501a232f3cd5
   - 51332c2520c7
+  - 6bb6835f8e50
   - 9064aecc78a7
   - a82db010c53e
   - bd1956f4c2aa
@@ -9136,6 +9165,7 @@ tools:
   - 89178a72388a
   - b3413f335327
   - b341cfd4baf8
+  - becac9b2c229
   - e7305ba0dd38
   - ebca18e223bf
   tool_panel_section_label: Exposomics - recetox
@@ -9143,6 +9173,7 @@ tools:
   owner: recetox
   revisions:
   - 04892b463957
+  - 073be0373d3c
   - 17a48d0a80f4
   - 8ecb609cc265
   - b7c8a44b9cc1
@@ -9155,6 +9186,7 @@ tools:
   - 24278c6b6d1c
   - 99d118321d5f
   - a9bb2ccc53de
+  - cabd480cfe97
   - d7f5878a98c3
   - e0536ff73f36
   - e2cb970d99dd
@@ -9166,6 +9198,7 @@ tools:
   - 12bf74dd09f1
   - 7acd11ddc061
   - 8fb5e458831f
+  - 97f14feab793
   - b5a1f35abd8a
   - d90187b0f247
   - ea0758b41473
@@ -10494,6 +10527,7 @@ tools:
   owner: recetox
   revisions:
   - 14a4d81e921e
+  - 474f19dc3380
   - 6e1ef071fffc
   - cba7123c2741
   - d5633eaf3552
