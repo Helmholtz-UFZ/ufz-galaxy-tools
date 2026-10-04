@@ -762,6 +762,7 @@ tools:
   - 0f1b15d51801
   - 200c5c982dba
   - 6cd2a9e6ac49
+  - 731e5d54b6e6
   - 90dc951da294
   - e5fcba090b10
   tool_panel_section_label: Exposomics - recetox
@@ -1090,6 +1091,7 @@ tools:
 - name: comebin
   owner: iuc
   revisions:
+  - 7e66a24282a7
   - cd1d8332bc04
   - ddfb9c10740a
   tool_panel_section_label: Metagenomics
@@ -3166,6 +3168,7 @@ tools:
   - 4e8a6d6f0e6a
   - 69b568a0dab1
   - 7c5b86026e57
+  - 863a4e861982
   - 8fb8ac6c37b0
   - a5d41764722d
   - b23b6a640f6a
@@ -3185,6 +3188,7 @@ tools:
   - c5ed6bfcd806
   - c990df6afc24
   - d95450eba471
+  - e3a46a3e8d54
   - fb09ed49c70e
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_filtering
@@ -3193,6 +3197,7 @@ tools:
   - 00e66c401366
   - 039e7ab31836
   - 07cac38cbd29
+  - 360836810cd5
   - 36a53917818d
   - 3f7790b73906
   - 83c4b4359ac4
@@ -3212,6 +3217,7 @@ tools:
   - a465cb84a388
   - ad9d2d1b2b8d
   - c2d546691b7a
+  - ccf5e216b6ee
   - cdb41d95648c
   - d7b517f2c5fe
   - f87b1c271012
@@ -3224,6 +3230,7 @@ tools:
   - 1b09315a3f87
   - 1e58bf51a0e5
   - 23d4bc72c505
+  - 2d17d540ec2b
   - 402620029a7a
   - 5ab06f9104ec
   - 5fa29e292e12
@@ -3237,6 +3244,7 @@ tools:
 - name: matchms_metadata_export
   owner: recetox
   revisions:
+  - 4f8a83c62c67
   - 51205379251d
   - 67b885502624
   - 73c902331bbc
@@ -3255,6 +3263,7 @@ tools:
   - 03bc9b7f40f6
   - 1d443ed476a1
   - 330b0dfae8da
+  - 4105002c9a3b
   - 44441b0ee4dd
   - 5c379988b7ea
   - 844d32c59314
@@ -3271,6 +3280,7 @@ tools:
   - 6e965d099233
   - 81e6df6ccd9a
   - 84ead993862c
+  - 8bf9df575761
   - 8e18dcf410ec
   - c1c1cb295b74
   - e052eac8be4a
@@ -3291,6 +3301,7 @@ tools:
   - c42b977ec884
   - d8e937f335b8
   - f04b378325e5
+  - fd24cf34a92d
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_remove_key
   owner: recetox
@@ -3303,6 +3314,7 @@ tools:
   - 9843a619e9be
   - 9d1b01d3fedd
   - ef233c08112e
+  - f67250103433
   - fbdb2ae524df
   tool_panel_section_label: Exposomics - recetox
 - name: matchms_similarity
@@ -3321,6 +3333,7 @@ tools:
   - 77d6425daa07
   - 7ba589b01dbc
   - 931cce430163
+  - 9bca236ba1a9
   - 9ff95a1a2705
   - b2c7b7705734
   - ee35dcec350a
@@ -3332,6 +3345,7 @@ tools:
   - 05b91d5045ce
   - 072c7a101da6
   - 0cf68b536cd1
+  - 0e61079af6d1
   - 446fddefcee7
   - 500f473df7e4
   - 6864944b00fd
@@ -3350,6 +3364,7 @@ tools:
   - 6ac4a790adad
   - 6d2f2c565431
   - 8f5a1e44b15c
+  - b52e65169696
   - c4835715c7ac
   - cab0e4dcf372
   - d11b27e59dfa
@@ -4536,6 +4551,7 @@ tools:
 - name: msmetaenhancer
   owner: recetox
   revisions:
+  - '275998667516'
   - 2ada1099f42e
   - 3b402610c6dc
   - 3e2cb0bc6959
@@ -4563,6 +4579,7 @@ tools:
 - name: msp_merge
   owner: recetox
   revisions:
+  - 227e0d1c9b41
   - c2862090e321
   - d38d73004bba
   tool_panel_section_label: Exposomics - recetox
@@ -4685,6 +4702,7 @@ tools:
 - name: mzml_validator
   owner: recetox
   revisions:
+  - 606af60deccf
   - 9beb3a276ce3
   - ada284e51141
   tool_panel_section_label: Exposomics - recetox
