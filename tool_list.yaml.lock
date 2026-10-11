@@ -495,6 +495,7 @@ tools:
 - name: bamtools
   owner: devteam
   revisions:
+  - 49be7ffc00e2
   - 887a9bf73d1a
   - 8eb649e67987
   tool_panel_section_label: SAM - Tools for manipulating alignments in the SAM format
@@ -639,6 +640,7 @@ tools:
   - a33db97b220c
   - b28e0cfa7ba1
   - bd7721ad15aa
+  - d57471728f7b
   - db1841942d2b
   - dde39ba9c031
   - e19bebe96cd2
@@ -4703,6 +4705,7 @@ tools:
   owner: recetox
   revisions:
   - 606af60deccf
+  - 7aede61c3c14
   - 9beb3a276ce3
   - ada284e51141
   tool_panel_section_label: Exposomics - recetox
