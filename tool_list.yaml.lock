@@ -432,6 +432,36 @@ tools:
   revisions:
   - bc88856eddab
   tool_panel_section_label: Sequence Analysis
+- name: aoptk_download_publication_data
+  owner: recetox
+  revisions:
+  - f129d62ccdf9
+  tool_panel_section_label: Toxicology
+- name: aoptk_final_modification
+  owner: recetox
+  revisions:
+  - d620536a307b
+  tool_panel_section_label: Toxicology
+- name: aoptk_find_relationships_chemicals
+  owner: recetox
+  revisions:
+  - 33dea19b97c9
+  tool_panel_section_label: Toxicology
+- name: aoptk_normalize_chemicals
+  owner: recetox
+  revisions:
+  - b24d3e8fe155
+  tool_panel_section_label: Toxicology
+- name: aoptk_parse_pdf
+  owner: recetox
+  revisions:
+  - ecd837ab4f94
+  tool_panel_section_label: Toxicology
+- name: aoptk_query_literature
+  owner: recetox
+  revisions:
+  - 3cec2d4045dd
+  tool_panel_section_label: Toxicology
 - name: asca
   owner: marie-tremblay-metatoul
   revisions:
@@ -1412,6 +1442,7 @@ tools:
   owner: iuc
   revisions:
   - 97b1b5ad1cda
+  - f9189d4d22b8
   tool_panel_section_label: Data Managers
 - name: data_manager_bowtie2_index_builder
   owner: devteam
@@ -1762,6 +1793,7 @@ tools:
   - 0a3caad1554a
   - 2c6f204ae1b9
   - 30d4702cdba6
+  - 372361b7e1fd
   - 9902c85117a4
   - c2f471480624
   - e5dc009367ef
@@ -1770,6 +1802,7 @@ tools:
 - name: drep_dereplicate
   owner: iuc
   revisions:
+  - 02a3a550751a
   - 76b57044069d
   - 8165eab19456
   - 81ada02ffe46
@@ -2238,6 +2271,7 @@ tools:
   - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
+  - bf96015d2492
   tool_panel_section_label: Visualization
 - name: ggplot2_pca
   owner: iuc
@@ -10054,6 +10088,7 @@ tools:
   - 6e45b443ef1f
   - 76d290331481
   - 92198ab2345f
+  - a356a3e21032
   - cbf488da3b2c
   - dd4df992d93d
   - eba36e001f45
