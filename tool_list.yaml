@@ -3513,3 +3513,21 @@ tools:
 - name: recap_prok_module3
   owner: ufz
   tool_panel_section_label: Metagenomics
+- name: aoptk_find_relationships_chemicals
+  owner: recetox
+  tool_panel_section_label: Toxicology
+- name: aoptk_normalize_chemicals
+  owner: recetox
+  tool_panel_section_label: Toxicology
+- name: aoptk_parse_pdf
+  owner: recetox
+  tool_panel_section_label: Toxicology
+- name: aoptk_download_publication_data
+  owner: recetox
+  tool_panel_section_label: Toxicology
+- name: aoptk_query_literature
+  owner: recetox
+  tool_panel_section_label: Toxicology
+- name: aoptk_final_modification
+  owner: recetox
+  tool_panel_section_label: Toxicology
