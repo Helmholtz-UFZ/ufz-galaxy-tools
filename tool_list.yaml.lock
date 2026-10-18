@@ -503,6 +503,7 @@ tools:
   owner: iuc
   revisions:
   - 1942e86e2ee1
+  - 25f3b474ca6f
   - 292eea8defa7
   - d77802fe76f7
   tool_panel_section_label: Sequence Analysis
@@ -1463,6 +1464,7 @@ tools:
   owner: iuc
   revisions:
   - 13851aefa67a
+  - 19f0b8b9a118
   - 1e34d2e3d285
   - 201eff2131d6
   - 4877dfefaacc
@@ -1978,6 +1980,7 @@ tools:
   - 36be11c58dac
   - 4557b2da9e7f
   - 480ddbd12a03
+  - 4990e6f1348f
   - 65b93b623c77
   - 68386e630362
   - 6c2351178f8d
@@ -2140,6 +2143,7 @@ tools:
   revisions:
   - 6c5df3eeb768
   - 72b687d21f65
+  - b8aa2773157b
   tool_panel_section_label: Exposomics - recetox
 - name: filter_tabular
   owner: iuc
@@ -3050,6 +3054,7 @@ tools:
 - name: kraken2
   owner: iuc
   revisions:
+  - 1a54e1867fd4
   - 20e2f64aa1fe
   - 241a78eb2935
   - cbe396d9773e
@@ -4618,6 +4623,7 @@ tools:
   - 227e0d1c9b41
   - c2862090e321
   - d38d73004bba
+  - f4c235d83a20
   tool_panel_section_label: Exposomics - recetox
 - name: mspurity_averagefragspectra
   owner: computational-metabolomics
@@ -9116,6 +9122,7 @@ tools:
   - 72472698a2df
   - 875d0f36d66f
   - a3b35edea53a
+  - cbc516cee202
   - ebb0dcdb621a
   tool_panel_section_label: Assembly
 - name: query_tabular
@@ -9137,6 +9144,7 @@ tools:
   - 2d94da58904b
   - 2ec9253a647e
   - 9b716db0a786
+  - bfdf5de99cd2
   - d70dd1d6ac4d
   - da7722f665f4
   - f52181a205d3
@@ -9149,6 +9157,7 @@ tools:
   - 7bbdcce50541
   - 7c50666b88e8
   - 87ac0b56b9b0
+  - b0a739025b81
   - ef3cbcdf5f5d
   - f2c1d0bbb074
   tool_panel_section_label: Exposomics - recetox
@@ -9169,6 +9178,7 @@ tools:
   - 1a01ffa85adc
   - 2b6bfa234d8b
   - 2dd734da8a4c
+  - 35467fe49dad
   - 79ad928a0dae
   - 7b42ee54d757
   - c53a97599181
@@ -9181,6 +9191,7 @@ tools:
   - 149b9cc7499b
   - 15aae2bfa67d
   - 18ec7635bac6
+  - 3078953f7537
   - 550667ce03f1
   - 59c393d35e0e
   - b9b19a74ac01
@@ -9194,6 +9205,7 @@ tools:
   - 481d769e2f7a
   - 4963811b6dec
   - 50b9918aeff2
+  - 9f28366efd73
   - b45cc424f836
   - dfebc82ba1f0
   - e2dc815e1b2c
@@ -9207,6 +9219,7 @@ tools:
   - 501a232f3cd5
   - 51332c2520c7
   - 6bb6835f8e50
+  - 8dcef51593a3
   - 9064aecc78a7
   - a82db010c53e
   - bd1956f4c2aa
@@ -9216,6 +9229,7 @@ tools:
   owner: recetox
   revisions:
   - 32b66fb6a6a0
+  - 5d836cb06710
   - 6ba3526237e0
   - 89178a72388a
   - b3413f335327
@@ -9231,6 +9245,7 @@ tools:
   - 073be0373d3c
   - 17a48d0a80f4
   - 8ecb609cc265
+  - a19c6aff07c3
   - b7c8a44b9cc1
   - cf061712a184
   - fb95cb4a6b9b
@@ -9242,6 +9257,7 @@ tools:
   - 99d118321d5f
   - a9bb2ccc53de
   - cabd480cfe97
+  - d356ca2c2423
   - d7f5878a98c3
   - e0536ff73f36
   - e2cb970d99dd
@@ -9255,6 +9271,7 @@ tools:
   - 8fb5e458831f
   - 97f14feab793
   - b5a1f35abd8a
+  - d646c4675c1c
   - d90187b0f247
   - ea0758b41473
   - ffbabefbd2e2
@@ -9262,6 +9279,7 @@ tools:
 - name: recetox_msfinder
   owner: recetox
   revisions:
+  - 0a9f3bcf620b
   - 29fc1af350f5
   - a48a1c23257c
   - d1f44632f206
@@ -9270,6 +9288,7 @@ tools:
 - name: recetox_xmsannotator_advanced
   owner: recetox
   revisions:
+  - 28b87af0fdd3
   - 50ac7359ffe7
   - 6b5dec818827
   tool_panel_section_label: Exposomics - recetox
@@ -9317,6 +9336,7 @@ tools:
 - name: riassigner
   owner: recetox
   revisions:
+  - 3af9c2de8522
   - 4e47a0fa9287
   - 8c5e65adf694
   - 984d5fa7acf5
@@ -9330,6 +9350,7 @@ tools:
   - 0b28816c1c2c
   - 5a6bb93ec656
   - 60c2da112839
+  - 7b210a74628f
   - c1a9c990d4b0
   tool_panel_section_label: Exposomics - recetox
 - name: rnaquast
@@ -10176,6 +10197,7 @@ tools:
   owner: bgruening
   revisions:
   - 084bbd8ba7b8
+  - 433db23e1c1d
   - 949f01671246
   - b94789823aad
   - cd7e644cae1d
@@ -10453,6 +10475,7 @@ tools:
   - 6480c6d5fa36
   - 6fc9f6dbcef5
   - 821062fc5782
+  - 9c417575eb83
   - b77023c41c76
   - bf28a0fc0db6
   - bf32ae95a06f
@@ -10587,6 +10610,7 @@ tools:
   - 6e1ef071fffc
   - cba7123c2741
   - d5633eaf3552
+  - d5ee22b95891
   tool_panel_section_label: Exposomics - recetox
 - name: xy_plot
   owner: devteam
