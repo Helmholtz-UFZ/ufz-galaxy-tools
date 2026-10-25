@@ -1075,6 +1075,7 @@ tools:
   revisions:
   - 4daabc25df00
   - 5b097fde95dd
+  - baa38def0230
   - d6694932c5e0
   tool_panel_section_label: Sequence Analysis
 - name: collapse_collections
@@ -1112,6 +1113,7 @@ tools:
   - 6e8d94597139
   - 9bc5cdefb090
   - aff5135563c6
+  - b6236eb1a50b
   - be25c075ed54
   tool_panel_section_label: Text Manipulation
 - name: combine_metaphlan2_humann2
@@ -1509,6 +1511,7 @@ tools:
 - name: data_manager_defense_finder
   owner: rplanel
   revisions:
+  - 3db8a2c12869
   - 46528ab18f85
   - 502208b90cfe
   tool_panel_section_label: Data Managers
@@ -1699,6 +1702,7 @@ tools:
   revisions:
   - 71e221c4906c
   - a7953d17b4ff
+  - dd4979c23e35
   tool_panel_section_label: Annotation
 - name: deg_annotate
   owner: iuc
@@ -1721,6 +1725,7 @@ tools:
   - 0696db066a5b
   - 2275d0688bca
   - 24a09ca67621
+  - 2a1ad8a533dc
   - 6a3a025714d3
   - 6c363db8c702
   - 8fe98f7094de
@@ -1798,6 +1803,7 @@ tools:
   - 372361b7e1fd
   - 9902c85117a4
   - c2f471480624
+  - cef09cb5eaff
   - e5dc009367ef
   - f0334664a47b
   tool_panel_section_label: Metagenomics
@@ -1805,6 +1811,7 @@ tools:
   owner: iuc
   revisions:
   - 02a3a550751a
+  - 0ae93aa4f8fe
   - 76b57044069d
   - 8165eab19456
   - 81ada02ffe46
@@ -1842,6 +1849,7 @@ tools:
   owner: iuc
   revisions:
   - 16364014b8a9
+  - 1e1ce62b4869
   - '440074098911'
   - 4aab5ae907b6
   - 57251c760cab
@@ -1948,6 +1956,7 @@ tools:
   owner: mbernt
   revisions:
   - 269c627ae9f4
+  - 5a6ec4585bc9
   - 9a811adb714f
   tool_panel_section_label: Sequence Analysis
 - name: fasta_stats
@@ -2172,6 +2181,7 @@ tools:
   revisions:
   - 2f46616b7829
   - 42ad5460c1d4
+  - 8819eba2402a
   - c3a75e21f2bf
   tool_panel_section_label: Proteomics
 - name: funannotate_annotate
@@ -2249,6 +2259,7 @@ tools:
   - 154d00cbbf2d
   - 3e436657dcd0
   - 4dea02886337
+  - 88fecd593368
   tool_panel_section_label: Sequence Analysis
 - name: ggplot2_heatmap
   owner: iuc
@@ -2266,6 +2277,7 @@ tools:
   - 51c6ccaace7e
   - '566197475670'
   - 6a097d09fca3
+  - 94f3fd9ade04
   - ca7cb0eaad62
   tool_panel_section_label: Visualization
 - name: ggplot2_histogram
@@ -2336,6 +2348,7 @@ tools:
 - name: gtdbtk_classify_wf
   owner: iuc
   revisions:
+  - 199b07074e1f
   - 30a4bdf88e14
   - 4d9445dff47b
   - 53691cc6af0f
@@ -2511,6 +2524,7 @@ tools:
   - a00df747f03c
   - a6fd47ecbff8
   - c2803012bbb3
+  - f131572be91e
   - fc6c328c292f
   tool_panel_section_label: Metagenomics
 - name: humann2
@@ -3048,6 +3062,7 @@ tools:
   owner: iuc
   revisions:
   - 8ec7636fa875
+  - 900a5db3f23a
   - c3c46f14c7a4
   - f3534b94ad05
   tool_panel_section_label: Sequence Analysis
@@ -3072,6 +3087,7 @@ tools:
 - name: krakentools_beta_diversity
   owner: iuc
   revisions:
+  - 13b4ae988a8e
   - 4505d7643673
   - 5fa703b1f68a
   - c254d75b8b67
@@ -3087,6 +3103,7 @@ tools:
 - name: krakentools_extract_kraken_reads
   owner: iuc
   revisions:
+  - 04eb022d7409
   - 3b1963f729cb
   - 4bf1e2701504
   - f329328da134
@@ -3118,6 +3135,7 @@ tools:
 - name: length_and_gc_content
   owner: iuc
   revisions:
+  - 0e7eadbd461c
   - e3ba567abdf5
   tool_panel_section_label: Fasta Manipulation
 - name: limma_voom
@@ -4711,6 +4729,7 @@ tools:
   - 3dd49be3f7d3
   - 467486f1c568
   - 862943c10425
+  - 94b6bea727ae
   - 97255f6fdf7e
   - a7e081ceb76a
   - abfd8a6544d7
@@ -4780,6 +4799,7 @@ tools:
   owner: iuc
   revisions:
   - 03a801ded645
+  - 067dcb71f976
   - 0f3b3813b6ae
   - 18eed8fa7f23
   - 198c75abbf55
@@ -6929,12 +6949,14 @@ tools:
   revisions:
   - 507d59b036c5
   - 7075b7a5441b
+  - 8621b220c13e
   tool_panel_section_label: Sequence Analysis
 - name: plasmidfinder
   owner: iuc
   revisions:
   - 507d59b036c5
   - 7075b7a5441b
+  - 8621b220c13e
   tool_panel_section_label: Sequence Analysis
 - name: points2binaryimage
   owner: imgteam
@@ -6968,6 +6990,7 @@ tools:
 - name: prokka
   owner: crs4
   revisions:
+  - 8096daf9ce73
   - 8a22554cdde2
   - c105b66eaab1
   tool_panel_section_label: Sequence Analysis
@@ -9704,6 +9727,7 @@ tools:
   - 8511b6d85fc7
   - a019807f4e67
   - a09586d5149a
+  - c8fb17965c7d
   tool_panel_section_label: Fastq Manipulation
 - name: shp2msh
   owner: ufz
@@ -9728,6 +9752,7 @@ tools:
   revisions:
   - 10b84b577117
   - eb35257d2e29
+  - f7746d145125
   tool_panel_section_label: RNA - Utilities for RNA
 - name: spades
   owner: nml
@@ -10208,6 +10233,7 @@ tools:
   revisions:
   - 32f1f56bd970
   - 75a3b8da8e76
+  - 771554c05a0b
   - 898b67846b47
   - b9aaed85cbd1
   - d94aff5ee623
