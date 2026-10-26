@@ -3531,3 +3531,6 @@ tools:
 - name: aoptk_final_modification
   owner: recetox
   tool_panel_section_label: Toxicology
+- name: morphological_operations
+  owner: imgteam
+  tool_panel_section_label: Imaging
