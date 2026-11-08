@@ -1124,6 +1124,11 @@ tools:
   - b6236eb1a50b
   - be25c075ed54
   tool_panel_section_label: Text Manipulation
+- name: combine_boolean_params
+  owner: iuc
+  revisions:
+  - 597e0235d263
+  tool_panel_section_label: Expression Tools
 - name: combine_metaphlan2_humann2
   owner: bebatut
   revisions:
@@ -1144,6 +1149,11 @@ tools:
   - d2dd7be65d47
   - e59e54ac8e4b
   tool_panel_section_label: Metagenomics
+- name: compare_param_value
+  owner: iuc
+  revisions:
+  - 69bdc5e0c667
+  tool_panel_section_label: Expression Tools
 - name: compose_text_param
   owner: iuc
   revisions:
@@ -1465,6 +1475,7 @@ tools:
 - name: data_manager_bakta
   owner: iuc
   revisions:
+  - 24a7f2bd7ef5
   - 97b1b5ad1cda
   - f9189d4d22b8
   tool_panel_section_label: Data Managers
@@ -1567,6 +1578,7 @@ tools:
   revisions:
   - 6136ac58acab
   - 8ef19ca5d289
+  - 9bf515b77ff5
   tool_panel_section_label: Data Managers
 - name: data_manager_fetch_busco_options
   owner: iuc
@@ -1577,6 +1589,7 @@ tools:
 - name: data_manager_fetch_plasmidfinder
   owner: iuc
   revisions:
+  - 86ef3f82feab
   - 8a3955d56000
   tool_panel_section_label: Data Managers
 - name: data_manager_funannotate
@@ -1596,6 +1609,7 @@ tools:
   - b2a92f75fda8
   - df84aaed4769
   - e7b39a7e0024
+  - e83290ce69ad
   tool_panel_section_label: Data Managers
 - name: data_manager_hisat2_index_builder
   owner: iuc
@@ -1758,6 +1772,7 @@ tools:
   - ccc6c4f0236f
   - cd9874cb9019
   - d9e5cadc7f0b
+  - eaeb33f475e9
   tool_panel_section_label: Transcriptomics
 - name: dexseq
   owner: iuc
@@ -2100,6 +2115,7 @@ tools:
 - name: fastx_artifacts_filter
   owner: devteam
   revisions:
+  - 016529f651dc
   - 34edfa69c149
   - 529bccd5e4a1
   tool_panel_section_label: Fasta Manipulation
@@ -2108,10 +2124,12 @@ tools:
   revisions:
   - 0b7ec11b3c7c
   - 229caeddb2df
+  - 456be35b3f1b
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_clipper
   owner: devteam
   revisions:
+  - 5bd863921cc5
   - 90858c306551
   - c60cf18ec2b0
   tool_panel_section_label: Fasta Manipulation
@@ -2120,23 +2138,27 @@ tools:
   revisions:
   - 07497255281e
   - 72494a86e047
+  - cd11b0508361
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_nucleotides_distribution
   owner: devteam
   revisions:
   - 751878fa37e5
+  - 81718e0eba05
   - b6b54ba71bd8
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_quality_statistics
   owner: devteam
   revisions:
   - 48c943a0290a
+  - 5d39ad51de11
   - cc0fd298cc17
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_renamer
   owner: devteam
   revisions:
   - 0ffae348abae
+  - e39e3016fbe1
   - f984bb114520
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_reverse_complement
@@ -2144,12 +2166,14 @@ tools:
   revisions:
   - 177f0621c266
   - 7566b751e769
+  - b3c10a950efa
   tool_panel_section_label: Fasta Manipulation
 - name: fastx_trimmer
   owner: devteam
   revisions:
   - 1ea2ae5afb28
   - 73194cdd4f57
+  - cac2c7cba460
   tool_panel_section_label: Fasta Manipulation
 - name: featurecounts
   owner: iuc
@@ -2436,6 +2460,7 @@ tools:
   - b12d81af0291
   - eaa10652acc2
   - f4af63aaf57a
+  - f6ff91cb3120
   tool_panel_section_label: Assembly
 - name: histogram
   owner: devteam
@@ -3016,6 +3041,7 @@ tools:
   revisions:
   - 00181e66c50f
   - 2e580585782e
+  - 757b6dcfe32a
   - a31f3f802b2b
   - ec75de7f1e08
   tool_panel_section_label: Metabolomics
@@ -3030,6 +3056,11 @@ tools:
   - 33b3f3688db4
   - 69c10b56f46d
   tool_panel_section_label: Genomic Interval Operations
+- name: invert_boolean_param
+  owner: iuc
+  revisions:
+  - db710013d073
+  tool_panel_section_label: Expression Tools
 - name: iphop_build_database
   owner: ufz
   revisions:
@@ -4856,6 +4887,7 @@ tools:
   - 2889433c7ae1
   - 5edc472ec434
   - 6f386c5dc4fb
+  - 71a9b71a2fa1
   - 7538e2bfcd41
   - cbf3f518b668
   - e25d3acf6e68
@@ -4979,6 +5011,7 @@ tools:
 - name: newick_utils
   owner: iuc
   revisions:
+  - 77a7e69dd018
   - b4163d2f64ab
   - fe4235285ee8
   tool_panel_section_label: Phylogenetics
@@ -6861,6 +6894,7 @@ tools:
   - 315c2ed31af1
   - 3a7f73d638ba
   - 8065e0028a60
+  - f97e21e8704a
   tool_panel_section_label: Metagenomics
 - name: phyloseq_from_dada2
   owner: iuc
@@ -9269,6 +9303,7 @@ tools:
   owner: ufz
   revisions:
   - 8981199939ad
+  - e75ebe45e94c
   tool_panel_section_label: Metagenomics
 - name: recetox_aplcms_align_features
   owner: recetox
@@ -10237,6 +10272,7 @@ tools:
   - cbf488da3b2c
   - dd4df992d93d
   - eba36e001f45
+  - ff365aa70906
   tool_panel_section_label: Transcriptomics
 - name: superdsm
   owner: imgteam
@@ -10324,6 +10360,7 @@ tools:
   revisions:
   - 084bbd8ba7b8
   - 433db23e1c1d
+  - 7462caed7065
   - 949f01671246
   - b94789823aad
   - cd7e644cae1d
@@ -10438,6 +10475,7 @@ tools:
   - 1c49371db3a4
   - 2a89f630fa85
   - 820f68ad34a7
+  - 8e78c4d843b2
   - b8fa39b09aa4
   - e79965d0351c
   tool_panel_section_label: Sequence Analysis
@@ -10555,6 +10593,7 @@ tools:
   - 3af838dc0637
   - 3d5b9e4df7ba
   - 5e08a1e22dbc
+  - 717c6164fea4
   - 83c573f2e73c
   - 99ace6c1ff57
   - a363ba287b88
