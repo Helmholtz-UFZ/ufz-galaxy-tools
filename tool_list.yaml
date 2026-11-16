@@ -3543,7 +3543,7 @@ tools:
 - name: morphological_operations
   owner: imgteam
   tool_panel_section_label: Imaging
-- name: - name: image_math
+- name: image_math
   owner: imgteam
   tool_panel_section_label: Imaging
 
