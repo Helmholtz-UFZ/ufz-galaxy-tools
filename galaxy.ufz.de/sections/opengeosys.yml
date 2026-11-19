@@ -1,0 +1,18 @@
+tool_panel_section_label: OpenGeoSys
+tools:
+- name: msh2vtu
+  owner: ufz
+- name: ogs_addlayer
+  owner: ufz
+- name: ogs_extractboundary
+  owner: ufz
+- name: ogs_extractsurface
+  owner: ufz
+- name: ogs_generatestructuredmesh
+  owner: ufz
+- name: ogs_identifysubdomains
+  owner: ufz
+- name: ogs_simulation
+  owner: ufz
+- name: shp2msh
+  owner: ufz

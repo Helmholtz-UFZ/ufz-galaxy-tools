@@ -1,0 +1,22 @@
+tool_panel_section_label: Fastq Manipulation
+tools:
+- name: cutadapt
+  owner: lparsons
+- name: fastq_groomer
+  owner: devteam
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+- name: fastq_paired_end_interlacer
+  owner: devteam
+- name: fastq_to_tabular
+  owner: devteam
+- name: fastqc
+  owner: devteam
+- name: fastqtofasta
+  owner: devteam
+- name: multiqc
+  owner: iuc
+- name: seqtk
+  owner: iuc
+- name: trimmomatic
+  owner: pjbriggs

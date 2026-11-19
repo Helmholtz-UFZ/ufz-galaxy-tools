@@ -1,0 +1,54 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: aoptk_download_publication_data
+  owner: recetox
+  revisions:
+  - f129d62ccdf9
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: aoptk_final_modification
+  owner: recetox
+  revisions:
+  - d620536a307b
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: aoptk_find_relationships_chemicals
+  owner: recetox
+  revisions:
+  - 33dea19b97c9
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: aoptk_normalize_chemicals
+  owner: recetox
+  revisions:
+  - b24d3e8fe155
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: aoptk_parse_pdf
+  owner: recetox
+  revisions:
+  - ecd837ab4f94
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: aoptk_query_literature
+  owner: recetox
+  revisions:
+  - 3cec2d4045dd
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: baseline_toxicity_calculator
+  owner: mbernt
+  revisions:
+  - ce46f2008024
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology
+- name: dose_response_analysis_tool
+  owner: ufz
+  revisions:
+  - 2aa9da0a84a4
+  - 8a1b524ed9d8
+  - c122403ac78a
+  tool_panel_section_id: toxicology
+  tool_panel_section_label: Toxicology

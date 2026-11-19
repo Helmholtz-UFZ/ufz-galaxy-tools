@@ -1,0 +1,63 @@
+name: Cron Update Tool Lists
+# This workflow updates all tool lists for the list of Galaxy instances
+# and for each instance creates a pull request with the changes for admin to approve.
+
+on:
+  schedule:
+  # 7:07 wednesdays
+    - cron:  '7 7 * * 3'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # Modify this list to include all Galaxies whose tool lists you want to update periodically
+        instance: [galaxy.ufz.de]
+        python-version: [3.11]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install bioblend pykwalify PyYAML
+      - name: Lint and Update
+        run: |
+            make INSTANCE=$INSTANCE lint
+            make INSTANCE=$INSTANCE update-all
+        env:
+          INSTANCE: ${{ matrix.instance }}
+      - name: Set output variables
+        id: vars
+        run: |
+          pr_title="Update all tools of $INSTANCE"
+          {
+            echo "pr_title=$pr_title"
+            echo "branch_name=$INSTANCE"
+            echo "pr_body<<EOF"
+            echo "I ran the following:"
+            echo "- make INSTANCE=$INSTANCE lint"
+            echo "- make INSTANCE=$INSTANCE update-all"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+        env:
+          INSTANCE: ${{ matrix.instance }}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: create-pull-request/${{ steps.vars.outputs.branch_name }}
+          committer: toolbot <toolbot@example.com>
+          commit-message: ${{ steps.vars.outputs.pr_title }}
+          title: ${{ steps.vars.outputs.pr_title }}
+          body: ${{ steps.vars.outputs.pr_body }}
+          labels: automated

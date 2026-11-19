@@ -1,0 +1,60 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: graphembed
+  owner: iuc
+  revisions:
+  - 4e25e18415c0
+  - f28678233baf
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: histogram
+  owner: devteam
+  revisions:
+  - 6f134426c2b0
+  - d0b9dd19e919
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: pathview
+  owner: iuc
+  revisions:
+  - 03c13085aecc
+  - dbac244d2214
+  - e38f11142101
+  - f1691de443a7
+  - fb6d30ca4ea6
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: saqc
+  owner: ufz
+  revisions:
+  - 55bbea0cdc60
+  - 724dcbb35c9a
+  - 9e5eb2e6c614
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: saqc_executor
+  owner: ufz
+  revisions:
+  - 99e2019c318c
+  - c5ce635c95de
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics
+- name: volcanoplot
+  owner: iuc
+  revisions:
+  - 11c344627e52
+  - 2f557f6abbfb
+  - 3af838dc0637
+  - 3d5b9e4df7ba
+  - 5e08a1e22dbc
+  - 717c6164fea4
+  - 83c573f2e73c
+  - 99ace6c1ff57
+  - a363ba287b88
+  - c0b740d23adc
+  - cfb0595f9842
+  - e4790edb4299
+  tool_panel_section_id: statistics
+  tool_panel_section_label: Statistics

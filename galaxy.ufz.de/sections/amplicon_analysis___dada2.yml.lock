@@ -1,0 +1,204 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+  revisions:
+  - 1b8fda203803
+  - 1c9715cef808
+  - 3a89c3f99f3d
+  - 4d89978c6188
+  - 5b5a7af9fbb4
+  - 60cd35f37c0a
+  - 63f86089423e
+  - 65db807336bc
+  - 705d26fbea02
+  - 79212a309499
+  - 7c2100246a2f
+  - 9f306361a58e
+  - ce4bfce70e64
+  - e0aea8e800d7
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_dada
+  owner: iuc
+  revisions:
+  - 00f5005840fa
+  - 18a502a9d287
+  - 1c35dadbe76f
+  - 2222f08c8316
+  - 47198090501e
+  - 6b4ddc3b64bd
+  - 89d11e95a9b1
+  - 9010b9e13dec
+  - 96336c6a2bb7
+  - b35a5e8ff0fe
+  - b762f4d54f78
+  - d16fa2560df4
+  - f79565b12646
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_filterandtrim
+  owner: iuc
+  revisions:
+  - 00e0347751b1
+  - 23fc35093b11
+  - 6be249bfd55b
+  - 777f9846c56d
+  - 81fc1ff02788
+  - a9f4a217dcd6
+  - ad574c1621ac
+  - addaf9d22850
+  - ca73bbac615a
+  - e8768ddeba32
+  - e8fba04706d3
+  - f732237754fc
+  - f8b8c95bff89
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_learnerrors
+  owner: iuc
+  revisions:
+  - 04c15826a0b8
+  - 1fb4fc5e64d6
+  - 39638e0aff59
+  - 4bba91a89457
+  - 5fe3edf19b9c
+  - 68129ce1c59b
+  - 75403243703a
+  - 8c202e741d68
+  - 9e5c3d358b2c
+  - a14a18a47c36
+  - afdfa35a89d9
+  - c48d42d65d2b
+  - dd6572434618
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_makesequencetable
+  owner: iuc
+  revisions:
+  - 0b1ce4edabc7
+  - 1c9b3bcd4261
+  - 43c99742158b
+  - 75c8945b0da2
+  - 88677f452aea
+  - 99c6929236fa
+  - 9ccec6ed8e82
+  - aab8af79110e
+  - ab69311d2da2
+  - bfd62e881837
+  - d49e0de76bf5
+  - e96bbb9e24ea
+  - ebd632e95aae
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_mergepairs
+  owner: iuc
+  revisions:
+  - 0b884b080bb6
+  - 1d75bd0595e2
+  - 2495262244bd
+  - 273b8a00c8a2
+  - 306a40d4bb8f
+  - 35176674168c
+  - 46680b007c51
+  - 5c865a382933
+  - 646c58820267
+  - 69900ffd3b8e
+  - a35c40af067f
+  - b1e55c248f17
+  - c920e1400f98
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_mergesequencetables
+  owner: iuc
+  revisions:
+  - 8f6cb375b725
+  - a0f0952933e4
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_plotcomplexity
+  owner: iuc
+  revisions:
+  - 224abe7c80ed
+  - 2875d977c533
+  - 32c9ea835770
+  - 498d57610fcd
+  - 5cba3a0dc3b6
+  - 6f06d501b7e6
+  - 78faebd0879c
+  - 806fe614ca46
+  - 8daf4564ccda
+  - 9c3de011a7f2
+  - aae21f831e95
+  - ac72310b038a
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_plotqualityprofile
+  owner: iuc
+  revisions:
+  - 2a90d2fd3336
+  - 4e469b758915
+  - 51971db051ba
+  - 52a911972c02
+  - 7b8cb2b02978
+  - 8ff0155d0992
+  - a204f3983d22
+  - cae017b76acb
+  - d000854331fe
+  - d60df8727f59
+  - e7c2674e01fe
+  - f947b4bb5107
+  - fa11922f3d91
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_primercheck
+  owner: iuc
+  revisions:
+  - 00b8932e286e
+  - 13ee8845d40b
+  - 40ae76a60028
+  - 506ce55ba922
+  - 74ec28dbdf17
+  - 7dfcb39313d4
+  - ee763baa80c3
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_removebimeradenovo
+  owner: iuc
+  revisions:
+  - 04144473e59e
+  - 073608a50ac3
+  - 0a13d449d1bf
+  - 1770d188f72d
+  - 4efeb75704c8
+  - 5b752525bd6f
+  - 6bd7c48ff6ed
+  - 7136e9ab70db
+  - 7f3b59dee073
+  - 7f8f0e9fcb37
+  - a6ceb91124fa
+  - b6dddf8c2e6f
+  - ddf5bcfde13d
+  - efe26de231ec
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2
+- name: dada2_seqcounts
+  owner: iuc
+  revisions:
+  - 0a1224c4b781
+  - 19299bb1c6af
+  - 213a3fda0b91
+  - 256e7a119a95
+  - 390bc2645138
+  - 4cc834cce4fb
+  - 7d28da5e9e27
+  - 86d6d6cda803
+  - 9180d536e20d
+  - a7817705348e
+  - d943081510da
+  - dc4e8088b896
+  - f74c56549143
+  tool_panel_section_id: amplicon_analysis___dada2
+  tool_panel_section_label: Amplicon Analysis - dada2

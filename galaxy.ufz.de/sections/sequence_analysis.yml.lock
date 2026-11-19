@@ -1,0 +1,507 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: abricate
+  owner: iuc
+  revisions:
+  - 31f58ec0459a
+  - c2ef298da409
+  - d8b0de0554a9
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: abritamr
+  owner: iuc
+  revisions:
+  - 3e8233ce0b99
+  - 468fd92deaaa
+  - ca5d51152817
+  - ce54031c2235
+  - e17bbe564242
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: alevin
+  owner: bgruening
+  revisions:
+  - '528052085629'
+  - a8b6292cdffc
+  - b0fe3e482cb7
+  - b3aea985597c
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: aligned_to_consensus
+  owner: ecology
+  revisions:
+  - 0ccbe1c20fc3
+  - 3d7fff9f7376
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: amrfinderplus
+  owner: iuc
+  revisions:
+  - 573cfe217474
+  - 7844dbe4f8e2
+  - 96112e4c5e26
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: antismash
+  owner: bgruening
+  revisions:
+  - bc88856eddab
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: bakta
+  owner: iuc
+  revisions:
+  - 1942e86e2ee1
+  - 25f3b474ca6f
+  - 292eea8defa7
+  - c03be23045b7
+  - d77802fe76f7
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: blast_rbh
+  owner: peterjc
+  revisions:
+  - b2f91cbed8d9
+  - d8d9a9069586
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: busco
+  owner: iuc
+  revisions:
+  - 4e70d88adf2f
+  - c5a90fa4b8dd
+  - cc217867028e
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: bwameth
+  owner: iuc
+  revisions:
+  - b7c3dcb76c02
+  - b7ce99273d62
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: cd_hit
+  owner: iuc
+  revisions:
+  - 7807800a3d03
+  - e0da3400ac2f
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: chromeister
+  owner: iuc
+  revisions:
+  - 80f64f829785
+  - adea31d84cb9
+  - b768cc4cca40
+  - e483be1014b6
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: clustalw
+  owner: devteam
+  revisions:
+  - 4daabc25df00
+  - 5b097fde95dd
+  - baa38def0230
+  - d6694932c5e0
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: deeparg_predict
+  owner: iuc
+  revisions:
+  - 07801d7ee81f
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: deeparg_short_reads
+  owner: iuc
+  revisions:
+  - 854b7c026a7e
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: diamond
+  owner: bgruening
+  revisions:
+  - 0cdcf7e99b62
+  - 10fc1d5850a8
+  - 1196fc76fdc2
+  - 15c0c0d90c3f
+  - 1e3323a44643
+  - 20d92dc4c6cb
+  - 60f307965815
+  - 62c9df8382c2
+  - 64be1ac21109
+  - 7483f7d26984
+  - 8a203e727140
+  - 8b8a3f793f0f
+  - 9553180705b7
+  - a02aa0dfb850
+  - ad7226fac56d
+  - b250b3058cbb
+  - e8ac2b53f262
+  - f921014aba5a
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: eukrep
+  owner: iuc
+  revisions:
+  - 218f37ca06e4
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: falco
+  owner: iuc
+  revisions:
+  - 219ffa24f789
+  - 959a14c1f2dd
+  - f48b35baf365
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: fasta_regex_finder
+  owner: mbernt
+  revisions:
+  - 269c627ae9f4
+  - 5a6ec4585bc9
+  - 9a811adb714f
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: fastp
+  owner: iuc
+  revisions:
+  - 10678d49d39e
+  - 1c183b0a6cfd
+  - 1d8fe9bc4cb0
+  - 241decaaff3e
+  - 25c59c0ceb55
+  - 281054a26e41
+  - 3432a0e49b86
+  - 350c736075eb
+  - 36be11c58dac
+  - 4557b2da9e7f
+  - 480ddbd12a03
+  - 4990e6f1348f
+  - 65b93b623c77
+  - 68386e630362
+  - 6c2351178f8d
+  - 8276962186f2
+  - 8b1ff0343492
+  - a626e8c0e1ba
+  - a935cbdf1c0e
+  - b2e9a56e5259
+  - c59d48774d03
+  - d60c3f704da0
+  - dbf9c561ef29
+  - dbfc505896e9
+  - e25816738ef3
+  - f875da9d433c
+  - ff33957bf802
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: fraggenescan
+  owner: iuc
+  revisions:
+  - 1f0a3e4497d4
+  - 2dfb2fba4081
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: gffread
+  owner: devteam
+  revisions:
+  - 154d00cbbf2d
+  - 3e436657dcd0
+  - 4dea02886337
+  - 88fecd593368
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_alimask
+  owner: iuc
+  revisions:
+  - 274d66a6368b
+  - 80c713789d13
+  - 819d044451ed
+  - 92227c141aa5
+  - a30ef2a2b3a9
+  - c18dbffbc454
+  - e3e5f208e93c
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmalign
+  owner: iuc
+  revisions:
+  - 24fa8e890f08
+  - 71863d3bf721
+  - a9c62fc8187b
+  - ca0b674e895b
+  - d430c68061f7
+  - e26abfad8ce5
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmbuild
+  owner: iuc
+  revisions:
+  - 104799b39986
+  - 4b996c837ec8
+  - 6846f8789e33
+  - 750269125dc9
+  - 7ea31fc35394
+  - d0875d3f6544
+  - dc8860ba75d1
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmconvert
+  owner: iuc
+  revisions:
+  - 649b289b4ccc
+  - a9dace1a1e36
+  - b03487ad64c8
+  - cbf88bb8b945
+  - db8a5a3195e7
+  - f92edeb5e4c4
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmemit
+  owner: iuc
+  revisions:
+  - 1cd4d0cf8fd9
+  - 544bf9c95490
+  - 7b7ff4d209f7
+  - 82d6ca8212dc
+  - 96b127c59e6a
+  - a6f41287ef2b
+  - be03abdc6451
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmfetch
+  owner: iuc
+  revisions:
+  - 01c842e297f5
+  - 34b09461bf87
+  - 64271199b179
+  - 74089c182a50
+  - a28fd001de59
+  - cd078bda9921
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmscan
+  owner: iuc
+  revisions:
+  - 01219a31c48e
+  - 1a83249ddfff
+  - 4a54e4c9188b
+  - be072920a53e
+  - be7097d6e3ff
+  - d92dd2f040cd
+  - ec70edb4acd4
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_hmmsearch
+  owner: iuc
+  revisions:
+  - 08cbaba779b2
+  - 192a5046d9a2
+  - 284d40d6f5a1
+  - 6867ed975e25
+  - b774ae8e1609
+  - d753d9169482
+  - df7a52791be9
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_jackhmmer
+  owner: iuc
+  revisions:
+  - 036df14999e8
+  - 5113c71c7031
+  - 6e27bb3f0fa6
+  - 793967b6ae8a
+  - 9fdeca68a6b5
+  - b2f12ceedacf
+  - d9ce554da9b4
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_nhmmer
+  owner: iuc
+  revisions:
+  - 1a1e39306e04
+  - 314b778b8ffa
+  - 54b92ae4f75b
+  - b28e8ed99424
+  - b4fe2f703b4b
+  - be0cc39776f9
+  - c8e81e43bff1
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_nhmmscan
+  owner: iuc
+  revisions:
+  - 24a67ef302dd
+  - 2d406da5d34e
+  - c3075b7fdbdd
+  - e07176c0925d
+  - e20829923d8b
+  - f68b43be32d7
+  - fb1305d0d1c6
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: hmmer_phmmer
+  owner: iuc
+  revisions:
+  - 37bcc9fb0bb1
+  - 74fc6d7d40f1
+  - 8267b6ad0b45
+  - 8a791afd99fb
+  - b68f1c97f63d
+  - c1de05e20868
+  - ff6e24314c63
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: integron_finder
+  owner: iuc
+  revisions:
+  - 5429646e486d
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: isescan
+  owner: iuc
+  revisions:
+  - 81539b9ae80a
+  - 9e776e7fab4f
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: jbrowse2
+  owner: fubar
+  revisions:
+  - 329cd8314959
+  - bd903fbbc26e
+  - dd032687675c
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: kofamscan
+  owner: iuc
+  revisions:
+  - 8ec7636fa875
+  - 900a5db3f23a
+  - c3c46f14c7a4
+  - f3534b94ad05
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: longorf
+  owner: mbernt
+  revisions:
+  - 1c4b24e9bb16
+  - 4952f1ece60b
+  - 7701185ca677
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: mafft
+  owner: rnateam
+  revisions:
+  - 0a507f4bd19a
+  - 1233363389c1
+  - 4de39704d423
+  - 8e649f27aa0d
+  - a65296ffb4a0
+  - aaefa93c2dd2
+  - bf28a8cff401
+  - f1a5908ea2cb
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: muscle
+  owner: crs4
+  revisions:
+  - 533b3b2a1e66
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: pileometh
+  owner: bgruening
+  revisions:
+  - d6787bab7b11
+  - f8369439d35a
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: plasmidfinder
+  owner: iuc
+  revisions:
+  - 507d59b036c5
+  - 7075b7a5441b
+  - 8621b220c13e
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: prokka
+  owner: crs4
+  revisions:
+  - 8096daf9ce73
+  - 8a22554cdde2
+  - c105b66eaab1
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: repeat_masker
+  owner: bgruening
+  revisions:
+  - 31763a56f1d7
+  - ba6d2c32f797
+  - bfc70c8cc5ca
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: salmon
+  owner: bgruening
+  revisions:
+  - 0080a42718be
+  - 29e12b90949d
+  - 30d90b851d3c
+  - f4d5237a84f6
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: salmonquantmerge
+  owner: bgruening
+  revisions:
+  - 71ce24befa24
+  - a896b8b7d264
+  - afaa62bfdf28
+  - d421497303c0
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: staramr
+  owner: iuc
+  revisions:
+  - 146b508457e8
+  - 59d308975e63
+  - 6d5c8a6ceea0
+  - cfe8742b704e
+  - d0a2e0a9c853
+  - eaa563bd535a
+  - f2625d1efadd
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: t_coffee
+  owner: earlhaminst
+  revisions:
+  - 0a189243186d
+  - ae69d14b6fbf
+  - ce83c3f83561
+  - e3507be607eb
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: trim_galore
+  owner: bgruening
+  revisions:
+  - 084bbd8ba7b8
+  - 433db23e1c1d
+  - 7462caed7065
+  - 949f01671246
+  - b94789823aad
+  - cd7e644cae1d
+  - eefb644655a5
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
+- name: ucsc_blat
+  owner: yating-l
+  revisions:
+  - 077a9bc371e2
+  - 0f7cb5f69f7d
+  - 1c49371db3a4
+  - 2a89f630fa85
+  - 820f68ad34a7
+  - 8e78c4d843b2
+  - b8fa39b09aa4
+  - e79965d0351c
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis

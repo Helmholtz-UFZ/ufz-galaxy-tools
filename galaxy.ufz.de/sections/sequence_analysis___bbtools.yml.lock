@@ -1,0 +1,87 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: bbtools_bbduk
+  owner: iuc
+  revisions:
+  - 159b04e36791
+  - 428de92eac6b
+  - 55e500606bbe
+  - 6ffff37d3daf
+  - 7beb76ffbc0f
+  - bf0cb5dd02f2
+  - d1f62024a08b
+  - d58c27d2c5a7
+  - e629753431f5
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbmap
+  owner: iuc
+  revisions:
+  - 20ab37575227
+  - 23d04eabbac5
+  - 3f94a2e3d513
+  - 456d8ebb6a28
+  - 517464809c33
+  - 7f19559b8b55
+  - 8015d7ab8357
+  - 95e9d34c4cad
+  - d758d31ec054
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbmerge
+  owner: iuc
+  revisions:
+  - 08b2f8e6846d
+  - 1af48f9cc27b
+  - 1bb2b5b52030
+  - 5d8b93c0731f
+  - c04ab3e8c932
+  - c05232655d00
+  - c9e516d65a3d
+  - cab19c0452c4
+  - f8734e69f645
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_bbnorm
+  owner: iuc
+  revisions:
+  - 057c13b2dc42
+  - 0ed0510b7712
+  - 1baa4ad1ac2f
+  - 1ef267476a17
+  - 5f047a0d4c2e
+  - 770bceda7785
+  - 8b18f42bda13
+  - c80190b3ff02
+  - e607b61a68ad
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_callvariants
+  owner: iuc
+  revisions:
+  - 3854db061e6e
+  - 66b138a2e74c
+  - 68564cf83cb0
+  - 7e041c120b96
+  - a033aa9a822e
+  - b4279a293312
+  - df9743790176
+  - ee407fae3ccd
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools
+- name: bbtools_tadpole
+  owner: iuc
+  revisions:
+  - 0ddf147d1897
+  - 20aef74d20a1
+  - 51947de90615
+  - 654c9da47f74
+  - 7ad0f4bfa923
+  - 8deeb4c5448b
+  - a0299487d224
+  - cbc75076778f
+  - ce13b4678f18
+  tool_panel_section_id: sequence_analysis___bbtools
+  tool_panel_section_label: Sequence Analysis - bbtools

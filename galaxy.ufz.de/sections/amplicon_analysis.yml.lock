@@ -1,0 +1,111 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: picrust2_add_descriptions
+  owner: iuc
+  revisions:
+  - 2f47a294ef49
+  - 6034c3f3ecf0
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_hsp
+  owner: iuc
+  revisions:
+  - 3b133b8d578a
+  - 6eafc1e01a8c
+  - 84d4390cbd3a
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_metagenome_pipeline
+  owner: iuc
+  revisions:
+  - 415cb5d91168
+  - 709adbfcf308
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_pathway_pipeline
+  owner: iuc
+  revisions:
+  - 6077821e8ae7
+  - 80c3d1d9559e
+  - f53beb324696
+  - fc95788aff90
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_pipeline
+  owner: iuc
+  revisions:
+  - 323e5669975a
+  - 540aedfc81c7
+  - d6bb2e3febda
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_place_seqs
+  owner: iuc
+  revisions:
+  - 680fb3eb574c
+  - 73b56418e7f4
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust2_shuffle_predictions
+  owner: iuc
+  revisions:
+  - 677f3c8db525
+  - 881f2faa5fe7
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_categorize
+  owner: iuc
+  revisions:
+  - 36e87158ef04
+  - 8c7bafdb713f
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_compare_biom
+  owner: iuc
+  revisions:
+  - 0ba7dfaa941d
+  - 8e2ac1b8f70a
+  - 9168545e09df
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_format_tree_and_trait_table
+  owner: iuc
+  revisions:
+  - 21999f3aeb04
+  - 9a0f8171a2e2
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_metagenome_contributions
+  owner: iuc
+  revisions:
+  - 857e8724b43f
+  - b8576e40c078
+  - f0f5028a3393
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_normalize_by_copy_number
+  owner: iuc
+  revisions:
+  - 1ac98612c18d
+  - 2e62e32d4f33
+  - 3bd5f5afb9b1
+  - 65e5f9caefcc
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: picrust_predict_metagenomes
+  owner: iuc
+  revisions:
+  - 6b4199bbc9be
+  - a38a0a966a4d
+  - f17b7d5a87f7
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis
+- name: vsearch
+  owner: iuc
+  revisions:
+  - 010235ce52d2
+  - 9495df9dd6ef
+  tool_panel_section_id: amplicon_analysis
+  tool_panel_section_label: Amplicon Analysis

@@ -1,0 +1,141 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: cutadapt
+  owner: lparsons
+  revisions:
+  - 093678460093
+  - 104d86c98776
+  - 135b80fb1ac2
+  - 48f587c13075
+  - 49370cb85f0f
+  - 5d00fd7847eb
+  - 5eb7e84243f2
+  - 660cffd8d92a
+  - 80766b36005d
+  - 8c0175e03cee
+  - 8e264b67a8c0
+  - aa784cb3810d
+  - b1c926deaa2d
+  - c0b2c2e39c9c
+  - c4b82dce8335
+  - e075c7e866d1
+  - e4691e1589d3
+  - f6168dd17f82
+  - fe74900d6dc7
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_groomer
+  owner: devteam
+  revisions:
+  - 10d4df6a9d94
+  - 47e5dbc3e790
+  - 8611b80a14d6
+  - e9f8633db0a2
+  - ed6b5c0c1e8d
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+  revisions:
+  - 03d57fea6482
+  - 33e27e311d03
+  - 523c2aff0376
+  - c48cf4699be7
+  - f3936d0632cb
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_paired_end_interlacer
+  owner: devteam
+  revisions:
+  - 060e4a536555
+  - 2ccb8dcabddc
+  - 3e396e702cea
+  - acb5090e281f
+  - b41c2c1bcfbf
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastq_to_tabular
+  owner: devteam
+  revisions:
+  - 43807a65369f
+  - 4b347702c4aa
+  - 9af11085c5c6
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastqc
+  owner: devteam
+  revisions:
+  - 2c64fded1286
+  - 2d094334f61e
+  - 3d0c7bdf12f5
+  - 5ec9f6bceaee
+  - 9da02be9c6cc
+  - d2cf2c0c8a11
+  - e7b2202befea
+  - f2e8552cf1d0
+  - ff9530579d1f
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: fastqtofasta
+  owner: devteam
+  revisions:
+  - 297962e79f39
+  - 4a3e93647a4e
+  - 5e0a8c02887c
+  - a64c24430f5e
+  - ac3fed111eb6
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: multiqc
+  owner: iuc
+  revisions:
+  - 0559e0711094
+  - 161f4383df15
+  - 1c2db0054039
+  - 26ee5e11ecbe
+  - 31c42a2c02d3
+  - 371299578b8e
+  - 3d93dd18d9f8
+  - 3dd49be3f7d3
+  - 467486f1c568
+  - 862943c10425
+  - 94b6bea727ae
+  - 97255f6fdf7e
+  - a7e081ceb76a
+  - abfd8a6544d7
+  - bb89ae58738c
+  - bf675f34b056
+  - d2aaac19f42f
+  - dc0f5512911c
+  - e4574a4d09d8
+  - e4dd4c0622f6
+  - f7985e0479b9
+  - f7e2f1eb3a16
+  - fac2260bc88a
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: seqtk
+  owner: iuc
+  revisions:
+  - 4b494533146a
+  - 58c8ece95b53
+  - 8511b6d85fc7
+  - a019807f4e67
+  - a09586d5149a
+  - c8fb17965c7d
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation
+- name: trimmomatic
+  owner: pjbriggs
+  revisions:
+  - 32f1f56bd970
+  - 75a3b8da8e76
+  - 771554c05a0b
+  - 835d5ebf270d
+  - 898b67846b47
+  - b9aaed85cbd1
+  - d94aff5ee623
+  tool_panel_section_id: fastq_manipulation
+  tool_panel_section_label: Fastq Manipulation

@@ -1,0 +1,160 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: stacks2_clonefilter
+  owner: iuc
+  revisions:
+  - 110a346daf36
+  - 1b6d07160736
+  - 289b7d6b69a4
+  - 2f1d464ebfd2
+  - 7b699cc7aaa9
+  - 9a884520017b
+  - b75174403a65
+  - e345aadf914f
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_cstacks
+  owner: iuc
+  revisions:
+  - 0345dbaaa79b
+  - 42d9087b4789
+  - 994c77aeeef1
+  - 9dd57d7dc863
+  - c207119ba5f6
+  - da351b9031de
+  - f4aab9196d1e
+  - fcce77c09289
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_denovomap
+  owner: iuc
+  revisions:
+  - 01854af3b1ed
+  - 33486216eec0
+  - 405a212b32ab
+  - 421c33b8bf17
+  - 9e8a17579a2d
+  - ad5ab22ffe24
+  - afdbc7fcce70
+  - b9822370f843
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_gstacks
+  owner: iuc
+  revisions:
+  - 1d839ead7ad3
+  - 27359c6bf3e3
+  - 7370bb65bad4
+  - 878ddc285280
+  - ab3df2172960
+  - d35cb34f2b85
+  - eb784fa07f80
+  - fa51dc5e8386
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_kmerfilter
+  owner: iuc
+  revisions:
+  - 1544278c272e
+  - 38c9f9a680f0
+  - 7d9aa0dc2d59
+  - 8a55d29c8fcf
+  - a3e86cd9cac7
+  - af2881556a67
+  - b2e3553e1be2
+  - c9b77ced9a78
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_populations
+  owner: iuc
+  revisions:
+  - 564c33e5c3e3
+  - 6fba323a242d
+  - 7b881f5f5ad5
+  - 887cf585cafc
+  - 94025494f95d
+  - 9a44832748c5
+  - b242deb58952
+  - f6446f2f1045
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_procrad
+  owner: iuc
+  revisions:
+  - 8cff84759bf6
+  - 9993234400f1
+  - 9a171f9a450b
+  - bd5ff77e2036
+  - bfef17191aa6
+  - ca7aa77c7f57
+  - e0bf5d9cd05a
+  - e897c74a48bb
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_refmap
+  owner: iuc
+  revisions:
+  - 319b10947ec1
+  - 45385ba40a75
+  - 4c84b488deb2
+  - 4f65e343ecdf
+  - 5e10f396979e
+  - 6dafad990086
+  - adc7a7610d4f
+  - eae928f7fcb3
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_shortreads
+  owner: iuc
+  revisions:
+  - 17d39bf0a63a
+  - 1974fee35ca7
+  - 43e3eeb2e0ec
+  - 8123ca2d9351
+  - a4fb78d0b9e8
+  - ad7a60726fc3
+  - c287418eb288
+  - c5d7050e4ad7
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_sstacks
+  owner: iuc
+  revisions:
+  - 0b8c84a7fdb5
+  - 4c29c999ef8d
+  - 53fd063fcc0f
+  - a819ec3b362d
+  - b7babdb3c219
+  - cd034465d4a4
+  - d9bf483266a1
+  - e58e2ecb6285
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_tsv2bam
+  owner: iuc
+  revisions:
+  - 1b270fc77c81
+  - 2645575d1bf2
+  - 69842dd5aa48
+  - 79ee594e7c3b
+  - 8c2617661c49
+  - a9c34a289493
+  - bf0e43ab0416
+  - c12141843d32
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2
+- name: stacks2_ustacks
+  owner: iuc
+  revisions:
+  - 21d2aa544835
+  - 7e5a174bc201
+  - 8a35a3bc6752
+  - 912f904a6e1e
+  - bfe47ec761a0
+  - cfb504394ae1
+  - d033e1ccb386
+  - fa65e5e7577f
+  tool_panel_section_id: sequence_analysis___stacks2
+  tool_panel_section_label: Sequence Analysis - Stacks2

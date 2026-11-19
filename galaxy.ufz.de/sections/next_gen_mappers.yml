@@ -1,0 +1,10 @@
+tool_panel_section_label: Next Gen Mappers
+tools:
+- name: bowtie2
+  owner: devteam
+- name: bwa
+  owner: devteam
+- name: minimap2
+  owner: iuc
+- name: rgrnastar
+  owner: iuc

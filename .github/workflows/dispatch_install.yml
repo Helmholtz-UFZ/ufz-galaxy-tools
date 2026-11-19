@@ -1,0 +1,42 @@
+name: Dispatch Install
+# Manual only: this installs tools into a Galaxy instance and therefore needs
+# the GALAXY_API_KEY secret of an admin user.
+on:
+  workflow_dispatch:
+    inputs:
+      instance:
+        description: 'Galaxy Instance URL'
+        required: true
+        type: choice
+        options: # Modify this list as needed
+        - galaxy.ufz.de
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.11]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: cache-${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install ephemeris
+      - name: Add Mask
+        run: echo "::add-mask::${{ secrets.GALAXY_API_KEY }}"
+      - name: Run the installation
+        run: make INSTANCE=$INSTANCE GALAXY_API_KEY=${{secrets.GALAXY_API_KEY}} install
+        env:
+          INSTANCE: ${{ inputs.instance }}

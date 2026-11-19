@@ -1,0 +1,4 @@
+tool_panel_section_label: Lambda-Miner
+tools:
+- name: lm_get_projects
+  owner: ufz

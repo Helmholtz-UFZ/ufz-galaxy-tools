@@ -1,0 +1,241 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: abyss
+  owner: iuc
+  revisions:
+  - 0124fce4654a
+  - 0a5c7992b1ac
+  - 3ce74eab308b
+  - 7547fcab5d19
+  - 7a30b65088d1
+  - 8f1b150a2487
+  - d6d5ccc2c581
+  - db9b10824c61
+  - fa5259cc561b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: canu
+  owner: bgruening
+  revisions:
+  - e05f5ee0ffb9
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: hisat2
+  owner: iuc
+  revisions:
+  - 0c16cad5e03b
+  - 3fb01a8c902d
+  - 61ee47027bd3
+  - 6ab42baa56e9
+  - b12d81af0291
+  - eaa10652acc2
+  - f4af63aaf57a
+  - f6ff91cb3120
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: idba_hybrid
+  owner: iuc
+  revisions:
+  - 5c5806e23338
+  - 5ece301faf6b
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: idba_tran
+  owner: iuc
+  revisions:
+  - 03de4e0f84c2
+  - 33f00ff1cb22
+  - a30d991a3fdd
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: idba_ud
+  owner: iuc
+  revisions:
+  - 1542a2fffe0c
+  - 694b0f55b744
+  - fdaf2375d405
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: metaspades
+  owner: nml
+  revisions:
+  - 04d81e5f25e9
+  - 05c394313b1c
+  - 434f2a6c3ade
+  - 5381d83e9492
+  - 606b09cc9860
+  - 6563e22a9fd0
+  - 697c9156dafe
+  - 9638ba70882c
+  - 99ecfdafc64f
+  - f192c2fbe13f
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: quast
+  owner: iuc
+  revisions:
+  - 0834c823d4b9
+  - 1b1cf0c96501
+  - 3061c8b029e5
+  - 59db8ea8c845
+  - 6fcbee531de6
+  - 72472698a2df
+  - 875d0f36d66f
+  - a3b35edea53a
+  - baeffe7bfe47
+  - cbc516cee202
+  - ebb0dcdb621a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: rnaquast
+  owner: iuc
+  revisions:
+  - 33c060ec0ac9
+  - 3967889cda03
+  - 734fbbd94307
+  - 8e66f695d859
+  - e989670c7fc7
+  - f73ab5187eed
+  - f89e3c318453
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: rnaspades
+  owner: iuc
+  revisions:
+  - 001aa495b39a
+  - 378e55aeeb25
+  - 59be68ba26c2
+  - 5bd3f053c303
+  - 5fc94b3a4704
+  - 675ee1aa5952
+  - 87ab790abdf6
+  - aa1ac2f7a688
+  - c6ba8470ed01
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades
+  owner: nml
+  revisions:
+  - 1f04936b96f3
+  - 263af8401aed
+  - 65d1598a9256
+  - 822954de3f59
+  - 884dc0264950
+  - 9006e5836729
+  - a789e163a670
+  - b512435320e3
+  - b8c00ce5dfa0
+  - d55d7058fb39
+  - d5887ace0dd4
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_biosyntheticspades
+  owner: iuc
+  revisions:
+  - 162a7ff870e9
+  - 1fc82fe7ebef
+  - 5e7a2a927b56
+  - 60b8f1668552
+  - a5d68876c44e
+  - afac6d6bd02b
+  - b321487d5cd9
+  - c33a476f4001
+  - d89ced9439f3
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_coronaspades
+  owner: iuc
+  revisions:
+  - 045c8498d2dd
+  - 152ff7d1817a
+  - 2c650dcc6190
+  - 2cf8a2028ddc
+  - 3f9338d118f6
+  - 4ae660dd1fb6
+  - 655fa188c3cc
+  - fee85957cebe
+  - ff41a00a6745
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_metaplasmidspades
+  owner: iuc
+  revisions:
+  - 21da31ed41a1
+  - 2c86bbf5db00
+  - 4a01e0d2892c
+  - 7e27faaad80e
+  - 9911ca348668
+  - ae96f644b722
+  - c5c4fa59be65
+  - c8097e741b13
+  - edac5e292b7f
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_metaviralspades
+  owner: iuc
+  revisions:
+  - 02e9389b4517
+  - 6766a94ef559
+  - 7922870efcca
+  - 86f66ab58e14
+  - c4ba6aa27088
+  - dcaf2403747d
+  - e060c3987513
+  - ea83ac535a1f
+  - ed32d95f436a
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_plasmidspades
+  owner: iuc
+  revisions:
+  - 388dbecbf03b
+  - 5be72b7648fa
+  - 6aad515a5270
+  - 6fb81bb0fe3e
+  - 75405f5e2cc5
+  - 8cc856b935ee
+  - b40b77418372
+  - c4e781659379
+  - d2ebe2f4ac68
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: spades_rnaviralspades
+  owner: iuc
+  revisions:
+  - 48cf45a53456
+  - 6357b127161e
+  - 7170a53ee406
+  - 9c9646309b04
+  - a9aa4115cb68
+  - b3490b036c5a
+  - d5645713603a
+  - dc5d1a54054b
+  - f4fc734dd9b0
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: unicycler
+  owner: iuc
+  revisions:
+  - e022dff952df
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: velvet
+  owner: devteam
+  revisions:
+  - 08256557922f
+  - 5da9a0e2fb2d
+  - 8d09f8be269e
+  - 920677cd220f
+  - e0e4fc474b07
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly
+- name: velvetoptimiser
+  owner: simon-gladman
+  revisions:
+  - 37d88f41c810
+  - 82398ba86ba7
+  - d81360ea69d8
+  tool_panel_section_id: assembly
+  tool_panel_section_label: Assembly

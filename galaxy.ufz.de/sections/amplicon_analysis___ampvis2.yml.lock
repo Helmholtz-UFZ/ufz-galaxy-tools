@@ -1,0 +1,310 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: ampvis2_alpha_diversity
+  owner: iuc
+  revisions:
+  - 289d6299bd2e
+  - 2e921a1efd45
+  - 52fbe4eb7ce7
+  - 61acf8a76396
+  - 6b8580e02e99
+  - 77000428c613
+  - b0b7bba11507
+  - bd120bdc6b91
+  - bd518ee51da5
+  - c14c7fd4d1be
+  - e50ac6ad263b
+  - e9168eec404c
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_boxplot
+  owner: iuc
+  revisions:
+  - 0c069fc2471c
+  - 22767c01e0cf
+  - 3ea43408e5db
+  - 5bca1feefea5
+  - 5e4e2b612a4f
+  - 61db741e4614
+  - 69cce076e0cf
+  - 874b1a4fe7f0
+  - b3c5560ffac6
+  - b4c6f8741989
+  - f339ecec9e21
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_core
+  owner: iuc
+  revisions:
+  - 09604c87987c
+  - 2bbf288d6334
+  - 43d85021770e
+  - 49c0d34d583f
+  - 4b023017896a
+  - 943c2ae9594a
+  - 96bc42baaa74
+  - 9cc284833af9
+  - de6156c8ef16
+  - e595eafb5ecf
+  - f360e09dd04b
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_export_fasta
+  owner: iuc
+  revisions:
+  - 0cce683798d3
+  - 2d3f9d8d030a
+  - 3fd332f614f3
+  - 54ea08f9fd97
+  - 5939a607c306
+  - 61aa0f3b4d74
+  - 7c3fea31765c
+  - c1fcdec30d69
+  - e10b5eebd415
+  - e5309c637e9d
+  - fc70cfa151cd
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_frequency
+  owner: iuc
+  revisions:
+  - 09bcc3d5e672
+  - 0feab98f9577
+  - 301a6ffaf2a2
+  - 467da4453127
+  - 8dd9cc5291e0
+  - ac3774320d28
+  - ac9564dcdb99
+  - dfb9413825cc
+  - e0b095891b28
+  - f309f1ef68f3
+  - ff9bc9357c89
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_heatmap
+  owner: iuc
+  revisions:
+  - 0895b4ebcfc8
+  - 14695ae019be
+  - 16b4934fc7e7
+  - 1979fdd0914f
+  - 241140d6680a
+  - 3e5c1fdd0e45
+  - 4a7449938377
+  - 7c3248a397fd
+  - 9bdb74297b3d
+  - 9dab85e62cf2
+  - c980e4bd48f2
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_load
+  owner: iuc
+  revisions:
+  - 05d7672c6bed
+  - 27ac516ba719
+  - 3481feabc54e
+  - 5029fd9d572e
+  - 576dd33588bf
+  - 738474880da8
+  - 7db90993aa92
+  - 841c5e03eb05
+  - 91efbd7b52dc
+  - 9b3e1acc3ad0
+  - dc0840e31406
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_merge_ampvis2
+  owner: iuc
+  revisions:
+  - 028ba7c0b400
+  - 22d5ac862bcf
+  - 24f43b62a172
+  - 2f9731cc4c87
+  - 35d71afa93f4
+  - 378ce300fb3d
+  - 5c6edb00ef4a
+  - a14326f1e7df
+  - c7d03a7b52d6
+  - d8334b328618
+  - fcb11c718c5e
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_mergereplicates
+  owner: iuc
+  revisions:
+  - 0e10df6f37c6
+  - 1f6f3bc6edd1
+  - 21a8b4e5e300
+  - 414355492c32
+  - 63ed7a3cd45f
+  - 73a9f35d4ba2
+  - 74ee43d45476
+  - 77f9ed2bb200
+  - c9143bcb2072
+  - f34ea612eecf
+  - fdf58654ad2d
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_octave
+  owner: iuc
+  revisions:
+  - 33087ecbd8f4
+  - 4289db874e3c
+  - 79ea913636fe
+  - 7b81221e7925
+  - 9fa62bb69dc4
+  - a0a792d4efae
+  - a194e5f09106
+  - c6ad82bee17b
+  - cb617c2139fa
+  - d5edda7f75eb
+  - d939a8b3defe
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_ordinate
+  owner: iuc
+  revisions:
+  - 46a85469c104
+  - 520dd44283ea
+  - 7825694588d6
+  - 7a168b554d65
+  - 7c675dae82eb
+  - 811df76f4f26
+  - 9742e8636a10
+  - ad46c4548d8f
+  - be1918c80d9f
+  - c465a1ea3da2
+  - dc31a6f9fb2f
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_otu_network
+  owner: iuc
+  revisions:
+  - 354d645455cd
+  - 37a617dca128
+  - 4122ff5882e0
+  - 454bfdfa6de5
+  - 47aec96764b8
+  - 5ca81dc9b5d9
+  - 7822d7a5a496
+  - 7e6f33f40312
+  - 9b75e02c05e7
+  - a9fd4ada4d2a
+  - bb054c50a96c
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_rankabundance
+  owner: iuc
+  revisions:
+  - 0da1af3c1ffc
+  - 17b44753a1df
+  - 18de61c5527c
+  - 2c21c267391c
+  - 4140e26cafbc
+  - 838946d86683
+  - c5ccc28a2696
+  - cf0944377d87
+  - d02f4a87eb55
+  - d1727ab06449
+  - e913a155618b
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_rarecurve
+  owner: iuc
+  revisions:
+  - 094d0b97f92c
+  - 2828d52a8910
+  - 2e69edaaa834
+  - 3063daee0d8b
+  - 30ac301ba3d6
+  - 7723ef4c9163
+  - 93bfcfcee5e6
+  - 9f4d491ebad2
+  - aeca454c398e
+  - cfa509a60770
+  - febf16487e02
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_setmetadata
+  owner: iuc
+  revisions:
+  - 024a22e84bea
+  - 14b992fb08d4
+  - 1615e0550c98
+  - 638503db7271
+  - 7c9c6448b57c
+  - 7f5dd19dc792
+  - 8447d4027c28
+  - a9dacd650ad5
+  - b8fd62239d7e
+  - cfd7bafb820f
+  - e7afc79b841e
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_subset_samples
+  owner: iuc
+  revisions:
+  - 14b38ec15fe9
+  - 1db7e3d33871
+  - 317728cb0f8a
+  - 492eb6dcfe5c
+  - 75a2a80e5ad0
+  - b268ffb0e321
+  - bd4aaf683c79
+  - c8bfb923d7d4
+  - ef800b2766c4
+  - f9fa155c191f
+  - ff07f41b8e54
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_subset_taxa
+  owner: iuc
+  revisions:
+  - 20a62b3a3038
+  - 227d169951d9
+  - 35010c1c2d1b
+  - 4bd2b0a9e529
+  - 70a98af91147
+  - 76cb398e9110
+  - ac98ca3ff0d2
+  - adf75bf963f7
+  - bc02fbdb3510
+  - cf579d6919e8
+  - e2df49914652
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_timeseries
+  owner: iuc
+  revisions:
+  - 4568a232b84e
+  - 4dac39937879
+  - 6121b061418a
+  - 77d2f88d8716
+  - 9c6dbd8a875b
+  - 9de032723f5b
+  - ad262a9581bf
+  - bc6221716772
+  - bd41251e42ec
+  - d50cf42420f2
+  - f41dad652845
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2
+- name: ampvis2_venn
+  owner: iuc
+  revisions:
+  - 338f47a9e25c
+  - 49bd53fa8f8d
+  - 62c6d4c55190
+  - 6acf30f0d9fa
+  - ba76e1682a00
+  - bbb4a531d80b
+  - dcbe3affb349
+  - e85ff12bc025
+  - ed963e5316b7
+  - f28f2faad83b
+  - f56762079f69
+  - f5987fb716a2
+  tool_panel_section_id: amplicon_analysis___ampvis2
+  tool_panel_section_label: Amplicon Analysis - ampvis2

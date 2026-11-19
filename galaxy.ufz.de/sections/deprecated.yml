@@ -1,0 +1,36 @@
+tool_panel_section_label: Deprecated
+tools:
+- name: blat
+  owner: crs4
+- name: humann2
+  owner: iuc
+- name: humann2_associate
+  owner: iuc
+- name: humann2_barplot
+  owner: iuc
+- name: humann2_genefamilies_genus_level
+  owner: iuc
+- name: humann2_reduce_table
+  owner: iuc
+- name: humann2_regroup_table
+  owner: iuc
+- name: humann2_rename_table
+  owner: iuc
+- name: humann2_renorm_table
+  owner: iuc
+- name: humann2_rna_dna_norm
+  owner: iuc
+- name: humann2_split_stratified_table
+  owner: iuc
+- name: humann2_split_table
+  owner: iuc
+- name: humann2_strain_profiler
+  owner: iuc
+- name: humann2_unpack_pathways
+  owner: iuc
+- name: metaphlan2
+  owner: iuc
+- name: metaphlan2krona
+  owner: iuc
+- name: metaphlan_hclust_heatmap
+  owner: iuc

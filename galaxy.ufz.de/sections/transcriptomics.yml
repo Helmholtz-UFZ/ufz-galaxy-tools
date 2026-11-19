@@ -1,0 +1,28 @@
+tool_panel_section_label: Transcriptomics
+tools:
+- name: deg_annotate
+  owner: iuc
+- name: deseq2
+  owner: iuc
+- name: dexseq
+  owner: iuc
+- name: egsea
+  owner: iuc
+- name: featurecounts
+  owner: iuc
+- name: fgsea
+  owner: iuc
+- name: gffcompare
+  owner: iuc
+- name: goseq
+  owner: iuc
+- name: limma_voom
+  owner: iuc
+- name: multigsea
+  owner: iuc
+- name: stringtie
+  owner: iuc
+- name: trinity
+  owner: iuc
+- name: trinity_align_and_estimate_abundance
+  owner: iuc

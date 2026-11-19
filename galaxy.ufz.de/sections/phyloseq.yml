@@ -1,0 +1,8 @@
+tool_panel_section_label: Phyloseq
+tools:
+- name: phyloseq_from_dada2
+  owner: iuc
+- name: phyloseq_plot_ordination
+  owner: iuc
+- name: phyloseq_plot_richness
+  owner: iuc

@@ -1,0 +1,18 @@
+tool_panel_section_label: Toxicology
+tools:
+- name: aoptk_download_publication_data
+  owner: recetox
+- name: aoptk_final_modification
+  owner: recetox
+- name: aoptk_find_relationships_chemicals
+  owner: recetox
+- name: aoptk_normalize_chemicals
+  owner: recetox
+- name: aoptk_parse_pdf
+  owner: recetox
+- name: aoptk_query_literature
+  owner: recetox
+- name: baseline_toxicity_calculator
+  owner: mbernt
+- name: dose_response_analysis_tool
+  owner: ufz

@@ -1,0 +1,18 @@
+tool_panel_section_label: Data Source
+tools:
+- name: enasearch_retrieve_analysis_report
+  owner: iuc
+- name: enasearch_retrieve_data
+  owner: iuc
+- name: enasearch_retrieve_run_report
+  owner: iuc
+- name: enasearch_retrieve_taxons
+  owner: iuc
+- name: enasearch_search_data
+  owner: iuc
+- name: idr_download_by_ids
+  owner: iuc
+- name: ncbi_datasets
+  owner: iuc
+- name: sra_tools
+  owner: iuc

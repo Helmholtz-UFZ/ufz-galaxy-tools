@@ -1,0 +1,8 @@
+tool_panel_section_label: Genomic Interval Operations
+tools:
+- name: extract_genomic_dna
+  owner: iuc
+- name: get_flanks
+  owner: devteam
+- name: intersect
+  owner: devteam

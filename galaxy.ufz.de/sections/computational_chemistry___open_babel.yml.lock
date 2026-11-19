@@ -1,0 +1,185 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: openbabel_addh
+  owner: bgruening
+  revisions:
+  - 0691e5e97cd5
+  - 6da72bb13a05
+  - 6e4b7e0c61a6
+  - 716dcb5bbb71
+  - 7b6fd1c273cd
+  - 883fe4f7f1b2
+  - b18b147b90fd
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_change_title
+  owner: bgruening
+  revisions:
+  - 01ab890bf0ad
+  - 13bd3774c5b1
+  - 23284172bc4e
+  - a638d8d13bb3
+  - a84187d7bda6
+  - f924a1728291
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_compound_convert
+  owner: bgruening
+  revisions:
+  - 4242b4d68e9c
+  - 56080bd1eb86
+  - a072cb207571
+  - b59c91adeac1
+  - d00ae56d3ba5
+  - ddbfae6646f9
+  - e2c36f62e22f
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_filter
+  owner: bgruening
+  revisions:
+  - 30a4b898e306
+  - 340f8d63c1f4
+  - 5004fcfb80bf
+  - 72d13f75b67c
+  - 988085c7a0ea
+  - a9ea2eac7300
+  - df4dc55197dd
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_genprop
+  owner: bgruening
+  revisions:
+  - 50eaae9df8d3
+  - 53cf744d1c6f
+  - a26f96c1f061
+  - b249bf9be0d1
+  - c73b55d66607
+  - e4ece69f1b32
+  - f620af05e524
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_multi_obgrep
+  owner: bgruening
+  revisions:
+  - 09640954740c
+  - e1e344bd8a84
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_obgrep
+  owner: bgruening
+  revisions:
+  - 14712e15f196
+  - 1c418abdafd9
+  - 274193d6c443
+  - 36ed1fab1de6
+  - 64e2c5ab51cb
+  - 985ab0acd514
+  - f27e2eaffb5f
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remduplicates
+  owner: bgruening
+  revisions:
+  - 39895aff0dd7
+  - 6eedb6c3cfdf
+  - 854a7a169623
+  - b2569e22b40c
+  - c5de6c19eb06
+  - dd28d21080f3
+  - e289f65f6b91
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remions
+  owner: bgruening
+  revisions:
+  - 4e3b2049a4d3
+  - 6cc6c7ef23df
+  - 76bbd52058ab
+  - 87eb779942bd
+  - 9249b0e0e6bd
+  - cc8ca507174f
+  - f70b83b730ac
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remove_protonation_state
+  owner: bgruening
+  revisions:
+  - 0bf5331f62ef
+  - 22a866858b81
+  - 5dc2a6cd6da1
+  - 62e6d52c83bf
+  - adc3b24c083f
+  - e376ba0fcde0
+  - f2aef0ee9d78
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_remsmall
+  owner: bgruening
+  revisions:
+  - 5c3c1c132f9f
+  - 81836d586797
+  - ac9567d307a2
+  - d7f0ca1f2669
+  - e38d865baa37
+  - e70dc90a1e58
+  - fc2a2989c3b1
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_spectrophore_search
+  owner: bgruening
+  revisions:
+  - 330514267c57
+  - 63a121e6f224
+  - 99ecf8dd7ba1
+  - aedce3959676
+  - d92ada24e4ad
+  - e1676a9f766b
+  - f5d7ffbb2d33
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_structure_distance_finder
+  owner: bgruening
+  revisions:
+  - 2c5c7da26e08
+  - 8302ab092300
+  - d5ad79cfa0ae
+  - f0502d809c4b
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_subsearch
+  owner: bgruening
+  revisions:
+  - 202e3a64859b
+  - 80d78559a5a3
+  - 9adf3fae2771
+  - abac1b21fbb8
+  - abf3ff7ff5e7
+  - c19608db6b15
+  - c4abd2c7d5f6
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: openbabel_svg_depiction
+  owner: bgruening
+  revisions:
+  - 136ceea822f5
+  - 3ec5e9a716ac
+  - 4ad272a2e3ea
+  - 75ee9c410951
+  - 7672039a0bb0
+  - aa62ff7e28b5
+  - ba2d56f16904
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel
+- name: prepare_ligands_for_docking
+  owner: bgruening
+  revisions:
+  - 015ccbd1ad68
+  - 2ba07316c7e0
+  - 5486f7a2b0cb
+  - d9d5aa013bb4
+  - fac2c28b4c55
+  tool_panel_section_id: computational_chemistry___open_babel
+  tool_panel_section_label: Computational chemistry - Open Babel

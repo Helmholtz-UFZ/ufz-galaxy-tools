@@ -1,0 +1,504 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: biotransformer
+  owner: recetox
+  revisions:
+  - 0b86600b715e
+  - 0f1b15d51801
+  - 200c5c982dba
+  - 6cd2a9e6ac49
+  - 731e5d54b6e6
+  - 90dc951da294
+  - e5fcba090b10
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: filter_compounds
+  owner: recetox
+  revisions:
+  - 6c5df3eeb768
+  - 72b687d21f65
+  - b8aa2773157b
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_add_key
+  owner: recetox
+  revisions:
+  - 081390a8e739
+  - 1d10d32fa3b3
+  - 4e8a6d6f0e6a
+  - 69b568a0dab1
+  - 7c5b86026e57
+  - 863a4e861982
+  - 8fb8ac6c37b0
+  - a5d41764722d
+  - b23b6a640f6a
+  - d5a50ec6035d
+  - fb80536001bc
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_convert
+  owner: recetox
+  revisions:
+  - 50836782d36f
+  - 5611c132f607
+  - 5d8553853fab
+  - 692471e62c68
+  - 9e83636da9d3
+  - a3d2f919cb98
+  - b9cc12600553
+  - c5ed6bfcd806
+  - c990df6afc24
+  - d95450eba471
+  - e3a46a3e8d54
+  - fb09ed49c70e
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_filtering
+  owner: recetox
+  revisions:
+  - 00e66c401366
+  - 039e7ab31836
+  - 07cac38cbd29
+  - 360836810cd5
+  - 36a53917818d
+  - 3f7790b73906
+  - 83c4b4359ac4
+  - 86d265d2a334
+  - a177ac3c752c
+  - a26afcf352fd
+  - a6583110825c
+  - c5076cc15e8c
+  - ca5a8db023e1
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_fingerprint_similarity
+  owner: recetox
+  revisions:
+  - 1ffbd537984f
+  - 79accd21387c
+  - 84af792d3a78
+  - a465cb84a388
+  - ad9d2d1b2b8d
+  - c2d546691b7a
+  - ccf5e216b6ee
+  - cdb41d95648c
+  - d7b517f2c5fe
+  - f87b1c271012
+  - fd890f162ce6
+  - fe9f3cd0b8dd
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_formatter
+  owner: recetox
+  revisions:
+  - 1b09315a3f87
+  - 1e58bf51a0e5
+  - 23d4bc72c505
+  - 2d17d540ec2b
+  - 402620029a7a
+  - 5ab06f9104ec
+  - 5fa29e292e12
+  - 604131c54f97
+  - 6501d0287dcd
+  - 8bd942dcf1ad
+  - 9e3c83d2afc3
+  - a5a5b147da70
+  - afc881c21a62
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_export
+  owner: recetox
+  revisions:
+  - 4f8a83c62c67
+  - 51205379251d
+  - 67b885502624
+  - 73c902331bbc
+  - 7e2066111683
+  - 86727e1d0866
+  - 8832425b1ff6
+  - 9b36710378ce
+  - b576ed720711
+  - dd49ef90297c
+  - e337075d0aaa
+  - f04610d25411
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_match
+  owner: recetox
+  revisions:
+  - 03bc9b7f40f6
+  - 1d443ed476a1
+  - 330b0dfae8da
+  - 4105002c9a3b
+  - 44441b0ee4dd
+  - 5c379988b7ea
+  - 844d32c59314
+  - 86e080d81cfb
+  - 9c9af0df1754
+  - be20e19c57e8
+  - c86d265f6f5e
+  - ec81ec7cea2e
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_metadata_merge
+  owner: recetox
+  revisions:
+  - 1fd950c5586a
+  - 6e965d099233
+  - 81e6df6ccd9a
+  - 84ead993862c
+  - 8bf9df575761
+  - 8e18dcf410ec
+  - c1c1cb295b74
+  - e052eac8be4a
+  - e23c14cee5a9
+  - fc1a698a71e8
+  - fda20b5ff8ed
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_networking
+  owner: recetox
+  revisions:
+  - 131baa30af82
+  - 1d74ae228df3
+  - 7a8743876c60
+  - 9c12114c7aee
+  - 9f2e7e1600c0
+  - ab8a33c370f5
+  - ad859b8036ad
+  - c42b977ec884
+  - d8e937f335b8
+  - f04b378325e5
+  - fd24cf34a92d
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_remove_key
+  owner: recetox
+  revisions:
+  - 0676c9aeaeac
+  - 10908b5bb7c8
+  - 19367db5cf3c
+  - 6b5867cab698
+  - 8c98b3cb320e
+  - 9843a619e9be
+  - 9d1b01d3fedd
+  - ef233c08112e
+  - f67250103433
+  - fbdb2ae524df
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_similarity
+  owner: recetox
+  revisions:
+  - 872d8040f713
+  - e5010b19d64d
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_spectral_similarity
+  owner: recetox
+  revisions:
+  - 26c92af1bd28
+  - 54b6775010e0
+  - 5fae85d4a69a
+  - 7627b40601f6
+  - 77d6425daa07
+  - 7ba589b01dbc
+  - 931cce430163
+  - 9bca236ba1a9
+  - 9ff95a1a2705
+  - b2c7b7705734
+  - ee35dcec350a
+  - f30b53a817af
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_split
+  owner: recetox
+  revisions:
+  - 05b91d5045ce
+  - 072c7a101da6
+  - 0cf68b536cd1
+  - 0e61079af6d1
+  - 446fddefcee7
+  - 500f473df7e4
+  - 6864944b00fd
+  - 7676700d7c4f
+  - 9e931f6fc8cd
+  - ea6c5636c0cf
+  - eba733715eaf
+  - ffe46a9b1124
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: matchms_subsetting
+  owner: recetox
+  revisions:
+  - 0da72f66ff79
+  - 2b61ec493df6
+  - 5bbd1a8404f5
+  - 6ac4a790adad
+  - 6d2f2c565431
+  - 8f5a1e44b15c
+  - b52e65169696
+  - c4835715c7ac
+  - cab0e4dcf372
+  - d11b27e59dfa
+  - d2996f624507
+  - f40e2572fbdc
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: msmetaenhancer
+  owner: recetox
+  revisions:
+  - '275998667516'
+  - 2ada1099f42e
+  - 36fad20bb730
+  - 3b402610c6dc
+  - 3e2cb0bc6959
+  - 560053b805d2
+  - 646ef66527da
+  - 90745ecc5e9f
+  - a6af1e124e06
+  - b5467dead5b1
+  - cfa9638fe182
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: msp_merge
+  owner: recetox
+  revisions:
+  - 227e0d1c9b41
+  - c2862090e321
+  - d38d73004bba
+  - f4c235d83a20
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: mzml_validator
+  owner: recetox
+  revisions:
+  - 606af60deccf
+  - 7aede61c3c14
+  - 9beb3a276ce3
+  - ada284e51141
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: ramclustr
+  owner: recetox
+  revisions:
+  - 050cfef6ba65
+  - 09cabbc3d12d
+  - 2d94da58904b
+  - 2ec9253a647e
+  - 9b716db0a786
+  - bfdf5de99cd2
+  - d70dd1d6ac4d
+  - da7722f665f4
+  - f52181a205d3
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: ramclustr_define_experiment
+  owner: recetox
+  revisions:
+  - 25625114618e
+  - 5f2b58dadb39
+  - 7bbdcce50541
+  - 7c50666b88e8
+  - 87ac0b56b9b0
+  - b0a739025b81
+  - ef3cbcdf5f5d
+  - f2c1d0bbb074
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_align_features
+  owner: recetox
+  revisions:
+  - 1a01ffa85adc
+  - 2b6bfa234d8b
+  - 2dd734da8a4c
+  - 35467fe49dad
+  - 79ad928a0dae
+  - 7b42ee54d757
+  - c53a97599181
+  - d5c638b72ce4
+  - ec196e27a61a
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_compute_clusters
+  owner: recetox
+  revisions:
+  - 149b9cc7499b
+  - 15aae2bfa67d
+  - 18ec7635bac6
+  - 3078953f7537
+  - 550667ce03f1
+  - 59c393d35e0e
+  - b9b19a74ac01
+  - cc972a92941b
+  - f3a18e020cdd
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_compute_template
+  owner: recetox
+  revisions:
+  - 134be5abb208
+  - 481d769e2f7a
+  - 4963811b6dec
+  - 50b9918aeff2
+  - 9f28366efd73
+  - b45cc424f836
+  - dfebc82ba1f0
+  - e2dc815e1b2c
+  - f8c4db95eec3
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_correct_time
+  owner: recetox
+  revisions:
+  - 02c772a49998
+  - 1574b8a29e6f
+  - 501a232f3cd5
+  - 51332c2520c7
+  - 6bb6835f8e50
+  - 8dcef51593a3
+  - 9064aecc78a7
+  - a82db010c53e
+  - bd1956f4c2aa
+  - d69ec1171d71
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_generate_feature_table
+  owner: recetox
+  revisions:
+  - 32b66fb6a6a0
+  - 5d836cb06710
+  - 6ba3526237e0
+  - 89178a72388a
+  - b3413f335327
+  - b341cfd4baf8
+  - becac9b2c229
+  - e7305ba0dd38
+  - ebca18e223bf
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_merge_known_table
+  owner: recetox
+  revisions:
+  - 04892b463957
+  - 073be0373d3c
+  - 17a48d0a80f4
+  - 8ecb609cc265
+  - a19c6aff07c3
+  - b7c8a44b9cc1
+  - cf061712a184
+  - fb95cb4a6b9b
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_recover_weaker_signals
+  owner: recetox
+  revisions:
+  - 24278c6b6d1c
+  - 99d118321d5f
+  - a9bb2ccc53de
+  - cabd480cfe97
+  - d356ca2c2423
+  - d7f5878a98c3
+  - e0536ff73f36
+  - e2cb970d99dd
+  - f92b1b64da93
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_aplcms_remove_noise
+  owner: recetox
+  revisions:
+  - 12bf74dd09f1
+  - 7acd11ddc061
+  - 8fb5e458831f
+  - 97f14feab793
+  - b5a1f35abd8a
+  - d646c4675c1c
+  - d90187b0f247
+  - ea0758b41473
+  - ffbabefbd2e2
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_msfinder
+  owner: recetox
+  revisions:
+  - 0a9f3bcf620b
+  - 29fc1af350f5
+  - a48a1c23257c
+  - d1f44632f206
+  - e7eff0c9baa3
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: recetox_xmsannotator_advanced
+  owner: recetox
+  revisions:
+  - 28b87af0fdd3
+  - 50ac7359ffe7
+  - 6b5dec818827
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: riassigner
+  owner: recetox
+  revisions:
+  - 3af9c2de8522
+  - 4e47a0fa9287
+  - 8c5e65adf694
+  - 984d5fa7acf5
+  - 9b2fe4c49ecb
+  - af25aa61c611
+  - c702620c22b1
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: rmassbank
+  owner: recetox
+  revisions:
+  - 0b28816c1c2c
+  - 5a6bb93ec656
+  - 60c2da112839
+  - 7b210a74628f
+  - c1a9c990d4b0
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: spec2vec_similarity
+  owner: recetox
+  revisions:
+  - 721a4e666191
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: spec2vec_training
+  owner: recetox
+  revisions:
+  - 9d917de87cca
+  - e1e22ada831e
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: waveica
+  owner: recetox
+  revisions:
+  - 071a424241ec
+  - 1a2aeb8137bf
+  - 425c0494ec2d
+  - 6480c6d5fa36
+  - 6fc9f6dbcef5
+  - 821062fc5782
+  - 9c417575eb83
+  - b77023c41c76
+  - bf28a0fc0db6
+  - bf32ae95a06f
+  - dbbedb14b44c
+  - e424fa636281
+  - e9fa79966366
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox
+- name: xtb_molecular_optimization
+  owner: recetox
+  revisions:
+  - 14a4d81e921e
+  - 474f19dc3380
+  - 6e1ef071fffc
+  - cba7123c2741
+  - d5633eaf3552
+  - d5ee22b95891
+  tool_panel_section_id: exposomics___recetox
+  tool_panel_section_label: Exposomics - recetox

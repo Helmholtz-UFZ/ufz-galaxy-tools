@@ -1,0 +1,10 @@
+tool_panel_section_label: Collection Operations
+tools:
+- name: add_input_name_as_column
+  owner: mvdbeek
+- name: collapse_collections
+  owner: nml
+- name: collection_element_identifiers
+  owner: iuc
+- name: split_file_to_collection
+  owner: bgruening

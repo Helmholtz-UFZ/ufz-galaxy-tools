@@ -1,0 +1,98 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: ncbi_eutils_ecitmatch
+  owner: iuc
+  revisions:
+  - 1dff3adb0a97
+  - 62614b5a7834
+  - 732a52c18758
+  - 9a9c5027ea7c
+  - ad1e5225bca4
+  - b00212deaea7
+  - d9dc3534b9db
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_efetch
+  owner: iuc
+  revisions:
+  - 0977ec0f3ba8
+  - 0ccb2855dd55
+  - 0fc65a60436f
+  - 6c4b39080ed7
+  - c09fcbe4b16a
+  - c5ff15011115
+  - d2262cc3fddc
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_egquery
+  owner: iuc
+  revisions:
+  - 08412cd072d0
+  - 28f69754ddc5
+  - 5277d159053d
+  - d1789b4821fc
+  - f4318232849e
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_einfo
+  owner: iuc
+  revisions:
+  - 5b1dc5936af2
+  - 6a0463d18db2
+  - cbddabc5c71a
+  - ccc58c7435fd
+  - cd5a82a16bbf
+  - f6007bce569d
+  - fe54c8d5d5fd
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_elink
+  owner: iuc
+  revisions:
+  - 18e7b30a39aa
+  - 1ed9a99b9b1f
+  - 2791c731fc65
+  - 55b3067762f9
+  - 98365d44f1fa
+  - bb5af69cf3f7
+  - c75419361087
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_epost
+  owner: iuc
+  revisions:
+  - 11aa5f503261
+  - 196b8dd07896
+  - 53cf74abf836
+  - 7d354fd4614c
+  - 7d868844e952
+  - a64d1a16f04b
+  - ae3a5d753d42
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_esearch
+  owner: iuc
+  revisions:
+  - 30150bd36c9a
+  - 4f0a4010bf1d
+  - 67602de82f6e
+  - c6096cd97120
+  - e267701c187b
+  - ef77a3b01899
+  - f3a84eecaf8b
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data
+- name: ncbi_eutils_esummary
+  owner: iuc
+  revisions:
+  - 254f40d3ae2b
+  - 308d8bea83f5
+  - 4dc2757b8ce6
+  - 7fe990069458
+  - 82e10809842f
+  - c8d4ea6376a7
+  - cb5a0fe9e036
+  tool_panel_section_id: get_data
+  tool_panel_section_label: Get Data

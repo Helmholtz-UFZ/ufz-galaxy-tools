@@ -1,0 +1,14 @@
+tool_panel_section_label: RNA - Utilities for RNA
+tools:
+- name: locarna_exparnap
+  owner: rnateam
+- name: locarna_multiple
+  owner: rnateam
+- name: locarna_pairwise
+  owner: rnateam
+- name: locarna_pairwise_p
+  owner: rnateam
+- name: locarna_reliability_profile
+  owner: rnateam
+- name: sortmerna
+  owner: rnateam

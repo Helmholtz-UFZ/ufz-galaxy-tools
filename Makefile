@@ -1,52 +1,41 @@
-YAML_FILES := $(wildcard *.yaml)
-LOCK_FILES := $(wildcard *.yaml.lock)
-LINTED_YAMLS := $(YAML_FILES:=.lint)
-UPDATED_YAMLS := $(YAML_FILES:=.update)
-CORRECT_YAMLS := $(YAML_FILES:=.fix)
-INSTALL_YAMLS := $(LOCK_FILES:=.install)
-UPDATE_TRUSTED_IUC := $(LOCK_FILES:.lock=.update_trusted_iuc)
+INSTANCE ?= galaxy.ufz.de
 
-GALAXY_SERVER := https://usegalaxy.eu
+## The yml files grow with the number of installed tools, so the targets below run in parallel.
+NPROC := $(shell nproc 2>/dev/null || sysctl -n hw.logicalcpu) ## Workaround since MacOS does not have nproc
 
+SECTIONS := find ./$(INSTANCE)/sections/ -name '*.yml' | grep '^\./[^/]*/'
+LOCKFILES := find ./$(INSTANCE)/sections/ -name '*.yml.lock' | grep '^\./[^/]*/'
 
-help:
+help: ## Show this help
 	@egrep '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-16s\033[0m %s\n", $$1, $$2}'
 
-lint: $(LINTED_YAMLS) ## Lint the yaml files
-fix: $(CORRECT_YAMLS) ## Fix any issues (missing hashes, missing lockfiles, etc.)
-install: $(INSTALL_YAMLS) ## Install the tools in our galaxy
+lint: ## Lint all yaml files for the given INSTANCE
+	# Check the yml files have valid syntax and are loadable
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/yaml_check.py
+	# Validate the yml files against the schema
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) -I {} pykwalify -d '{}' -s ./$(INSTANCE)/schema/.schema.yml
+	# Verify that all repositories have at least one revision
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/identify_unpinned.py
 
-%.lint: %
-	python3 scripts/fix-lockfile.py $<
-	pykwalify -d $< -s .schema.yaml
-	python3 scripts/identify-unpinned.py $<
+fix: ## For the given INSTANCE fix all lockfiles and add the latest revision to every repo that has no revision
+	# Generate the lockfile or update it if it is missing tools. Also add flags for dependency handling.
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/fix_lockfile.py
+	# Add the latest revision to every repository that has no revision
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/update_tool.py --without --log debug
 
-%.fix: %
-	@# Generates the lockfile or updates it if it is missing tools
-	python3 scripts/fix-lockfile.py $<
-	@# --without says only add those hashes for those missing hashes (i.e. new tools)
-	python3 scripts/update-tool.py $< --without
+update-owner: ## For the given INSTANCE update all tools that are owned by REPO_OWNER
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/update_tool.py --owner $(REPO_OWNER)
 
-%.install: %
-	@echo "Installing any updated versions of $<"
-	@-shed-tools install --install_resolver_dependencies --toolsfile $< --galaxy $(GALAXY_SERVER) --api_key $(GALAXY_API_KEY) 2>&1 | tee -a report.log
+update-repo: ## For the given INSTANCE update the tool REPO_NAME
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/update_tool.py --name $(REPO_NAME)
 
-pr_check:
-	for changed_yaml in `git diff remotes/origin/main --name-only | grep .yaml$$ | grep -v '.schema.yaml'`; do python scripts/pr-check.py $${changed_yaml} && pykwalify -d $${changed_yaml} -s .schema.yaml ; done
+update-all: ## For the given INSTANCE update all tools
+	$(SECTIONS) | xargs -n 1 -P $(NPROC) python3 scripts/update_tool.py
 
-update_trusted: $(UPDATE_TRUSTED_IUC) ## Run the update script
-	@# Missing --without, so this updates all tools in the file.
-	python3 scripts/update-tool.py tool_list.yaml
+fix-outdated: ## Replace non-installable revisions in the lockfiles (needs hg + galaxy-tool-util, slow)
+	$(LOCKFILES) | xargs -n 1 -P 1 python3 scripts/fix_outdated.py
 
-update_all: $(UPDATED_YAMLS)
+install: ## For the given INSTANCE install all revisions that are missing
+	$(LOCKFILES) | xargs -n 1 -P 1 -I {} shed-tools install --toolsfile {} --galaxy $(INSTANCE) --api_key $(GALAXY_API_KEY) --skip_install_resolver_dependencies
 
-%.update: ## Update all of the tools
-	@# Missing --without, so this updates all tools in the file.
-	python3 scripts/update-tool.py $<
-
-%.update_trusted_iuc: %
-	@# Update any tools owned by IUC in any other yaml file
-	python3 scripts/update-tool.py --owner iuc $<
-
-
-.PHONY: pr_check lint update_trusted help
+.PHONY: help lint fix update-owner update-repo update-all fix-outdated install

@@ -1,0 +1,151 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: deg_annotate
+  owner: iuc
+  revisions:
+  - e81fbbea6e8f
+  - e98d4ab5b5bc
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: deseq2
+  owner: iuc
+  revisions:
+  - 05f9e54d7e81
+  - 0696db066a5b
+  - 2275d0688bca
+  - 24a09ca67621
+  - 2a1ad8a533dc
+  - 6a3a025714d3
+  - 6c363db8c702
+  - 8fe98f7094de
+  - 9a882d108833
+  - b060944b3989
+  - ccc6c4f0236f
+  - cd9874cb9019
+  - d9e5cadc7f0b
+  - eaeb33f475e9
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: dexseq
+  owner: iuc
+  revisions:
+  - 74ec758e63a4
+  - 98fd01004439
+  - 9a7c5b6d8f1e
+  - 9fd8b69e6e68
+  - f1c406f9554c
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: egsea
+  owner: iuc
+  revisions:
+  - 183afb27bcf1
+  - 31ea4992b948
+  - fba1660fb717
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: featurecounts
+  owner: iuc
+  revisions:
+  - 1759d845181e
+  - 1b851f87fbe0
+  - 30f6985f0ac7
+  - 37d067694d40
+  - 38b6d12edc68
+  - 46cccc52be5f
+  - 5dbff3a5845a
+  - 6f66ae7c5f7a
+  - 9301937c9037
+  - a37612abf7f9
+  - af814359d244
+  - ce3c9c1ac7ca
+  - de2c5e5a206c
+  - ea04b737afa0
+  - f9d49f5cb597
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: fgsea
+  owner: iuc
+  revisions:
+  - 17eb1e0d711f
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: gffcompare
+  owner: iuc
+  revisions:
+  - 0f710191a66d
+  - 31d5c8c3adde
+  - 3c5e024a18cf
+  - 3c97c841a443
+  - a3e78550e42e
+  - f99d7825a501
+  - f99dd58de04f
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: goseq
+  owner: iuc
+  revisions:
+  - 602de62d995b
+  - 67c29afac85f
+  - 8b3e3657034e
+  - 8f51a7500540
+  - 9d1256d9ef0b
+  - ab492df30cdf
+  - ef2ad746b589
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: limma_voom
+  owner: iuc
+  revisions:
+  - 0921444c832d
+  - 119b069fc845
+  - 32511f586472
+  - d6f5fa4ee473
+  - df0082f25f47
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: multigsea
+  owner: iuc
+  revisions:
+  - 8a32303f521d
+  - e08383c04167
+  - e48b10ce08b8
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: stringtie
+  owner: iuc
+  revisions:
+  - 1ebd14235b92
+  - 333a6e13b622
+  - 6e45b443ef1f
+  - 76d290331481
+  - 92198ab2345f
+  - a356a3e21032
+  - cbf488da3b2c
+  - dd4df992d93d
+  - eba36e001f45
+  - ff365aa70906
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: trinity
+  owner: iuc
+  revisions:
+  - 5b60313a6ce7
+  - 8f1c3df4dd49
+  - c9cfec002f71
+  - d84caa5a98ad
+  - db1f362cca3e
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
+- name: trinity_align_and_estimate_abundance
+  owner: iuc
+  revisions:
+  - 2fb4ee002432
+  - 478f36effca1
+  - 56162e446004
+  - 893655fa55f9
+  - 983552d5822d
+  tool_panel_section_id: transcriptomics
+  tool_panel_section_label: Transcriptomics
