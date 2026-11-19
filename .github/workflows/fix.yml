@@ -31,15 +31,16 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install bioblend pykwalify PyYAML
-      - name: Perform linting and fixing
+      - name: Perform fixing and linting
         run: |
-          make INSTANCE=galaxy.ufz.de lint
           make INSTANCE=galaxy.ufz.de fix
+          make INSTANCE=galaxy.ufz.de lint
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
           branch: create-pull-request/fix
-          committer: toolbot <toolbot@example.com>
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           commit-message: "output of make lint & make fix"
           title: "Linting and Fixing All Tools"
           body: "I ran make lint & make fix"
