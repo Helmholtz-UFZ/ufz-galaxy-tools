@@ -1,0 +1,77 @@
+---
+type: map
+mapping:
+    "tool_panel_section_id":
+        type: str
+        enum:
+            - "amplicon_analysis"
+            - "amplicon_analysis___ampvis2"
+            - "amplicon_analysis___dada2"
+            - "annotation"
+            - "assembly"
+            - "assembly___trinity"
+            - "bed_tools"
+            - "collection_operations"
+            - "computational_chemistry"
+            - "computational_chemistry___ball"
+            - "computational_chemistry___open_babel"
+            - "convert_formats"
+            - "data_export"
+            - "data_managers"
+            - "data_source"
+            - "deprecated"
+            - "exposomics___recetox"
+            - "expression_tools"
+            - "fasta_manipulation"
+            - "fastq_manipulation"
+            - "genome_annotation"
+            - "genomic_interval_operations"
+            - "get_data"
+            - "graph_display_data"
+            - "imaging"
+            - "imaging___imagej2"
+            - "join__subtract_and_group"
+            - "lambda_miner"
+            - "metabolomics"
+            - "metabolomics___w4m"
+            - "metagenomics"
+            - "metagenomics___mothur"
+            - "next_gen_mappers"
+            - "opengeosys"
+            - "phylogenetics"
+            - "phyloseq"
+            - "proteomics"
+            - "proteomics___openms"
+            - "proteomics___proteomiqon"
+            - "qiime2"
+            - "rna___utilities_for_rna"
+            - "sam___tools_for_manipulating_alignments_in_the_sam_format"
+            - "sequence_analysis"
+            - "sequence_analysis___bbtools"
+            - "sequence_analysis___rseqc"
+            - "sequence_analysis___stacks"
+            - "sequence_analysis___stacks2"
+            - "sequence_analysis__blast_"
+            - "sequence_analysis__emboss_"
+            - "statistics"
+            - "text_manipulation"
+            - "toxicology"
+            - "transcriptomics"
+            - "visualization"
+    "tool_panel_section_label":
+        type: str
+
+    "tools":
+        type: seq
+        sequence:
+            - type: map
+              mapping:
+                "name":
+                    type: str
+                    required: true
+                "owner":
+                    type: str
+                    required: true
+                "tool_shed_url":
+                    type: str
+                    required: false

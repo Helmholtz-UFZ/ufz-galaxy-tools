@@ -1,0 +1,16 @@
+tool_panel_section_label: Expression Tools
+tools:
+- name: calculate_numeric_param
+  owner: iuc
+- name: combine_boolean_params
+  owner: iuc
+- name: compare_param_value
+  owner: iuc
+- name: compose_text_param
+  owner: iuc
+- name: invert_boolean_param
+  owner: iuc
+- name: map_param_value
+  owner: iuc
+- name: pick_value
+  owner: iuc

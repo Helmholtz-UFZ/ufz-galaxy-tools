@@ -1,0 +1,49 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: calculate_numeric_param
+  owner: iuc
+  revisions:
+  - 0e586762f97b
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: combine_boolean_params
+  owner: iuc
+  revisions:
+  - 597e0235d263
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: compare_param_value
+  owner: iuc
+  revisions:
+  - 69bdc5e0c667
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: compose_text_param
+  owner: iuc
+  revisions:
+  - e188c9826e0f
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: invert_boolean_param
+  owner: iuc
+  revisions:
+  - db710013d073
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: map_param_value
+  owner: iuc
+  revisions:
+  - 022a635f2283
+  - 5ac8a4bf7a8d
+  - a01f088d0e5e
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools
+- name: pick_value
+  owner: iuc
+  revisions:
+  - b19e21af9c52
+  - bf793b71559a
+  tool_panel_section_id: expression_tools
+  tool_panel_section_label: Expression Tools

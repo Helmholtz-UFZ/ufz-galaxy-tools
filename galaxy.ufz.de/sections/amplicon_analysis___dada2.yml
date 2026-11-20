@@ -1,0 +1,26 @@
+tool_panel_section_label: Amplicon Analysis - dada2
+tools:
+- name: dada2_assigntaxonomyaddspecies
+  owner: iuc
+- name: dada2_dada
+  owner: iuc
+- name: dada2_filterandtrim
+  owner: iuc
+- name: dada2_learnerrors
+  owner: iuc
+- name: dada2_makesequencetable
+  owner: iuc
+- name: dada2_mergepairs
+  owner: iuc
+- name: dada2_mergesequencetables
+  owner: iuc
+- name: dada2_plotcomplexity
+  owner: iuc
+- name: dada2_plotqualityprofile
+  owner: iuc
+- name: dada2_primercheck
+  owner: iuc
+- name: dada2_removebimeradenovo
+  owner: iuc
+- name: dada2_seqcounts
+  owner: iuc

@@ -1,0 +1,20 @@
+tool_panel_section_label: Proteomics - ProteomIQon
+tools:
+- name: proteomiqon_joinquantpepionswithproteins
+  owner: galaxyp
+- name: proteomiqon_labeledproteinquantification
+  owner: galaxyp
+- name: proteomiqon_labelfreeproteinquantification
+  owner: galaxyp
+- name: proteomiqon_mzmltomzlite
+  owner: galaxyp
+- name: proteomiqon_peptidedb
+  owner: galaxyp
+- name: proteomiqon_peptidespectrummatching
+  owner: galaxyp
+- name: proteomiqon_proteininference
+  owner: galaxyp
+- name: proteomiqon_psmbasedquantification
+  owner: galaxyp
+- name: proteomiqon_psmstatistics
+  owner: galaxyp

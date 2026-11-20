@@ -1,0 +1,29 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: ena_upload
+  owner: iuc
+  revisions:
+  - 16364014b8a9
+  - 1e1ce62b4869
+  - '440074098911'
+  - 4aab5ae907b6
+  - 57251c760cab
+  - 5cb6146337d8
+  - 7ca4ed416391
+  - 89329e428dc6
+  - a62c4a11a67d
+  - c33085024396
+  - e0f333e6eb73
+  - ea5e944f447d
+  tool_panel_section_id: data_export
+  tool_panel_section_label: Data Export
+- name: export_to_cluster
+  owner: earlhaminst
+  revisions:
+  - 8b8466d30d50
+  - 9838eed606ad
+  - ddd9749d3b00
+  tool_panel_section_id: data_export
+  tool_panel_section_label: Data Export

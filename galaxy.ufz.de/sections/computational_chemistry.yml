@@ -1,0 +1,16 @@
+tool_panel_section_label: Computational chemistry
+tools:
+- name: autodock_vina
+  owner: bgruening
+- name: autodock_vina_prepare_box
+  owner: bgruening
+- name: autodock_vina_prepare_ligand
+  owner: bgruening
+- name: autodock_vina_prepare_receptor
+  owner: bgruening
+- name: dfpl_predict
+  owner: ufz
+- name: dfpl_train
+  owner: ufz
+- name: rdock
+  owner: earlhaminst

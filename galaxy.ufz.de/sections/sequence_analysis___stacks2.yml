@@ -1,0 +1,26 @@
+tool_panel_section_label: Sequence Analysis - Stacks2
+tools:
+- name: stacks2_clonefilter
+  owner: iuc
+- name: stacks2_cstacks
+  owner: iuc
+- name: stacks2_denovomap
+  owner: iuc
+- name: stacks2_gstacks
+  owner: iuc
+- name: stacks2_kmerfilter
+  owner: iuc
+- name: stacks2_populations
+  owner: iuc
+- name: stacks2_procrad
+  owner: iuc
+- name: stacks2_refmap
+  owner: iuc
+- name: stacks2_shortreads
+  owner: iuc
+- name: stacks2_sstacks
+  owner: iuc
+- name: stacks2_tsv2bam
+  owner: iuc
+- name: stacks2_ustacks
+  owner: iuc

@@ -1,0 +1,18 @@
+tool_panel_section_label: Genome Annotation
+tools:
+- name: annotatemyids
+  owner: iuc
+- name: funannotate_annotate
+  owner: iuc
+- name: funannotate_clean
+  owner: iuc
+- name: funannotate_compare
+  owner: iuc
+- name: funannotate_predict
+  owner: iuc
+- name: funannotate_sort
+  owner: iuc
+- name: interproscan
+  owner: bgruening
+- name: prodigal
+  owner: iuc

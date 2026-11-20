@@ -1,0 +1,14 @@
+tool_panel_section_label: Statistics
+tools:
+- name: graphembed
+  owner: iuc
+- name: histogram
+  owner: devteam
+- name: pathview
+  owner: iuc
+- name: saqc
+  owner: ufz
+- name: saqc_executor
+  owner: ufz
+- name: volcanoplot
+  owner: iuc

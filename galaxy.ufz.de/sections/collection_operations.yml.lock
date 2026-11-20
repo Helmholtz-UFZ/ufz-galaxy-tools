@@ -1,0 +1,38 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: add_input_name_as_column
+  owner: mvdbeek
+  revisions:
+  - 3284b72eef56
+  - 8061668d0868
+  - 8a19efbd2178
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: collapse_collections
+  owner: nml
+  revisions:
+  - 25136a2b0cfe
+  - 830961c48e42
+  - 90981f86000f
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: collection_element_identifiers
+  owner: iuc
+  revisions:
+  - 3e27acfa4830
+  - d3c07d270a50
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations
+- name: split_file_to_collection
+  owner: bgruening
+  revisions:
+  - 0850f2dfba13
+  - 2dae863c8f42
+  - 6cbe2f30c2d7
+  - 750c1684d47c
+  - baabc30154cd
+  - e77b954f0da5
+  tool_panel_section_id: collection_operations
+  tool_panel_section_label: Collection Operations

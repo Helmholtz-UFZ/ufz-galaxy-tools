@@ -1,0 +1,34 @@
+tool_panel_section_label: Computational chemistry - Open Babel
+tools:
+- name: openbabel_addh
+  owner: bgruening
+- name: openbabel_change_title
+  owner: bgruening
+- name: openbabel_compound_convert
+  owner: bgruening
+- name: openbabel_filter
+  owner: bgruening
+- name: openbabel_genprop
+  owner: bgruening
+- name: openbabel_multi_obgrep
+  owner: bgruening
+- name: openbabel_obgrep
+  owner: bgruening
+- name: openbabel_remduplicates
+  owner: bgruening
+- name: openbabel_remions
+  owner: bgruening
+- name: openbabel_remove_protonation_state
+  owner: bgruening
+- name: openbabel_remsmall
+  owner: bgruening
+- name: openbabel_spectrophore_search
+  owner: bgruening
+- name: openbabel_structure_distance_finder
+  owner: bgruening
+- name: openbabel_subsearch
+  owner: bgruening
+- name: openbabel_svg_depiction
+  owner: bgruening
+- name: prepare_ligands_for_docking
+  owner: bgruening

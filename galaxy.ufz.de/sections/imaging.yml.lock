@@ -1,0 +1,342 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: 2d_auto_threshold
+  owner: imgteam
+  revisions:
+  - 0c777d708acc
+  - 2ee04d2ebdcf
+  - 50fa6150e340
+  - 699a5e9146b3
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_feature_extraction
+  owner: imgteam
+  revisions:
+  - 519fad2c552a
+  - 5bc8cdc17fd0
+  - 6a2b26c297a4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_filter_segmentation_by_features
+  owner: imgteam
+  revisions:
+  - 7876ee93bcaf
+  - 9d47aabda459
+  - ea6dae3f10a2
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_histogram_equalization
+  owner: imgteam
+  revisions:
+  - 70316d792fc9
+  - 99e0ef91ea5e
+  - b1c2c210813c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: 2d_simple_filter
+  owner: imgteam
+  revisions:
+  - 1b7e67168732
+  - 59e9798010ce
+  - d51310ab328a
+  - dba87c4b32d3
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: background_removal
+  owner: imgteam
+  revisions:
+  - 6e9e98a7be4e
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: bfconvert
+  owner: imgteam
+  revisions:
+  - 10eed33aa9b2
+  - bbb307f731c3
+  - f0242f99a175
+  - fa8ce46a95bb
+  - fcadded98e61
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: biapy
+  owner: iuc
+  revisions:
+  - 8dab52928e70
+  - e434d9b9cd13
+  - f81cef6721e4
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: binary2labelimage
+  owner: imgteam
+  revisions:
+  - 364e235bf378
+  - 6e65fd971e13
+  - 7f8102bdbfa1
+  - 984358e43242
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: bioformats2raw
+  owner: imgteam
+  revisions:
+  - 51ff1667c499
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: cellpose
+  owner: bgruening
+  revisions:
+  - 5251ce4c4a11
+  - 6b840482cc25
+  - d54f702c8909
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: cellposesam
+  owner: bgruening
+  revisions:
+  - 130d15e15378
+  - 48fe4ddcaeeb
+  - bc1410a8a247
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: count_objects
+  owner: imgteam
+  revisions:
+  - 664232d2a3f7
+  - b58447a2eed2
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: cp_cellprofiler
+  owner: bgruening
+  revisions:
+  - eb6c08714244
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: cp_cellprofiler4
+  owner: bgruening
+  revisions:
+  - 77bc1c2e1b91
+  - 9799fc53433e
+  - f0656d0f2a4d
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: crop_image
+  owner: imgteam
+  revisions:
+  - 2852af87036d
+  - d52317f0ac21
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: cv2_extract_frames
+  owner: imgteam
+  revisions:
+  - b45c76394bb0
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: image_info
+  owner: imgteam
+  revisions:
+  - 236ec78b2e53
+  - 7b6d9412c7f8
+  - 8c25d4ff0b51
+  - e28851b24032
+  - f8b4eada923c
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: image_math
+  owner: imgteam
+  revisions:
+  - 8229f7f69d08
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: imagemagick_image_montage
+  owner: bgruening
+  revisions:
+  - fc43cdc81408
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: microsim
+  owner: ufz
+  revisions:
+  - ebceebc5edbd
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: morphological_operations
+  owner: imgteam
+  revisions:
+  - 4e25befab102
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_dataset_to_plate
+  owner: ufz
+  revisions:
+  - 0ebede62d62d
+  - 44f812171bc0
+  - 86d6593f54d8
+  - b1f969b7c527
+  - b5fa5c86de56
+  - c6f34af26769
+  - fa0d96599c31
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_filter
+  owner: ufz
+  revisions:
+  - 006d3a69c365
+  - 048353b617ba
+  - 21e1765c5f19
+  - 375281d11535
+  - 558c09a342cb
+  - 8a3324018fc5
+  - 9d04b28b8dc8
+  - a70140649a13
+  - ca04c8d24335
+  - f79a1bf2f386
+  - f86ba5328466
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_id
+  owner: ufz
+  revisions:
+  - 2cf36947bcb6
+  - 426415e73f46
+  - 518221701b10
+  - 59f7f9164544
+  - 7e7fc68b169a
+  - ae07ea142e0f
+  - c23735b45a4a
+  - c7b2650718fe
+  - f8a09407d579
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_get_value
+  owner: ufz
+  revisions:
+  - 1ae349b83c08
+  - 7a94eb8c345d
+  - 89fc1f215e77
+  - 9a50e57339d8
+  - a41878cb0a6e
+  - afc11b6940e2
+  - d8c33fef01b9
+  - ecb13e93fae2
+  - f5c4f523432d
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_import
+  owner: ufz
+  revisions:
+  - 18b86dcdd421
+  - 22bdbaf3a21e
+  - 267227e757cb
+  - 42a454d4b482
+  - 48a4ed7929b3
+  - 75c2257023e8
+  - 83ccd2b525e5
+  - a62f0b725508
+  - afe3e24336ed
+  - c36a954d0e59
+  - d0c0f3c95368
+  - ec96412e9027
+  - f1eade5c6a5a
+  - f762de618b1f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_metadata_import
+  owner: ufz
+  revisions:
+  - 284c7cdb906d
+  - 351c6b43e16c
+  - 352e9d4eaf70
+  - 4c96c51b7880
+  - 4dcbcd213ee3
+  - 588d6fa22fc4
+  - 6a13fe2fa921
+  - 7cd85e1c50f3
+  - 931eb5fed2c0
+  - b70f6440513c
+  - e41f70e69349
+  - eb967ee0ae4f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: omero_roi_import
+  owner: ufz
+  revisions:
+  - 0db3327db967
+  - 131470834fee
+  - 44bd8be2c495
+  - 45cdf0dbd3f8
+  - 4f4dc352d660
+  - 55e3d33cf4bd
+  - 599c3dd808e6
+  - 8da603b949c1
+  - dfe0aae1495c
+  - e957793051a8
+  - fb20acd19613
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: overlay_images
+  owner: imgteam
+  revisions:
+  - 66fe62b96281
+  - 8dc02c854048
+  - aece93442819
+  - b74693340624
+  - bc4cf90cfc3b
+  - ca362a9bfa20
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: points2binaryimage
+  owner: imgteam
+  revisions:
+  - 5411384e5e1d
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: repeat_channels
+  owner: imgteam
+  revisions:
+  - 7cdb50fee601
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: rfove
+  owner: imgteam
+  revisions:
+  - 81b246085378
+  - e438d87ef91a
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: scale_image
+  owner: imgteam
+  revisions:
+  - 72b8a6b7661b
+  - 85666e555698
+  - c4c76f1ebad2
+  - e85846f4a05f
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: split_image
+  owner: imgteam
+  revisions:
+  - 390943df8a35
+  - 7191fd16988f
+  - 73d7a4ffc03d
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: spot_detection_2d
+  owner: imgteam
+  revisions:
+  - 1a03fcd4fa80
+  - 73efacdaf71a
+  - e8c9e104e109
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging
+- name: superdsm
+  owner: imgteam
+  revisions:
+  - 30d88f083ae9
+  - 700ae37e5c69
+  - 79ec3263686a
+  - f66dce543932
+  - fc3724b4f841
+  tool_panel_section_id: imaging
+  tool_panel_section_label: Imaging

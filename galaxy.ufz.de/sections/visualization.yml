@@ -1,0 +1,20 @@
+tool_panel_section_label: Visualization
+tools:
+- name: bandage
+  owner: iuc
+- name: ggplot2_heatmap
+  owner: iuc
+- name: ggplot2_heatmap2
+  owner: iuc
+- name: ggplot2_histogram
+  owner: iuc
+- name: ggplot2_pca
+  owner: iuc
+- name: ggplot2_point
+  owner: iuc
+- name: ggplot2_violin
+  owner: iuc
+- name: nanoplot
+  owner: iuc
+- name: pygenometracks
+  owner: iuc

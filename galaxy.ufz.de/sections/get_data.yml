@@ -1,0 +1,18 @@
+tool_panel_section_label: Get Data
+tools:
+- name: ncbi_eutils_ecitmatch
+  owner: iuc
+- name: ncbi_eutils_efetch
+  owner: iuc
+- name: ncbi_eutils_egquery
+  owner: iuc
+- name: ncbi_eutils_einfo
+  owner: iuc
+- name: ncbi_eutils_elink
+  owner: iuc
+- name: ncbi_eutils_epost
+  owner: iuc
+- name: ncbi_eutils_esearch
+  owner: iuc
+- name: ncbi_eutils_esummary
+  owner: iuc

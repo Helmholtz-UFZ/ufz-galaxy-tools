@@ -1,0 +1,95 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: describe_samples
+  owner: iuc
+  revisions:
+  - 0693ccd171c4
+  - 3b36efd62b3e
+  - 6d6982a1d1d0
+  - dea7a78ecd72
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_abundance_estimates_to_matrix
+  owner: iuc
+  revisions:
+  - 08326e2e82f1
+  - 81a4697677e7
+  - ba3720d7e68b
+  - d6a479fd4281
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_analyze_diff_expr
+  owner: iuc
+  revisions:
+  - 4a816294c512
+  - 8ddf1fab583c
+  - 9ff3765e7172
+  - dc0f01791c9b
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_contig_exn50_statistic
+  owner: iuc
+  revisions:
+  - 34a018cbee9c
+  - 3cdcd5753218
+  - 870ac06dff8e
+  - b1e9a0355166
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_define_clusters_by_cutting_tree
+  owner: iuc
+  revisions:
+  - 05ab8d5e04a2
+  - 2b6c0d041b6f
+  - 65e7dea767ea
+  - 6fa08f46db8c
+  - d40101d3a2af
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_filter_low_expr_transcripts
+  owner: iuc
+  revisions:
+  - 1007cdb58d91
+  - 42f93482524f
+  - a35cba31d904
+  - e406ac71165d
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_gene_to_trans_map
+  owner: iuc
+  revisions:
+  - 37a1129c89d2
+  - 460090d15f6f
+  - 7c7fbf13aadd
+  - d80f0f1d6c9d
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_run_de_analysis
+  owner: iuc
+  revisions:
+  - 1d689e4e1caf
+  - 24e94d84adc9
+  - 55cf05b65ad5
+  - bbbb39ad9a7e
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_samples_qccheck
+  owner: iuc
+  revisions:
+  - 04bb8bb7c198
+  - 4f52fcfd1a47
+  - 9871104ea630
+  - d83aa367a381
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity
+- name: trinity_super_transcripts
+  owner: iuc
+  revisions:
+  - 29472bde8854
+  - 3abd51c4b151
+  - 5c1fc038df6b
+  - 6723249ce1bd
+  tool_panel_section_id: assembly___trinity
+  tool_panel_section_label: Assembly - Trinity

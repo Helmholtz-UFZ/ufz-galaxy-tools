@@ -1,0 +1,110 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: blat
+  owner: crs4
+  revisions:
+  - 34e40c872149
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2
+  owner: iuc
+  revisions:
+  - 019864881779
+  - b168c0ef3c14
+  - bb13650e8115
+  - cda49fede0c2
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_associate
+  owner: iuc
+  revisions:
+  - e0c79dd40625
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_barplot
+  owner: iuc
+  revisions:
+  - 09c1bbec1032
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_genefamilies_genus_level
+  owner: iuc
+  revisions:
+  - 654548ae1357
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_reduce_table
+  owner: iuc
+  revisions:
+  - e0b670a43758
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_regroup_table
+  owner: iuc
+  revisions:
+  - e66ab198ec15
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_rename_table
+  owner: iuc
+  revisions:
+  - 639640ad2450
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_renorm_table
+  owner: iuc
+  revisions:
+  - c6676a890f50
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_rna_dna_norm
+  owner: iuc
+  revisions:
+  - de70d23958de
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_split_stratified_table
+  owner: iuc
+  revisions:
+  - 93adca140c9a
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_split_table
+  owner: iuc
+  revisions:
+  - 7e3fdbe9b6a2
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_strain_profiler
+  owner: iuc
+  revisions:
+  - 50f98eb4854d
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: humann2_unpack_pathways
+  owner: iuc
+  revisions:
+  - cad93abecac9
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: metaphlan2
+  owner: iuc
+  revisions:
+  - 8c82c4d90cc6
+  - f60773e921fa
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: metaphlan2krona
+  owner: iuc
+  revisions:
+  - ebb74774457e
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated
+- name: metaphlan_hclust_heatmap
+  owner: iuc
+  revisions:
+  - 2e3056f02c60
+  tool_panel_section_id: deprecated
+  tool_panel_section_label: Deprecated

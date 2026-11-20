@@ -1,0 +1,42 @@
+install_repository_dependencies: true
+install_resolver_dependencies: false
+install_tool_dependencies: false
+tools:
+- name: ab1_fastq_converter
+  owner: ecology
+  revisions:
+  - 307518fb51af
+  - c835cdc2072a
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: gtftobed12
+  owner: iuc
+  revisions:
+  - 33de73363690
+  - b026dae67fba
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: tbl2gff3
+  owner: iuc
+  revisions:
+  - 4a7f4b0cc0a3
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: unzip
+  owner: imgteam
+  revisions:
+  - 06eac2d1a8a9
+  - 0eec07359840
+  - 28d6129b2901
+  - 4634764e6e2b
+  - 57f0914ddb7b
+  - 6a7e010c05db
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
+- name: xlsx2tsv
+  owner: ufz
+  revisions:
+  - 27bc52511ebe
+  - a21347be425d
+  tool_panel_section_id: convert_formats
+  tool_panel_section_label: Convert Formats
