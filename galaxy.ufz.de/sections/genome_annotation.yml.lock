@@ -59,6 +59,7 @@ tools:
 - name: recap_prok_module3
   owner: ufz
   revisions:
+  - 8981199939ad
   - e75ebe45e94c
   tool_panel_section_id: genome_annotation
   tool_panel_section_label: Genome Annotation
