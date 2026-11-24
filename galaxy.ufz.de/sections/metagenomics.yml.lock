@@ -917,13 +917,6 @@ tools:
   - f97e21e8704a
   tool_panel_section_id: metagenomics
   tool_panel_section_label: Metagenomics
-- name: recap_prok_module3
-  owner: ufz
-  revisions:
-  - 8981199939ad
-  - e75ebe45e94c
-  tool_panel_section_id: metagenomics
-  tool_panel_section_label: Metagenomics
 - name: semibin
   owner: iuc
   revisions:

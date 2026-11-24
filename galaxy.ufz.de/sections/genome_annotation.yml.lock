@@ -56,3 +56,45 @@ tools:
   - 91791b6ecd38
   tool_panel_section_id: genome_annotation
   tool_panel_section_label: Genome Annotation
+- name: recap_prok_module3
+  owner: ufz
+  revisions:
+  - e75ebe45e94c
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module3_interpretation
+  owner: ufz
+  revisions:
+  - 24fd7d1ff235
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module4_antismash_analysis
+  owner: ufz
+  revisions:
+  - 7eaca634aff4
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module4_functional_comparison
+  owner: ufz
+  revisions:
+  - b371a01ec858
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module4_genbank
+  owner: ufz
+  revisions:
+  - 4e5bbace5880
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module4_hypothetical_comparison
+  owner: ufz
+  revisions:
+  - b40fe83012e2
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
+- name: recap_prok_module4_nr_analysis
+  owner: ufz
+  revisions:
+  - 4c207b9cb19a
+  tool_panel_section_id: genome_annotation
+  tool_panel_section_label: Genome Annotation
