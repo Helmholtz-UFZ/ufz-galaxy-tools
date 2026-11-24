@@ -16,3 +16,17 @@ tools:
   owner: bgruening
 - name: prodigal
   owner: iuc
+- name: recap_prok_module3
+  owner: ufz
+- name: recap_prok_module3_interpretation
+  owner: ufz
+- name: recap_prok_module4_functional_comparison
+  owner: ufz
+- name: recap_prok_module4_genbank
+  owner: ufz
+- name: recap_prok_module4_hypothetical_comparison
+  owner: ufz
+- name: recap_prok_module4_antismash_analysis
+  owner: ufz
+- name: recap_prok_module4_nr_analysis
+  owner: ufz

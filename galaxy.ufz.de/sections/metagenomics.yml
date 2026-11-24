@@ -192,8 +192,6 @@ tools:
   owner: ufz
 - name: phi_toolkit_report
   owner: ufz
-- name: recap_prok_module3
-  owner: ufz
 - name: semibin
   owner: iuc
 - name: semibin_bin
