@@ -62,6 +62,8 @@ tools:
   owner: iuc
 - name: data_manager_sortmerna_database_downloader
   owner: rnateam
+- name: gene_ontology_download
+  owner: ufz
 - name: genomad_build_database
   owner: ufz
 - name: phabox_build_database
