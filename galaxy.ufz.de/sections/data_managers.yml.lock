@@ -263,6 +263,12 @@ tools:
   - 7d2252852f96
   tool_panel_section_id: data_managers
   tool_panel_section_label: Data Managers
+- name: gene_ontology_download
+  owner: ufz
+  revisions:
+  - 268622e51e0e
+  tool_panel_section_id: data_managers
+  tool_panel_section_label: Data Managers
 - name: genomad_build_database
   owner: ufz
   revisions:
