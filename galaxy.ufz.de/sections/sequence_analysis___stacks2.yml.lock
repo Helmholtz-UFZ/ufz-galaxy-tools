@@ -10,6 +10,7 @@ tools:
   - 289b7d6b69a4
   - 2f1d464ebfd2
   - 7b699cc7aaa9
+  - 83af128f26d6
   - 9a884520017b
   - b75174403a65
   - e345aadf914f
@@ -24,6 +25,7 @@ tools:
   - 9dd57d7dc863
   - c207119ba5f6
   - da351b9031de
+  - f38fce4a28fa
   - f4aab9196d1e
   - fcce77c09289
   tool_panel_section_id: sequence_analysis___stacks2
@@ -46,6 +48,7 @@ tools:
   revisions:
   - 1d839ead7ad3
   - 27359c6bf3e3
+  - 6876881cab50
   - 7370bb65bad4
   - 878ddc285280
   - ab3df2172960
@@ -83,6 +86,7 @@ tools:
 - name: stacks2_procrad
   owner: iuc
   revisions:
+  - 139ca59d3fdb
   - 8cff84759bf6
   - 9993234400f1
   - 9a171f9a450b
@@ -96,6 +100,7 @@ tools:
 - name: stacks2_refmap
   owner: iuc
   revisions:
+  - 2fd156764710
   - 319b10947ec1
   - 45385ba40a75
   - 4c84b488deb2
@@ -113,6 +118,7 @@ tools:
   - 1974fee35ca7
   - 43e3eeb2e0ec
   - 8123ca2d9351
+  - 92c3a3b8e907
   - a4fb78d0b9e8
   - ad7a60726fc3
   - c287418eb288
@@ -130,6 +136,7 @@ tools:
   - cd034465d4a4
   - d9bf483266a1
   - e58e2ecb6285
+  - e6ebb3cf37e0
   tool_panel_section_id: sequence_analysis___stacks2
   tool_panel_section_label: Sequence Analysis - Stacks2
 - name: stacks2_tsv2bam
@@ -141,6 +148,7 @@ tools:
   - 79ee594e7c3b
   - 8c2617661c49
   - a9c34a289493
+  - aa3b4b5fcce1
   - bf0e43ab0416
   - c12141843d32
   tool_panel_section_id: sequence_analysis___stacks2
@@ -155,6 +163,7 @@ tools:
   - bfe47ec761a0
   - cfb504394ae1
   - d033e1ccb386
+  - e2fd3bf46005
   - fa65e5e7577f
   tool_panel_section_id: sequence_analysis___stacks2
   tool_panel_section_label: Sequence Analysis - Stacks2

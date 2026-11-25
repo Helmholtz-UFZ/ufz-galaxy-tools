@@ -5,6 +5,7 @@ tools:
 - name: stacks_assembleperead
   owner: iuc
   revisions:
+  - 38e91d8be67c
   - 38ecfb8d52c6
   - 6eaf0f9836c8
   - fdbed68f179f
@@ -16,6 +17,7 @@ tools:
   - 3009a21724e7
   - 60d86dc1b19d
   - 7bf2ace33b02
+  - e62dff7d6698
   tool_panel_section_id: sequence_analysis___stacks
   tool_panel_section_label: Sequence Analysis - Stacks
 - name: stacks_cstacks
@@ -31,6 +33,7 @@ tools:
   revisions:
   - 48b49c5b3427
   - 9f9d39f582f3
+  - c538f98f8091
   - fdbcc560c691
   tool_panel_section_id: sequence_analysis___stacks
   tool_panel_section_label: Sequence Analysis - Stacks
@@ -45,6 +48,7 @@ tools:
 - name: stacks_populations
   owner: iuc
   revisions:
+  - 2d61833dd0fe
   - 95286af4139b
   - ac2d98d6ff8e
   - d1fad35bdb4a
@@ -55,6 +59,7 @@ tools:
   owner: iuc
   revisions:
   - 343073e3b095
+  - a4c952fe048e
   - be78e39d56b3
   - eded025438db
   tool_panel_section_id: sequence_analysis___stacks
@@ -85,6 +90,7 @@ tools:
 - name: stacks_sstacks
   owner: iuc
   revisions:
+  - 298e819fb344
   - 563af4497055
   - 96de7538bf0c
   tool_panel_section_id: sequence_analysis___stacks
@@ -101,5 +107,6 @@ tools:
   revisions:
   - 4cce81af50a8
   - a4ec4f620a77
+  - b5109fabf739
   tool_panel_section_id: sequence_analysis___stacks
   tool_panel_section_label: Sequence Analysis - Stacks

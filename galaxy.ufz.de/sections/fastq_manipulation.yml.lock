@@ -107,6 +107,7 @@ tools:
   - abfd8a6544d7
   - bb89ae58738c
   - bf675f34b056
+  - ca7fced90f71
   - d2aaac19f42f
   - dc0f5512911c
   - e4574a4d09d8
@@ -121,6 +122,7 @@ tools:
   revisions:
   - 4b494533146a
   - 58c8ece95b53
+  - 61acad608591
   - 8511b6d85fc7
   - a019807f4e67
   - a09586d5149a

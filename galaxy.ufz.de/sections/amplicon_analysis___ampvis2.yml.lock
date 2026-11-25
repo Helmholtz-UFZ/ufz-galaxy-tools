@@ -17,6 +17,7 @@ tools:
   - c14c7fd4d1be
   - e50ac6ad263b
   - e9168eec404c
+  - f917d7249d43
   tool_panel_section_id: amplicon_analysis___ampvis2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_boxplot
@@ -25,6 +26,7 @@ tools:
   - 0c069fc2471c
   - 22767c01e0cf
   - 3ea43408e5db
+  - 59c07113d26e
   - 5bca1feefea5
   - 5e4e2b612a4f
   - 61db741e4614
@@ -44,6 +46,7 @@ tools:
   - 49c0d34d583f
   - 4b023017896a
   - 943c2ae9594a
+  - 953026b7bfda
   - 96bc42baaa74
   - 9cc284833af9
   - de6156c8ef16
@@ -61,6 +64,7 @@ tools:
   - 5939a607c306
   - 61aa0f3b4d74
   - 7c3fea31765c
+  - afce38480703
   - c1fcdec30d69
   - e10b5eebd415
   - e5309c637e9d
@@ -74,6 +78,7 @@ tools:
   - 0feab98f9577
   - 301a6ffaf2a2
   - 467da4453127
+  - 7cc43b3ede1e
   - 8dd9cc5291e0
   - ac3774320d28
   - ac9564dcdb99
@@ -96,6 +101,7 @@ tools:
   - 7c3248a397fd
   - 9bdb74297b3d
   - 9dab85e62cf2
+  - bf463d60535e
   - c980e4bd48f2
   tool_panel_section_id: amplicon_analysis___ampvis2
   tool_panel_section_label: Amplicon Analysis - ampvis2
@@ -103,6 +109,7 @@ tools:
   owner: iuc
   revisions:
   - 05d7672c6bed
+  - 231b30eda515
   - 27ac516ba719
   - 3481feabc54e
   - 5029fd9d572e
@@ -125,6 +132,7 @@ tools:
   - 35d71afa93f4
   - 378ce300fb3d
   - 5c6edb00ef4a
+  - 958f5ddbf7dd
   - a14326f1e7df
   - c7d03a7b52d6
   - d8334b328618
@@ -143,6 +151,7 @@ tools:
   - 74ee43d45476
   - 77f9ed2bb200
   - c9143bcb2072
+  - e56273b1289f
   - f34ea612eecf
   - fdf58654ad2d
   tool_panel_section_id: amplicon_analysis___ampvis2
@@ -150,6 +159,7 @@ tools:
 - name: ampvis2_octave
   owner: iuc
   revisions:
+  - 098492e2cacc
   - 33087ecbd8f4
   - 4289db874e3c
   - 79ea913636fe
@@ -176,12 +186,14 @@ tools:
   - ad46c4548d8f
   - be1918c80d9f
   - c465a1ea3da2
+  - c7fe57dbde22
   - dc31a6f9fb2f
   tool_panel_section_id: amplicon_analysis___ampvis2
   tool_panel_section_label: Amplicon Analysis - ampvis2
 - name: ampvis2_otu_network
   owner: iuc
   revisions:
+  - 0c2e5d8f09dd
   - 354d645455cd
   - 37a617dca128
   - 4122ff5882e0
@@ -204,6 +216,7 @@ tools:
   - 2c21c267391c
   - 4140e26cafbc
   - 838946d86683
+  - 868b00a308f8
   - c5ccc28a2696
   - cf0944377d87
   - d02f4a87eb55
@@ -219,6 +232,7 @@ tools:
   - 2e69edaaa834
   - 3063daee0d8b
   - 30ac301ba3d6
+  - 421a6c09d4a4
   - 7723ef4c9163
   - 93bfcfcee5e6
   - 9f4d491ebad2
@@ -238,6 +252,7 @@ tools:
   - 7f5dd19dc792
   - 8447d4027c28
   - a9dacd650ad5
+  - b4d09f5ffc16
   - b8fd62239d7e
   - cfd7bafb820f
   - e7afc79b841e
@@ -250,6 +265,7 @@ tools:
   - 1db7e3d33871
   - 317728cb0f8a
   - 492eb6dcfe5c
+  - 71a80b4cb6a2
   - 75a2a80e5ad0
   - b268ffb0e321
   - bd4aaf683c79
@@ -266,6 +282,7 @@ tools:
   - 227d169951d9
   - 35010c1c2d1b
   - 4bd2b0a9e529
+  - 528088c96769
   - 70a98af91147
   - 76cb398e9110
   - ac98ca3ff0d2
@@ -278,6 +295,7 @@ tools:
 - name: ampvis2_timeseries
   owner: iuc
   revisions:
+  - 165fd9f21f96
   - 4568a232b84e
   - 4dac39937879
   - 6121b061418a
@@ -294,6 +312,7 @@ tools:
 - name: ampvis2_venn
   owner: iuc
   revisions:
+  - 10c23043548c
   - 338f47a9e25c
   - 49bd53fa8f8d
   - 62c6d4c55190

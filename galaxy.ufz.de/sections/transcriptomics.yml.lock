@@ -123,6 +123,7 @@ tools:
   - 76d290331481
   - 92198ab2345f
   - a356a3e21032
+  - c44f3c61f41c
   - cbf488da3b2c
   - dd4df992d93d
   - eba36e001f45
@@ -137,6 +138,7 @@ tools:
   - c9cfec002f71
   - d84caa5a98ad
   - db1f362cca3e
+  - f43f0ca95a07
   tool_panel_section_id: transcriptomics
   tool_panel_section_label: Transcriptomics
 - name: trinity_align_and_estimate_abundance
@@ -145,6 +147,7 @@ tools:
   - 2fb4ee002432
   - 478f36effca1
   - 56162e446004
+  - 8322e64b552f
   - 893655fa55f9
   - 983552d5822d
   tool_panel_section_id: transcriptomics

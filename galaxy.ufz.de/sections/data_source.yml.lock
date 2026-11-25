@@ -68,6 +68,7 @@ tools:
   - c28c9cdf3660
   - d951c5b0edd1
   - da8260eba74b
+  - fd5615a3211e
   - fd848bb708de
   tool_panel_section_id: data_source
   tool_panel_section_label: Data Source

@@ -8,6 +8,7 @@ tools:
   - 0693ccd171c4
   - 3b36efd62b3e
   - 6d6982a1d1d0
+  - 7c812cad2a4e
   - dea7a78ecd72
   tool_panel_section_id: assembly___trinity
   tool_panel_section_label: Assembly - Trinity
@@ -23,6 +24,7 @@ tools:
 - name: trinity_analyze_diff_expr
   owner: iuc
   revisions:
+  - 3a7c1cd24016
   - 4a816294c512
   - 8ddf1fab583c
   - 9ff3765e7172
@@ -54,6 +56,7 @@ tools:
   - 1007cdb58d91
   - 42f93482524f
   - a35cba31d904
+  - c670b8b67800
   - e406ac71165d
   tool_panel_section_id: assembly___trinity
   tool_panel_section_label: Assembly - Trinity
@@ -69,6 +72,7 @@ tools:
 - name: trinity_run_de_analysis
   owner: iuc
   revisions:
+  - 0cb5796ccfa7
   - 1d689e4e1caf
   - 24e94d84adc9
   - 55cf05b65ad5
@@ -88,6 +92,7 @@ tools:
   owner: iuc
   revisions:
   - 29472bde8854
+  - 3811b9bc43fe
   - 3abd51c4b151
   - 5c1fc038df6b
   - 6723249ce1bd
