@@ -8,6 +8,7 @@ tools:
   - 1b8fda203803
   - 1c9715cef808
   - 3a89c3f99f3d
+  - 3cc8b079617f
   - 4d89978c6188
   - 5b5a7af9fbb4
   - 60cd35f37c0a
@@ -28,6 +29,7 @@ tools:
   - 18a502a9d287
   - 1c35dadbe76f
   - 2222f08c8316
+  - 382593b1b46a
   - 47198090501e
   - 6b4ddc3b64bd
   - 89d11e95a9b1
@@ -65,6 +67,7 @@ tools:
   - 39638e0aff59
   - 4bba91a89457
   - 5fe3edf19b9c
+  - 6425a84a0950
   - 68129ce1c59b
   - 75403243703a
   - 8c202e741d68
@@ -122,6 +125,7 @@ tools:
   owner: iuc
   revisions:
   - 224abe7c80ed
+  - 233a296df3f5
   - 2875d977c533
   - 32c9ea835770
   - 498d57610fcd
@@ -180,6 +184,7 @@ tools:
   - 7f8f0e9fcb37
   - a6ceb91124fa
   - b6dddf8c2e6f
+  - ddd4ae411994
   - ddf5bcfde13d
   - efe26de231ec
   tool_panel_section_id: amplicon_analysis___dada2

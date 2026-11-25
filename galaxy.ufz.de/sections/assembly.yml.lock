@@ -218,6 +218,7 @@ tools:
 - name: unicycler
   owner: iuc
   revisions:
+  - b7c5344b12de
   - e022dff952df
   tool_panel_section_id: assembly
   tool_panel_section_label: Assembly

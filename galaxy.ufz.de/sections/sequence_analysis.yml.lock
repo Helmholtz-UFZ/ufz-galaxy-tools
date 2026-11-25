@@ -111,6 +111,7 @@ tools:
   owner: iuc
   revisions:
   - 07801d7ee81f
+  - 4e472285a30f
   tool_panel_section_id: sequence_analysis
   tool_panel_section_label: Sequence Analysis
 - name: deeparg_short_reads
@@ -125,6 +126,7 @@ tools:
   - 0cdcf7e99b62
   - 10fc1d5850a8
   - 1196fc76fdc2
+  - 152e01ce882f
   - 15c0c0d90c3f
   - 1e3323a44643
   - 20d92dc4c6cb
@@ -187,6 +189,7 @@ tools:
   - a626e8c0e1ba
   - a935cbdf1c0e
   - b2e9a56e5259
+  - bca43867b6f4
   - c59d48774d03
   - d60c3f704da0
   - dbf9c561ef29

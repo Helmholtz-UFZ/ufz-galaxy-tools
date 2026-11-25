@@ -332,6 +332,7 @@ tools:
   - 2c8db4bf8834
   - 43e2eb60dd0b
   - a755466eb47c
+  - c863d67ab77e
   - f93a61ef06cf
   tool_panel_section_id: metagenomics
   tool_panel_section_label: Metagenomics
@@ -828,6 +829,7 @@ tools:
   - 1a6cdf55390f
   - 1f688befbcdf
   - 289b3807e80c
+  - 558456ba633f
   - 56ff60ec416d
   - 740fd2d16a28
   - a16313517e55
@@ -933,6 +935,7 @@ tools:
   - 552cfc6ed475
   - 8317c7dc6407
   - 8428eb03a349
+  - b5a4fe78028c
   tool_panel_section_id: metagenomics
   tool_panel_section_label: Metagenomics
 - name: semibin_concatenate_fasta
@@ -959,6 +962,7 @@ tools:
   - 1d060adc8057
   - 40ffba87bbcf
   - 517069eeb0d5
+  - 86a178be0780
   - 8ba0c2edf3f3
   tool_panel_section_id: metagenomics
   tool_panel_section_label: Metagenomics
@@ -969,6 +973,7 @@ tools:
   - 191a3a14a7f1
   - 3215ab8a94de
   - '487368001920'
+  - 8cff6eaec767
   tool_panel_section_id: metagenomics
   tool_panel_section_label: Metagenomics
 - name: taxonomy_krona_chart

@@ -8,12 +8,14 @@ tools:
   - 0399e5aeaac6
   - 1d7284662c8b
   - 2f668a63a256
+  - 796c8418e4c0
   - 9a60794515fa
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_align_seqs
   owner: iuc
   revisions:
+  - 04ee0787646e
   - 152ae632ab19
   - 2692b3107533
   - abf7c15ecfef
@@ -24,6 +26,7 @@ tools:
   owner: iuc
   revisions:
   - 58b8ae43d27f
+  - 59348d18af13
   - 65b7b1a17c1c
   - 8642712a607c
   - d0074e20ae76
@@ -35,6 +38,7 @@ tools:
   revisions:
   - 3218d342b0de
   - 4a283edb151c
+  - 65a0f2d353de
   - 98687b00be79
   - c6b9f2b698e6
   - f228c52a3978
@@ -46,6 +50,7 @@ tools:
   - 4bf939e17fa4
   - 65000a433c3b
   - 905ff5f3e91d
+  - d01e3491afb3
   - ded9531c6699
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -53,6 +58,7 @@ tools:
   owner: iuc
   revisions:
   - 31fa2d557ff2
+  - 3737c9339f5b
   - 4419e2a2d679
   - 458d9a13d2f5
   - 76d968f820ac
@@ -63,6 +69,7 @@ tools:
   revisions:
   - 14a7c1eca23d
   - 5e648769e9be
+  - 9adf04c81a19
   - c2c9c2078a0f
   - cf1db89b0fda
   tool_panel_section_id: metagenomics___mothur
@@ -75,6 +82,7 @@ tools:
   - 751904c1033d
   - 90d8544b677f
   - b6e0f8a9bc6b
+  - c60c8086a5bc
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_check
@@ -83,6 +91,7 @@ tools:
   - 4b57c3241cbc
   - 74dfe7be1563
   - a1a24fae6f39
+  - b87a8635e70d
   - c157755d4ae8
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -92,6 +101,7 @@ tools:
   - 0f3baac24045
   - 54bc4863eb3d
   - 6db50600493e
+  - 7c829f0cd2c7
   - a23027673aba
   - b65c54d7bb27
   tool_panel_section_id: metagenomics___mothur
@@ -103,12 +113,14 @@ tools:
   - 81b310c04627
   - 90fc3380e690
   - 93b61db8bdb6
+  - ff3ddbd10c7c
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_chimera_slayer
   owner: iuc
   revisions:
   - 0cc35c0a3d05
+  - 142b6c078e09
   - 1cce71e7e7ef
   - 753321ddded9
   - ab328c924a02
@@ -120,6 +132,7 @@ tools:
   revisions:
   - 0706d327ecae
   - 94ec0c5a826f
+  - cbc2d5feebee
   - d9fe0fecb696
   - f1742cf23d95
   - fbbff4d62dda
@@ -129,6 +142,7 @@ tools:
   owner: iuc
   revisions:
   - 1801019b4690
+  - 4b31a92bca93
   - afb2e818a795
   - bdb4a58a2025
   - dd4546e98188
@@ -141,6 +155,7 @@ tools:
   - 010084253749
   - 29f963e785a0
   - 35a4e758bbed
+  - b620d37a00f2
   - e1dd67d13282
   - e7a88b8551ff
   tool_panel_section_id: metagenomics___mothur
@@ -149,6 +164,7 @@ tools:
   owner: iuc
   revisions:
   - 02446d12c359
+  - 53cc7f5a8989
   - 8dc2cc9d04e6
   - e664787de3ab
   - ec7c3ecca41a
@@ -167,6 +183,7 @@ tools:
   - 09bf9e496c64
   - 2cfaf50b15a0
   - 2f5d4d86eb9a
+  - 7aa4cfb71009
   - cc9c7b550c29
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -174,6 +191,7 @@ tools:
   owner: iuc
   revisions:
   - 34e56c313ae2
+  - 576d044cbbc0
   - 5d8809423177
   - '813305556713'
   - fec1c905cb22
@@ -184,6 +202,7 @@ tools:
   revisions:
   - 2ad36df9ed1e
   - 5c368b76eff7
+  - 75546bbc441b
   - 7ad44d831a1f
   - ad924a6328cc
   tool_panel_section_id: metagenomics___mothur
@@ -196,6 +215,7 @@ tools:
   - 5ea1f1f9d801
   - 6366f4483b35
   - bb1cd1dfd562
+  - c5a17a10bb99
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_cluster_classic
@@ -242,6 +262,7 @@ tools:
   revisions:
   - 8287d210adb7
   - a52aa1bdc760
+  - a9eb55ac5f24
   - c9d3eed082fc
   - d3b196069f6f
   - f9b8cabd4365
@@ -253,6 +274,7 @@ tools:
   - 094f184f5b84
   - 40e152748a39
   - 6f281dc9d01c
+  - 6f8eb4fcb609
   - bc2b62823fcc
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -321,12 +343,14 @@ tools:
   - 127484a400e7
   - 3767f899f13c
   - 73aeeac872d7
+  - 991715c1a699
   - f6c604b2793e
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_deunique_tree
   owner: iuc
   revisions:
+  - 127cc6c43076
   - 283af2e6130c
   - 44d01ad18366
   - d247213cebfc
@@ -338,6 +362,7 @@ tools:
   owner: iuc
   revisions:
   - 0554c9338ca0
+  - 35a6e3d8d160
   - 41967559f399
   - 4d76fba83f24
   - 502323efbd82
@@ -349,6 +374,7 @@ tools:
   revisions:
   - 1a899fec55e1
   - 418100660ba3
+  - a7e61a8712b4
   - bba3c4af4982
   - e715c133e080
   - f25598da7174
@@ -362,12 +388,14 @@ tools:
   - 2fadbc82adb0
   - 7332408e1f37
   - a630c5167f5d
+  - f1e96e33b7d4
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_filter_seqs
   owner: iuc
   revisions:
   - 3524ca06478e
+  - 439f60fb9933
   - 5c5105ec5cc9
   - b587a3a485b8
   - bf20a30c263a
@@ -379,6 +407,7 @@ tools:
   - 007311ce6297
   - 2d1dbf69f589
   - 6cca4d09073c
+  - 965da88daa6f
   - 9d25a07fdffc
   - c8c3b2271c87
   tool_panel_section_id: metagenomics___mothur
@@ -390,11 +419,13 @@ tools:
   - 4e708ec53432
   - bf4f1cbf19ea
   - d7f03792fa5f
+  - edee6bfedc7d
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_coremicrobiome
   owner: iuc
   revisions:
+  - 0984b8625819
   - 42244e3619cf
   - c0b8bcf733cf
   - da05ce41f8f0
@@ -408,6 +439,7 @@ tools:
   - 749e94120241
   - 824e0ea59980
   - c8fbbada97dc
+  - de44c903a87d
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_group
@@ -417,6 +449,7 @@ tools:
   - 57b51d6db607
   - 65d9f4688890
   - d26de4fffac5
+  - e35cf9bfc8dd
   - fa0ca67d1aeb
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -447,6 +480,7 @@ tools:
   - 1ce8405b330d
   - 563718e09fa8
   - 6fbd83d3a29f
+  - cacd23a728c8
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_get_mimarkspackage
@@ -482,6 +516,7 @@ tools:
   - 271a7159ef62
   - 305ce07a4b16
   - 92e175ba0032
+  - e2e18ab5193e
   - f821624d355c
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -499,6 +534,7 @@ tools:
   owner: iuc
   revisions:
   - 4a52424269e1
+  - 659c31b47060
   - 942c84020bd3
   - abe4ffadab83
   - bd695645069f
@@ -508,6 +544,7 @@ tools:
   owner: iuc
   revisions:
   - 1593a3542944
+  - 47502b14e7b7
   - aa0336c1b059
   - b07e7be6326a
   - e034a3d4b6c7
@@ -563,6 +600,7 @@ tools:
   revisions:
   - 1885179311b2
   - 18fc8b11102c
+  - 3b3535c8860c
   - 7f5707dd6073
   - c2dead9d38c4
   tool_panel_section_id: metagenomics___mothur
@@ -570,6 +608,7 @@ tools:
 - name: mothur_homova
   owner: iuc
   revisions:
+  - 56466d789ff4
   - 89054fe2207f
   - 8ebe74ce080b
   - 948d5731dbe0
@@ -584,6 +623,7 @@ tools:
   - 1c6dadf7bc72
   - 39750697d7a6
   - 5d1f9418ff72
+  - 6130156bb8a5
   - f3e6f88445fb
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -592,6 +632,7 @@ tools:
   revisions:
   - 506625098e20
   - 533d26c10568
+  - 6e5fe3ccc585
   - ccd1ce71c11f
   - d47a909185ef
   - d952b95bafe9
@@ -622,6 +663,7 @@ tools:
   revisions:
   - 37a896516dc3
   - 4acc725d144c
+  - 4f2f45acb7da
   - 9b600578c108
   - dd84878a5f99
   tool_panel_section_id: metagenomics___mothur
@@ -632,6 +674,7 @@ tools:
   - 0b5397a74165
   - 55e975c9a012
   - 5dc4d49a238a
+  - 867f9287524e
   - e29c05b88096
   - f893ff0db419
   tool_panel_section_id: metagenomics___mothur
@@ -639,6 +682,7 @@ tools:
 - name: mothur_make_contigs
   owner: iuc
   revisions:
+  - 119d48343c71
   - 1f54202ac516
   - 3dab7d200c10
   - 4e9136c2c4c3
@@ -652,6 +696,7 @@ tools:
   - 22e5a53596b6
   - 4405d0fbfada
   - 51fecdb026e5
+  - 52508e4d5495
   - 6ec3ec95ae68
   - 7a6b209a7bd7
   tool_panel_section_id: metagenomics___mothur
@@ -682,6 +727,7 @@ tools:
   - 3ace2efc4f9f
   - 470c067fc0a0
   - 88be2167f369
+  - fe5bc990f46a
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_make_lookup
@@ -746,6 +792,7 @@ tools:
   revisions:
   - 2624af4d11ac
   - 6f0a8d5b8036
+  - b449e065f572
   - ddd068a49efe
   - e7aa450e9d86
   - f170676a1d12
@@ -756,6 +803,7 @@ tools:
   revisions:
   - 26ddda2d2462
   - 390434b8edc7
+  - 6927162be300
   - b562d71b9508
   - e7d03df2fc00
   tool_panel_section_id: metagenomics___mothur
@@ -783,6 +831,7 @@ tools:
   owner: iuc
   revisions:
   - 1dbd31c7a031
+  - 25f42ba9aa68
   - 5fcb71f4df43
   - 8354a02a83e1
   - 9e6590ddc54e
@@ -796,6 +845,7 @@ tools:
   - 35a66c1fae5e
   - 3cc04a065490
   - 5b3e10ccf581
+  - 6bd6b4347d21
   - a81680d1db78
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -832,6 +882,7 @@ tools:
   owner: iuc
   revisions:
   - 4a73df58d56b
+  - 5f7b2192d563
   - 6c89b4e891d1
   - 7addb1047636
   - 8f31cb68e5bf
@@ -850,6 +901,7 @@ tools:
 - name: mothur_parsimony
   owner: iuc
   revisions:
+  - 1bba0b5a6f1e
   - aff64115d95f
   - c7a4a69fcc4a
   - f8a03af78066
@@ -881,6 +933,7 @@ tools:
   owner: iuc
   revisions:
   - 0a23bfe005be
+  - 2753b0cf67e7
   - 644d8a3af62d
   - 7dba7376870c
   - a7163d0aa1e9
@@ -890,6 +943,7 @@ tools:
 - name: mothur_phylo_diversity
   owner: iuc
   revisions:
+  - 3588d48405bd
   - 5a9bf07c250c
   - a5c241267a5f
   - c76d9ea84d39
@@ -914,6 +968,7 @@ tools:
   - 19100918339b
   - 58d0fe3cc0f2
   - 6532c3424bfe
+  - 6f8f53f7cb7b
   - d848e23e9343
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -930,6 +985,7 @@ tools:
 - name: mothur_rarefaction_shared
   owner: iuc
   revisions:
+  - 16b38babd12f
   - 2175b62675ed
   - 50312cd2fc7a
   - 64c70653e86d
@@ -952,6 +1008,7 @@ tools:
   revisions:
   - 0ec8be51451b
   - 11795a719c90
+  - 4a871819689b
   - 56ad298415d8
   - bcaaa904eb1b
   tool_panel_section_id: metagenomics___mothur
@@ -982,6 +1039,7 @@ tools:
   - 5133ef623148
   - b9e2724e9fc7
   - c378fb3fda31
+  - c7063eda9394
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_otus
@@ -1002,6 +1060,7 @@ tools:
   - 9ac808d4e0b5
   - c90c4b4a0fae
   - c97deff78ca1
+  - fa64419e15e7
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_remove_seqs
@@ -1029,6 +1088,7 @@ tools:
   - 72cf8b8d5d59
   - 7378ce8fb5c1
   - c7cde36b331a
+  - e9a75d725795
   - f7f5cd1ae299
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -1047,6 +1107,7 @@ tools:
   - 03dd3c928d65
   - 1979ff89fbde
   - 4b99b6283c96
+  - 5de9855eed8b
   - 5ff10ccd7100
   - c3f0b847dc40
   tool_panel_section_id: metagenomics___mothur
@@ -1067,6 +1128,7 @@ tools:
   - 3e3c5bc40175
   - 51d7c2486a68
   - 5d52096c0a9c
+  - a1cfc8abc234
   - f3a65ee4bfda
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -1097,6 +1159,7 @@ tools:
   - 334476d3e35d
   - 437838af4988
   - 8c59ddea2045
+  - e38553851fcf
   - fc60d2e290a4
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
@@ -1115,6 +1178,7 @@ tools:
   revisions:
   - 12f7ad56aec5
   - 618bf5d295e7
+  - 7e27cf4fa457
   - 99c44fc3cd32
   - addf3c859349
   - ccdcfd746250
@@ -1137,6 +1201,7 @@ tools:
   - 7afd2d352e05
   - 7c41969ad778
   - 86a40294e149
+  - cd1217df1941
   tool_panel_section_id: metagenomics___mothur
   tool_panel_section_label: Metagenomics - mothur
 - name: mothur_summary_seqs
@@ -1145,6 +1210,7 @@ tools:
   - 4041dc69af62
   - 600c14c6dcc5
   - 609770e516fa
+  - 87bde8e578fe
   - e4a4cb8b6bbf
   - f64299c9c656
   tool_panel_section_id: metagenomics___mothur
@@ -1171,6 +1237,7 @@ tools:
 - name: mothur_summary_tax
   owner: iuc
   revisions:
+  - 52e28d1e8375
   - 807ebe300c84
   - 9a18165bbb0f
   - a7e1d78c70f5
@@ -1201,6 +1268,7 @@ tools:
   revisions:
   - 1fead600dbd4
   - 45f3904bfdd2
+  - 5733bf19997f
   - c1f072f0c1d8
   - d40f783c5d65
   tool_panel_section_id: metagenomics___mothur
@@ -1208,6 +1276,7 @@ tools:
 - name: mothur_trim_seqs
   owner: iuc
   revisions:
+  - 2fa2a809906d
   - 7d836ef9004c
   - bf67e22a405f
   - dc318dec8b86
@@ -1217,6 +1286,7 @@ tools:
 - name: mothur_unifrac_unweighted
   owner: iuc
   revisions:
+  - 08a83226bdc4
   - 2933ee6251d8
   - 5265ace6d36c
   - 6a622b34394a
@@ -1226,6 +1296,7 @@ tools:
 - name: mothur_unifrac_weighted
   owner: iuc
   revisions:
+  - 5e6c07e8474e
   - 67bcc7f94112
   - 7cb9b120fd44
   - 88c441e56578
@@ -1237,6 +1308,7 @@ tools:
   revisions:
   - 1f72d9a3d09f
   - 347045785d89
+  - 7d7060b5f4ec
   - 84722a5b79af
   - a033f325ad8d
   - d466580cd706

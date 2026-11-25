@@ -46,6 +46,7 @@ tools:
   owner: rnateam
   revisions:
   - 10b84b577117
+  - aadbe1067c20
   - eb35257d2e29
   - f7746d145125
   tool_panel_section_id: rna___utilities_for_rna
