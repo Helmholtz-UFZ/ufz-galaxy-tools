@@ -8,10 +8,124 @@ tools:
   - be04ecda594e
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
+- name: ogs_adddatatoraster
+  owner: ufz
+  revisions:
+  - 71c619de933c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_addelementquality
+  owner: ufz
+  revisions:
+  - 65a958293cad
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_addfaulttovoxelgrid
+  owner: ufz
+  revisions:
+  - ea0366b04443
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
 - name: ogs_addlayer
   owner: ufz
   revisions:
   - 3e3794ac4fab
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_appendlinesalongpolyline
+  owner: ufz
+  revisions:
+  - 78478375c19b
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_assignrasterdatatomesh
+  owner: ufz
+  revisions:
+  - 6394c6da74d5
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_checkmesh
+  owner: ufz
+  revisions:
+  - eb597a555abe
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_computenodeareasfromsurfacemesh
+  owner: ufz
+  revisions:
+  - aa3e5b592bcb
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_computesurfacenodeidsinpolygonalregion
+  owner: ufz
+  revisions:
+  - 9d7d5011c1f7
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_constructmeshesfromgeometry
+  owner: ufz
+  revisions:
+  - 952a6edbacda
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_convertgeo
+  owner: ufz
+  revisions:
+  - d60c1909e97e
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_converttolinearmesh
+  owner: ufz
+  revisions:
+  - 4c3451478136
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createanchors
+  owner: ufz
+  revisions:
+  - d982f16d188f
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createintermediaterasters
+  owner: ufz
+  revisions:
+  - 31c95e97dcc2
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createlayeredmeshfromrasters
+  owner: ufz
+  revisions:
+  - 3e71268f9b9f
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createmeshelempropertiesfromascraster
+  owner: ufz
+  revisions:
+  - b5dc37d78e1f
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createquadraticmesh
+  owner: ufz
+  revisions:
+  - 9598956f3c0e
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createraster
+  owner: ufz
+  revisions:
+  - e87b63bca45a
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_createtetgensmeshfromrasters
+  owner: ufz
+  revisions:
+  - d4978ecfddb6
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_editmaterialid
+  owner: ufz
+  revisions:
+  - f263fec494a2
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
 - name: ogs_extractboundary
@@ -20,10 +134,34 @@ tools:
   - 99d999e2e8dc
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
+- name: ogs_extractmaterials
+  owner: ufz
+  revisions:
+  - 7d7eb92a03fd
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
 - name: ogs_extractsurface
   owner: ufz
   revisions:
   - ce5e86dfb37c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_feflow2mesh
+  owner: ufz
+  revisions:
+  - 6c89c7fcc935
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_generategeometry
+  owner: ufz
+  revisions:
+  - 4cb81704690a
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_generatematpropsfrommatid
+  owner: ufz
+  revisions:
+  - 354eaafce4cd
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
 - name: ogs_generatestructuredmesh
@@ -32,10 +170,166 @@ tools:
   - 4e31c396004d
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
+- name: ogs_geometrytogmshgeo
+  owner: ufz
+  revisions:
+  - 2832e36e4ea8
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_gmsh2ogs
+  owner: ufz
+  revisions:
+  - c3f5de8cff10
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_gocadsgridreader
+  owner: ufz
+  revisions:
+  - 9276e999e71b
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_gocadtsurfacereader
+  owner: ufz
+  revisions:
+  - a3107cf678f1
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
 - name: ogs_identifysubdomains
   owner: ufz
   revisions:
   - 690f7f0431b0
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_integrateboreholesintomesh
+  owner: ufz
+  revisions:
+  - 4f5112e4ed42
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_ipdatatopointcloud
+  owner: ufz
+  revisions:
+  - db6d1ea601c2
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_layers2grid
+  owner: ufz
+  revisions:
+  - c434166eae2a
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_mapgeometrytomeshsurface
+  owner: ufz
+  revisions:
+  - 62c537ad7ced
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_mesh2raster
+  owner: ufz
+  revisions:
+  - 54ed9004159e
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_meshmapping
+  owner: ufz
+  revisions:
+  - 70e7803df0b7
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_movegeometry
+  owner: ufz
+  revisions:
+  - d7f44f285421
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_movemesh
+  owner: ufz
+  revisions:
+  - a46b39f0bafd
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_nodereordering
+  owner: ufz
+  revisions:
+  - 5c90c7ccbe8c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_ogs2vtk
+  owner: ufz
+  revisions:
+  - e02fe73cef74
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_postlie
+  owner: ufz
+  revisions:
+  - ded39faca87c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_pvd2xdmf
+  owner: ufz
+  revisions:
+  - 6b3f957f3b1e
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_pvtu2vtu
+  owner: ufz
+  revisions:
+  - 8eef748e3543
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_querymesh
+  owner: ufz
+  revisions:
+  - 5168c1a193fd
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_raster2asc
+  owner: ufz
+  revisions:
+  - 5dba35b4a723
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_raster2mesh
+  owner: ufz
+  revisions:
+  - 1d0effb66d12
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_removeghostdata
+  owner: ufz
+  revisions:
+  - d304c23d4383
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_removemeshelements
+  owner: ufz
+  revisions:
+  - 02bc3e92c25c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_removeunusedpoints
+  owner: ufz
+  revisions:
+  - d1325ed149d7
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_resetpropertiesinpolygonalregion
+  owner: ufz
+  revisions:
+  - 4c2453e1ed38
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_revisemesh
+  owner: ufz
+  revisions:
+  - 14a384c0db34
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_scaleproperty
+  owner: ufz
+  revisions:
+  - 7cd739914b98
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
 - name: ogs_simulation
@@ -44,9 +338,27 @@ tools:
   - ce3d848dff57
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
+- name: ogs_swapnodecoordinateaxes
+  owner: ufz
+  revisions:
+  - 7673ffce26f4
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: ogs_vtu2grid
+  owner: ufz
+  revisions:
+  - 49251e377a6c
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
 - name: shp2msh
   owner: ufz
   revisions:
   - 068822846f48
+  tool_panel_section_id: opengeosys
+  tool_panel_section_label: OpenGeoSys
+- name: yaml2vtu
+  owner: ufz
+  revisions:
+  - 6c78b2236e24
   tool_panel_section_id: opengeosys
   tool_panel_section_label: OpenGeoSys
