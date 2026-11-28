@@ -82,6 +82,12 @@ tools:
   - b7ce99273d62
   tool_panel_section_id: sequence_analysis
   tool_panel_section_label: Sequence Analysis
+- name: cctyper
+  owner: iuc
+  revisions:
+  - 7fba5d1273a5
+  tool_panel_section_id: sequence_analysis
+  tool_panel_section_label: Sequence Analysis
 - name: cd_hit
   owner: iuc
   revisions:
