@@ -20,6 +20,8 @@ tools:
   owner: iuc
 - name: bwameth
   owner: iuc
+- name: cctyper
+  owner: iuc
 - name: cd_hit
   owner: iuc
 - name: chromeister
